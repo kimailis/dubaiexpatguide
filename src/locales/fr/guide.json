@@ -39,7 +39,7 @@
                 "title": "Visa vert",
                 "description": "Un visa de 5 ans pour les employés qualifiés (nécessite un baccalauréat et un seuil salarial spécifique) ou les indépendants.",
                 "link": {
-                  "text": "Exigences",
+                  "text": "Requirements",
                   "url": "https://u.ae/en/information-and-services/visa-and-emirates-id"
                 }
               },
@@ -84,10 +84,10 @@
             "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80",
             "listItems": [
               {
-                "title": "LinkedIn Middle East",
+                "title": "LinkedIn Moyen-Orient",
                 "description": "L'outil numéro un pour trouver des rôles et créer des réseaux dans le CCG.",
                 "link": {
-                  "text": "Go to LinkedIn",
+                  "text": "Aller sur LinkedIn",
                   "url": "https://www.linkedin.com/jobs/jobs-in-dubai/"
                 }
               },
@@ -95,7 +95,7 @@
                 "title": "GulfTalent",
                 "description": "Grand site d'emploi régional proposant des candidatures directes dans tous les secteurs.",
                 "link": {
-                  "text": "Visit GulfTalent",
+                  "text": "Visitez GulfTalent",
                   "url": "https://www.gulftalent.com/uae/jobs/dubai"
                 }
               },
@@ -108,7 +108,7 @@
                 }
               },
               {
-                "title": "Hays Middle East",
+                "title": "Hays Moyen-Orient",
                 "description": "Agence de recrutement haut de gamme axée sur les postes de niveau intermédiaire à supérieur.",
                 "link": {
                   "text": "Visitez Hays",
@@ -191,7 +191,7 @@
             "content": "Les assureurs opèrent selon plusieurs niveaux (de base, complet, premium). La sélection du bon niveau détermine les hôpitaux (« réseau ») auxquels vous pouvez accéder sans payer de votre poche.",
             "listItems": [
               {
-                "title": "Bupa Global / Oman Insurance",
+                "title": "Bupa Global / Oman Assurance",
                 "description": "Couverture mondiale premium. Très recherché pour les expatriés ayant besoin d'accéder aux meilleures installations absolues.",
                 "link": {
                   "text": "Visitez Bupa",
@@ -237,34 +237,34 @@
             "imageUrl": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80",
             "listItems": [
               {
-                "title": "Mediclinic City Hospital",
+                "title": "Hôpital Médical de la Ville",
                 "description": "Situé dans la Cité de la Santé. Hôpital multidisciplinaire haut de gamme offrant des soins de maternité et de traumatologie exceptionnels.",
                 "link": {
-                  "text": "Book Appointment",
+                  "text": "Prendre rendez-vous",
                   "url": "https://www.mediclinic.ae/"
                 }
               },
               {
-                "title": "Saudi German Hospital",
+                "title": "Hôpital saoudien allemand",
                 "description": "Immense hôpital hautement équipé à Al Barsha servant de centre majeur de soins tertiaires.",
                 "link": {
-                  "text": "Book Appointment",
+                  "text": "Prendre rendez-vous",
                   "url": "https://sghdubai.ae/"
                 }
               },
               {
-                "title": "American Hospital Dubai",
+                "title": "Hôpital américain de Dubaï",
                 "description": "Hôpital privé pionnier connu pour ses chirurgies complexes et sa médecine robotique.",
                 "link": {
-                  "text": "Book Appointment",
+                  "text": "Prendre rendez-vous",
                   "url": "https://www.ahdubai.com/"
                 }
               },
               {
-                "title": "King’s College Hospital",
+                "title": "Hôpital du King's College",
                 "description": "Apporter les normes médicales britanniques à Dubai Hills avec des médecins formés au Royaume-Uni.",
                 "link": {
-                  "text": "Book Appointment",
+                  "text": "Prendre rendez-vous",
                   "url": "https://kingscollegehospitaldubai.com/"
                 }
               }
@@ -292,15 +292,15 @@
             "content": "Les pharmacies sont omniprésentes, on les trouve dans tous les centres commerciaux et centres de quartier.",
             "listItems": [
               {
-                "title": "Life Pharmacy",
+                "title": "Pharmacie de la vie",
                 "description": "La plus grande chaîne de Dubaï. De nombreuses succursales fonctionnent 24h/24 et 7j/7. Vaste gamme de suppléments.",
                 "link": {
-                  "text": "Life Pharmacy",
+                  "text": "Pharmacie de la vie",
                   "url": "https://www.lifepharmacy.com/"
                 }
               },
               {
-                "title": "Aster Pharmacy",
+                "title": "Pharmacie Aster",
                 "description": "Réseau étendu dans tous les quartiers, souvent rattaché aux cliniques Aster.",
                 "link": {
                   "text": "Aster en ligne",
@@ -313,6 +313,22 @@
                 "link": {
                   "text": "Bottes MOI",
                   "url": "https://me.boots.com/"
+                }
+              },
+              {
+                "title": "Pharmacie Supercare",
+                "description": "Chaîne de pharmacies haut de gamme spécialisée dans le bien-être, les soins de la peau haut de gamme et les produits spécialisés en nutrition sportive.",
+                "link": {
+                  "text": "Supercare",
+                  "url": "https://supercare.ae/"
+                }
+              },
+              {
+                "title": "Pharmacie BinSina",
+                "description": "L'une des chaînes de pharmacies les plus anciennes et les plus fiables des Émirats arabes unis, offrant un excellent service et une large gamme de produits de santé.",
+                "link": {
+                  "text": "BinSina",
+                  "url": "https://www.binsina.ae/"
                 }
               }
             ]
@@ -354,10 +370,10 @@
             "content": "Dubaï abrite une immense variété d'écoles internationales destinées aux expatriés, principalement britanniques, américaines, indiennes et de l'IB. Les frais peuvent être exorbitants (50 000 à 120 000 AED par an).",
             "listItems": [
               {
-                "title": "Dubai College (DC)",
+                "title": "Collège de Dubaï (DC)",
                 "description": "Constamment noté Exceptionnel. Cursus britannique très académique. Notoirement difficile d’accès.",
                 "link": {
-                  "text": "Dubai College",
+                  "text": "Collège de Dubaï",
                   "url": "https://www.dubaicollege.org/"
                 }
               },
@@ -370,15 +386,15 @@
                 }
               },
               {
-                "title": "American School of Dubai (ASD)",
+                "title": "École américaine de Dubaï (ASD)",
                 "description": "École américaine à but non lucratif. Immense campus, installations incroyables, privilégiées par les expatriés américains et canadiens.",
                 "link": {
-                  "text": "ASD Dubai",
+                  "text": "ASD Dubaï",
                   "url": "https://www.asdubai.org/"
                 }
               },
               {
-                "title": "Dubai International Academy (DIA)",
+                "title": "Académie internationale de Dubaï (DIA)",
                 "description": "Une école de premier plan du continuum de l'IB (Baccalauréat international) située à Emirates Hills.",
                 "link": {
                   "text": "DIA Emirates Hills",
@@ -399,26 +415,26 @@
             "content": "Les crèches accueillent généralement des enfants âgés de 45 jours à 4 ans (FS1/Pre-K). La concurrence pour les places dans les meilleures crèches est féroce.",
             "listItems": [
               {
-                "title": "Blossom Nursery",
+                "title": "Pépinière de fleurs",
                 "description": "Pépinières EYFS respectueuses de l'environnement primées avec des succursales dans les ranchs Marina, Downtown et Arabian.",
                 "link": {
-                  "text": "Blossom Nursery",
+                  "text": "Pépinière de fleurs",
                   "url": "https://www.theblossomnursery.com/"
                 }
               },
               {
-                "title": "British Orchard Nursery",
+                "title": "Pépinière du verger britannique",
                 "description": "Se concentre sur le développement de la petite enfance dans un environnement communautaire hautement stimulant.",
                 "link": {
-                  "text": "British Orchard",
+                  "text": "Verger britannique",
                   "url": "https://www.britishorchardnursery.com/"
                 }
               },
               {
-                "title": "Step by Step Nursery",
+                "title": "Pépinière étape par étape",
                 "description": "Hybride Reggio Emilia et EYFS de haute qualité situé à Dubailand et Mirdif.",
                 "link": {
-                  "text": "Step by Step",
+                  "text": "Pas à pas",
                   "url": "https://stepbystepnursery.ae/"
                 }
               }
@@ -428,25 +444,25 @@
       },
       {
         "id": "universities",
-        "label": "Universités",
+        "label": "Universities",
         "icon": "GraduationCap",
         "sections": [
           {
             "heading": "Pôles d’enseignement supérieur",
             "content": "Dubaï abrite plusieurs campus universitaires internationaux, permettant aux étudiants d'obtenir des diplômes mondialement reconnus sans quitter les Émirats arabes unis.",
             "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80",
-            "address": "Dubai Knowledge Park, Al Sufouh",
+            "address": "Parc du savoir de Dubaï, Al Sufouh",
             "listItems": [
               {
-                "title": "University of Birmingham Dubai",
+                "title": "Université de Birmingham Dubaï",
                 "description": "Une des meilleures universités britanniques du Russell Group offrant des diplômes identiques à ceux de son campus britannique.",
                 "link": {
-                  "text": "UoB Dubai",
+                  "text": "UoB Dubaï",
                   "url": "https://www.birmingham.ac.uk/dubai"
                 }
               },
               {
-                "title": "Heriot-Watt University",
+                "title": "Université Heriot-Watt",
                 "description": "Exceptionnel pour l'ingénierie et les affaires. Immense campus moderne dans Knowledge Park.",
                 "link": {
                   "text": "Heriot-Watt",
@@ -454,10 +470,10 @@
                 }
               },
               {
-                "title": "American University in Dubai (AUD)",
+                "title": "Université américaine de Dubaï (AUD)",
                 "description": "Institution accréditée aux États-Unis à Media City, proposant de solides programmes en matière de médias, d'ingénierie et de commerce.",
                 "link": {
-                  "text": "EUR",
+                  "text": "AUD",
                   "url": "https://www.aud.edu/"
                 }
               }
@@ -525,7 +541,7 @@
             "content": "Le leasing automobile est extrêmement populaire auprès des nouveaux expatriés. En cas d'achat, le marché de l'occasion est énorme en raison de la population itinérante.",
             "listItems": [
               {
-                "title": "Cars24 & Kavak",
+                "title": "Cars24 et Kavak",
                 "description": "Plateformes de voitures d'occasion proposant des véhicules entièrement inspectés en ligne, livraison à domicile et garanties.",
                 "link": {
                   "text": "Visitez Cars24",
@@ -557,7 +573,7 @@
                 }
               },
               {
-                "title": "Ekar & Udrive",
+                "title": "Ekar et Udrive",
                 "description": "Partage de voiture intelligent basé sur des applications. Déverrouillez les voitures garées dans la rue avec votre téléphone et payez à la minute.",
                 "link": {
                   "text": "Ekar",
@@ -565,7 +581,7 @@
                 }
               },
               {
-                "title": "Dubizzle (Classifieds)",
+                "title": "Dubizzle (Annonces)",
                 "description": "Le marché P2P standard. Bonnes affaires mais nécessite une vigilance face aux arnaques ou dommages cachés.",
                 "link": {
                   "text": "Dubizzle Autos",
@@ -653,10 +669,10 @@
             "content": "Ne vous contentez pas d’entrer dans les bâtiments ; le marché est fortement axé sur les courtiers et numérisé via de grands portails.",
             "listItems": [
               {
-                "title": "Property Finder",
+                "title": "Recherche de propriété",
                 "description": "Le portail immobilier le plus complet et le plus propre des Émirats arabes unis. Annonces vérifiées.",
                 "link": {
-                  "text": "Property Finder",
+                  "text": "Recherche de propriété",
                   "url": "https://www.propertyfinder.ae/"
                 }
               },
@@ -669,7 +685,7 @@
                 }
               },
               {
-                "title": "Dubizzle Property",
+                "title": "Propriété Dubizzle",
                 "description": "Site de petites annonces. Idéal pour trouver des offres directes auprès du propriétaire afin d'éviter les frais d'agence de 5 %.",
                 "link": {
                   "text": "Dubizzle",
@@ -685,10 +701,10 @@
                 }
               },
               {
-                "title": "Zoom Property",
+                "title": "Propriété Zoom",
                 "description": "Portail immobilier à croissance rapide, particulièrement performant dans le domaine du logement abordable et des nouveaux développements.",
                 "link": {
-                  "text": "Zoom Property",
+                  "text": "Propriété Zoom",
                   "url": "https://www.zoomproperty.com/"
                 }
               }
@@ -706,10 +722,10 @@
             "content": "Si vous achetez ou recherchez une assistance de location premium, ces agences dominent le marché.",
             "listItems": [
               {
-                "title": "Allsopp & Allsopp",
+                "title": "Allsopp et Allsopp",
                 "description": "L'une des agences les plus importantes et les plus récompensées, particulièrement dominante dans les réseaux d'expatriés britanniques.",
                 "link": {
-                  "text": "Allsopp & Allsopp",
+                  "text": "Allsopp et Allsopp",
                   "url": "https://www.allsoppandallsopp.com/"
                 }
               },
@@ -722,31 +738,31 @@
                 }
               },
               {
-                "title": "Haus & Haus",
+                "title": "Maison et Maison",
                 "description": "Spécialistes des zones haut de gamme telles que Dubai Hills, Arabian Ranches et Marina.",
                 "link": {
-                  "text": "Haus & Haus",
+                  "text": "Maison et Maison",
                   "url": "https://www.hausandhaus.com/"
                 }
               },
               {
-                "title": "fam Properties",
+                "title": "Propriétés familiales",
                 "description": "Immense agence basée sur les données, fortement impliquée dans les ventes sur plan (nouveaux développements).",
                 "link": {
-                  "text": "fam Properties",
+                  "text": "Propriétés familiales",
                   "url": "https://famproperties.com/"
                 }
               },
               {
-                "title": "D&B Properties",
+                "title": "Propriétés D&B",
                 "description": "Entreprise primée étroitement liée à de grands développeurs comme Emaar et Nakheel.",
                 "link": {
-                  "text": "D&B Properties",
+                  "text": "Propriétés D&B",
                   "url": "https://dandbdubai.com/"
                 }
               },
               {
-                "title": "Provident Real Estate",
+                "title": "Immobilier de prévoyance",
                 "description": "Une agence immobilière à service complet de premier plan avec une portée massive et des sous-équipes spécialisées.",
                 "link": {
                   "text": "Provident",
@@ -754,7 +770,7 @@
                 }
               },
               {
-                "title": "Espace Real Estate",
+                "title": "Espace Immobilier",
                 "description": "Particulièrement fort dans les communautés de villas comme les îles Jumeirah, Meadows et Springs.",
                 "link": {
                   "text": "Espace",
@@ -864,23 +880,23 @@
                 "title": "Careem",
                 "description": "L'application \"Tout\". Taxis, livraison de nourriture, location de vélos, nettoyage, tests PCR et portefeuille numérique.",
                 "link": {
-                  "text": "Download Careem",
+                  "text": "Télécharger Careem",
                   "url": "https://www.careem.com/"
                 }
               },
               {
-                "title": "Dubai Police App",
+                "title": "Application de la police de Dubaï",
                 "description": "Vital. Utilisé pour signaler instantanément des accidents de voiture mineurs, payer des amendes et accéder aux services d'urgence.",
                 "link": {
-                  "text": "Dubai Police",
+                  "text": "Police de Dubaï",
                   "url": "https://www.dubaipolice.gov.ae/"
                 }
               },
               {
-                "title": "Al Hosn",
+                "title": "Al-Hosn",
                 "description": "L'application du registre national de la santé. Utilisé pour les dossiers de vaccination et les résultats médicaux officiels.",
                 "link": {
-                  "text": "Al Hosn",
+                  "text": "Al-Hosn",
                   "url": "https://alhosnapp.ae/"
                 }
               },
@@ -923,15 +939,15 @@
             "content": "Dubaï peut être incroyablement cher, mais ceux qui sont au courant paient rarement le prix fort pour les dépenses liées au style de vie.",
             "listItems": [
               {
-                "title": "The Entertainer App",
+                "title": "L'application Artiste",
                 "description": "La règle d'or de la restauration et du divertissement à Dubaï. Il coûte environ 400 AED par an mais donne droit à des bons illimités 2 pour 1 dans des milliers de restaurants haut de gamme et de parcs à thème.",
                 "link": {
-                  "text": "The Entertainer",
+                  "text": "L'artiste",
                   "url": "https://www.theentertainerme.com/"
                 }
               },
               {
-                "title": "Cobone & Groupon UAE",
+                "title": "Cobone & Groupon EAU",
                 "description": "Offres quotidiennes étendues pour les spas, les safaris dans le désert, les croisières en boutre et les services de teinture de voitures. Excellent pour les nouveaux arrivants essayant de faire des activités touristiques à moindre coût.",
                 "link": {
                   "text": "Cobone",
@@ -939,10 +955,10 @@
                 }
               },
               {
-                "title": "Supermarket Loyalty",
+                "title": "Fidélisation des supermarchés",
                 "description": "Carrefour utilise l'application SHARE pour les points. Spinneys et Waitrose ont leurs propres niveaux de fidélité. Ces points s’additionnent rapidement pour obtenir des épiceries gratuites.",
                 "link": {
-                  "text": "SHARE Rewards",
+                  "text": "PARTAGER les récompenses",
                   "url": "https://www.sharerewards.com/"
                 }
               }
@@ -977,35 +993,51 @@
             "content": "Les centres commerciaux de Dubaï sont essentiellement des villes intérieures à température contrôlée qui servent de centres sociaux, de quartiers de restauration et de centres de divertissement.",
             "listItems": [
               {
-                "title": "Dubai Mall",
+                "title": "Centre commercial de Dubaï",
                 "description": "Le centre commercial le plus visité au monde. Comprend une patinoire olympique, un immense aquarium et l'entrée du Burj Khalifa.",
                 "link": {
-                  "text": "The Dubai Mall",
+                  "text": "Le centre commercial de Dubaï",
                   "url": "https://thedubaimall.com/"
                 }
               },
               {
-                "title": "Mall of the Emirates",
+                "title": "Centre commercial des Émirats",
                 "description": "Centre commercial de luxe emblématique situé à Al Barsha abritant Ski Dubai, la célèbre piste de ski couverte.",
                 "link": {
-                  "text": "Mall of the Emirates",
+                  "text": "Centre commercial des Émirats",
                   "url": "https://www.malloftheemirates.com/"
                 }
               },
               {
-                "title": "Dubai Hills Mall",
+                "title": "Centre commercial Dubai Hills",
                 "description": "Le plus récent méga-centre commercial. Très populaire parmi les résidents en raison d'un meilleur parking, d'un immense cinéma et de montagnes russes intérieures.",
                 "link": {
-                  "text": "Dubai Hills Mall",
+                  "text": "Centre commercial Dubai Hills",
                   "url": "https://www.dubaihillsmall.ae/"
                 }
               },
               {
-                "title": "Ibn Battuta Mall",
+                "title": "Centre commercial Ibn Battuta",
                 "description": "Thème autour des voyages de l'explorateur Ibn Battuta. Architecture impressionnante et très pratique pour les expatriés du sud.",
                 "link": {
                   "text": "Ibn Battouta",
                   "url": "https://www.ibnbattutamall.com/"
+                }
+              },
+              {
+                "title": "Centre commercial de Dubaï",
+                "description": "Situé sur Al Ain Road, proposant hors saison des marques de créateurs et de grandes marques à des prix très réduits.",
+                "link": {
+                  "text": "Centre commercial de sortie",
+                  "url": "https://www.dubaioutletmall.com/"
+                }
+              },
+              {
+                "title": "Le Village des Outlets",
+                "description": "Destination shopping intérieure d'inspiration toscane près de Jebel Ali, proposant des boutiques de mode de luxe haut de gamme.",
+                "link": {
+                  "text": "Village de points de vente",
+                  "url": "https://www.theoutletvillage.ae/"
                 }
               }
             ]
@@ -1014,7 +1046,7 @@
       },
       {
         "id": "groceries",
-        "label": "Supermarchés",
+        "label": "Supermarkets",
         "icon": "ShoppingCart",
         "sections": [
           {
@@ -1022,7 +1054,7 @@
             "content": "L'ampleur des produits importés signifie que vous pouvez trouver exactement la marque de beurre ou de céréales de votre pays d'origine, mais souvent à un prix plus élevé.",
             "listItems": [
               {
-                "title": "Waitrose & Spinneys",
+                "title": "Waitrose et Spinneys",
                 "description": "Très haute qualité, prix premium. Indispensable pour les expatriés britanniques à la recherche de marques maison et de produits à base de viande de porc.",
                 "link": {
                   "text": "Spinneys",
@@ -1030,7 +1062,7 @@
                 }
               },
               {
-                "title": "Carrefour Middle East",
+                "title": "Carrefour Moyen-Orient",
                 "description": "Immense hypermarché français offrant un excellent rapport qualité-prix sur l'électronique, les vêtements et les produits d'épicerie standards.",
                 "link": {
                   "text": "Carrefour",
@@ -1046,7 +1078,7 @@
                 }
               },
               {
-                "title": "Kibsons (App Delivery)",
+                "title": "Kibsons (livraison d'applications)",
                 "description": "L'arme secrète des expatriés. Application incroyable pour des fruits, des légumes et de la viande en vrac bon marché et de haute qualité livrés le lendemain.",
                 "link": {
                   "text": "Kibsons",
@@ -1067,18 +1099,18 @@
             "content": "Pour découvrir les racines commerciales de Dubaï, traversez la crique sur un Abra (bateau en bois) pour 1 AED et explorez les souks de Deira.",
             "listItems": [
               {
-                "title": "Dubai Gold Souk",
+                "title": "Souk de l'or de Dubaï",
                 "description": "Des centaines de détaillants vendent de grandes quantités d’or. Le prix de l'or est strict et réglementé par le gouvernement, mais vous négociez les « frais de fabrication ».",
                 "link": {
-                  "text": "Informations",
+                  "text": "Info",
                   "url": "#gold"
                 }
               },
               {
-                "title": "Spice Souk",
+                "title": "Souk aux épices",
                 "description": "A côté du Souk de l'Or, proposant de l'encens, du safran, des dattes et d'énormes sacs d'épices. Le marchandage est obligatoire.",
                 "link": {
-                  "text": "Informations",
+                  "text": "Info",
                   "url": "#spice"
                 }
               },
@@ -1086,7 +1118,7 @@
                 "title": "Souk Madinat Jumeirah",
                 "description": "Une reconstruction moderne, haut de gamme et climatisée d'un souk destiné principalement aux touristes, offrant une vue imprenable sur le Burj Al Arab.",
                 "link": {
-                  "text": "Médine",
+                  "text": "Madinat",
                   "url": "https://www.jumeirah.com/en/article/experiences/dubai/souk-madinat-jumeirah"
                 }
               }

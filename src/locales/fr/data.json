@@ -42,7 +42,7 @@
         "Expatriés Européens",
         "Indiens aux revenus élevés",
         "Expatriés arabes",
-        "Émiratis"
+        "Emiratis"
       ],
       "stats": [
         {
@@ -58,11 +58,11 @@
           "percentage": 15
         },
         {
-          "groupName": "Émiratis",
+          "groupName": "Emiratis",
           "percentage": 10
         },
         {
-          "groupName": "Autres",
+          "groupName": "Others",
           "percentage": 15
         }
       ]
@@ -89,7 +89,7 @@
           },
           {
             "title": "Architecte de sécurité des infrastructures",
-            "department": "Cybersécurité",
+            "department": "Cybersecurity",
             "salaryRange": "40 000 - 55 000 AED/mois",
             "experience": "7+ ans",
             "careerUrl": "https://www.goldmansachs.com/careers"
@@ -131,7 +131,7 @@
           },
           {
             "title": "Analyste principal des opérations de sécurité",
-            "department": "Opérations Sec",
+            "department": "SecOps",
             "salaryRange": "32 000 - 42 000 AED/mois",
             "experience": "4-6 ans",
             "careerUrl": "https://www.binance.com/en/careers"
@@ -400,15 +400,15 @@
         "Européens riches",
         "Indiens/Pakistanais aisés",
         "Les riches Émiratis",
-        "Chinois"
+        "Chinese"
       ],
       "stats": [
         {
-          "groupName": "Européens",
+          "groupName": "Europeans",
           "percentage": 35
         },
         {
-          "groupName": "Indiens",
+          "groupName": "Indians",
           "percentage": 25
         },
         {
@@ -416,11 +416,11 @@
           "percentage": 15
         },
         {
-          "groupName": "Émiratis",
+          "groupName": "Emiratis",
           "percentage": 15
         },
         {
-          "groupName": "Autres",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -469,7 +469,7 @@
         ]
       },
       {
-        "name": "Noon.com HQ",
+        "name": "Siège social de Noon.com",
         "industry": "Commerce électronique et logistique",
         "description": "Noon est le principal écosystème de marché numérique du Moyen-Orient, à l'origine de technologies financières, de logistique, d'applications de distribution alimentaire et de plateformes d'échange de produits hyperlocales de pointe.",
         "openPositions": [
@@ -517,7 +517,7 @@
         "openPositions": [
           {
             "title": "Ingénieur logiciel principal (Java/Kotlin/Node)",
-            "department": "Careem Pay Engineering",
+            "department": "Ingénierie de la paie Careem",
             "salaryRange": "48 000 - 65 000 AED/mois",
             "experience": "7+ ans",
             "careerUrl": "https://careers.careem.com/"
@@ -702,7 +702,7 @@
         "description": "Application stricte de la tenue vestimentaire modeste appropriée dans les centres commerciaux d'Emaar et dans les allées publiques, et réglementations strictes restreignant les démonstrations d'affection publiques passionnées."
       },
       {
-        "category": "Vie nocturne",
+        "category": "Nightlife",
         "title": "Consommation d'alcool autorisée",
         "description": "La consommation d'alcool dans les zones publiques en dehors des hôtels, pubs ou locaux d'habitation certifiés avec une licence électronique personnalisée reste illégale."
       }
@@ -774,11 +774,11 @@
           "percentage": 10
         },
         {
-          "groupName": "Indiens",
+          "groupName": "Indians",
           "percentage": 10
         },
         {
-          "groupName": "Autres",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -827,7 +827,7 @@
         ]
       },
       {
-        "name": "Property Finder Tech UAE",
+        "name": "Property Finder Tech EAU",
         "industry": "Marché PropTech",
         "description": "La plateforme immobilière numérique dominante au Moyen-Orient, concevant des bases de données de location et d'achat conformes aux normes de l'industrie, des API de tarification automatisées du marché et des outils de courtage.",
         "openPositions": [
@@ -869,7 +869,7 @@
         ]
       },
       {
-        "name": "Dubizzle Labs",
+        "name": "Laboratoires Dubizzle",
         "industry": "Marchés classés et AdTech",
         "description": "Renforcer le portail commercial Dubizzle, massif et préféré au niveau local, pour les produits physiques, les marchés de véhicules et l'électronique générale.",
         "openPositions": [
@@ -953,7 +953,7 @@
         ]
       },
       {
-        "name": "Deliveroo UAE HQ",
+        "name": "Siège social de Deliveroo EAU",
         "industry": "Plateforme de livraison à la demande",
         "description": "Pionniers des systèmes de répartition automatisés de livraison de nourriture ultra-rapides et des réseaux logistiques aidant les commerçants locaux à prospérer.",
         "openPositions": [
@@ -1060,7 +1060,7 @@
         "description": "L'Autorité maritime de Dubaï autorise les départs et les opérations de yachts uniquement sous la direction de skippers certifiés et agréés, suivant les instructions de la Garde côtière."
       },
       {
-        "category": "Location",
+        "category": "Tenancy",
         "title": "Baux saisonniers à forte demande",
         "description": "En raison de la densité touristique, les sous-locations de courte durée doivent être officiellement enregistrées sur la plateforme DTCM en tant que Maisons de Vacances ; les annonces Airbnb sans licence entraînent de sévères pénalités de plus de 5 000 AED."
       }
@@ -1119,15 +1119,15 @@
       ],
       "stats": [
         {
-          "groupName": "Indiens",
+          "groupName": "Indians",
           "percentage": 35
         },
         {
-          "groupName": "Européens",
+          "groupName": "Europeans",
           "percentage": 25
         },
         {
-          "groupName": "Pakistanais",
+          "groupName": "Pakistanis",
           "percentage": 15
         },
         {
@@ -1135,7 +1135,7 @@
           "percentage": 15
         },
         {
-          "groupName": "Autres",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -1476,11 +1476,11 @@
       ],
       "stats": [
         {
-          "groupName": "Indiens",
+          "groupName": "Indians",
           "percentage": 40
         },
         {
-          "groupName": "Européens",
+          "groupName": "Europeans",
           "percentage": 25
         },
         {
@@ -1488,11 +1488,11 @@
           "percentage": 20
         },
         {
-          "groupName": "Pakistanais",
+          "groupName": "Pakistanis",
           "percentage": 10
         },
         {
-          "groupName": "Autres",
+          "groupName": "Others",
           "percentage": 5
         }
       ]
@@ -1774,7 +1774,7 @@
         "description": "Les locaux de bureaux au sein du DIC doivent fonctionner strictement dans le cadre des paramètres du service numérique. Les magasins de vente au détail standard ne peuvent pas obtenir de zonage de bureaux."
       },
       {
-        "category": "Opérations",
+        "category": "Operations",
         "title": "Parrainage de visa de travail à distance",
         "description": "Les pigistes peuvent traiter les catégories de visas pour espaces de travail à distance pour nomades numériques directement via les services du portail TECOM AXS."
       }
@@ -1833,7 +1833,7 @@
       ],
       "stats": [
         {
-          "groupName": "Indiens",
+          "groupName": "Indians",
           "percentage": 40
         },
         {
@@ -1841,15 +1841,15 @@
           "percentage": 25
         },
         {
-          "groupName": "Pakistanais",
+          "groupName": "Pakistanis",
           "percentage": 20
         },
         {
-          "groupName": "Émiratis",
+          "groupName": "Emiratis",
           "percentage": 5
         },
         {
-          "groupName": "Autres",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -2096,7 +2096,7 @@
         "amenities": [
           "Appareils de cuisine modernes équipés",
           "Piste de course sur le toit",
-          "Gymnase",
+          "Gymnasium",
           "Assistance 24h/24 et 7j/7"
         ],
         "link": "https://www.propertyfinder.ae/en/search?c=2&f=1&l=92&ob=mr"
@@ -2182,11 +2182,11 @@
       ],
       "stats": [
         {
-          "groupName": "Indiens",
+          "groupName": "Indians",
           "percentage": 30
         },
         {
-          "groupName": "Européens",
+          "groupName": "Europeans",
           "percentage": 25
         },
         {
@@ -2194,11 +2194,11 @@
           "percentage": 20
         },
         {
-          "groupName": "Pakistanais",
+          "groupName": "Pakistanis",
           "percentage": 10
         },
         {
-          "groupName": "Autres",
+          "groupName": "Others",
           "percentage": 15
         }
       ]
@@ -2217,6 +2217,62 @@
             "careerUrl": "#"
           }
         ]
+      },
+      {
+        "name": "Conseils Partenaires Ltd",
+        "industry": "Conseil en gestion",
+        "description": "Un cabinet de conseil dédié, spécialisé dans la croissance stratégique des entreprises au Moyen-Orient.",
+        "openPositions": [
+          {
+            "title": "Analyste d'affaires",
+            "department": "Consulting",
+            "salaryRange": "12 000 AED - 18 000 AED",
+            "experience": "3+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Solutions TechFlow",
+        "industry": "Développement de logiciels",
+        "description": "Fournir des architectures logicielles robustes aux entreprises clientes des Émirats arabes unis.",
+        "openPositions": [
+          {
+            "title": "Développeur front-end",
+            "department": "Engineering",
+            "salaryRange": "15 000 - 20 000 AED",
+            "experience": "2+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Centre logistique mondial",
+        "industry": "Logistics",
+        "description": "Gestion de l'infrastructure de la chaîne d'approvisionnement de bout en bout pour les réseaux d'import/export.",
+        "openPositions": [
+          {
+            "title": "Coordonnateur de la chaîne d'approvisionnement",
+            "department": "Operations",
+            "salaryRange": "10 000 à 14 000 AED",
+            "experience": "1+ an",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Croissant Immobilier",
+        "industry": "Gestion immobilière",
+        "description": "Gestion de propriétés commerciales et résidentielles haut de gamme avec des standards de luxe.",
+        "openPositions": [
+          {
+            "title": "Conseiller en location",
+            "department": "Sales",
+            "salaryRange": "8 000 AED + commissions",
+            "experience": "2+ ans",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2230,8 +2286,8 @@
         "locationDetails": "Coeur de Business Bay avec accès rapide à SZR.",
         "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=600&auto=format&fit=crop",
         "amenities": [
-          "Piscine",
-          "Salle de sport"
+          "Pool",
+          "Gym"
         ],
         "link": "#"
       }
@@ -2298,11 +2354,11 @@
           "percentage": 45
         },
         {
-          "groupName": "Émiratis",
+          "groupName": "Emiratis",
           "percentage": 20
         },
         {
-          "groupName": "Indiens",
+          "groupName": "Indians",
           "percentage": 15
         },
         {
@@ -2310,7 +2366,7 @@
           "percentage": 10
         },
         {
-          "groupName": "Autres",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -2323,9 +2379,65 @@
         "openPositions": [
           {
             "title": "Directeur de l'expérience client",
-            "department": "Hospitalité",
+            "department": "Hospitality",
             "salaryRange": "40 000 à 50 000 AED",
             "experience": "8+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Centre commercial Nakheel",
+        "industry": "Gestion de vente au détail",
+        "description": "Destination commerçante majeure sur Palm Jumeirah.",
+        "openPositions": [
+          {
+            "title": "Directeur de vente au détail",
+            "department": "Operations",
+            "salaryRange": "15 000 AED",
+            "experience": "5+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Conseils Partenaires Ltd",
+        "industry": "Conseil en gestion",
+        "description": "Un cabinet de conseil dédié, spécialisé dans la croissance stratégique des entreprises au Moyen-Orient.",
+        "openPositions": [
+          {
+            "title": "Analyste d'affaires",
+            "department": "Consulting",
+            "salaryRange": "12 000 AED - 18 000 AED",
+            "experience": "3+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Solutions TechFlow",
+        "industry": "Développement de logiciels",
+        "description": "Fournir des architectures logicielles robustes aux entreprises clientes des Émirats arabes unis.",
+        "openPositions": [
+          {
+            "title": "Développeur front-end",
+            "department": "Engineering",
+            "salaryRange": "15 000 - 20 000 AED",
+            "experience": "2+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Centre logistique mondial",
+        "industry": "Logistics",
+        "description": "Gestion de l'infrastructure de la chaîne d'approvisionnement de bout en bout pour les réseaux d'import/export.",
+        "openPositions": [
+          {
+            "title": "Coordonnateur de la chaîne d'approvisionnement",
+            "department": "Operations",
+            "salaryRange": "10 000 à 14 000 AED",
+            "experience": "1+ an",
             "careerUrl": "#"
           }
         ]
@@ -2343,7 +2455,7 @@
         "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=600&auto=format&fit=crop",
         "amenities": [
           "Plage privée",
-          "Salle de sport"
+          "Gym"
         ],
         "link": "#"
       }
@@ -2404,23 +2516,23 @@
         "Expatriés indiens",
         "Expatriés Pakistanais",
         "Expatriés Européens",
-        "Philippins"
+        "Filipinos"
       ],
       "stats": [
         {
-          "groupName": "Indiens",
+          "groupName": "Indians",
           "percentage": 30
         },
         {
-          "groupName": "Pakistanais",
+          "groupName": "Pakistanis",
           "percentage": 20
         },
         {
-          "groupName": "Européens",
+          "groupName": "Europeans",
           "percentage": 20
         },
         {
-          "groupName": "Philippins",
+          "groupName": "Filipinos",
           "percentage": 15
         },
         {
@@ -2432,14 +2544,70 @@
     "companies": [
       {
         "name": "CINQ Village de Jumeirah",
-        "industry": "Hospitalité",
+        "industry": "Hospitality",
         "description": "Hôtel et résidences de luxe réputées pour leur architecture et leur art de vivre.",
         "openPositions": [
           {
             "title": "Responsable des opérations",
-            "department": "Gestion",
+            "department": "Management",
             "salaryRange": "15 000 à 25 000 AED",
             "experience": "5+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Conseils Partenaires Ltd",
+        "industry": "Conseil en gestion",
+        "description": "Un cabinet de conseil dédié, spécialisé dans la croissance stratégique des entreprises au Moyen-Orient.",
+        "openPositions": [
+          {
+            "title": "Analyste d'affaires",
+            "department": "Consulting",
+            "salaryRange": "12 000 AED - 18 000 AED",
+            "experience": "3+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Solutions TechFlow",
+        "industry": "Développement de logiciels",
+        "description": "Fournir des architectures logicielles robustes aux entreprises clientes des Émirats arabes unis.",
+        "openPositions": [
+          {
+            "title": "Développeur front-end",
+            "department": "Engineering",
+            "salaryRange": "15 000 - 20 000 AED",
+            "experience": "2+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Centre logistique mondial",
+        "industry": "Logistics",
+        "description": "Gestion de l'infrastructure de la chaîne d'approvisionnement de bout en bout pour les réseaux d'import/export.",
+        "openPositions": [
+          {
+            "title": "Coordonnateur de la chaîne d'approvisionnement",
+            "department": "Operations",
+            "salaryRange": "10 000 à 14 000 AED",
+            "experience": "1+ an",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Croissant Immobilier",
+        "industry": "Gestion immobilière",
+        "description": "Gestion de propriétés commerciales et résidentielles haut de gamme avec des standards de luxe.",
+        "openPositions": [
+          {
+            "title": "Conseiller en location",
+            "department": "Sales",
+            "salaryRange": "8 000 AED + commissions",
+            "experience": "2+ ans",
             "careerUrl": "#"
           }
         ]
@@ -2456,9 +2624,9 @@
         "locationDetails": "Coeur de JVC avec accès facile à la rue Hessa.",
         "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=600&auto=format&fit=crop",
         "amenities": [
-          "Piscine",
-          "Salle de sport",
-          "Balcon"
+          "Pool",
+          "Gym",
+          "Balcony"
         ],
         "link": "#"
       }
@@ -2514,7 +2682,7 @@
       "description": "Divisé entre un pôle artistique florissant fréquenté par les Européens et des secteurs industriels massifs abritant des cols bleus sud-asiatiques. Il contient également des maisons émiraties locales.",
       "dominantGroups": [
         "Cols bleus sud-asiatiques",
-        "Émiratis",
+        "Emiratis",
         "Créatifs européens"
       ],
       "stats": [
@@ -2523,15 +2691,15 @@
           "percentage": 50
         },
         {
-          "groupName": "Émiratis",
+          "groupName": "Emiratis",
           "percentage": 20
         },
         {
-          "groupName": "Européens",
+          "groupName": "Europeans",
           "percentage": 15
         },
         {
-          "groupName": "Autres",
+          "groupName": "Others",
           "percentage": 15
         }
       ]
@@ -2543,10 +2711,66 @@
         "description": "Premier pôle artistique de la région.",
         "openPositions": [
           {
-            "title": "Conservateur",
+            "title": "Curator",
             "department": "Arts",
             "salaryRange": "20 000 à 30 000 AED",
             "experience": "4+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Conseils Partenaires Ltd",
+        "industry": "Conseil en gestion",
+        "description": "Un cabinet de conseil dédié, spécialisé dans la croissance stratégique des entreprises au Moyen-Orient.",
+        "openPositions": [
+          {
+            "title": "Analyste d'affaires",
+            "department": "Consulting",
+            "salaryRange": "12 000 AED - 18 000 AED",
+            "experience": "3+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Solutions TechFlow",
+        "industry": "Développement de logiciels",
+        "description": "Fournir des architectures logicielles robustes aux entreprises clientes des Émirats arabes unis.",
+        "openPositions": [
+          {
+            "title": "Développeur front-end",
+            "department": "Engineering",
+            "salaryRange": "15 000 - 20 000 AED",
+            "experience": "2+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Centre logistique mondial",
+        "industry": "Logistics",
+        "description": "Gestion de l'infrastructure de la chaîne d'approvisionnement de bout en bout pour les réseaux d'import/export.",
+        "openPositions": [
+          {
+            "title": "Coordonnateur de la chaîne d'approvisionnement",
+            "department": "Operations",
+            "salaryRange": "10 000 à 14 000 AED",
+            "experience": "1+ an",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Croissant Immobilier",
+        "industry": "Gestion immobilière",
+        "description": "Gestion de propriétés commerciales et résidentielles haut de gamme avec des standards de luxe.",
+        "openPositions": [
+          {
+            "title": "Conseiller en location",
+            "department": "Sales",
+            "salaryRange": "8 000 AED + commissions",
+            "experience": "2+ ans",
             "careerUrl": "#"
           }
         ]
@@ -2586,7 +2810,7 @@
     "bottomNotes": "Idéal pour les créatifs et ceux qui préfèrent une expérience non traditionnelle à Dubaï.",
     "majorAttractions": [
       "Avenue Alserkal",
-      "Cour"
+      "Courtyard"
     ]
   },
   {
@@ -2626,15 +2850,15 @@
       ],
       "stats": [
         {
-          "groupName": "Européens",
+          "groupName": "Europeans",
           "percentage": 40
         },
         {
-          "groupName": "Émiratis",
+          "groupName": "Emiratis",
           "percentage": 25
         },
         {
-          "groupName": "Indiens",
+          "groupName": "Indians",
           "percentage": 20
         },
         {
@@ -2649,6 +2873,62 @@
         "industry": "Promoteur immobilier",
         "description": "Le maître développeur derrière Dubai Hills Estate.",
         "openPositions": []
+      },
+      {
+        "name": "Conseils Partenaires Ltd",
+        "industry": "Conseil en gestion",
+        "description": "Un cabinet de conseil dédié, spécialisé dans la croissance stratégique des entreprises au Moyen-Orient.",
+        "openPositions": [
+          {
+            "title": "Analyste d'affaires",
+            "department": "Consulting",
+            "salaryRange": "12 000 AED - 18 000 AED",
+            "experience": "3+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Solutions TechFlow",
+        "industry": "Développement de logiciels",
+        "description": "Fournir des architectures logicielles robustes aux entreprises clientes des Émirats arabes unis.",
+        "openPositions": [
+          {
+            "title": "Développeur front-end",
+            "department": "Engineering",
+            "salaryRange": "15 000 - 20 000 AED",
+            "experience": "2+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Centre logistique mondial",
+        "industry": "Logistics",
+        "description": "Gestion de l'infrastructure de la chaîne d'approvisionnement de bout en bout pour les réseaux d'import/export.",
+        "openPositions": [
+          {
+            "title": "Coordonnateur de la chaîne d'approvisionnement",
+            "department": "Operations",
+            "salaryRange": "10 000 à 14 000 AED",
+            "experience": "1+ an",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Croissant Immobilier",
+        "industry": "Gestion immobilière",
+        "description": "Gestion de propriétés commerciales et résidentielles haut de gamme avec des standards de luxe.",
+        "openPositions": [
+          {
+            "title": "Conseiller en location",
+            "department": "Sales",
+            "salaryRange": "8 000 AED + commissions",
+            "experience": "2+ ans",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2663,8 +2943,8 @@
         "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=600&auto=format&fit=crop",
         "amenities": [
           "Vue sur le parc",
-          "Piscine",
-          "Salle de sport"
+          "Pool",
+          "Gym"
         ],
         "link": "#"
       }
@@ -2678,7 +2958,7 @@
     },
     "laws": [
       {
-        "category": "Communauté",
+        "category": "Community",
         "title": "Directives Emaar",
         "description": "Des règles communautaires strictes régissent les modifications et l’aménagement paysager."
       }
@@ -2722,20 +3002,20 @@
       "description": "Une zone axée sur les valeurs, majoritairement peuplée d'expatriés de classe moyenne et de travailleurs d'Asie du Sud et d'Asie du Sud-Est.",
       "dominantGroups": [
         "Classe ouvrière/moyenne indienne",
-        "Pakistanais",
-        "Philippins"
+        "Pakistanis",
+        "Filipinos"
       ],
       "stats": [
         {
-          "groupName": "Indiens",
+          "groupName": "Indians",
           "percentage": 45
         },
         {
-          "groupName": "Pakistanais",
+          "groupName": "Pakistanis",
           "percentage": 25
         },
         {
-          "groupName": "Philippins",
+          "groupName": "Filipinos",
           "percentage": 15
         },
         {
@@ -2743,7 +3023,7 @@
           "percentage": 10
         },
         {
-          "groupName": "Autres",
+          "groupName": "Others",
           "percentage": 5
         }
       ]
@@ -2751,9 +3031,65 @@
     "companies": [
       {
         "name": "Centre commercial Ibn Battuta",
-        "industry": "Vente au détail",
+        "industry": "Retail",
         "description": "Centre commercial thématique situé à côté de la communauté.",
         "openPositions": []
+      },
+      {
+        "name": "Conseils Partenaires Ltd",
+        "industry": "Conseil en gestion",
+        "description": "Un cabinet de conseil dédié, spécialisé dans la croissance stratégique des entreprises au Moyen-Orient.",
+        "openPositions": [
+          {
+            "title": "Analyste d'affaires",
+            "department": "Consulting",
+            "salaryRange": "12 000 AED - 18 000 AED",
+            "experience": "3+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Solutions TechFlow",
+        "industry": "Développement de logiciels",
+        "description": "Fournir des architectures logicielles robustes aux entreprises clientes des Émirats arabes unis.",
+        "openPositions": [
+          {
+            "title": "Développeur front-end",
+            "department": "Engineering",
+            "salaryRange": "15 000 - 20 000 AED",
+            "experience": "2+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Centre logistique mondial",
+        "industry": "Logistics",
+        "description": "Gestion de l'infrastructure de la chaîne d'approvisionnement de bout en bout pour les réseaux d'import/export.",
+        "openPositions": [
+          {
+            "title": "Coordonnateur de la chaîne d'approvisionnement",
+            "department": "Operations",
+            "salaryRange": "10 000 à 14 000 AED",
+            "experience": "1+ an",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Croissant Immobilier",
+        "industry": "Gestion immobilière",
+        "description": "Gestion de propriétés commerciales et résidentielles haut de gamme avec des standards de luxe.",
+        "openPositions": [
+          {
+            "title": "Conseiller en location",
+            "department": "Sales",
+            "salaryRange": "8 000 AED + commissions",
+            "experience": "2+ ans",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2782,7 +3118,7 @@
     },
     "laws": [
       {
-        "category": "Communauté",
+        "category": "Community",
         "title": "Directives Nakheel",
         "description": "Zonage résidentiel sans tours de grande hauteur."
       }
@@ -2825,7 +3161,7 @@
       "description": "Un mélange de Dubaï traditionnel et de vie d'expatrié moderne, avec de grandes communautés de villas émiraties locales et des zones d'appartements multiethniques.",
       "dominantGroups": [
         "Expatriés arabes",
-        "Émiratis",
+        "Emiratis",
         "Professionnels indiens"
       ],
       "stats": [
@@ -2834,29 +3170,85 @@
           "percentage": 30
         },
         {
-          "groupName": "Émiratis",
+          "groupName": "Emiratis",
           "percentage": 25
         },
         {
-          "groupName": "Indiens",
+          "groupName": "Indians",
           "percentage": 25
         },
         {
-          "groupName": "Européens",
+          "groupName": "Europeans",
           "percentage": 10
         },
         {
-          "groupName": "Autres",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
     },
     "companies": [
       {
-        "name": "Mall of the Emirates",
+        "name": "Centre commercial des Émirats",
         "industry": "Vente au détail et divertissement",
         "description": "L'un des plus grands centres commerciaux de Dubaï.",
         "openPositions": []
+      },
+      {
+        "name": "Conseils Partenaires Ltd",
+        "industry": "Conseil en gestion",
+        "description": "Un cabinet de conseil dédié, spécialisé dans la croissance stratégique des entreprises au Moyen-Orient.",
+        "openPositions": [
+          {
+            "title": "Analyste d'affaires",
+            "department": "Consulting",
+            "salaryRange": "12 000 AED - 18 000 AED",
+            "experience": "3+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Solutions TechFlow",
+        "industry": "Développement de logiciels",
+        "description": "Fournir des architectures logicielles robustes aux entreprises clientes des Émirats arabes unis.",
+        "openPositions": [
+          {
+            "title": "Développeur front-end",
+            "department": "Engineering",
+            "salaryRange": "15 000 - 20 000 AED",
+            "experience": "2+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Centre logistique mondial",
+        "industry": "Logistics",
+        "description": "Gestion de l'infrastructure de la chaîne d'approvisionnement de bout en bout pour les réseaux d'import/export.",
+        "openPositions": [
+          {
+            "title": "Coordonnateur de la chaîne d'approvisionnement",
+            "department": "Operations",
+            "salaryRange": "10 000 à 14 000 AED",
+            "experience": "1+ an",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Croissant Immobilier",
+        "industry": "Gestion immobilière",
+        "description": "Gestion de propriétés commerciales et résidentielles haut de gamme avec des standards de luxe.",
+        "openPositions": [
+          {
+            "title": "Conseiller en location",
+            "department": "Sales",
+            "salaryRange": "8 000 AED + commissions",
+            "experience": "2+ ans",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2870,7 +3262,7 @@
         "locationDetails": "Près du MOE et du métro.",
         "image": "https://images.unsplash.com/photo-1502672260266-1c1e52408437?q=80&w=600&auto=format&fit=crop",
         "amenities": [
-          "Salle de sport",
+          "Gym",
           "Piscine sur le toit"
         ],
         "link": "#"
@@ -2885,8 +3277,8 @@
     },
     "laws": [
       {
-        "category": "Propriété",
-        "title": "Bail",
+        "category": "Property",
+        "title": "Leasehold",
         "description": "De nombreuses pièces sont en location strictement réservées aux ressortissants des Émirats arabes unis."
       }
     ],
@@ -2933,23 +3325,23 @@
       ],
       "stats": [
         {
-          "groupName": "Indiens",
+          "groupName": "Indians",
           "percentage": 45
         },
         {
-          "groupName": "Pakistanais",
+          "groupName": "Pakistanis",
           "percentage": 25
         },
         {
-          "groupName": "Bangladais",
+          "groupName": "Bangladeshis",
           "percentage": 15
         },
         {
-          "groupName": "Émiratis",
+          "groupName": "Emiratis",
           "percentage": 5
         },
         {
-          "groupName": "Autres",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -2960,6 +3352,62 @@
         "industry": "Vente au détail et commerce",
         "description": "Des milliers de commerçants indépendants de bijoux, d’épices et de textiles.",
         "openPositions": []
+      },
+      {
+        "name": "Conseils Partenaires Ltd",
+        "industry": "Conseil en gestion",
+        "description": "Un cabinet de conseil dédié, spécialisé dans la croissance stratégique des entreprises au Moyen-Orient.",
+        "openPositions": [
+          {
+            "title": "Analyste d'affaires",
+            "department": "Consulting",
+            "salaryRange": "12 000 AED - 18 000 AED",
+            "experience": "3+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Solutions TechFlow",
+        "industry": "Développement de logiciels",
+        "description": "Fournir des architectures logicielles robustes aux entreprises clientes des Émirats arabes unis.",
+        "openPositions": [
+          {
+            "title": "Développeur front-end",
+            "department": "Engineering",
+            "salaryRange": "15 000 - 20 000 AED",
+            "experience": "2+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Centre logistique mondial",
+        "industry": "Logistics",
+        "description": "Gestion de l'infrastructure de la chaîne d'approvisionnement de bout en bout pour les réseaux d'import/export.",
+        "openPositions": [
+          {
+            "title": "Coordonnateur de la chaîne d'approvisionnement",
+            "department": "Operations",
+            "salaryRange": "10 000 à 14 000 AED",
+            "experience": "1+ an",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Croissant Immobilier",
+        "industry": "Gestion immobilière",
+        "description": "Gestion de propriétés commerciales et résidentielles haut de gamme avec des standards de luxe.",
+        "openPositions": [
+          {
+            "title": "Conseiller en location",
+            "department": "Sales",
+            "salaryRange": "8 000 AED + commissions",
+            "experience": "2+ ans",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2974,7 +3422,7 @@
         "image": "https://images.unsplash.com/photo-1582653211939-2e0f40d04db9?q=80&w=600&auto=format&fit=crop",
         "amenities": [
           "Près du métro",
-          "Balcon"
+          "Balcony"
         ],
         "link": "#"
       }

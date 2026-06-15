@@ -5,6 +5,11 @@ import { MAP_POLYGONS } from '../mapPolygons';
 import { MapContainer, TileLayer, Marker, ZoomControl, useMapEvents } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+import { GestureHandling } from 'leaflet-gesture-handling';
+import 'leaflet-gesture-handling/dist/leaflet-gesture-handling.css';
+
+L.Map.addInitHook('addHandler', 'gestureHandling', GestureHandling);
+
 import { Briefcase, Building, BedDouble, Info, MapPin } from 'lucide-react';
 import { AnimatePresence, motion } from 'motion/react';
 
@@ -257,7 +262,7 @@ export default function DistrictMap({
         zoom={11} 
         zoomControl={false}
         className="w-full h-full outline-none z-0 !bg-[#EAF2F5]"
-        scrollWheelZoom={false}
+        {...{ gestureHandling: true } as any}
       >
         <ZoomControl position="bottomright" />
         <TileLayer

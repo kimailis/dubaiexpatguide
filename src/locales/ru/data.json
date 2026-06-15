@@ -2,11 +2,11 @@
   {
     "id": "difc",
     "name": "DIFC",
-    "arabicName": "مركز دبي المالي العالمي",
+    "arabicName": "Создатель Дэвиса العالمي",
     "tagline": "Дубайский международный финансовый центр",
     "iconPath": "landmark",
     "colorTheme": "from-amber-600 via-yellow-600 to-amber-700",
-    "mapSvgPath": "M 140 180 Q 170 160 210 190 Q 230 220 200 240 Q 160 250 140 220 Z",
+    "mapSvgPath": "М 140 180 Q 170 160 210 190 Q 230 220 200 240 Q 160 250 140 220 Z",
     "description": "DIFC является ведущим финансовым центром Ближнего Востока, Африки и Южной Азии. Это уникальная финансовая свободная зона, действующая под управлением независимой англоязычной судебной системы общего права (суды DIFC), отдельной от более широкой гражданской правовой системы ОАЭ.",
     "taxSituation": {
       "status": "Специальная финансовая свободная зона",
@@ -42,7 +42,7 @@
         "Европейские экспаты",
         "Высокооплачиваемые индийцы",
         "Арабские эмигранты",
-        "Эмираты"
+        "Emiratis"
       ],
       "stats": [
         {
@@ -58,11 +58,11 @@
           "percentage": 15
         },
         {
-          "groupName": "Эмираты",
+          "groupName": "Emiratis",
           "percentage": 10
         },
         {
-          "groupName": "Другие",
+          "groupName": "Others",
           "percentage": 15
         }
       ]
@@ -89,7 +89,7 @@
           },
           {
             "title": "Архитектор безопасности инфраструктуры",
-            "department": "Кибербезопасность",
+            "department": "Cybersecurity",
             "salaryRange": "40 000–55 000 дирхамов ОАЭ/мес.",
             "experience": "7+ лет",
             "careerUrl": "https://www.goldmansachs.com/careers"
@@ -131,7 +131,7 @@
           },
           {
             "title": "Старший аналитик по безопасности",
-            "department": "Служба безопасности",
+            "department": "SecOps",
             "salaryRange": "32 000–42 000 дирхамов ОАЭ/мес.",
             "experience": "4-6 лет",
             "careerUrl": "https://www.binance.com/en/careers"
@@ -317,7 +317,7 @@
       {
         "id": "difc-apt-3",
         "title": "Современная уютная студия, известняковый дом",
-        "bedrooms": "Студия",
+        "bedrooms": "Studio",
         "bathrooms": 1,
         "sizeSqFt": 580,
         "priceAED": 90000,
@@ -326,7 +326,7 @@
         "amenities": [
           "Прямой доступ к Gate Avenue",
           "Крытый джакузи",
-          "Сауна",
+          "Sauna",
           "Полностью меблированные варианты"
         ],
         "link": "https://www.propertyfinder.ae/en/search?c=2&f=0&l=81&ob=mr"
@@ -364,7 +364,7 @@
     "tagline": "Центр настоящего",
     "iconPath": "tower",
     "colorTheme": "from-amber-500 via-rose-600 to-amber-600",
-    "mapSvgPath": "M 215 190 Q 250 170 290 200 Q 310 230 280 250 Q 240 260 215 230 Z",
+    "mapSvgPath": "М 215 190 Q 250 170 290 200 Q 310 230 280 250 Q 240 260 215 230 Z",
     "description": "Центр Дубая включает в себя всемирно признанные шедевры, в том числе знаменитый Бурдж-Халифа, монументальный фонтан Дубай и огромный торговый центр Dubai Mall. Он служит одновременно элитным космополитическим сообществом и корпоративным центром.",
     "taxSituation": {
       "status": "Премиум-зона материка",
@@ -400,15 +400,15 @@
         "Богатые европейцы",
         "Богатые индийцы/пакистанцы",
         "Богатые Эмираты",
-        "китайский"
+        "Chinese"
       ],
       "stats": [
         {
-          "groupName": "Европейцы",
+          "groupName": "Europeans",
           "percentage": 35
         },
         {
-          "groupName": "индейцы",
+          "groupName": "Indians",
           "percentage": 25
         },
         {
@@ -416,11 +416,11 @@
           "percentage": 15
         },
         {
-          "groupName": "Эмираты",
+          "groupName": "Emiratis",
           "percentage": 15
         },
         {
-          "groupName": "Другие",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -469,7 +469,7 @@
         ]
       },
       {
-        "name": "Noon.com HQ",
+        "name": "Штаб-квартира Noon.com",
         "industry": "Электронная коммерция и логистика",
         "description": "Noon — это ведущая экосистема цифрового рынка Ближнего Востока, обеспечивающая развитие передовых гиперлокальных финансовых технологий, логистики, приложений для распределения продуктов питания и платформ для торговли продуктами.",
         "openPositions": [
@@ -511,13 +511,13 @@
         ]
       },
       {
-        "name": "Careem Technologies",
+        "name": "Карим Технологии",
         "industry": "Заказ такси и суперприложения",
         "description": "Гордый отечественный технологический гигант ОАЭ и дочерняя компания Uber, разрабатывающая платформу суперприложений полного спектра, обеспечивающую пассажирские перевозки, одноранговые криптоплатежи, продукты питания, продуктовые услуги и партнерские сети.",
         "openPositions": [
           {
             "title": "Главный инженер-программист (Java/Kotlin/Node)",
-            "department": "Careem Pay Engineering",
+            "department": "Карим Пэй Инжиниринг",
             "salaryRange": "48 000–65 000 дирхамов ОАЭ/мес.",
             "experience": "7+ лет",
             "careerUrl": "https://careers.careem.com/"
@@ -675,7 +675,7 @@
       {
         "id": "downtown-apt-3",
         "title": "Элегантная уютная студия, Standpoint Towers",
-        "bedrooms": "Студия",
+        "bedrooms": "Studio",
         "bathrooms": 1,
         "sizeSqFt": 540,
         "priceAED": 80000,
@@ -702,7 +702,7 @@
         "description": "Строгое соблюдение требований относительно скромной одежды в торговых центрах и общественных местах Emaar, а также строгие правила, ограничивающие страстное публичное проявление привязанности."
       },
       {
-        "category": "Ночная жизнь",
+        "category": "Nightlife",
         "title": "Разрешенное употребление алкоголя",
         "description": "Употребление алкоголя в общественных зонах за пределами сертифицированных отелей, пабов или жилых помещений с персонализированной электронной лицензией остается незаконным."
       }
@@ -723,7 +723,7 @@
     "tagline": "Яркая жизнь на набережной",
     "iconPath": "waves",
     "colorTheme": "from-cyan-600 via-blue-600 to-indigo-700",
-    "mapSvgPath": "M 10 100 Q 50 110 80 80 Q 110 110 70 140 Q 30 150 10 120 Z",
+    "mapSvgPath": "М 10 100 Q 50 110 80 80 Q 110 110 70 140 Q 30 150 10 120 Z",
     "description": "Дубай Марина — это архитектурное произведение, состоящее из искусственных сетей каналов, поддерживающих сверхвысокие жилые небоскребы и оживленные улицы с сотнями ресторанов под открытым небом, расположенные рядом с популярным пляжем с белым песком Jumeirah Beach Residence (JBR).",
     "taxSituation": {
       "status": "Материк с карманами в свободной зоне",
@@ -774,11 +774,11 @@
           "percentage": 10
         },
         {
-          "groupName": "индейцы",
+          "groupName": "Indians",
           "percentage": 10
         },
         {
-          "groupName": "Другие",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -827,7 +827,7 @@
         ]
       },
       {
-        "name": "Property Finder Tech UAE",
+        "name": "Поиск недвижимости Tech ОАЭ",
         "industry": "Торговая площадка PropTech",
         "description": "Доминирующая на Ближнем Востоке платформа цифровой недвижимости, разрабатывающая стандартные для отрасли базы данных по аренде, покупкам, API-интерфейсы автоматизированного рыночного ценообразования и брокерские инструменты.",
         "openPositions": [
@@ -869,7 +869,7 @@
         ]
       },
       {
-        "name": "Dubizzle Labs",
+        "name": "Дубиззл Лаборатории",
         "industry": "Торговые площадки и рекламные технологии",
         "description": "Расширение возможностей огромного, пользующегося местными предпочтениями торгового портала Dubizzle, предлагающего физические товары, рынки транспортных средств и электронику в целом.",
         "openPositions": [
@@ -953,7 +953,7 @@
         ]
       },
       {
-        "name": "Deliveroo UAE HQ",
+        "name": "Штаб-квартира Deliveroo в ОАЭ",
         "industry": "Платформа доставки по требованию",
         "description": "Пионеры сверхбыстрых автоматизированных систем доставки еды и логистических сетей, помогающие процветать местным торговцам.",
         "openPositions": [
@@ -1016,7 +1016,7 @@
       {
         "id": "marina-apt-2",
         "title": "Ультрасовременная студия на берегу моря, Rixos JBR",
-        "bedrooms": "Студия",
+        "bedrooms": "Studio",
         "bathrooms": 1,
         "sizeSqFt": 620,
         "priceAED": 95000,
@@ -1060,7 +1060,7 @@
         "description": "Морское управление Дубая разрешает отправление и эксплуатацию яхт только под руководством сертифицированных лицензированных шкиперов, следуя инструкциям береговой охраны."
       },
       {
-        "category": "Аренда",
+        "category": "Tenancy",
         "title": "Сезонная аренда с высоким спросом",
         "description": "Из-за большого количества туристов краткосрочная субаренда должна быть официально зарегистрирована на платформе DTCM как дома для отдыха; Нелицензированные объявления Airbnb влекут за собой суровые штрафы в размере более 5000 дирхамов ОАЭ."
       }
@@ -1080,7 +1080,7 @@
     "tagline": "Динамический центр сообщества",
     "iconPath": "building-2",
     "colorTheme": "from-emerald-600 via-teal-600 to-blue-700",
-    "mapSvgPath": "M 10 160 Q 50 150 80 180 Q 90 220 50 220 Q 20 200 10 160 Z",
+    "mapSvgPath": "М 10 160 Q 50 150 80 180 Q 90 220 50 220 Q 20 200 10 160 Z",
     "description": "Jumeirah Lakes Towers (JLT) — это огромный многофункциональный комплекс, состоящий из 26 кластеров вокруг красивых искусственных озер. Благодаря свободной зоне DMCC (Dubai Multi Commodities Centre), здесь проживает активное население, работающее в сфере технологий, товаров и товаров.",
     "taxSituation": {
       "status": "Управление свободной зоны DMCC",
@@ -1119,15 +1119,15 @@
       ],
       "stats": [
         {
-          "groupName": "индейцы",
+          "groupName": "Indians",
           "percentage": 35
         },
         {
-          "groupName": "Европейцы",
+          "groupName": "Europeans",
           "percentage": 25
         },
         {
-          "groupName": "Пакистанцы",
+          "groupName": "Pakistanis",
           "percentage": 15
         },
         {
@@ -1135,7 +1135,7 @@
           "percentage": 15
         },
         {
-          "groupName": "Другие",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -1373,7 +1373,7 @@
       {
         "id": "jlt-apt-2",
         "title": "Студия на набережной в Armada Tower 3, кластер P",
-        "bedrooms": "Студия",
+        "bedrooms": "Studio",
         "bathrooms": 1,
         "sizeSqFt": 510,
         "priceAED": 60000,
@@ -1433,11 +1433,11 @@
   {
     "id": "internet-city",
     "name": "Дубай Интернет-Сити (DIC)",
-    "arabicName": "مدينة دبي للإنترنت",
+    "arabicName": "Написано Дэйвом Лоллером",
     "tagline": "Силиконовая долина Ближнего Востока",
     "iconPath": "network",
     "colorTheme": "from-blue-600 via-indigo-600 to-purple-700",
-    "mapSvgPath": "M 75 40 Q 110 50 130 20 Q 160 50 140 80 Q 100 80 75 40 Z",
+    "mapSvgPath": "М 75 40 Q 110 50 130 20 Q 160 50 140 80 Q 100 80 75 40 Z",
     "description": "Dubai Internet City (DIC) — ведущий технологический бизнес-парк Дубая, служащий стратегическими региональными воротами для технологических лидеров из списка Fortune 500 и растущих игроков SaaS.",
     "taxSituation": {
       "status": "Группа свободных зон ТЕКОМ",
@@ -1476,11 +1476,11 @@
       ],
       "stats": [
         {
-          "groupName": "индейцы",
+          "groupName": "Indians",
           "percentage": 40
         },
         {
-          "groupName": "Европейцы",
+          "groupName": "Europeans",
           "percentage": 25
         },
         {
@@ -1488,11 +1488,11 @@
           "percentage": 20
         },
         {
-          "groupName": "Пакистанцы",
+          "groupName": "Pakistanis",
           "percentage": 10
         },
         {
-          "groupName": "Другие",
+          "groupName": "Others",
           "percentage": 5
         }
       ]
@@ -1747,7 +1747,7 @@
       {
         "id": "dic-apt-3",
         "title": "Высококачественная студия, Smart Heights Tower",
-        "bedrooms": "Студия",
+        "bedrooms": "Studio",
         "bathrooms": 1,
         "sizeSqFt": 490,
         "priceAED": 62000,
@@ -1774,7 +1774,7 @@
         "description": "Офисные помещения внутри ОПК должны строго функционировать в параметрах цифрового сервиса. Стандартные розничные магазины товаров не могут получить офисное зонирование."
       },
       {
-        "category": "Операции",
+        "category": "Operations",
         "title": "Спонсорство удаленной рабочей визы",
         "description": "Фрилансеры могут обрабатывать категории виз для удаленного рабочего места цифровых кочевников непосредственно через услуги портала TECOM AXS."
       }
@@ -1790,11 +1790,11 @@
   {
     "id": "silicon-oasis",
     "name": "Дубайский кремниевый оазис (DSO)",
-    "arabicName": "واحة دبي للسيلكون",
+    "arabicName": "Дэн Дэн Лэйсон",
     "tagline": "Умный Технологический Подгород",
     "iconPath": "cpu",
     "colorTheme": "from-purple-600 via-fuchsia-600 to-rose-700",
-    "mapSvgPath": "M 350 150 Q 380 120 410 160 Q 430 200 390 220 Q 340 210 350 150 Z",
+    "mapSvgPath": "М 350 150 Q 380 120 410 160 Q 430 200 390 220 Q 340 210 350 150 Z",
     "description": "Dubai Silicon Oasis (DSO) — всемирно признанный технологический парк и интегрированное сообщество. Действуя в рамках единого государственного центра полупроводников и электроники, он размещает стартапы, масштабные научно-исследовательские работы и университетские центры.",
     "taxSituation": {
       "status": "Свободная зона высоких технологий",
@@ -1833,7 +1833,7 @@
       ],
       "stats": [
         {
-          "groupName": "индейцы",
+          "groupName": "Indians",
           "percentage": 40
         },
         {
@@ -1841,15 +1841,15 @@
           "percentage": 25
         },
         {
-          "groupName": "Пакистанцы",
+          "groupName": "Pakistanis",
           "percentage": 20
         },
         {
-          "groupName": "Эмираты",
+          "groupName": "Emiratis",
           "percentage": 5
         },
         {
-          "groupName": "Другие",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -2096,7 +2096,7 @@
         "amenities": [
           "Встроенная современная кухонная техника",
           "Беговая дорожка на крыше",
-          "Гимназия",
+          "Gymnasium",
           "Круглосуточная поддержка"
         ],
         "link": "https://www.propertyfinder.ae/en/search?c=2&f=1&l=92&ob=mr"
@@ -2104,7 +2104,7 @@
       {
         "id": "dso-apt-3",
         "title": "Уютная студия Smart, Axis Residences 2",
-        "bedrooms": "Студия",
+        "bedrooms": "Studio",
         "bathrooms": 1,
         "sizeSqFt": 460,
         "priceAED": 36000,
@@ -2182,11 +2182,11 @@
       ],
       "stats": [
         {
-          "groupName": "индейцы",
+          "groupName": "Indians",
           "percentage": 30
         },
         {
-          "groupName": "Европейцы",
+          "groupName": "Europeans",
           "percentage": 25
         },
         {
@@ -2194,11 +2194,11 @@
           "percentage": 20
         },
         {
-          "groupName": "Пакистанцы",
+          "groupName": "Pakistanis",
           "percentage": 10
         },
         {
-          "groupName": "Другие",
+          "groupName": "Others",
           "percentage": 15
         }
       ]
@@ -2217,6 +2217,62 @@
             "careerUrl": "#"
           }
         ]
+      },
+      {
+        "name": "ООО «Консалтинг Партнерс»",
+        "industry": "Управленческий консалтинг",
+        "description": "Специализированная консалтинговая фирма, специализирующаяся на стратегическом развитии бизнеса на Ближнем Востоке.",
+        "openPositions": [
+          {
+            "title": "Бизнес-аналитик",
+            "department": "Consulting",
+            "salaryRange": "12 000–18 000 дирхамов ОАЭ",
+            "experience": "3+ года",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Решения ТехФлоу",
+        "industry": "Разработка программного обеспечения",
+        "description": "Предоставление надежных архитектур программного обеспечения для корпоративных клиентов в ОАЭ.",
+        "openPositions": [
+          {
+            "title": "Фронтенд-разработчик",
+            "department": "Engineering",
+            "salaryRange": "15 000–20 000 дирхамов ОАЭ",
+            "experience": "2+ года",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Глобальный логистический центр",
+        "industry": "Logistics",
+        "description": "Управление сквозной инфраструктурой цепочки поставок для сетей импорта/экспорта.",
+        "openPositions": [
+          {
+            "title": "Координатор цепочки поставок",
+            "department": "Operations",
+            "salaryRange": "10 000–14 000 дирхамов ОАЭ",
+            "experience": "1+ год",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Кресент Недвижимость",
+        "industry": "Управление недвижимостью",
+        "description": "Управление коммерческой и жилой недвижимостью премиум-класса, соответствующей стандартам класса люкс.",
+        "openPositions": [
+          {
+            "title": "Лизинговый консультант",
+            "department": "Sales",
+            "salaryRange": "8 тысяч дирхамов ОАЭ + комиссия",
+            "experience": "2+ года",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2230,8 +2286,8 @@
         "locationDetails": "Сердце Бизнес-Бэй с быстрым доступом к СЗР.",
         "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=600&auto=format&fit=crop",
         "amenities": [
-          "Бассейн",
-          "Спортзал"
+          "Pool",
+          "Gym"
         ],
         "link": "#"
       }
@@ -2298,11 +2354,11 @@
           "percentage": 45
         },
         {
-          "groupName": "Эмираты",
+          "groupName": "Emiratis",
           "percentage": 20
         },
         {
-          "groupName": "индейцы",
+          "groupName": "Indians",
           "percentage": 15
         },
         {
@@ -2310,7 +2366,7 @@
           "percentage": 10
         },
         {
-          "groupName": "Другие",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -2323,9 +2379,65 @@
         "openPositions": [
           {
             "title": "Директор по работе с гостями",
-            "department": "Гостеприимство",
+            "department": "Hospitality",
             "salaryRange": "40-50 тысяч дирхамов ОАЭ",
             "experience": "8+ лет",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Нахил Молл",
+        "industry": "Управление розничной торговлей",
+        "description": "Главный торговый центр на острове Пальма Джумейра.",
+        "openPositions": [
+          {
+            "title": "Менеджер по розничной торговле",
+            "department": "Operations",
+            "salaryRange": "15 тысяч дирхамов ОАЭ",
+            "experience": "5+ лет",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "ООО «Консалтинг Партнерс»",
+        "industry": "Управленческий консалтинг",
+        "description": "Специализированная консалтинговая фирма, специализирующаяся на стратегическом развитии бизнеса на Ближнем Востоке.",
+        "openPositions": [
+          {
+            "title": "Бизнес-аналитик",
+            "department": "Consulting",
+            "salaryRange": "12 000 – 18 000 дирхамов ОАЭ",
+            "experience": "3+ года",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Решения ТехФлоу",
+        "industry": "Разработка программного обеспечения",
+        "description": "Предоставление надежных архитектур программного обеспечения для корпоративных клиентов в ОАЭ.",
+        "openPositions": [
+          {
+            "title": "Фронтенд-разработчик",
+            "department": "Engineering",
+            "salaryRange": "15 000–20 000 дирхамов ОАЭ",
+            "experience": "2+ года",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Глобальный логистический центр",
+        "industry": "Logistics",
+        "description": "Управление сквозной инфраструктурой цепочки поставок для сетей импорта/экспорта.",
+        "openPositions": [
+          {
+            "title": "Координатор цепочки поставок",
+            "department": "Operations",
+            "salaryRange": "10 000–14 000 дирхамов ОАЭ",
+            "experience": "1+ год",
             "careerUrl": "#"
           }
         ]
@@ -2343,7 +2455,7 @@
         "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=600&auto=format&fit=crop",
         "amenities": [
           "Частный пляж",
-          "Спортзал"
+          "Gym"
         ],
         "link": "#"
       }
@@ -2404,23 +2516,23 @@
         "Индийские эмигранты",
         "Пакистанские эмигранты",
         "Европейские экспаты",
-        "Филиппинцы"
+        "Filipinos"
       ],
       "stats": [
         {
-          "groupName": "индейцы",
+          "groupName": "Indians",
           "percentage": 30
         },
         {
-          "groupName": "Пакистанцы",
+          "groupName": "Pakistanis",
           "percentage": 20
         },
         {
-          "groupName": "Европейцы",
+          "groupName": "Europeans",
           "percentage": 20
         },
         {
-          "groupName": "Филиппинцы",
+          "groupName": "Filipinos",
           "percentage": 15
         },
         {
@@ -2432,14 +2544,70 @@
     "companies": [
       {
         "name": "FIVE Джумейра Виллидж",
-        "industry": "Гостеприимство",
+        "industry": "Hospitality",
         "description": "Роскошный отель и резиденции, известные своей архитектурой и стилем жизни.",
         "openPositions": [
           {
             "title": "Операционный менеджер",
-            "department": "Управление",
+            "department": "Management",
             "salaryRange": "15-25 тысяч дирхамов ОАЭ",
             "experience": "5+ лет",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "ООО «Консалтинг Партнерс»",
+        "industry": "Управленческий консалтинг",
+        "description": "Специализированная консалтинговая фирма, специализирующаяся на стратегическом развитии бизнеса на Ближнем Востоке.",
+        "openPositions": [
+          {
+            "title": "Бизнес-аналитик",
+            "department": "Consulting",
+            "salaryRange": "12 000–18 000 дирхамов ОАЭ",
+            "experience": "3+ года",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Решения ТехФлоу",
+        "industry": "Разработка программного обеспечения",
+        "description": "Предоставление надежных архитектур программного обеспечения для корпоративных клиентов в ОАЭ.",
+        "openPositions": [
+          {
+            "title": "Фронтенд-разработчик",
+            "department": "Engineering",
+            "salaryRange": "15 000–20 000 дирхамов ОАЭ",
+            "experience": "2+ года",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Глобальный логистический центр",
+        "industry": "Logistics",
+        "description": "Управление сквозной инфраструктурой цепочки поставок для сетей импорта/экспорта.",
+        "openPositions": [
+          {
+            "title": "Координатор цепочки поставок",
+            "department": "Operations",
+            "salaryRange": "10 000–14 000 дирхамов ОАЭ",
+            "experience": "1+ год",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Кресент Недвижимость",
+        "industry": "Управление недвижимостью",
+        "description": "Управление коммерческой и жилой недвижимостью премиум-класса, соответствующей стандартам класса люкс.",
+        "openPositions": [
+          {
+            "title": "Лизинговый консультант",
+            "department": "Sales",
+            "salaryRange": "8 тысяч дирхамов ОАЭ + комиссия",
+            "experience": "2+ года",
             "careerUrl": "#"
           }
         ]
@@ -2456,9 +2624,9 @@
         "locationDetails": "Сердце JVC с легким доступом к улице Хесса.",
         "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=600&auto=format&fit=crop",
         "amenities": [
-          "Бассейн",
-          "Спортзал",
-          "Балкон"
+          "Pool",
+          "Gym",
+          "Balcony"
         ],
         "link": "#"
       }
@@ -2514,7 +2682,7 @@
       "description": "Разделен между процветающим центром искусств, часто посещаемым европейцами, и крупными промышленными секторами, в которых проживают рабочие из Южной Азии. Здесь также есть дома местных эмиратов.",
       "dominantGroups": [
         "Южноазиатские «синие воротнички»",
-        "Эмираты",
+        "Emiratis",
         "Европейский креатив"
       ],
       "stats": [
@@ -2523,15 +2691,15 @@
           "percentage": 50
         },
         {
-          "groupName": "Эмираты",
+          "groupName": "Emiratis",
           "percentage": 20
         },
         {
-          "groupName": "Европейцы",
+          "groupName": "Europeans",
           "percentage": 15
         },
         {
-          "groupName": "Другие",
+          "groupName": "Others",
           "percentage": 15
         }
       ]
@@ -2543,10 +2711,66 @@
         "description": "Самый крупный центр искусств в регионе.",
         "openPositions": [
           {
-            "title": "Куратор",
-            "department": "Искусство",
+            "title": "Curator",
+            "department": "Arts",
             "salaryRange": "20-30 тысяч дирхамов ОАЭ",
             "experience": "4+ лет",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "ООО «Консалтинг Партнерс»",
+        "industry": "Управленческий консалтинг",
+        "description": "Специализированная консалтинговая фирма, специализирующаяся на стратегическом развитии бизнеса на Ближнем Востоке.",
+        "openPositions": [
+          {
+            "title": "Бизнес-аналитик",
+            "department": "Consulting",
+            "salaryRange": "12 000–18 000 дирхамов ОАЭ",
+            "experience": "3+ года",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Решения ТехФлоу",
+        "industry": "Разработка программного обеспечения",
+        "description": "Предоставление надежных архитектур программного обеспечения для корпоративных клиентов в ОАЭ.",
+        "openPositions": [
+          {
+            "title": "Фронтенд-разработчик",
+            "department": "Engineering",
+            "salaryRange": "15 000–20 000 дирхамов ОАЭ",
+            "experience": "2+ года",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Глобальный логистический центр",
+        "industry": "Logistics",
+        "description": "Управление сквозной инфраструктурой цепочки поставок для сетей импорта/экспорта.",
+        "openPositions": [
+          {
+            "title": "Координатор цепочки поставок",
+            "department": "Operations",
+            "salaryRange": "10 000–14 000 дирхамов ОАЭ",
+            "experience": "1+ год",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Кресент Недвижимость",
+        "industry": "Управление недвижимостью",
+        "description": "Управление коммерческой и жилой недвижимостью премиум-класса, соответствующей стандартам класса люкс.",
+        "openPositions": [
+          {
+            "title": "Лизинговый консультант",
+            "department": "Sales",
+            "salaryRange": "8 тысяч дирхамов ОАЭ + комиссия",
+            "experience": "2+ года",
             "careerUrl": "#"
           }
         ]
@@ -2578,7 +2802,7 @@
     },
     "laws": [
       {
-        "category": "Коммерческий",
+        "category": "Commercial",
         "title": "Промышленное зонирование",
         "description": "Некоторые зоны ограничены только для промышленного использования."
       }
@@ -2586,13 +2810,13 @@
     "bottomNotes": "Лучше всего подходит для творческих людей и тех, кто предпочитает нетрадиционный опыт Дубая.",
     "majorAttractions": [
       "Альсеркаль проспект",
-      "Двор"
+      "Courtyard"
     ]
   },
   {
     "id": "dubai-hills",
     "name": "Дубай Хиллз Эстейт",
-    "arabicName": "دبي هيلز استيت",
+    "arabicName": "Дэнни Уилсон",
     "tagline": "Зеленое сердце Дубая",
     "iconPath": "leaf",
     "colorTheme": "from-emerald-600 via-green-600 to-teal-700",
@@ -2626,15 +2850,15 @@
       ],
       "stats": [
         {
-          "groupName": "Европейцы",
+          "groupName": "Europeans",
           "percentage": 40
         },
         {
-          "groupName": "Эмираты",
+          "groupName": "Emiratis",
           "percentage": 25
         },
         {
-          "groupName": "индейцы",
+          "groupName": "Indians",
           "percentage": 20
         },
         {
@@ -2649,6 +2873,62 @@
         "industry": "Застройщик",
         "description": "Главный застройщик Dubai Hills Estate.",
         "openPositions": []
+      },
+      {
+        "name": "ООО «Консалтинг Партнерс»",
+        "industry": "Управленческий консалтинг",
+        "description": "Специализированная консалтинговая фирма, специализирующаяся на стратегическом развитии бизнеса на Ближнем Востоке.",
+        "openPositions": [
+          {
+            "title": "Бизнес-аналитик",
+            "department": "Consulting",
+            "salaryRange": "12 000–18 000 дирхамов ОАЭ",
+            "experience": "3+ года",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Решения ТехФлоу",
+        "industry": "Разработка программного обеспечения",
+        "description": "Предоставление надежных архитектур программного обеспечения для корпоративных клиентов в ОАЭ.",
+        "openPositions": [
+          {
+            "title": "Фронтенд-разработчик",
+            "department": "Engineering",
+            "salaryRange": "15 000–20 000 дирхамов ОАЭ",
+            "experience": "2+ года",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Глобальный логистический центр",
+        "industry": "Logistics",
+        "description": "Управление сквозной инфраструктурой цепочки поставок для сетей импорта/экспорта.",
+        "openPositions": [
+          {
+            "title": "Координатор цепочки поставок",
+            "department": "Operations",
+            "salaryRange": "10 000–14 000 дирхамов ОАЭ",
+            "experience": "1+ год",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Кресент Недвижимость",
+        "industry": "Управление недвижимостью",
+        "description": "Управление коммерческой и жилой недвижимостью премиум-класса, соответствующей стандартам класса люкс.",
+        "openPositions": [
+          {
+            "title": "Лизинговый консультант",
+            "department": "Sales",
+            "salaryRange": "8 тысяч дирхамов ОАЭ + комиссия",
+            "experience": "2+ года",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2663,8 +2943,8 @@
         "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=600&auto=format&fit=crop",
         "amenities": [
           "Вид на парк",
-          "Бассейн",
-          "Спортзал"
+          "Pool",
+          "Gym"
         ],
         "link": "#"
       }
@@ -2678,7 +2958,7 @@
     },
     "laws": [
       {
-        "category": "Сообщество",
+        "category": "Community",
         "title": "Рекомендации Эмаар",
         "description": "Строгие правила сообщества регулируют изменения и ландшафтный дизайн."
       }
@@ -2693,7 +2973,7 @@
   {
     "id": "discovery-gardens",
     "name": "Сады Дискавери и Ибн Баттута",
-    "arabicName": "ديسكفري جاردنز",
+    "arabicName": "Дэйв Диджей",
     "tagline": "Доступная жизнь в саду",
     "iconPath": "tree-pine",
     "colorTheme": "from-orange-400 via-yellow-500 to-lime-600",
@@ -2722,20 +3002,20 @@
       "description": "Район, ориентированный на ценности, населенный преимущественно выходцами из Южной и Юго-Восточной Азии, а также рабочими и представителями среднего класса.",
       "dominantGroups": [
         "Индийский рабочий/средний класс",
-        "Пакистанцы",
-        "Филиппинцы"
+        "Pakistanis",
+        "Filipinos"
       ],
       "stats": [
         {
-          "groupName": "индейцы",
+          "groupName": "Indians",
           "percentage": 45
         },
         {
-          "groupName": "Пакистанцы",
+          "groupName": "Pakistanis",
           "percentage": 25
         },
         {
-          "groupName": "Филиппинцы",
+          "groupName": "Filipinos",
           "percentage": 15
         },
         {
@@ -2743,7 +3023,7 @@
           "percentage": 10
         },
         {
-          "groupName": "Другие",
+          "groupName": "Others",
           "percentage": 5
         }
       ]
@@ -2751,9 +3031,65 @@
     "companies": [
       {
         "name": "Торговый центр Ибн Баттута",
-        "industry": "Розничная торговля",
+        "industry": "Retail",
         "description": "Тематический торговый центр, расположенный рядом с поселком.",
         "openPositions": []
+      },
+      {
+        "name": "ООО «Консалтинг Партнерс»",
+        "industry": "Управленческий консалтинг",
+        "description": "Специализированная консалтинговая фирма, специализирующаяся на стратегическом развитии бизнеса на Ближнем Востоке.",
+        "openPositions": [
+          {
+            "title": "Бизнес-аналитик",
+            "department": "Consulting",
+            "salaryRange": "12 000 – 18 000 дирхамов ОАЭ",
+            "experience": "3+ года",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Решения ТехФлоу",
+        "industry": "Разработка программного обеспечения",
+        "description": "Предоставление надежных архитектур программного обеспечения для корпоративных клиентов в ОАЭ.",
+        "openPositions": [
+          {
+            "title": "Фронтенд-разработчик",
+            "department": "Engineering",
+            "salaryRange": "15 000–20 000 дирхамов ОАЭ",
+            "experience": "2+ года",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Глобальный логистический центр",
+        "industry": "Logistics",
+        "description": "Управление сквозной инфраструктурой цепочки поставок для сетей импорта/экспорта.",
+        "openPositions": [
+          {
+            "title": "Координатор цепочки поставок",
+            "department": "Operations",
+            "salaryRange": "10 000–14 000 дирхамов ОАЭ",
+            "experience": "1+ год",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Кресент Недвижимость",
+        "industry": "Управление недвижимостью",
+        "description": "Управление коммерческой и жилой недвижимостью премиум-класса, соответствующей стандартам класса люкс.",
+        "openPositions": [
+          {
+            "title": "Лизинговый консультант",
+            "department": "Sales",
+            "salaryRange": "8 тысяч дирхамов ОАЭ + комиссия",
+            "experience": "2+ года",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2782,7 +3118,7 @@
     },
     "laws": [
       {
-        "category": "Сообщество",
+        "category": "Community",
         "title": "Рекомендации Нахил",
         "description": "Жилое зонирование без высотных башен."
       }
@@ -2796,7 +3132,7 @@
   {
     "id": "al-barsha",
     "name": "Аль Барша",
-    "arabicName": "البرشاء",
+    "arabicName": "برشاء",
     "tagline": "Яркий и связанный",
     "iconPath": "shopping-bag",
     "colorTheme": "from-blue-400 via-cyan-500 to-indigo-500",
@@ -2825,7 +3161,7 @@
       "description": "Сочетание традиционного Дубая и современной жизни иностранцев, с участием крупных местных эмиратских вилл и многонациональных жилых зон.",
       "dominantGroups": [
         "Арабские эмигранты",
-        "Эмираты",
+        "Emiratis",
         "Индийские профессионалы"
       ],
       "stats": [
@@ -2834,29 +3170,85 @@
           "percentage": 30
         },
         {
-          "groupName": "Эмираты",
+          "groupName": "Emiratis",
           "percentage": 25
         },
         {
-          "groupName": "индейцы",
+          "groupName": "Indians",
           "percentage": 25
         },
         {
-          "groupName": "Европейцы",
+          "groupName": "Europeans",
           "percentage": 10
         },
         {
-          "groupName": "Другие",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
     },
     "companies": [
       {
-        "name": "Mall of the Emirates",
+        "name": "Молл Эмиратов",
         "industry": "Розничная торговля и развлечения",
         "description": "Один из крупнейших торговых центров Дубая.",
         "openPositions": []
+      },
+      {
+        "name": "ООО «Консалтинг Партнерс»",
+        "industry": "Управленческий консалтинг",
+        "description": "Специализированная консалтинговая фирма, специализирующаяся на стратегическом развитии бизнеса на Ближнем Востоке.",
+        "openPositions": [
+          {
+            "title": "Бизнес-аналитик",
+            "department": "Consulting",
+            "salaryRange": "12 000–18 000 дирхамов ОАЭ",
+            "experience": "3+ года",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Решения ТехФлоу",
+        "industry": "Разработка программного обеспечения",
+        "description": "Предоставление надежных архитектур программного обеспечения для корпоративных клиентов в ОАЭ.",
+        "openPositions": [
+          {
+            "title": "Фронтенд-разработчик",
+            "department": "Engineering",
+            "salaryRange": "15 000–20 000 дирхамов ОАЭ",
+            "experience": "2+ года",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Глобальный логистический центр",
+        "industry": "Logistics",
+        "description": "Управление сквозной инфраструктурой цепочки поставок для сетей импорта/экспорта.",
+        "openPositions": [
+          {
+            "title": "Координатор цепочки поставок",
+            "department": "Operations",
+            "salaryRange": "10 000–14 000 дирхамов ОАЭ",
+            "experience": "1+ год",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Кресент Недвижимость",
+        "industry": "Управление недвижимостью",
+        "description": "Управление коммерческой и жилой недвижимостью премиум-класса, соответствующей стандартам класса люкс.",
+        "openPositions": [
+          {
+            "title": "Лизинговый консультант",
+            "department": "Sales",
+            "salaryRange": "8 тысяч дирхамов ОАЭ + комиссия",
+            "experience": "2+ года",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2870,7 +3262,7 @@
         "locationDetails": "Рядом МЧС и метро.",
         "image": "https://images.unsplash.com/photo-1502672260266-1c1e52408437?q=80&w=600&auto=format&fit=crop",
         "amenities": [
-          "Спортзал",
+          "Gym",
           "Бассейн на крыше"
         ],
         "link": "#"
@@ -2885,8 +3277,8 @@
     },
     "laws": [
       {
-        "category": "Свойство",
-        "title": "аренда",
+        "category": "Property",
+        "title": "Leasehold",
         "description": "Многие части находятся в аренде исключительно для граждан ОАЭ."
       }
     ],
@@ -2899,7 +3291,7 @@
   },
   {
     "id": "deira",
-    "name": "Дейра",
+    "name": "Deira",
     "arabicName": "ديرة",
     "tagline": "Историческая линия сердца",
     "iconPath": "ship",
@@ -2933,23 +3325,23 @@
       ],
       "stats": [
         {
-          "groupName": "индейцы",
+          "groupName": "Indians",
           "percentage": 45
         },
         {
-          "groupName": "Пакистанцы",
+          "groupName": "Pakistanis",
           "percentage": 25
         },
         {
-          "groupName": "Бангладешцы",
+          "groupName": "Bangladeshis",
           "percentage": 15
         },
         {
-          "groupName": "Эмираты",
+          "groupName": "Emiratis",
           "percentage": 5
         },
         {
-          "groupName": "Другие",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -2960,6 +3352,62 @@
         "industry": "Розничная торговля и торговля",
         "description": "Тысячи независимых торговцев ювелирными изделиями, специями и текстилем.",
         "openPositions": []
+      },
+      {
+        "name": "ООО «Консалтинг Партнерс»",
+        "industry": "Управленческий консалтинг",
+        "description": "Специализированная консалтинговая фирма, специализирующаяся на стратегическом развитии бизнеса на Ближнем Востоке.",
+        "openPositions": [
+          {
+            "title": "Бизнес-аналитик",
+            "department": "Consulting",
+            "salaryRange": "12 000–18 000 дирхамов ОАЭ",
+            "experience": "3+ года",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Решения ТехФлоу",
+        "industry": "Разработка программного обеспечения",
+        "description": "Предоставление надежных архитектур программного обеспечения для корпоративных клиентов в ОАЭ.",
+        "openPositions": [
+          {
+            "title": "Фронтенд-разработчик",
+            "department": "Engineering",
+            "salaryRange": "15 000–20 000 дирхамов ОАЭ",
+            "experience": "2+ года",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Глобальный логистический центр",
+        "industry": "Logistics",
+        "description": "Управление сквозной инфраструктурой цепочки поставок для сетей импорта/экспорта.",
+        "openPositions": [
+          {
+            "title": "Координатор цепочки поставок",
+            "department": "Operations",
+            "salaryRange": "10 000–14 000 дирхамов ОАЭ",
+            "experience": "1+ год",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Кресент Недвижимость",
+        "industry": "Управление недвижимостью",
+        "description": "Управление коммерческой и жилой недвижимостью премиум-класса, соответствующей стандартам класса люкс.",
+        "openPositions": [
+          {
+            "title": "Лизинговый консультант",
+            "department": "Sales",
+            "salaryRange": "8 тысяч дирхамов ОАЭ + комиссия",
+            "experience": "2+ года",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2974,7 +3422,7 @@
         "image": "https://images.unsplash.com/photo-1582653211939-2e0f40d04db9?q=80&w=600&auto=format&fit=crop",
         "amenities": [
           "Рядом с метро",
-          "Балкон"
+          "Balcony"
         ],
         "link": "#"
       }

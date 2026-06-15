@@ -62,7 +62,7 @@
           "percentage": 10
         },
         {
-          "groupName": "Andere",
+          "groupName": "Others",
           "percentage": 15
         }
       ]
@@ -89,7 +89,7 @@
           },
           {
             "title": "Architekt für Infrastruktursicherheit",
-            "department": "Cybersicherheit",
+            "department": "Cybersecurity",
             "salaryRange": "40.000 - 55.000 AED/Monat",
             "experience": "7+ Jahre",
             "careerUrl": "https://www.goldmansachs.com/careers"
@@ -400,15 +400,15 @@
         "Wohlhabende Europäer",
         "Wohlhabende Inder/Pakistaner",
         "Wohlhabende Emiratis",
-        "chinesisch"
+        "Chinese"
       ],
       "stats": [
         {
-          "groupName": "Europäer",
+          "groupName": "Europeans",
           "percentage": 35
         },
         {
-          "groupName": "Indianer",
+          "groupName": "Indians",
           "percentage": 25
         },
         {
@@ -420,7 +420,7 @@
           "percentage": 15
         },
         {
-          "groupName": "Andere",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -469,7 +469,7 @@
         ]
       },
       {
-        "name": "Noon.com HQ",
+        "name": "Hauptsitz von Noon.com",
         "industry": "E-Commerce und Logistik",
         "description": "Noon ist das führende digitale Marktplatz-Ökosystem im Nahen Osten und treibt hochmoderne hyperlokale Fintech-, Logistik-, Lebensmittelvertriebs-Apps und Produkthandelsplattformen voran.",
         "openPositions": [
@@ -511,7 +511,7 @@
         ]
       },
       {
-        "name": "Careem Technologies",
+        "name": "Careem-Technologien",
         "industry": "Ride-Hailing und Super-App-Technologie",
         "description": "Der stolze einheimische Technologieriese der VAE und Uber-Tochtergesellschaft entwickelt eine Super-App-Plattform mit vollem Spektrum, die Fahrgäste, Peer-to-Peer-Kryptozahlungen, Lebensmittel, Lebensmitteldienstleistungen und Partnernetzwerke bietet.",
         "openPositions": [
@@ -702,7 +702,7 @@
         "description": "Strenge Durchsetzung angemessener, bescheidener Kleidung in Emaar-Einkaufszentren und öffentlichen Gehwegen sowie strenge Vorschriften, die leidenschaftliche öffentliche Zuneigungsbekundungen einschränken."
       },
       {
-        "category": "Nachtleben",
+        "category": "Nightlife",
         "title": "Lizenzierter Alkoholkonsum",
         "description": "Der Alkoholkonsum in öffentlichen Bereichen außerhalb zertifizierter Hotels, Kneipen oder Privatlokalen mit personalisierter elektronischer Lizenz bleibt weiterhin illegal."
       }
@@ -774,11 +774,11 @@
           "percentage": 10
         },
         {
-          "groupName": "Indianer",
+          "groupName": "Indians",
           "percentage": 10
         },
         {
-          "groupName": "Andere",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -827,7 +827,7 @@
         ]
       },
       {
-        "name": "Property Finder Tech UAE",
+        "name": "Property Finder Tech VAE",
         "industry": "PropTech-Marktplatz",
         "description": "Die führende digitale Immobilienplattform im Nahen Osten, die branchenübliche Miet- und Kaufdatenbanken, automatisierte Marktpreis-APIs und Maklertools entwickelt.",
         "openPositions": [
@@ -953,7 +953,7 @@
         ]
       },
       {
-        "name": "Deliveroo UAE HQ",
+        "name": "Deliveroo VAE-Hauptquartier",
         "industry": "On-Demand-Lieferplattform",
         "description": "Pioniere ultraschneller, automatisierter Versandsysteme und Logistiknetzwerke für die Lebensmittelzustellung, die lokalen Händlern zum Erfolg verhelfen.",
         "openPositions": [
@@ -1060,7 +1060,7 @@
         "description": "Die Dubai Maritime Authority erlaubt das Auslaufen und Betreiben von Yachten nur unter staatlich geprüften, lizenzierten Skippern, die den Anweisungen der Küstenwache folgen."
       },
       {
-        "category": "Mietverhältnis",
+        "category": "Tenancy",
         "title": "Saisonale Mietverträge mit hoher Nachfrage",
         "description": "Aufgrund der hohen Touristendichte müssen kurzfristige Untervermietungen offiziell auf der DTCM-Plattform als Ferienhäuser registriert werden; Für nicht lizenzierte Airbnb-Inserate werden empfindliche Strafen von über 5.000 AED verhängt."
       }
@@ -1119,15 +1119,15 @@
       ],
       "stats": [
         {
-          "groupName": "Indianer",
+          "groupName": "Indians",
           "percentage": 35
         },
         {
-          "groupName": "Europäer",
+          "groupName": "Europeans",
           "percentage": 25
         },
         {
-          "groupName": "Pakistaner",
+          "groupName": "Pakistanis",
           "percentage": 15
         },
         {
@@ -1135,7 +1135,7 @@
           "percentage": 15
         },
         {
-          "groupName": "Andere",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -1433,7 +1433,7 @@
   {
     "id": "internet-city",
     "name": "Dubai Internet City (DIC)",
-    "arabicName": "مدينة دبي للإنترنت",
+    "arabicName": "Mehr als ein Jahr zuvor",
     "tagline": "Silicon Valley des Nahen Ostens",
     "iconPath": "network",
     "colorTheme": "from-blue-600 via-indigo-600 to-purple-700",
@@ -1476,11 +1476,11 @@
       ],
       "stats": [
         {
-          "groupName": "Indianer",
+          "groupName": "Indians",
           "percentage": 40
         },
         {
-          "groupName": "Europäer",
+          "groupName": "Europeans",
           "percentage": 25
         },
         {
@@ -1488,11 +1488,11 @@
           "percentage": 20
         },
         {
-          "groupName": "Pakistaner",
+          "groupName": "Pakistanis",
           "percentage": 10
         },
         {
-          "groupName": "Andere",
+          "groupName": "Others",
           "percentage": 5
         }
       ]
@@ -1774,7 +1774,7 @@
         "description": "Büroräume im DIC müssen strikt innerhalb der digitalen Serviceparameter funktionieren. Standard-Einzelhandelsgeschäfte können keine Bürozonierung erhalten."
       },
       {
-        "category": "Operationen",
+        "category": "Operations",
         "title": "Sponsoring eines Remote-Work-Visums",
         "description": "Freiberufler können Visumkategorien für digitale Nomaden und Remote-Workspaces direkt über die TECOM AXS-Portaldienste bearbeiten."
       }
@@ -1833,7 +1833,7 @@
       ],
       "stats": [
         {
-          "groupName": "Indianer",
+          "groupName": "Indians",
           "percentage": 40
         },
         {
@@ -1841,7 +1841,7 @@
           "percentage": 25
         },
         {
-          "groupName": "Pakistaner",
+          "groupName": "Pakistanis",
           "percentage": 20
         },
         {
@@ -1849,7 +1849,7 @@
           "percentage": 5
         },
         {
-          "groupName": "Andere",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -2147,7 +2147,7 @@
   {
     "id": "business-bay",
     "name": "Business Bay",
-    "arabicName": "الخليج التجاري",
+    "arabicName": "خليج التجاري",
     "tagline": "Das kommerzielle Herz",
     "iconPath": "building",
     "colorTheme": "from-blue-600 via-indigo-600 to-purple-700",
@@ -2182,11 +2182,11 @@
       ],
       "stats": [
         {
-          "groupName": "Indianer",
+          "groupName": "Indians",
           "percentage": 30
         },
         {
-          "groupName": "Europäer",
+          "groupName": "Europeans",
           "percentage": 25
         },
         {
@@ -2194,11 +2194,11 @@
           "percentage": 20
         },
         {
-          "groupName": "Pakistaner",
+          "groupName": "Pakistanis",
           "percentage": 10
         },
         {
-          "groupName": "Andere",
+          "groupName": "Others",
           "percentage": 15
         }
       ]
@@ -2217,6 +2217,62 @@
             "careerUrl": "#"
           }
         ]
+      },
+      {
+        "name": "Consulting Partners Ltd",
+        "industry": "Unternehmensberatung",
+        "description": "Ein engagiertes Beratungsunternehmen, das sich auf strategisches Geschäftswachstum im Nahen Osten spezialisiert hat.",
+        "openPositions": [
+          {
+            "title": "Business-Analyst",
+            "department": "Consulting",
+            "salaryRange": "AED 12.000 - 18.000",
+            "experience": "3+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "TechFlow-Lösungen",
+        "industry": "Softwareentwicklung",
+        "description": "Bereitstellung robuster Softwarearchitekturen für Unternehmenskunden in den Vereinigten Arabischen Emiraten.",
+        "openPositions": [
+          {
+            "title": "Frontend-Entwickler",
+            "department": "Engineering",
+            "salaryRange": "AED 15.000 - 20.000",
+            "experience": "2+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Globaler Logistikknotenpunkt",
+        "industry": "Logistics",
+        "description": "Verwaltung der End-to-End-Lieferketteninfrastruktur für Import-/Exportnetzwerke.",
+        "openPositions": [
+          {
+            "title": "Koordinator der Lieferkette",
+            "department": "Operations",
+            "salaryRange": "AED 10.000 - 14.000",
+            "experience": "1+ Jahr",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Crescent Immobilien",
+        "industry": "Immobilienverwaltung",
+        "description": "Verwaltung hochwertiger Gewerbe- und Wohnimmobilien mit Luxusstandard.",
+        "openPositions": [
+          {
+            "title": "Leasingberater",
+            "department": "Sales",
+            "salaryRange": "8.000 AED + Provision",
+            "experience": "2+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2231,7 +2287,7 @@
         "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=600&auto=format&fit=crop",
         "amenities": [
           "Pool",
-          "Fitnessstudio"
+          "Gym"
         ],
         "link": "#"
       }
@@ -2259,7 +2315,7 @@
   {
     "id": "palm-jumeirah",
     "name": "Palm Jumeirah",
-    "arabicName": "نخلة الجميرا",
+    "arabicName": "Kein Problem",
     "tagline": "Achtes Weltwunder",
     "iconPath": "palmtree",
     "colorTheme": "from-amber-400 via-orange-500 to-rose-500",
@@ -2302,7 +2358,7 @@
           "percentage": 20
         },
         {
-          "groupName": "Indianer",
+          "groupName": "Indians",
           "percentage": 15
         },
         {
@@ -2310,7 +2366,7 @@
           "percentage": 10
         },
         {
-          "groupName": "Andere",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -2323,9 +2379,65 @@
         "openPositions": [
           {
             "title": "Guest Experience Director",
-            "department": "Gastfreundschaft",
+            "department": "Hospitality",
             "salaryRange": "40.000-50.000 AED",
             "experience": "8+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Nakheel Mall",
+        "industry": "Einzelhandelsmanagement",
+        "description": "Wichtiges Einkaufsziel auf Palm Jumeirah.",
+        "openPositions": [
+          {
+            "title": "Einzelhandelsmanager",
+            "department": "Operations",
+            "salaryRange": "15.000 AED",
+            "experience": "5+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Consulting Partners Ltd",
+        "industry": "Unternehmensberatung",
+        "description": "Ein engagiertes Beratungsunternehmen, das sich auf strategisches Geschäftswachstum im Nahen Osten spezialisiert hat.",
+        "openPositions": [
+          {
+            "title": "Business-Analyst",
+            "department": "Consulting",
+            "salaryRange": "AED 12.000 - 18.000",
+            "experience": "3+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "TechFlow-Lösungen",
+        "industry": "Softwareentwicklung",
+        "description": "Bereitstellung robuster Softwarearchitekturen für Unternehmenskunden in den Vereinigten Arabischen Emiraten.",
+        "openPositions": [
+          {
+            "title": "Frontend-Entwickler",
+            "department": "Engineering",
+            "salaryRange": "AED 15.000 - 20.000",
+            "experience": "2+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Globaler Logistikknotenpunkt",
+        "industry": "Logistics",
+        "description": "Verwaltung der End-to-End-Lieferketteninfrastruktur für Import-/Exportnetzwerke.",
+        "openPositions": [
+          {
+            "title": "Koordinator der Lieferkette",
+            "department": "Operations",
+            "salaryRange": "AED 10.000 - 14.000",
+            "experience": "1+ Jahr",
             "careerUrl": "#"
           }
         ]
@@ -2343,7 +2455,7 @@
         "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=600&auto=format&fit=crop",
         "amenities": [
           "Privatstrand",
-          "Fitnessstudio"
+          "Gym"
         ],
         "link": "#"
       }
@@ -2408,15 +2520,15 @@
       ],
       "stats": [
         {
-          "groupName": "Indianer",
+          "groupName": "Indians",
           "percentage": 30
         },
         {
-          "groupName": "Pakistaner",
+          "groupName": "Pakistanis",
           "percentage": 20
         },
         {
-          "groupName": "Europäer",
+          "groupName": "Europeans",
           "percentage": 20
         },
         {
@@ -2432,7 +2544,7 @@
     "companies": [
       {
         "name": "FÜNF Jumeirah Village",
-        "industry": "Gastfreundschaft",
+        "industry": "Hospitality",
         "description": "Luxushotel und Residenzen, berühmt für seine Architektur und seinen Lebensstil.",
         "openPositions": [
           {
@@ -2440,6 +2552,62 @@
             "department": "Management",
             "salaryRange": "15.000-25.000 AED",
             "experience": "5+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Consulting Partners Ltd",
+        "industry": "Unternehmensberatung",
+        "description": "Ein engagiertes Beratungsunternehmen, das sich auf strategisches Geschäftswachstum im Nahen Osten spezialisiert hat.",
+        "openPositions": [
+          {
+            "title": "Business-Analyst",
+            "department": "Consulting",
+            "salaryRange": "AED 12.000 - 18.000",
+            "experience": "3+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "TechFlow-Lösungen",
+        "industry": "Softwareentwicklung",
+        "description": "Bereitstellung robuster Softwarearchitekturen für Unternehmenskunden in den Vereinigten Arabischen Emiraten.",
+        "openPositions": [
+          {
+            "title": "Frontend-Entwickler",
+            "department": "Engineering",
+            "salaryRange": "AED 15.000 - 20.000",
+            "experience": "2+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Globaler Logistikknotenpunkt",
+        "industry": "Logistics",
+        "description": "Verwaltung der End-to-End-Lieferketteninfrastruktur für Import-/Exportnetzwerke.",
+        "openPositions": [
+          {
+            "title": "Koordinator der Lieferkette",
+            "department": "Operations",
+            "salaryRange": "AED 10.000 - 14.000",
+            "experience": "1+ Jahr",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Crescent Immobilien",
+        "industry": "Immobilienverwaltung",
+        "description": "Verwaltung hochwertiger Gewerbe- und Wohnimmobilien mit Luxusstandard.",
+        "openPositions": [
+          {
+            "title": "Leasingberater",
+            "department": "Sales",
+            "salaryRange": "8.000 AED + Provision",
+            "experience": "2+ Jahre",
             "careerUrl": "#"
           }
         ]
@@ -2457,8 +2625,8 @@
         "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=600&auto=format&fit=crop",
         "amenities": [
           "Pool",
-          "Fitnessstudio",
-          "Balkon"
+          "Gym",
+          "Balcony"
         ],
         "link": "#"
       }
@@ -2527,11 +2695,11 @@
           "percentage": 20
         },
         {
-          "groupName": "Europäer",
+          "groupName": "Europeans",
           "percentage": 15
         },
         {
-          "groupName": "Andere",
+          "groupName": "Others",
           "percentage": 15
         }
       ]
@@ -2543,10 +2711,66 @@
         "description": "Wichtigstes Kunstzentrum der Region.",
         "openPositions": [
           {
-            "title": "Kurator",
-            "department": "Kunst",
+            "title": "Curator",
+            "department": "Arts",
             "salaryRange": "20.000-30.000 AED",
             "experience": "4+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Consulting Partners Ltd",
+        "industry": "Unternehmensberatung",
+        "description": "Ein engagiertes Beratungsunternehmen, das sich auf strategisches Geschäftswachstum im Nahen Osten spezialisiert hat.",
+        "openPositions": [
+          {
+            "title": "Business-Analyst",
+            "department": "Consulting",
+            "salaryRange": "AED 12.000 - 18.000",
+            "experience": "3+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "TechFlow-Lösungen",
+        "industry": "Softwareentwicklung",
+        "description": "Bereitstellung robuster Softwarearchitekturen für Unternehmenskunden in den Vereinigten Arabischen Emiraten.",
+        "openPositions": [
+          {
+            "title": "Frontend-Entwickler",
+            "department": "Engineering",
+            "salaryRange": "AED 15.000 - 20.000",
+            "experience": "2+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Globaler Logistikknotenpunkt",
+        "industry": "Logistics",
+        "description": "Verwaltung der End-to-End-Lieferketteninfrastruktur für Import-/Exportnetzwerke.",
+        "openPositions": [
+          {
+            "title": "Koordinator der Lieferkette",
+            "department": "Operations",
+            "salaryRange": "AED 10.000 - 14.000",
+            "experience": "1+ Jahr",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Crescent Immobilien",
+        "industry": "Immobilienverwaltung",
+        "description": "Verwaltung hochwertiger Gewerbe- und Wohnimmobilien mit Luxusstandard.",
+        "openPositions": [
+          {
+            "title": "Leasingberater",
+            "department": "Sales",
+            "salaryRange": "8.000 AED + Provision",
+            "experience": "2+ Jahre",
             "careerUrl": "#"
           }
         ]
@@ -2578,7 +2802,7 @@
     },
     "laws": [
       {
-        "category": "Kommerziell",
+        "category": "Commercial",
         "title": "Industrielle Zoneneinteilung",
         "description": "Bestimmte Bereiche sind nur für die industrielle Nutzung vorgesehen."
       }
@@ -2586,13 +2810,13 @@
     "bottomNotes": "Am besten für Kreative und diejenigen, die ein nicht-traditionelles Dubai-Erlebnis bevorzugen.",
     "majorAttractions": [
       "Alserkal Avenue",
-      "Hof"
+      "Courtyard"
     ]
   },
   {
     "id": "dubai-hills",
     "name": "Dubai Hills Estate",
-    "arabicName": "دبي هيلز استيت",
+    "arabicName": "Ich bin noch nicht fertig",
     "tagline": "Das Grüne Herz von Dubai",
     "iconPath": "leaf",
     "colorTheme": "from-emerald-600 via-green-600 to-teal-700",
@@ -2626,7 +2850,7 @@
       ],
       "stats": [
         {
-          "groupName": "Europäer",
+          "groupName": "Europeans",
           "percentage": 40
         },
         {
@@ -2634,7 +2858,7 @@
           "percentage": 25
         },
         {
-          "groupName": "Indianer",
+          "groupName": "Indians",
           "percentage": 20
         },
         {
@@ -2649,6 +2873,62 @@
         "industry": "Immobilienentwickler",
         "description": "Der Hauptentwickler hinter Dubai Hills Estate.",
         "openPositions": []
+      },
+      {
+        "name": "Consulting Partners Ltd",
+        "industry": "Unternehmensberatung",
+        "description": "Ein engagiertes Beratungsunternehmen, das sich auf strategisches Geschäftswachstum im Nahen Osten spezialisiert hat.",
+        "openPositions": [
+          {
+            "title": "Business-Analyst",
+            "department": "Consulting",
+            "salaryRange": "AED 12.000 - 18.000",
+            "experience": "3+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "TechFlow-Lösungen",
+        "industry": "Softwareentwicklung",
+        "description": "Bereitstellung robuster Softwarearchitekturen für Unternehmenskunden in den Vereinigten Arabischen Emiraten.",
+        "openPositions": [
+          {
+            "title": "Frontend-Entwickler",
+            "department": "Engineering",
+            "salaryRange": "AED 15.000 - 20.000",
+            "experience": "2+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Globaler Logistikknotenpunkt",
+        "industry": "Logistics",
+        "description": "Verwaltung der End-to-End-Lieferketteninfrastruktur für Import-/Exportnetzwerke.",
+        "openPositions": [
+          {
+            "title": "Koordinator der Lieferkette",
+            "department": "Operations",
+            "salaryRange": "AED 10.000 - 14.000",
+            "experience": "1+ Jahr",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Crescent Immobilien",
+        "industry": "Immobilienverwaltung",
+        "description": "Verwaltung hochwertiger Gewerbe- und Wohnimmobilien mit Luxusstandard.",
+        "openPositions": [
+          {
+            "title": "Leasingberater",
+            "department": "Sales",
+            "salaryRange": "8.000 AED + Provision",
+            "experience": "2+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2664,7 +2944,7 @@
         "amenities": [
           "Parkblick",
           "Pool",
-          "Fitnessstudio"
+          "Gym"
         ],
         "link": "#"
       }
@@ -2678,7 +2958,7 @@
     },
     "laws": [
       {
-        "category": "Gemeinschaft",
+        "category": "Community",
         "title": "Emaar-Richtlinien",
         "description": "Für Änderungen und Landschaftsgestaltung gelten strenge Gemeinschaftsregeln."
       }
@@ -2722,16 +3002,16 @@
       "description": "Ein wertorientiertes Gebiet, in dem überwiegend südasiatische und südostasiatische Arbeiter und Auswanderer der Mittelschicht leben.",
       "dominantGroups": [
         "Indische Arbeiter-/Mittelschicht",
-        "Pakistaner",
+        "Pakistanis",
         "Filipinos"
       ],
       "stats": [
         {
-          "groupName": "Indianer",
+          "groupName": "Indians",
           "percentage": 45
         },
         {
-          "groupName": "Pakistaner",
+          "groupName": "Pakistanis",
           "percentage": 25
         },
         {
@@ -2743,7 +3023,7 @@
           "percentage": 10
         },
         {
-          "groupName": "Andere",
+          "groupName": "Others",
           "percentage": 5
         }
       ]
@@ -2751,9 +3031,65 @@
     "companies": [
       {
         "name": "Ibn Battuta Mall",
-        "industry": "Einzelhandel",
+        "industry": "Retail",
         "description": "Themen-Einkaufszentrum neben der Gemeinde.",
         "openPositions": []
+      },
+      {
+        "name": "Consulting Partners Ltd",
+        "industry": "Unternehmensberatung",
+        "description": "Ein engagiertes Beratungsunternehmen, das sich auf strategisches Geschäftswachstum im Nahen Osten spezialisiert hat.",
+        "openPositions": [
+          {
+            "title": "Business-Analyst",
+            "department": "Consulting",
+            "salaryRange": "AED 12.000 - 18.000",
+            "experience": "3+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "TechFlow-Lösungen",
+        "industry": "Softwareentwicklung",
+        "description": "Bereitstellung robuster Softwarearchitekturen für Unternehmenskunden in den Vereinigten Arabischen Emiraten.",
+        "openPositions": [
+          {
+            "title": "Frontend-Entwickler",
+            "department": "Engineering",
+            "salaryRange": "AED 15.000 - 20.000",
+            "experience": "2+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Globaler Logistikknotenpunkt",
+        "industry": "Logistics",
+        "description": "Verwaltung der End-to-End-Lieferketteninfrastruktur für Import-/Exportnetzwerke.",
+        "openPositions": [
+          {
+            "title": "Koordinator der Lieferkette",
+            "department": "Operations",
+            "salaryRange": "AED 10.000 - 14.000",
+            "experience": "1+ Jahr",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Crescent Immobilien",
+        "industry": "Immobilienverwaltung",
+        "description": "Verwaltung hochwertiger Gewerbe- und Wohnimmobilien mit Luxusstandard.",
+        "openPositions": [
+          {
+            "title": "Leasingberater",
+            "department": "Sales",
+            "salaryRange": "8.000 AED + Provision",
+            "experience": "2+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2782,7 +3118,7 @@
     },
     "laws": [
       {
-        "category": "Gemeinschaft",
+        "category": "Community",
         "title": "Nakheel-Richtlinien",
         "description": "Wohnzonierung ohne Hochhaustürme."
       }
@@ -2838,25 +3174,81 @@
           "percentage": 25
         },
         {
-          "groupName": "Indianer",
+          "groupName": "Indians",
           "percentage": 25
         },
         {
-          "groupName": "Europäer",
+          "groupName": "Europeans",
           "percentage": 10
         },
         {
-          "groupName": "Andere",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
     },
     "companies": [
       {
-        "name": "Mall of the Emirates",
+        "name": "Einkaufszentrum der Emirate",
         "industry": "Einzelhandel und Unterhaltung",
         "description": "Eines der größten Einkaufszentren in Dubai.",
         "openPositions": []
+      },
+      {
+        "name": "Consulting Partners Ltd",
+        "industry": "Unternehmensberatung",
+        "description": "Ein engagiertes Beratungsunternehmen, das sich auf strategisches Geschäftswachstum im Nahen Osten spezialisiert hat.",
+        "openPositions": [
+          {
+            "title": "Business-Analyst",
+            "department": "Consulting",
+            "salaryRange": "AED 12.000 - 18.000",
+            "experience": "3+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "TechFlow-Lösungen",
+        "industry": "Softwareentwicklung",
+        "description": "Bereitstellung robuster Softwarearchitekturen für Unternehmenskunden in den Vereinigten Arabischen Emiraten.",
+        "openPositions": [
+          {
+            "title": "Frontend-Entwickler",
+            "department": "Engineering",
+            "salaryRange": "AED 15.000 - 20.000",
+            "experience": "2+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Globaler Logistikknotenpunkt",
+        "industry": "Logistics",
+        "description": "Verwaltung der End-to-End-Lieferketteninfrastruktur für Import-/Exportnetzwerke.",
+        "openPositions": [
+          {
+            "title": "Koordinator der Lieferkette",
+            "department": "Operations",
+            "salaryRange": "AED 10.000 - 14.000",
+            "experience": "1+ Jahr",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Crescent Immobilien",
+        "industry": "Immobilienverwaltung",
+        "description": "Verwaltung hochwertiger Gewerbe- und Wohnimmobilien mit Luxusstandard.",
+        "openPositions": [
+          {
+            "title": "Leasingberater",
+            "department": "Sales",
+            "salaryRange": "8.000 AED + Provision",
+            "experience": "2+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2870,7 +3262,7 @@
         "locationDetails": "In der Nähe von MOE und U-Bahn.",
         "image": "https://images.unsplash.com/photo-1502672260266-1c1e52408437?q=80&w=600&auto=format&fit=crop",
         "amenities": [
-          "Fitnessstudio",
+          "Gym",
           "Pool auf dem Dach"
         ],
         "link": "#"
@@ -2885,8 +3277,8 @@
     },
     "laws": [
       {
-        "category": "Eigentum",
-        "title": "Pacht",
+        "category": "Property",
+        "title": "Leasehold",
         "description": "Viele Teile sind ausschließlich an Staatsangehörige der VAE gepachtet."
       }
     ],
@@ -2900,7 +3292,7 @@
   {
     "id": "deira",
     "name": "Deira",
-    "arabicName": "ديرة",
+    "arabicName": "Tag",
     "tagline": "Die historische Herzlinie",
     "iconPath": "ship",
     "colorTheme": "from-yellow-600 via-amber-600 to-orange-700",
@@ -2933,15 +3325,15 @@
       ],
       "stats": [
         {
-          "groupName": "Indianer",
+          "groupName": "Indians",
           "percentage": 45
         },
         {
-          "groupName": "Pakistaner",
+          "groupName": "Pakistanis",
           "percentage": 25
         },
         {
-          "groupName": "Bangladescher",
+          "groupName": "Bangladeshis",
           "percentage": 15
         },
         {
@@ -2949,7 +3341,7 @@
           "percentage": 5
         },
         {
-          "groupName": "Andere",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -2960,6 +3352,62 @@
         "industry": "Einzelhandel & Handel",
         "description": "Tausende unabhängige Schmuck-, Gewürz- und Textilhändler.",
         "openPositions": []
+      },
+      {
+        "name": "Consulting Partners Ltd",
+        "industry": "Unternehmensberatung",
+        "description": "Ein engagiertes Beratungsunternehmen, das sich auf strategisches Geschäftswachstum im Nahen Osten spezialisiert hat.",
+        "openPositions": [
+          {
+            "title": "Business-Analyst",
+            "department": "Consulting",
+            "salaryRange": "AED 12.000 - 18.000",
+            "experience": "3+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "TechFlow-Lösungen",
+        "industry": "Softwareentwicklung",
+        "description": "Bereitstellung robuster Softwarearchitekturen für Unternehmenskunden in den Vereinigten Arabischen Emiraten.",
+        "openPositions": [
+          {
+            "title": "Frontend-Entwickler",
+            "department": "Engineering",
+            "salaryRange": "AED 15.000 - 20.000",
+            "experience": "2+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Globaler Logistikknotenpunkt",
+        "industry": "Logistics",
+        "description": "Verwaltung der End-to-End-Lieferketteninfrastruktur für Import-/Exportnetzwerke.",
+        "openPositions": [
+          {
+            "title": "Koordinator der Lieferkette",
+            "department": "Operations",
+            "salaryRange": "AED 10.000 - 14.000",
+            "experience": "1+ Jahr",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Crescent Immobilien",
+        "industry": "Immobilienverwaltung",
+        "description": "Verwaltung hochwertiger Gewerbe- und Wohnimmobilien mit Luxusstandard.",
+        "openPositions": [
+          {
+            "title": "Leasingberater",
+            "department": "Sales",
+            "salaryRange": "8.000 AED + Provision",
+            "experience": "2+ Jahre",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2974,7 +3422,7 @@
         "image": "https://images.unsplash.com/photo-1582653211939-2e0f40d04db9?q=80&w=600&auto=format&fit=crop",
         "amenities": [
           "In der Nähe der U-Bahn",
-          "Balkon"
+          "Balcony"
         ],
         "link": "#"
       }

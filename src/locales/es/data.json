@@ -42,7 +42,7 @@
         "Expatriados europeos",
         "Indios con altos ingresos",
         "Expatriados árabes",
-        "Emiratos"
+        "Emiratis"
       ],
       "stats": [
         {
@@ -58,11 +58,11 @@
           "percentage": 15
         },
         {
-          "groupName": "Emiratos",
+          "groupName": "Emiratis",
           "percentage": 10
         },
         {
-          "groupName": "Otros",
+          "groupName": "Others",
           "percentage": 15
         }
       ]
@@ -89,7 +89,7 @@
           },
           {
             "title": "Arquitecto de seguridad de infraestructura",
-            "department": "Ciberseguridad",
+            "department": "Cybersecurity",
             "salaryRange": "40.000 - 55.000 AED/mes",
             "experience": "7+ años",
             "careerUrl": "https://www.goldmansachs.com/careers"
@@ -131,7 +131,7 @@
           },
           {
             "title": "Analista senior de operaciones de seguridad",
-            "department": "Operaciones de seguridad",
+            "department": "SecOps",
             "salaryRange": "32.000 - 42.000 AED/mes",
             "experience": "4-6 años",
             "careerUrl": "https://www.binance.com/en/careers"
@@ -317,7 +317,7 @@
       {
         "id": "difc-apt-3",
         "title": "Estudio moderno y acogedor, casa de piedra caliza",
-        "bedrooms": "Estudio",
+        "bedrooms": "Studio",
         "bathrooms": 1,
         "sizeSqFt": 580,
         "priceAED": 90000,
@@ -400,15 +400,15 @@
         "Europeos ricos",
         "Indios/paquistaníes ricos",
         "Emiratos ricos",
-        "Chino"
+        "Chinese"
       ],
       "stats": [
         {
-          "groupName": "europeos",
+          "groupName": "Europeans",
           "percentage": 35
         },
         {
-          "groupName": "indios",
+          "groupName": "Indians",
           "percentage": 25
         },
         {
@@ -416,11 +416,11 @@
           "percentage": 15
         },
         {
-          "groupName": "Emiratos",
+          "groupName": "Emiratis",
           "percentage": 15
         },
         {
-          "groupName": "Otros",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -469,7 +469,7 @@
         ]
       },
       {
-        "name": "Noon.com HQ",
+        "name": "Sede de Noon.com",
         "industry": "Comercio electrónico y logística",
         "description": "Noon es el ecosistema de mercado digital líder en Medio Oriente, que impulsa aplicaciones de tecnología financiera, logística, distribución de alimentos y plataformas de comercio de productos hiperlocales de vanguardia.",
         "openPositions": [
@@ -511,13 +511,13 @@
         ]
       },
       {
-        "name": "Careem Technologies",
+        "name": "Careem Tecnologías",
         "industry": "Transporte compartido y tecnología de súper aplicaciones",
         "description": "El orgulloso gigante tecnológico local de los EAU y filial de Uber, está desarrollando una plataforma de súper aplicaciones de espectro completo que ofrece viajes de pasajeros, pagos criptográficos entre pares, alimentos, servicios de comestibles y redes de socios.",
         "openPositions": [
           {
             "title": "Ingeniero Principal de Software (Java/Kotlin/Node)",
-            "department": "Careem Pay Engineering",
+            "department": "Ingeniería salarial de Careem",
             "salaryRange": "48.000 - 65.000 AED/mes",
             "experience": "7+ años",
             "careerUrl": "https://careers.careem.com/"
@@ -675,7 +675,7 @@
       {
         "id": "downtown-apt-3",
         "title": "Elegante y acogedor estudio, Standpoint Towers",
-        "bedrooms": "Estudio",
+        "bedrooms": "Studio",
         "bathrooms": 1,
         "sizeSqFt": 540,
         "priceAED": 80000,
@@ -702,7 +702,7 @@
         "description": "Aplicación estricta de la vestimenta modesta y apropiada dentro de los centros comerciales y pasillos públicos de Emaar, y regulaciones severas que restringen las muestras públicas apasionadas de afecto."
       },
       {
-        "category": "Vida nocturna",
+        "category": "Nightlife",
         "title": "Consumo de alcohol autorizado",
         "description": "El consumo de alcohol en zonas públicas fuera de hoteles, pubs o locales residenciales certificados con licencia electrónica personalizada sigue siendo ilegal."
       }
@@ -774,11 +774,11 @@
           "percentage": 10
         },
         {
-          "groupName": "indios",
+          "groupName": "Indians",
           "percentage": 10
         },
         {
-          "groupName": "Otros",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -827,7 +827,7 @@
         ]
       },
       {
-        "name": "Property Finder Tech UAE",
+        "name": "Buscador de propiedades Tech EAU",
         "industry": "Mercado de tecnología prop",
         "description": "La plataforma inmobiliaria digital dominante en Oriente Medio, que diseña bases de datos de compra y alquiler estándar de la industria, API automatizadas de precios de mercado y herramientas de intermediación.",
         "openPositions": [
@@ -869,7 +869,7 @@
         ]
       },
       {
-        "name": "Dubizzle Labs",
+        "name": "Laboratorios Dubizzle",
         "industry": "Mercados clasificados y tecnología publicitaria",
         "description": "Potenciar el enorme portal comercial Dubizzle, preferido a nivel local, en productos físicos, mercados de vehículos y electrónica en general.",
         "openPositions": [
@@ -953,7 +953,7 @@
         ]
       },
       {
-        "name": "Deliveroo UAE HQ",
+        "name": "Sede de Deliveroo en los Emiratos Árabes Unidos",
         "industry": "Plataforma de entrega bajo demanda",
         "description": "Pioneros en sistemas de envío de alimentos automatizados ultrarrápidos y redes logísticas que ayudan a los comerciantes locales a prosperar.",
         "openPositions": [
@@ -1016,7 +1016,7 @@
       {
         "id": "marina-apt-2",
         "title": "Estudio ultramoderno frente a la playa, Rixos JBR",
-        "bedrooms": "Estudio",
+        "bedrooms": "Studio",
         "bathrooms": 1,
         "sizeSqFt": 620,
         "priceAED": 95000,
@@ -1060,7 +1060,7 @@
         "description": "La Autoridad Marítima de Dubai permite salidas y operaciones de yates solo con patrones certificados y con licencia que sigan las instrucciones de la Guardia Costera."
       },
       {
-        "category": "Tenencia",
+        "category": "Tenancy",
         "title": "Arrendamientos estacionales de alta demanda",
         "description": "Debido a la densa población turística, el subarrendamiento a corto plazo debe registrarse oficialmente en la plataforma DTCM como Casas de Vacaciones; Los anuncios de Airbnb sin licencia conllevan graves sanciones de más de 5000 AED."
       }
@@ -1119,15 +1119,15 @@
       ],
       "stats": [
         {
-          "groupName": "indios",
+          "groupName": "Indians",
           "percentage": 35
         },
         {
-          "groupName": "europeos",
+          "groupName": "Europeans",
           "percentage": 25
         },
         {
-          "groupName": "paquistaníes",
+          "groupName": "Pakistanis",
           "percentage": 15
         },
         {
@@ -1135,7 +1135,7 @@
           "percentage": 15
         },
         {
-          "groupName": "Otros",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -1373,7 +1373,7 @@
       {
         "id": "jlt-apt-2",
         "title": "Estudio frente al mar en Armada Tower 3, Cluster P",
-        "bedrooms": "Estudio",
+        "bedrooms": "Studio",
         "bathrooms": 1,
         "sizeSqFt": 510,
         "priceAED": 60000,
@@ -1476,11 +1476,11 @@
       ],
       "stats": [
         {
-          "groupName": "indios",
+          "groupName": "Indians",
           "percentage": 40
         },
         {
-          "groupName": "europeos",
+          "groupName": "Europeans",
           "percentage": 25
         },
         {
@@ -1488,11 +1488,11 @@
           "percentage": 20
         },
         {
-          "groupName": "paquistaníes",
+          "groupName": "Pakistanis",
           "percentage": 10
         },
         {
-          "groupName": "Otros",
+          "groupName": "Others",
           "percentage": 5
         }
       ]
@@ -1722,7 +1722,7 @@
         "amenities": [
           "Piscina cubierta",
           "Pistas de atletismo valladas",
-          "Gimnasio Podio",
+          "Gimnasio podio",
           "Conserjería en el lobby abierta las 24 horas, los 7 días de la semana"
         ],
         "link": "https://www.propertyfinder.ae/en/search?c=2&f=1&l=18&ob=mr"
@@ -1747,7 +1747,7 @@
       {
         "id": "dic-apt-3",
         "title": "Estudio de alta fidelidad, torre Smart Heights",
-        "bedrooms": "Estudio",
+        "bedrooms": "Studio",
         "bathrooms": 1,
         "sizeSqFt": 490,
         "priceAED": 62000,
@@ -1774,7 +1774,7 @@
         "description": "Las instalaciones de oficinas dentro del DIC deben funcionar estrictamente dentro de los parámetros del servicio digital. Las tiendas minoristas de mercancías estándar no pueden obtener la zonificación de oficinas."
       },
       {
-        "category": "Operaciones",
+        "category": "Operations",
         "title": "Patrocinio de Visa de Trabajo Remoto",
         "description": "Los autónomos pueden procesar categorías de visas para espacios de trabajo remotos para nómadas digitales directamente a través de los servicios del portal TECOM AXS."
       }
@@ -1833,7 +1833,7 @@
       ],
       "stats": [
         {
-          "groupName": "indios",
+          "groupName": "Indians",
           "percentage": 40
         },
         {
@@ -1841,15 +1841,15 @@
           "percentage": 25
         },
         {
-          "groupName": "paquistaníes",
+          "groupName": "Pakistanis",
           "percentage": 20
         },
         {
-          "groupName": "Emiratos",
+          "groupName": "Emiratis",
           "percentage": 5
         },
         {
-          "groupName": "Otros",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -2096,7 +2096,7 @@
         "amenities": [
           "Electrodomésticos de cocina modernos equipados.",
           "Pista de atletismo en la azotea",
-          "Gimnasio",
+          "Gymnasium",
           "Soporte 24 horas al día, 7 días a la semana"
         ],
         "link": "https://www.propertyfinder.ae/en/search?c=2&f=1&l=92&ob=mr"
@@ -2104,7 +2104,7 @@
       {
         "id": "dso-apt-3",
         "title": "Estudio acogedor e inteligente, Axis Residences 2",
-        "bedrooms": "Estudio",
+        "bedrooms": "Studio",
         "bathrooms": 1,
         "sizeSqFt": 460,
         "priceAED": 36000,
@@ -2182,11 +2182,11 @@
       ],
       "stats": [
         {
-          "groupName": "indios",
+          "groupName": "Indians",
           "percentage": 30
         },
         {
-          "groupName": "europeos",
+          "groupName": "Europeans",
           "percentage": 25
         },
         {
@@ -2194,11 +2194,11 @@
           "percentage": 20
         },
         {
-          "groupName": "paquistaníes",
+          "groupName": "Pakistanis",
           "percentage": 10
         },
         {
-          "groupName": "Otros",
+          "groupName": "Others",
           "percentage": 15
         }
       ]
@@ -2217,6 +2217,62 @@
             "careerUrl": "#"
           }
         ]
+      },
+      {
+        "name": "Socios consultores Ltd",
+        "industry": "Consultoría de Gestión",
+        "description": "Una firma de consultoría dedicada que se especializa en el crecimiento empresarial estratégico en Medio Oriente.",
+        "openPositions": [
+          {
+            "title": "Analista de Negocios",
+            "department": "Consulting",
+            "salaryRange": "DEA 12.000 - 18.000 dólares",
+            "experience": "3+ años",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Soluciones TechFlow",
+        "industry": "Desarrollo de software",
+        "description": "Proporcionar arquitecturas de software sólidas para clientes empresariales en los EAU.",
+        "openPositions": [
+          {
+            "title": "Desarrollador front-end",
+            "department": "Engineering",
+            "salaryRange": "15.000 - 20.000 DEA",
+            "experience": "2+ años",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Centro logístico global",
+        "industry": "Logistics",
+        "description": "Gestionar la infraestructura de la cadena de suministro de extremo a extremo para redes de importación/exportación.",
+        "openPositions": [
+          {
+            "title": "Coordinador de Cadena de Suministro",
+            "department": "Operations",
+            "salaryRange": "DEA 10.000 - 14.000 dólares",
+            "experience": "1+ año",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Creciente Bienes Raíces",
+        "industry": "Gestión de propiedades",
+        "description": "Gestión de propiedades comerciales y residenciales premium con estándares de lujo.",
+        "openPositions": [
+          {
+            "title": "Consultor de arrendamiento",
+            "department": "Sales",
+            "salaryRange": "8k AED + Comisión",
+            "experience": "2+ años",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2230,8 +2286,8 @@
         "locationDetails": "Corazón de Business Bay con acceso rápido a SZR.",
         "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=600&auto=format&fit=crop",
         "amenities": [
-          "Piscina",
-          "Gimnasia"
+          "Pool",
+          "Gym"
         ],
         "link": "#"
       }
@@ -2298,11 +2354,11 @@
           "percentage": 45
         },
         {
-          "groupName": "Emiratos",
+          "groupName": "Emiratis",
           "percentage": 20
         },
         {
-          "groupName": "indios",
+          "groupName": "Indians",
           "percentage": 15
         },
         {
@@ -2310,7 +2366,7 @@
           "percentage": 10
         },
         {
-          "groupName": "Otros",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -2323,9 +2379,65 @@
         "openPositions": [
           {
             "title": "Director de Experiencia del Huésped",
-            "department": "Hospitalidad",
+            "department": "Hospitality",
             "salaryRange": "40.000-50.000 DEA",
             "experience": "8+ años",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Centro comercial Nakheel",
+        "industry": "Gestión minorista",
+        "description": "Importante destino de compras en Palm Jumeirah.",
+        "openPositions": [
+          {
+            "title": "Gerente de Venta al por menor",
+            "department": "Operations",
+            "salaryRange": "15.000 DEA",
+            "experience": "5+ años",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Socios consultores Ltd",
+        "industry": "Consultoría de Gestión",
+        "description": "Una firma de consultoría dedicada que se especializa en el crecimiento empresarial estratégico en Medio Oriente.",
+        "openPositions": [
+          {
+            "title": "Analista de Negocios",
+            "department": "Consulting",
+            "salaryRange": "DEA 12.000 - 18.000 dólares",
+            "experience": "3+ años",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Soluciones TechFlow",
+        "industry": "Desarrollo de software",
+        "description": "Proporcionar arquitecturas de software sólidas para clientes empresariales en los EAU.",
+        "openPositions": [
+          {
+            "title": "Desarrollador front-end",
+            "department": "Engineering",
+            "salaryRange": "15.000 - 20.000 DEA",
+            "experience": "2+ años",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Centro logístico global",
+        "industry": "Logistics",
+        "description": "Gestionar la infraestructura de la cadena de suministro de extremo a extremo para redes de importación/exportación.",
+        "openPositions": [
+          {
+            "title": "Coordinador de Cadena de Suministro",
+            "department": "Operations",
+            "salaryRange": "DEA 10.000 - 14.000 dólares",
+            "experience": "1+ año",
             "careerUrl": "#"
           }
         ]
@@ -2343,7 +2455,7 @@
         "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=600&auto=format&fit=crop",
         "amenities": [
           "Playa privada",
-          "Gimnasia"
+          "Gym"
         ],
         "link": "#"
       }
@@ -2404,23 +2516,23 @@
         "Expatriados indios",
         "Expatriados paquistaníes",
         "Expatriados europeos",
-        "filipinos"
+        "Filipinos"
       ],
       "stats": [
         {
-          "groupName": "indios",
+          "groupName": "Indians",
           "percentage": 30
         },
         {
-          "groupName": "paquistaníes",
+          "groupName": "Pakistanis",
           "percentage": 20
         },
         {
-          "groupName": "europeos",
+          "groupName": "Europeans",
           "percentage": 20
         },
         {
-          "groupName": "filipinos",
+          "groupName": "Filipinos",
           "percentage": 15
         },
         {
@@ -2432,14 +2544,70 @@
     "companies": [
       {
         "name": "CINCO Pueblo de Jumeirah",
-        "industry": "Hospitalidad",
+        "industry": "Hospitality",
         "description": "Hotel de lujo y residencias famosas por su arquitectura y estilo de vida.",
         "openPositions": [
           {
             "title": "Gerente de Operaciones",
-            "department": "Gestión",
+            "department": "Management",
             "salaryRange": "15k-25k DEA",
             "experience": "5+ años",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Socios consultores Ltd",
+        "industry": "Consultoría de Gestión",
+        "description": "Una firma de consultoría dedicada que se especializa en el crecimiento empresarial estratégico en Medio Oriente.",
+        "openPositions": [
+          {
+            "title": "Analista de Negocios",
+            "department": "Consulting",
+            "salaryRange": "DEA 12.000 - 18.000 dólares",
+            "experience": "3+ años",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Soluciones TechFlow",
+        "industry": "Desarrollo de software",
+        "description": "Proporcionar arquitecturas de software sólidas para clientes empresariales en los EAU.",
+        "openPositions": [
+          {
+            "title": "Desarrollador front-end",
+            "department": "Engineering",
+            "salaryRange": "15.000 - 20.000 DEA",
+            "experience": "2+ años",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Centro logístico global",
+        "industry": "Logistics",
+        "description": "Gestionar la infraestructura de la cadena de suministro de extremo a extremo para redes de importación/exportación.",
+        "openPositions": [
+          {
+            "title": "Coordinador de Cadena de Suministro",
+            "department": "Operations",
+            "salaryRange": "DEA 10.000 - 14.000 dólares",
+            "experience": "1+ año",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Creciente Bienes Raíces",
+        "industry": "Gestión de propiedades",
+        "description": "Gestión de propiedades comerciales y residenciales premium con estándares de lujo.",
+        "openPositions": [
+          {
+            "title": "Consultor de arrendamiento",
+            "department": "Sales",
+            "salaryRange": "8k AED + Comisión",
+            "experience": "2+ años",
             "careerUrl": "#"
           }
         ]
@@ -2456,9 +2624,9 @@
         "locationDetails": "Corazón de JVC con fácil acceso a la calle Hessa.",
         "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=600&auto=format&fit=crop",
         "amenities": [
-          "Piscina",
-          "Gimnasia",
-          "Balcón"
+          "Pool",
+          "Gym",
+          "Balcony"
         ],
         "link": "#"
       }
@@ -2514,7 +2682,7 @@
       "description": "Dividido entre un próspero centro artístico frecuentado por europeos y enormes sectores industriales que albergan a trabajadores manuales del sur de Asia. También contiene casas emiratíes locales.",
       "dominantGroups": [
         "Obrero del sur de Asia",
-        "Emiratos",
+        "Emiratis",
         "Creativos europeos"
       ],
       "stats": [
@@ -2523,15 +2691,15 @@
           "percentage": 50
         },
         {
-          "groupName": "Emiratos",
+          "groupName": "Emiratis",
           "percentage": 20
         },
         {
-          "groupName": "europeos",
+          "groupName": "Europeans",
           "percentage": 15
         },
         {
-          "groupName": "Otros",
+          "groupName": "Others",
           "percentage": 15
         }
       ]
@@ -2543,10 +2711,66 @@
         "description": "Principal centro artístico de la región.",
         "openPositions": [
           {
-            "title": "Curador",
-            "department": "Letras",
+            "title": "Curator",
+            "department": "Arts",
             "salaryRange": "20.000-30.000 DEA",
             "experience": "4+ años",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Socios consultores Ltd",
+        "industry": "Consultoría de Gestión",
+        "description": "Una firma de consultoría dedicada que se especializa en el crecimiento empresarial estratégico en Medio Oriente.",
+        "openPositions": [
+          {
+            "title": "Analista de Negocios",
+            "department": "Consulting",
+            "salaryRange": "DEA 12.000 - 18.000 dólares",
+            "experience": "3+ años",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Soluciones TechFlow",
+        "industry": "Desarrollo de software",
+        "description": "Proporcionar arquitecturas de software sólidas para clientes empresariales en los EAU.",
+        "openPositions": [
+          {
+            "title": "Desarrollador front-end",
+            "department": "Engineering",
+            "salaryRange": "15.000 - 20.000 DEA",
+            "experience": "2+ años",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Centro logístico global",
+        "industry": "Logistics",
+        "description": "Gestionar la infraestructura de la cadena de suministro de extremo a extremo para redes de importación/exportación.",
+        "openPositions": [
+          {
+            "title": "Coordinador de Cadena de Suministro",
+            "department": "Operations",
+            "salaryRange": "DEA 10.000 - 14.000 dólares",
+            "experience": "1+ año",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Creciente Bienes Raíces",
+        "industry": "Gestión de propiedades",
+        "description": "Gestión de propiedades comerciales y residenciales premium con estándares de lujo.",
+        "openPositions": [
+          {
+            "title": "Consultor de arrendamiento",
+            "department": "Sales",
+            "salaryRange": "8k AED + Comisión",
+            "experience": "2+ años",
             "careerUrl": "#"
           }
         ]
@@ -2578,7 +2802,7 @@
     },
     "laws": [
       {
-        "category": "Comercial",
+        "category": "Commercial",
         "title": "Zonificación Industrial",
         "description": "Ciertas áreas restringidas únicamente para uso industrial."
       }
@@ -2586,7 +2810,7 @@
     "bottomNotes": "Lo mejor para creativos y aquellos que prefieren una experiencia no tradicional en Dubai.",
     "majorAttractions": [
       "Avenida Alserkal",
-      "Patio"
+      "Courtyard"
     ]
   },
   {
@@ -2626,15 +2850,15 @@
       ],
       "stats": [
         {
-          "groupName": "europeos",
+          "groupName": "Europeans",
           "percentage": 40
         },
         {
-          "groupName": "Emiratos",
+          "groupName": "Emiratis",
           "percentage": 25
         },
         {
-          "groupName": "indios",
+          "groupName": "Indians",
           "percentage": 20
         },
         {
@@ -2649,6 +2873,62 @@
         "industry": "Desarrollador inmobiliario",
         "description": "El desarrollador principal detrás de Dubai Hills Estate.",
         "openPositions": []
+      },
+      {
+        "name": "Socios consultores Ltd",
+        "industry": "Consultoría de Gestión",
+        "description": "Una firma de consultoría dedicada que se especializa en el crecimiento empresarial estratégico en Medio Oriente.",
+        "openPositions": [
+          {
+            "title": "Analista de Negocios",
+            "department": "Consulting",
+            "salaryRange": "DEA 12.000 - 18.000 dólares",
+            "experience": "3+ años",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Soluciones TechFlow",
+        "industry": "Desarrollo de software",
+        "description": "Proporcionar arquitecturas de software sólidas para clientes empresariales en los EAU.",
+        "openPositions": [
+          {
+            "title": "Desarrollador front-end",
+            "department": "Engineering",
+            "salaryRange": "15.000 - 20.000 DEA",
+            "experience": "2+ años",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Centro logístico global",
+        "industry": "Logistics",
+        "description": "Gestionar la infraestructura de la cadena de suministro de extremo a extremo para redes de importación/exportación.",
+        "openPositions": [
+          {
+            "title": "Coordinador de Cadena de Suministro",
+            "department": "Operations",
+            "salaryRange": "DEA 10.000 - 14.000 dólares",
+            "experience": "1+ año",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Creciente Bienes Raíces",
+        "industry": "Gestión de propiedades",
+        "description": "Gestión de propiedades comerciales y residenciales premium con estándares de lujo.",
+        "openPositions": [
+          {
+            "title": "Consultor de arrendamiento",
+            "department": "Sales",
+            "salaryRange": "8k AED + Comisión",
+            "experience": "2+ años",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2663,8 +2943,8 @@
         "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=600&auto=format&fit=crop",
         "amenities": [
           "Vista al parque",
-          "Piscina",
-          "Gimnasia"
+          "Pool",
+          "Gym"
         ],
         "link": "#"
       }
@@ -2678,7 +2958,7 @@
     },
     "laws": [
       {
-        "category": "Comunidad",
+        "category": "Community",
         "title": "Directrices de Emaar",
         "description": "Estrictas normas comunitarias rigen las modificaciones y el paisajismo."
       }
@@ -2722,20 +3002,20 @@
       "description": "Un área impulsada por valores predominantemente poblada por expatriados trabajadores y de clase media del sur y sudeste asiático.",
       "dominantGroups": [
         "Clase media/trabajadora india",
-        "paquistaníes",
-        "filipinos"
+        "Pakistanis",
+        "Filipinos"
       ],
       "stats": [
         {
-          "groupName": "indios",
+          "groupName": "Indians",
           "percentage": 45
         },
         {
-          "groupName": "paquistaníes",
+          "groupName": "Pakistanis",
           "percentage": 25
         },
         {
-          "groupName": "filipinos",
+          "groupName": "Filipinos",
           "percentage": 15
         },
         {
@@ -2743,7 +3023,7 @@
           "percentage": 10
         },
         {
-          "groupName": "Otros",
+          "groupName": "Others",
           "percentage": 5
         }
       ]
@@ -2751,9 +3031,65 @@
     "companies": [
       {
         "name": "Centro comercial Ibn Battuta",
-        "industry": "Minorista",
+        "industry": "Retail",
         "description": "Centro comercial temático ubicado adyacente a la comunidad.",
         "openPositions": []
+      },
+      {
+        "name": "Socios consultores Ltd",
+        "industry": "Consultoría de Gestión",
+        "description": "Una firma de consultoría dedicada que se especializa en el crecimiento empresarial estratégico en Medio Oriente.",
+        "openPositions": [
+          {
+            "title": "Analista de Negocios",
+            "department": "Consulting",
+            "salaryRange": "DEA 12.000 - 18.000 dólares",
+            "experience": "3+ años",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Soluciones TechFlow",
+        "industry": "Desarrollo de software",
+        "description": "Proporcionar arquitecturas de software sólidas para clientes empresariales en los EAU.",
+        "openPositions": [
+          {
+            "title": "Desarrollador front-end",
+            "department": "Engineering",
+            "salaryRange": "15.000 - 20.000 DEA",
+            "experience": "2+ años",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Centro logístico global",
+        "industry": "Logistics",
+        "description": "Gestionar la infraestructura de la cadena de suministro de extremo a extremo para redes de importación/exportación.",
+        "openPositions": [
+          {
+            "title": "Coordinador de Cadena de Suministro",
+            "department": "Operations",
+            "salaryRange": "DEA 10.000 - 14.000 dólares",
+            "experience": "1+ año",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Creciente Bienes Raíces",
+        "industry": "Gestión de propiedades",
+        "description": "Gestión de propiedades comerciales y residenciales premium con estándares de lujo.",
+        "openPositions": [
+          {
+            "title": "Consultor de arrendamiento",
+            "department": "Sales",
+            "salaryRange": "8k AED + Comisión",
+            "experience": "2+ años",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2782,7 +3118,7 @@
     },
     "laws": [
       {
-        "category": "Comunidad",
+        "category": "Community",
         "title": "Directrices de Nakheel",
         "description": "Zonificación residencial sin torres de gran altura."
       }
@@ -2825,7 +3161,7 @@
       "description": "Una mezcla de Dubái tradicional y vida moderna de expatriados, con grandes comunidades de villas emiratíes locales y zonas de apartamentos multiétnicos.",
       "dominantGroups": [
         "Expatriados árabes",
-        "Emiratos",
+        "Emiratis",
         "Profesionales indios"
       ],
       "stats": [
@@ -2834,29 +3170,85 @@
           "percentage": 30
         },
         {
-          "groupName": "Emiratos",
+          "groupName": "Emiratis",
           "percentage": 25
         },
         {
-          "groupName": "indios",
+          "groupName": "Indians",
           "percentage": 25
         },
         {
-          "groupName": "europeos",
+          "groupName": "Europeans",
           "percentage": 10
         },
         {
-          "groupName": "Otros",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
     },
     "companies": [
       {
-        "name": "Mall of the Emirates",
+        "name": "Centro comercial de los Emiratos",
         "industry": "Comercio minorista y entretenimiento",
         "description": "Uno de los centros comerciales más grandes de Dubai.",
         "openPositions": []
+      },
+      {
+        "name": "Socios consultores Ltd",
+        "industry": "Consultoría de Gestión",
+        "description": "Una firma de consultoría dedicada que se especializa en el crecimiento empresarial estratégico en Medio Oriente.",
+        "openPositions": [
+          {
+            "title": "Analista de Negocios",
+            "department": "Consulting",
+            "salaryRange": "DEA 12.000 - 18.000 dólares",
+            "experience": "3+ años",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Soluciones TechFlow",
+        "industry": "Desarrollo de software",
+        "description": "Proporcionar arquitecturas de software sólidas para clientes empresariales en los EAU.",
+        "openPositions": [
+          {
+            "title": "Desarrollador front-end",
+            "department": "Engineering",
+            "salaryRange": "15.000 - 20.000 DEA",
+            "experience": "2+ años",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Centro logístico global",
+        "industry": "Logistics",
+        "description": "Gestionar la infraestructura de la cadena de suministro de extremo a extremo para redes de importación/exportación.",
+        "openPositions": [
+          {
+            "title": "Coordinador de Cadena de Suministro",
+            "department": "Operations",
+            "salaryRange": "DEA 10.000 - 14.000 dólares",
+            "experience": "1+ año",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Creciente Bienes Raíces",
+        "industry": "Gestión de propiedades",
+        "description": "Gestión de propiedades comerciales y residenciales premium con estándares de lujo.",
+        "openPositions": [
+          {
+            "title": "Consultor de arrendamiento",
+            "department": "Sales",
+            "salaryRange": "8k AED + Comisión",
+            "experience": "2+ años",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2870,7 +3262,7 @@
         "locationDetails": "Cerca del Ministerio de Educación y del Metro.",
         "image": "https://images.unsplash.com/photo-1502672260266-1c1e52408437?q=80&w=600&auto=format&fit=crop",
         "amenities": [
-          "Gimnasia",
+          "Gym",
           "Piscina en la azotea"
         ],
         "link": "#"
@@ -2885,8 +3277,8 @@
     },
     "laws": [
       {
-        "category": "Propiedad",
-        "title": "Arrendamiento",
+        "category": "Property",
+        "title": "Leasehold",
         "description": "Muchas piezas se alquilan estrictamente para que las posean los nacionales de los EAU."
       }
     ],
@@ -2899,7 +3291,7 @@
   },
   {
     "id": "deira",
-    "name": "deira",
+    "name": "Deira",
     "arabicName": "ديرة",
     "tagline": "El corazón histórico",
     "iconPath": "ship",
@@ -2933,23 +3325,23 @@
       ],
       "stats": [
         {
-          "groupName": "indios",
+          "groupName": "Indians",
           "percentage": 45
         },
         {
-          "groupName": "paquistaníes",
+          "groupName": "Pakistanis",
           "percentage": 25
         },
         {
-          "groupName": "bangladesíes",
+          "groupName": "Bangladeshis",
           "percentage": 15
         },
         {
-          "groupName": "Emiratos",
+          "groupName": "Emiratis",
           "percentage": 5
         },
         {
-          "groupName": "Otros",
+          "groupName": "Others",
           "percentage": 10
         }
       ]
@@ -2960,6 +3352,62 @@
         "industry": "Venta al por menor y comercio",
         "description": "Miles de comerciantes independientes de joyas, especias y textiles.",
         "openPositions": []
+      },
+      {
+        "name": "Socios consultores Ltd",
+        "industry": "Consultoría de Gestión",
+        "description": "Una firma de consultoría dedicada que se especializa en el crecimiento empresarial estratégico en Medio Oriente.",
+        "openPositions": [
+          {
+            "title": "Analista de Negocios",
+            "department": "Consulting",
+            "salaryRange": "DEA 12.000 - 18.000 dólares",
+            "experience": "3+ años",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Soluciones TechFlow",
+        "industry": "Desarrollo de software",
+        "description": "Proporcionar arquitecturas de software sólidas para clientes empresariales en los EAU.",
+        "openPositions": [
+          {
+            "title": "Desarrollador front-end",
+            "department": "Engineering",
+            "salaryRange": "15.000 - 20.000 DEA",
+            "experience": "2+ años",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Centro logístico global",
+        "industry": "Logistics",
+        "description": "Gestionar la infraestructura de la cadena de suministro de extremo a extremo para redes de importación/exportación.",
+        "openPositions": [
+          {
+            "title": "Coordinador de Cadena de Suministro",
+            "department": "Operations",
+            "salaryRange": "DEA 10.000 - 14.000 dólares",
+            "experience": "1+ año",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Creciente Bienes Raíces",
+        "industry": "Gestión de propiedades",
+        "description": "Gestión de propiedades comerciales y residenciales premium con estándares de lujo.",
+        "openPositions": [
+          {
+            "title": "Consultor de arrendamiento",
+            "department": "Sales",
+            "salaryRange": "8k AED + Comisión",
+            "experience": "2+ años",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2974,7 +3422,7 @@
         "image": "https://images.unsplash.com/photo-1582653211939-2e0f40d04db9?q=80&w=600&auto=format&fit=crop",
         "amenities": [
           "Cerca del metro",
-          "Balcón"
+          "Balcony"
         ],
         "link": "#"
       }

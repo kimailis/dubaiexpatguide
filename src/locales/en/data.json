@@ -2217,6 +2217,62 @@
             "careerUrl": "#"
           }
         ]
+      },
+      {
+        "name": "Consulting Partners Ltd",
+        "industry": "Management Consulting",
+        "description": "A dedicated consulting firm specializing in strategic business growth in the Middle East.",
+        "openPositions": [
+          {
+            "title": "Business Analyst",
+            "department": "Consulting",
+            "salaryRange": "AED 12k - 18k",
+            "experience": "3+ years",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "TechFlow Solutions",
+        "industry": "Software Development",
+        "description": "Providing robust software architectures for enterprise clients across the UAE.",
+        "openPositions": [
+          {
+            "title": "Frontend Developer",
+            "department": "Engineering",
+            "salaryRange": "AED 15k - 20k",
+            "experience": "2+ years",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Global Logistics Hub",
+        "industry": "Logistics",
+        "description": "Managing end-to-end supply chain infrastructure for import/export networks.",
+        "openPositions": [
+          {
+            "title": "Supply Chain Coordinator",
+            "department": "Operations",
+            "salaryRange": "AED 10k - 14k",
+            "experience": "1+ year",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Crescent Real Estate",
+        "industry": "Property Management",
+        "description": "Managing premium commercial and residential properties with luxury standards.",
+        "openPositions": [
+          {
+            "title": "Leasing Consultant",
+            "department": "Sales",
+            "salaryRange": "AED 8k + Commission",
+            "experience": "2+ years",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2326,6 +2382,62 @@
             "department": "Hospitality",
             "salaryRange": "40k-50k AED",
             "experience": "8+ yrs",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Nakheel Mall",
+        "industry": "Retail Management",
+        "description": "Major shopping destination on Palm Jumeirah.",
+        "openPositions": [
+          {
+            "title": "Retail Manager",
+            "department": "Operations",
+            "salaryRange": "AED 15k",
+            "experience": "5+ years",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Consulting Partners Ltd",
+        "industry": "Management Consulting",
+        "description": "A dedicated consulting firm specializing in strategic business growth in the Middle East.",
+        "openPositions": [
+          {
+            "title": "Business Analyst",
+            "department": "Consulting",
+            "salaryRange": "AED 12k - 18k",
+            "experience": "3+ years",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "TechFlow Solutions",
+        "industry": "Software Development",
+        "description": "Providing robust software architectures for enterprise clients across the UAE.",
+        "openPositions": [
+          {
+            "title": "Frontend Developer",
+            "department": "Engineering",
+            "salaryRange": "AED 15k - 20k",
+            "experience": "2+ years",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Global Logistics Hub",
+        "industry": "Logistics",
+        "description": "Managing end-to-end supply chain infrastructure for import/export networks.",
+        "openPositions": [
+          {
+            "title": "Supply Chain Coordinator",
+            "department": "Operations",
+            "salaryRange": "AED 10k - 14k",
+            "experience": "1+ year",
             "careerUrl": "#"
           }
         ]
@@ -2443,6 +2555,62 @@
             "careerUrl": "#"
           }
         ]
+      },
+      {
+        "name": "Consulting Partners Ltd",
+        "industry": "Management Consulting",
+        "description": "A dedicated consulting firm specializing in strategic business growth in the Middle East.",
+        "openPositions": [
+          {
+            "title": "Business Analyst",
+            "department": "Consulting",
+            "salaryRange": "AED 12k - 18k",
+            "experience": "3+ years",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "TechFlow Solutions",
+        "industry": "Software Development",
+        "description": "Providing robust software architectures for enterprise clients across the UAE.",
+        "openPositions": [
+          {
+            "title": "Frontend Developer",
+            "department": "Engineering",
+            "salaryRange": "AED 15k - 20k",
+            "experience": "2+ years",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Global Logistics Hub",
+        "industry": "Logistics",
+        "description": "Managing end-to-end supply chain infrastructure for import/export networks.",
+        "openPositions": [
+          {
+            "title": "Supply Chain Coordinator",
+            "department": "Operations",
+            "salaryRange": "AED 10k - 14k",
+            "experience": "1+ year",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Crescent Real Estate",
+        "industry": "Property Management",
+        "description": "Managing premium commercial and residential properties with luxury standards.",
+        "openPositions": [
+          {
+            "title": "Leasing Consultant",
+            "department": "Sales",
+            "salaryRange": "AED 8k + Commission",
+            "experience": "2+ years",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2550,6 +2718,62 @@
             "careerUrl": "#"
           }
         ]
+      },
+      {
+        "name": "Consulting Partners Ltd",
+        "industry": "Management Consulting",
+        "description": "A dedicated consulting firm specializing in strategic business growth in the Middle East.",
+        "openPositions": [
+          {
+            "title": "Business Analyst",
+            "department": "Consulting",
+            "salaryRange": "AED 12k - 18k",
+            "experience": "3+ years",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "TechFlow Solutions",
+        "industry": "Software Development",
+        "description": "Providing robust software architectures for enterprise clients across the UAE.",
+        "openPositions": [
+          {
+            "title": "Frontend Developer",
+            "department": "Engineering",
+            "salaryRange": "AED 15k - 20k",
+            "experience": "2+ years",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Global Logistics Hub",
+        "industry": "Logistics",
+        "description": "Managing end-to-end supply chain infrastructure for import/export networks.",
+        "openPositions": [
+          {
+            "title": "Supply Chain Coordinator",
+            "department": "Operations",
+            "salaryRange": "AED 10k - 14k",
+            "experience": "1+ year",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Crescent Real Estate",
+        "industry": "Property Management",
+        "description": "Managing premium commercial and residential properties with luxury standards.",
+        "openPositions": [
+          {
+            "title": "Leasing Consultant",
+            "department": "Sales",
+            "salaryRange": "AED 8k + Commission",
+            "experience": "2+ years",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2649,6 +2873,62 @@
         "industry": "Real Estate Developer",
         "description": "The master developer behind Dubai Hills Estate.",
         "openPositions": []
+      },
+      {
+        "name": "Consulting Partners Ltd",
+        "industry": "Management Consulting",
+        "description": "A dedicated consulting firm specializing in strategic business growth in the Middle East.",
+        "openPositions": [
+          {
+            "title": "Business Analyst",
+            "department": "Consulting",
+            "salaryRange": "AED 12k - 18k",
+            "experience": "3+ years",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "TechFlow Solutions",
+        "industry": "Software Development",
+        "description": "Providing robust software architectures for enterprise clients across the UAE.",
+        "openPositions": [
+          {
+            "title": "Frontend Developer",
+            "department": "Engineering",
+            "salaryRange": "AED 15k - 20k",
+            "experience": "2+ years",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Global Logistics Hub",
+        "industry": "Logistics",
+        "description": "Managing end-to-end supply chain infrastructure for import/export networks.",
+        "openPositions": [
+          {
+            "title": "Supply Chain Coordinator",
+            "department": "Operations",
+            "salaryRange": "AED 10k - 14k",
+            "experience": "1+ year",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Crescent Real Estate",
+        "industry": "Property Management",
+        "description": "Managing premium commercial and residential properties with luxury standards.",
+        "openPositions": [
+          {
+            "title": "Leasing Consultant",
+            "department": "Sales",
+            "salaryRange": "AED 8k + Commission",
+            "experience": "2+ years",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2754,6 +3034,62 @@
         "industry": "Retail",
         "description": "Themed mall located adjacent to the community.",
         "openPositions": []
+      },
+      {
+        "name": "Consulting Partners Ltd",
+        "industry": "Management Consulting",
+        "description": "A dedicated consulting firm specializing in strategic business growth in the Middle East.",
+        "openPositions": [
+          {
+            "title": "Business Analyst",
+            "department": "Consulting",
+            "salaryRange": "AED 12k - 18k",
+            "experience": "3+ years",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "TechFlow Solutions",
+        "industry": "Software Development",
+        "description": "Providing robust software architectures for enterprise clients across the UAE.",
+        "openPositions": [
+          {
+            "title": "Frontend Developer",
+            "department": "Engineering",
+            "salaryRange": "AED 15k - 20k",
+            "experience": "2+ years",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Global Logistics Hub",
+        "industry": "Logistics",
+        "description": "Managing end-to-end supply chain infrastructure for import/export networks.",
+        "openPositions": [
+          {
+            "title": "Supply Chain Coordinator",
+            "department": "Operations",
+            "salaryRange": "AED 10k - 14k",
+            "experience": "1+ year",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Crescent Real Estate",
+        "industry": "Property Management",
+        "description": "Managing premium commercial and residential properties with luxury standards.",
+        "openPositions": [
+          {
+            "title": "Leasing Consultant",
+            "department": "Sales",
+            "salaryRange": "AED 8k + Commission",
+            "experience": "2+ years",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2857,6 +3193,62 @@
         "industry": "Retail & Entertainment",
         "description": "One of the largest shopping malls in Dubai.",
         "openPositions": []
+      },
+      {
+        "name": "Consulting Partners Ltd",
+        "industry": "Management Consulting",
+        "description": "A dedicated consulting firm specializing in strategic business growth in the Middle East.",
+        "openPositions": [
+          {
+            "title": "Business Analyst",
+            "department": "Consulting",
+            "salaryRange": "AED 12k - 18k",
+            "experience": "3+ years",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "TechFlow Solutions",
+        "industry": "Software Development",
+        "description": "Providing robust software architectures for enterprise clients across the UAE.",
+        "openPositions": [
+          {
+            "title": "Frontend Developer",
+            "department": "Engineering",
+            "salaryRange": "AED 15k - 20k",
+            "experience": "2+ years",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Global Logistics Hub",
+        "industry": "Logistics",
+        "description": "Managing end-to-end supply chain infrastructure for import/export networks.",
+        "openPositions": [
+          {
+            "title": "Supply Chain Coordinator",
+            "department": "Operations",
+            "salaryRange": "AED 10k - 14k",
+            "experience": "1+ year",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Crescent Real Estate",
+        "industry": "Property Management",
+        "description": "Managing premium commercial and residential properties with luxury standards.",
+        "openPositions": [
+          {
+            "title": "Leasing Consultant",
+            "department": "Sales",
+            "salaryRange": "AED 8k + Commission",
+            "experience": "2+ years",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [
@@ -2960,6 +3352,62 @@
         "industry": "Retail & Trade",
         "description": "Thousands of independent jewelry, spice, and textile traders.",
         "openPositions": []
+      },
+      {
+        "name": "Consulting Partners Ltd",
+        "industry": "Management Consulting",
+        "description": "A dedicated consulting firm specializing in strategic business growth in the Middle East.",
+        "openPositions": [
+          {
+            "title": "Business Analyst",
+            "department": "Consulting",
+            "salaryRange": "AED 12k - 18k",
+            "experience": "3+ years",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "TechFlow Solutions",
+        "industry": "Software Development",
+        "description": "Providing robust software architectures for enterprise clients across the UAE.",
+        "openPositions": [
+          {
+            "title": "Frontend Developer",
+            "department": "Engineering",
+            "salaryRange": "AED 15k - 20k",
+            "experience": "2+ years",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Global Logistics Hub",
+        "industry": "Logistics",
+        "description": "Managing end-to-end supply chain infrastructure for import/export networks.",
+        "openPositions": [
+          {
+            "title": "Supply Chain Coordinator",
+            "department": "Operations",
+            "salaryRange": "AED 10k - 14k",
+            "experience": "1+ year",
+            "careerUrl": "#"
+          }
+        ]
+      },
+      {
+        "name": "Crescent Real Estate",
+        "industry": "Property Management",
+        "description": "Managing premium commercial and residential properties with luxury standards.",
+        "openPositions": [
+          {
+            "title": "Leasing Consultant",
+            "department": "Sales",
+            "salaryRange": "AED 8k + Commission",
+            "experience": "2+ years",
+            "careerUrl": "#"
+          }
+        ]
       }
     ],
     "apartments": [

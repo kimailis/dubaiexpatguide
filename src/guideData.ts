@@ -291,7 +291,23 @@ export const EXPAT_GUIDES: GuideArticle[] = [
                 title: 'Boots',
                 description: 'Familiar to UK expats, carrying familiar health and beauty brands. Found in most malls.',
                 link: { text: 'Boots ME', url: 'https://me.boots.com/' }
+              },
+              {
+              title: 'Supercare Pharmacy',
+              description: 'Premium pharmacy chain focusing on wellness, premium skincare, and specialized sports nutrition products.',
+              link: {
+                text: 'Supercare',
+                url: 'https://supercare.ae/'
               }
+            },
+            {
+              title: 'BinSina Pharmacy',
+              description: 'One of the oldest and most trusted pharmacy chains in the UAE, providing excellent service and a wide range of healthcare products.',
+              link: {
+                text: 'BinSina',
+                url: 'https://www.binsina.ae/'
+              }
+            }
             ]
           }
         ]
@@ -867,7 +883,23 @@ export const EXPAT_GUIDES: GuideArticle[] = [
                 title: 'Ibn Battuta Mall',
                 description: 'Themed around the journeys of the explorer Ibn Battuta. Impressive architecture and very practical for southern expats.',
                 link: { text: 'Ibn Battuta', url: 'https://www.ibnbattutamall.com/' }
+              },
+              {
+              title: 'Dubai Outlet Mall',
+              description: 'Located on Al Ain Road, offering off-season designer and high-street brands at heavily discounted prices.',
+              link: {
+                text: 'Outlet Mall',
+                url: 'https://www.dubaioutletmall.com/'
               }
+            },
+            {
+              title: 'The Outlet Village',
+              description: 'Tuscan-inspired indoor shopping destination near Jebel Ali, featuring high-end luxury fashion outlets.',
+              link: {
+                text: 'Outlet Village',
+                url: 'https://www.theoutletvillage.ae/'
+              }
+            }
             ]
           }
         ]
