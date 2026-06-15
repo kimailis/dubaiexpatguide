@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { District, Company } from '../types';
+import type { District, Company, Apartment, Car } from '../types';
 import { useEffect } from 'react';
 import {
   X,
@@ -27,7 +27,7 @@ interface DistrictModalProps {
   onClose: () => void;
 }
 
-type TabType = 'overview' | 'companies' | 'apartments' | 'tax' | 'pets' | 'demographics';
+type TabType = 'overview' | 'companies' | 'apartments' | 'cars' | 'tax' | 'pets' | 'demographics';
 
 export default function DistrictModal({ district, onClose }: DistrictModalProps) {
   React.useEffect(() => {
@@ -43,16 +43,24 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
 
   const [activeTab, setActiveTab] = useState<TabType>('overview');
   const [dynamicCompanies, setDynamicCompanies] = useState<Company[]>(district.companies);
+  const [dynamicApartments, setDynamicApartments] = useState<Apartment[]>(district.apartments);
+  const [dynamicCars, setDynamicCars] = useState<Car[]>(district.cars || []);
   const [loadingCompanies, setLoadingCompanies] = useState(false);
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(district.companies[0] || null);
 
   useEffect(() => {
     if (district) {
       setLoadingCompanies(true);
-      fetch(`/api/districts/${encodeURIComponent(district.id)}/companies?districtName=${encodeURIComponent(district.name)}`)
+      fetch(`/api/districts/${encodeURIComponent(district.id)}/data?districtName=${encodeURIComponent(district.name)}`)
         .then(res => res.json())
         .then(data => {
-          if (Array.isArray(data) && data.length > 0) {
+          if (data && data.companies && Array.isArray(data.companies) && data.companies.length > 0) {
+            setDynamicCompanies(data.companies);
+            setSelectedCompany(data.companies[0]);
+            if (data.apartments) setDynamicApartments(data.apartments);
+            if (data.cars) setDynamicCars(data.cars);
+          } else if (Array.isArray(data) && data.length > 0) {
+            // Legacy handling
             setDynamicCompanies(data);
             setSelectedCompany(data[0]);
           } else {
@@ -97,6 +105,11 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
       id: 'apartments',
       label: t('modal_apt_rents', 'Apartments & Rents'),
       icon: <Home className="w-4 h-4" />,
+    },
+    {
+      id: 'cars',
+      label: t('modal_cars', 'Car Listings'),
+      icon: <Car className="w-4 h-4" />,
     },
     {
       id: 'pets',
@@ -558,7 +571,7 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                       {t('modal_curated_live', 'Curated Live Properties on Market')}
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5">
-                      {district.apartments.map((apt) => (
+                      {dynamicApartments.map((apt) => (
                         <div
                           key={apt.id}
                           className="bg-[#FFFFFF] border border-[#EAE3D8] rounded-xl overflow-hidden shadow-sm flex flex-col justify-between group"
@@ -615,6 +628,74 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                         </div>
                       ))}
                     </div>
+                  </div>
+                </motion.div>
+              )}
+
+              {/* TAB: CARS */}
+              {activeTab === 'cars' && (
+                <motion.div
+                  key="cars"
+                  initial={{ opacity: 0, y: 5 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -5 }}
+                  transition={{ duration: 0.15 }}
+                  className="space-y-4"
+                >
+                  <h3 className="text-[10px] font-mono text-[#8C8375] tracking-wider uppercase mb-3">
+                    {t('modal_curated_cars', 'Curated Car Listings on Market')}
+                  </h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5">
+                    {dynamicCars.map((car) => (
+                      <div
+                        key={car.id}
+                        className="bg-[#FFFFFF] border border-[#EAE3D8] rounded-xl overflow-hidden shadow-sm flex flex-col justify-between group"
+                      >
+                        <div className="relative h-32 bg-[#FAF8F5] overflow-hidden">
+                          <img
+                            src={car.image}
+                            alt={car.title}
+                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                            referrerPolicy="no-referrer"
+                          />
+                          <div className="absolute top-2 left-2 bg-[#FAFBF9]/90 border border-[#DCD5CB] px-2 py-0.5 rounded text-[9px] font-mono font-bold text-[#2C2A29]">
+                            {car.year}
+                          </div>
+                        </div>
+
+                        <div className="p-3.5 flex-grow flex flex-col justify-between gap-3">
+                          <div>
+                            <h4 className="text-xs font-bold text-[#2C2A29] line-clamp-1">
+                              {car.title}
+                            </h4>
+                            <p className="text-[10px] text-[#6D675E] mt-1 line-clamp-2 leading-relaxed">
+                              {car.location}
+                            </p>
+                            <div className="flex gap-3 text-[9px] font-mono text-[#8C8375] mt-2">
+                              <span>{t('modal_mileage', 'Mileage:')} {car.mileageKm.toLocaleString()} {t('modal_km', 'km')}</span>
+                            </div>
+                          </div>
+
+                          <div className="border-t border-[#F2EFE8] pt-2.5 flex items-center justify-between">
+                            <div>
+                              <span className="text-[8px] text-[#8C8375] uppercase block font-mono">{t('modal_price', 'Price')}</span>
+                              <span className="text-xs font-mono font-bold text-[#2C2A29]">
+                                {car.priceAED.toLocaleString()} {t('aed', 'AED')}
+                              </span>
+                            </div>
+                            <a
+                              href={car.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="bg-[#F9F7F4] hover:bg-[#F2EFE8] text-[#2C2A29] p-1.5 rounded-md transition-colors border border-[#EAE3D8]"
+                              title="View Listing"
+                            >
+                              <ExternalLink className="w-3.5 h-3.5" />
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
                   </div>
                 </motion.div>
               )}

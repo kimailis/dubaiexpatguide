@@ -11,6 +11,17 @@ export interface Company {
   }[];
 }
 
+export interface Car {
+  id: string;
+  title: string;
+  year: number;
+  mileageKm: number;
+  priceAED: number;
+  location: string;
+  image: string;
+  link: string;
+}
+
 export interface Apartment {
   id: string;
   title: string;
@@ -67,6 +78,7 @@ export interface District {
   };
   companies: Company[];
   apartments: Apartment[];
+  cars?: Car[];
   avgRent: AverageRent;
   laws: {
     category: string;

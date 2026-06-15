@@ -1,4 +1,6 @@
-import express from 'express';
+const fs = require('fs');
+
+const code = `import express from 'express';
 import path from 'path';
 import fsPromises from 'fs/promises';
 import cron from 'node-cron';
@@ -222,3 +224,6 @@ async function startServer() {
 }
 
 startServer();
+`;
+
+fs.writeFileSync('server.ts', code);
