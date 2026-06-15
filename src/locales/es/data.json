@@ -469,7 +469,7 @@
         ]
       },
       {
-        "name": "Sede de Noon.com",
+        "name": "Noon.com HQ",
         "industry": "Comercio electrónico y logística",
         "description": "Noon es el ecosistema de mercado digital líder en Medio Oriente, que impulsa aplicaciones de tecnología financiera, logística, distribución de alimentos y plataformas de comercio de productos hiperlocales de vanguardia.",
         "openPositions": [
@@ -511,13 +511,13 @@
         ]
       },
       {
-        "name": "Careem Tecnologías",
+        "name": "Careem Technologies",
         "industry": "Transporte compartido y tecnología de súper aplicaciones",
         "description": "El orgulloso gigante tecnológico local de los EAU y filial de Uber, está desarrollando una plataforma de súper aplicaciones de espectro completo que ofrece viajes de pasajeros, pagos criptográficos entre pares, alimentos, servicios de comestibles y redes de socios.",
         "openPositions": [
           {
             "title": "Ingeniero Principal de Software (Java/Kotlin/Node)",
-            "department": "Ingeniería salarial de Careem",
+            "department": "Careem Pay Engineering",
             "salaryRange": "48.000 - 65.000 AED/mes",
             "experience": "7+ años",
             "careerUrl": "https://careers.careem.com/"
@@ -827,7 +827,7 @@
         ]
       },
       {
-        "name": "Buscador de propiedades Tech EAU",
+        "name": "Property Finder Tech UAE",
         "industry": "Mercado de tecnología prop",
         "description": "La plataforma inmobiliaria digital dominante en Oriente Medio, que diseña bases de datos de compra y alquiler estándar de la industria, API automatizadas de precios de mercado y herramientas de intermediación.",
         "openPositions": [
@@ -869,7 +869,7 @@
         ]
       },
       {
-        "name": "Laboratorios Dubizzle",
+        "name": "Dubizzle Labs",
         "industry": "Mercados clasificados y tecnología publicitaria",
         "description": "Potenciar el enorme portal comercial Dubizzle, preferido a nivel local, en productos físicos, mercados de vehículos y electrónica en general.",
         "openPositions": [
@@ -953,7 +953,7 @@
         ]
       },
       {
-        "name": "Sede de Deliveroo en los Emiratos Árabes Unidos",
+        "name": "Deliveroo UAE HQ",
         "industry": "Plataforma de entrega bajo demanda",
         "description": "Pioneros en sistemas de envío de alimentos automatizados ultrarrápidos y redes logísticas que ayudan a los comerciantes locales a prosperar.",
         "openPositions": [
@@ -2853,7 +2853,7 @@
     },
     "companies": [
       {
-        "name": "Centro comercial de los Emiratos",
+        "name": "Mall of the Emirates",
         "industry": "Comercio minorista y entretenimiento",
         "description": "Uno de los centros comerciales más grandes de Dubai.",
         "openPositions": []

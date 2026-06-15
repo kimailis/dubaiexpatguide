@@ -56,19 +56,19 @@ export default function DistrictMap({
 
   const renderTooltipContent = (d: District) => {
     return (
-      <div className="w-[280px] sm:w-[320px] text-left leading-normal text-[#2C2A29] p-4 bg-[#FFFFFF] rounded-xl shadow-2xl border border-[#EAE3D8]">
+      <div className="w-[300px] sm:w-[360px] text-left leading-normal text-[#2C2A29] p-4 bg-[#FFFFFF] rounded-xl shadow-2xl border border-[#EAE3D8]">
         {/* Header */}
         <div className="border-b border-[#F0EAE1] pb-3 mb-3">
-          <div className="flex justify-between items-start gap-2 mb-1">
-            <h4 className="font-serif text-lg sm:text-xl font-bold text-[#2C2A29] leading-tight">
+          <div className="flex flex-col items-start gap-2 mb-1">
+            <h4 className="font-serif text-lg font-bold text-[#2C2A29] leading-tight w-full text-balance">
               {d.name}
               <span className="block text-xs font-serif italic text-[#86755F] font-normal mt-0.5">{d.arabicName}</span>
             </h4>
             <span className="text-[9px] sm:text-[10px] font-mono whitespace-nowrap bg-[#FAF5EE] border border-[#EAE3D8] text-[#8A7043] px-2 py-1 rounded-md font-bold uppercase tracking-widest shadow-sm">
-              {d.taxSituation.status.includes('Zone') ? t('modal_fz_jur', 'Free Zone') : t('modal_ml_jur', 'Mainland')}
+              {d.taxSituation.status.includes('Zone') ? t('modal_fz_jur', 'Free Zone jurisdiction', { defaultValue: 'Free Zone' }) : t('modal_ml_jur', 'Mainland jurisdiction', { defaultValue: 'Mainland' })}
             </span>
           </div>
-          <p className="text-xs sm:text-sm text-[#6D675E] italic leading-snug">
+          <p className="text-xs sm:text-sm text-[#6D675E] italic leading-snug mt-2">
             "{d.tagline}"
           </p>
         </div>
@@ -123,9 +123,9 @@ export default function DistrictMap({
   if (mousePos && containerRef.current) {
     const { clientWidth, clientHeight } = containerRef.current;
     
-    // Size assumptions for tooltip (roughly aligns with w-[320px] + some height)
-    const TIP_W = 340; 
-    const TIP_H = 380; 
+    // Size assumptions for tooltip (roughly aligns with w-[360px] + some height)
+    const TIP_W = 380; 
+    const TIP_H = 480; 
 
     // Default offset from cursor (bottom-right)
     let x = mousePos.x + 15; 
@@ -137,17 +137,17 @@ export default function DistrictMap({
       x = mousePos.x - TIP_W - 15;
     }
     
-    // If it goes off the bottom edge, flip it above the cursor
+    // If it goes off the bottom edge, try to flip it above the cursor
     if (y + TIP_H > clientHeight) {
       y = mousePos.y - TIP_H - 15;
     }
     
-    // Hard clamp to keep inside container if flipping isn't enough (e.g. small screen)
-    if (x < 10) x = 10;
+    // Hard clamp to keep inside container if flipping isn't enough
     if (x + TIP_W > clientWidth) x = clientWidth - TIP_W - 10;
+    if (x < 10) x = 10; // Prioritize left visibility
     
-    if (y < 10) y = 10;
     if (y + TIP_H > clientHeight) y = clientHeight - TIP_H - 10;
+    if (y < 10) y = 10; // Prioritize top visibility
 
     tooltipStyle = {
       display: 'block',

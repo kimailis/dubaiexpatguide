@@ -261,7 +261,7 @@ export default function App() {
           <div className="bg-[#FFFFFF] border border-[#EAE3D8] rounded-2xl p-6 shadow-sm h-full flex flex-col">
             <div className="flex items-center gap-2 mb-6 shrink-0">
               <Compass className="w-5 h-5 text-[#BFA57A]" />
-              <h2 className="font-serif text-xl font-bold text-[#2C2A29] uppercase tracking-wide">{t('app_essential_guides', 'Essential Expat Guides')}</h2>
+              <h2 className="font-serif text-[22px] font-bold text-[#2C2A29] uppercase tracking-wide">{t('app_essential_guides', 'Essential Expat Guides')}</h2>
             </div>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 auto-rows-max">
@@ -275,9 +275,9 @@ export default function App() {
                     <div className="w-10 h-10 rounded-lg bg-[#FFFFFF] border border-[#EAE3D8] flex items-center justify-center shadow-sm group-hover:border-[#BFA57A] transition-colors shrink-0">
                       {iconMap[guide.icon] || <Lightbulb className="w-5 h-5 text-[#BFA57A]" />}
                     </div>
-                    <h3 className="font-serif font-bold text-sm text-[#2C2A29] group-hover:text-[#8A7043] transition-colors line-clamp-1">{guide.title}</h3>
+                    <h3 className="font-serif font-extrabold text-[20px] text-[#2C2A29] group-hover:text-[#8A7043] transition-colors line-clamp-1">{guide.title}</h3>
                   </div>
-                  <p className="text-xs text-[#6D675E] leading-relaxed line-clamp-2">
+                  <p className="text-[13.2px] text-[#6D675E] leading-relaxed line-clamp-2">
                     {guide.shortDescription}
                   </p>
                 </button>

@@ -469,7 +469,7 @@
         ]
       },
       {
-        "name": "Siège social de Noon.com",
+        "name": "Noon.com HQ",
         "industry": "Commerce électronique et logistique",
         "description": "Noon est le principal écosystème de marché numérique du Moyen-Orient, à l'origine de technologies financières, de logistique, d'applications de distribution alimentaire et de plateformes d'échange de produits hyperlocales de pointe.",
         "openPositions": [
@@ -517,7 +517,7 @@
         "openPositions": [
           {
             "title": "Ingénieur logiciel principal (Java/Kotlin/Node)",
-            "department": "Ingénierie de la paie Careem",
+            "department": "Careem Pay Engineering",
             "salaryRange": "48 000 - 65 000 AED/mois",
             "experience": "7+ ans",
             "careerUrl": "https://careers.careem.com/"
@@ -827,7 +827,7 @@
         ]
       },
       {
-        "name": "Property Finder Tech EAU",
+        "name": "Property Finder Tech UAE",
         "industry": "Marché PropTech",
         "description": "La plateforme immobilière numérique dominante au Moyen-Orient, concevant des bases de données de location et d'achat conformes aux normes de l'industrie, des API de tarification automatisées du marché et des outils de courtage.",
         "openPositions": [
@@ -869,7 +869,7 @@
         ]
       },
       {
-        "name": "Laboratoires Dubizzle",
+        "name": "Dubizzle Labs",
         "industry": "Marchés classés et AdTech",
         "description": "Renforcer le portail commercial Dubizzle, massif et préféré au niveau local, pour les produits physiques, les marchés de véhicules et l'électronique générale.",
         "openPositions": [
@@ -953,7 +953,7 @@
         ]
       },
       {
-        "name": "Siège social de Deliveroo EAU",
+        "name": "Deliveroo UAE HQ",
         "industry": "Plateforme de livraison à la demande",
         "description": "Pionniers des systèmes de répartition automatisés de livraison de nourriture ultra-rapides et des réseaux logistiques aidant les commerçants locaux à prospérer.",
         "openPositions": [
@@ -2205,7 +2205,7 @@
     },
     "companies": [
       {
-        "name": "Bayout",
+        "name": "Bayut",
         "industry": "Marché PropTech",
         "description": "Moteur de recherche immobilier leader reliant les acheteurs, les investisseurs et les propriétaires à travers les Émirats arabes unis.",
         "openPositions": [
@@ -2853,7 +2853,7 @@
     },
     "companies": [
       {
-        "name": "Centre commercial des Émirats",
+        "name": "Mall of the Emirates",
         "industry": "Vente au détail et divertissement",
         "description": "L'un des plus grands centres commerciaux de Dubaï.",
         "openPositions": []

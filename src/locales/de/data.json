@@ -76,7 +76,7 @@
           {
             "title": "Associate – Quantitative Finance-Entwickler",
             "department": "Wertpapiertechnik",
-            "salaryRange": "35.000 - 48.000 AED/Monat",
+            "salaryRange": "35.000 – 48.000 AED/Monat",
             "experience": "3-5 Jahre",
             "careerUrl": "https://www.goldmansachs.com/careers"
           },
@@ -223,7 +223,7 @@
           {
             "title": "Spezialist für Cyber-Bedrohungsreaktionen",
             "department": "Sicherheitskommandozentrale",
-            "salaryRange": "35.000 - 48.000 AED/Monat",
+            "salaryRange": "35.000 – 48.000 AED/Monat",
             "experience": "5+ Jahre",
             "careerUrl": "https://www.sc.com/en/careers"
           },
@@ -448,7 +448,7 @@
           {
             "title": "Leiter der Analyse von maschinellem Lernen",
             "department": "Abteilung Smart Cities",
-            "salaryRange": "35.000 - 48.000 AED/Monat",
+            "salaryRange": "35.000 – 48.000 AED/Monat",
             "experience": "6+ Jahre",
             "careerUrl": "https://www.emaar.com/en/careers"
           },
@@ -469,7 +469,7 @@
         ]
       },
       {
-        "name": "Hauptsitz von Noon.com",
+        "name": "Noon.com HQ",
         "industry": "E-Commerce und Logistik",
         "description": "Noon ist das führende digitale Marktplatz-Ökosystem im Nahen Osten und treibt hochmoderne hyperlokale Fintech-, Logistik-, Lebensmittelvertriebs-Apps und Produkthandelsplattformen voran.",
         "openPositions": [
@@ -490,7 +490,7 @@
           {
             "title": "Leitender Android-Entwickler – Noon App",
             "department": "Mobiles Engineering",
-            "salaryRange": "35.000 - 48.000 AED/Monat",
+            "salaryRange": "35.000 – 48.000 AED/Monat",
             "experience": "5+ Jahre",
             "careerUrl": "https://careers.noon.com/"
           },
@@ -511,7 +511,7 @@
         ]
       },
       {
-        "name": "Careem-Technologien",
+        "name": "Careem Technologies",
         "industry": "Ride-Hailing und Super-App-Technologie",
         "description": "Der stolze einheimische Technologieriese der VAE und Uber-Tochtergesellschaft entwickelt eine Super-App-Plattform mit vollem Spektrum, die Fahrgäste, Peer-to-Peer-Kryptozahlungen, Lebensmittel, Lebensmitteldienstleistungen und Partnernetzwerke bietet.",
         "openPositions": [
@@ -525,7 +525,7 @@
           {
             "title": "Leitender iOS-Entwickler",
             "department": "Super-App Mobile-Team",
-            "salaryRange": "32.000 – 45.000 AED/Monat",
+            "salaryRange": "32.000 - 45.000 AED/Monat",
             "experience": "5+ Jahre",
             "careerUrl": "https://careers.careem.com/"
           },
@@ -567,7 +567,7 @@
           {
             "title": "Cloud Data Engineer – Kundentransformation",
             "department": "Digitale Labore",
-            "salaryRange": "32.000 – 45.000 AED/Monat",
+            "salaryRange": "32.000 - 45.000 AED/Monat",
             "experience": "4-6 Jahre",
             "careerUrl": "https://www.mckinsey.com/careers"
           },
@@ -602,7 +602,7 @@
           {
             "title": "OCI Cloud-Vertriebsingenieur",
             "department": "Oracle Cloud-Infrastruktur",
-            "salaryRange": "35.000 - 48.000 AED/Monat",
+            "salaryRange": "35.000 – 48.000 AED/Monat",
             "experience": "5-8 Jahre",
             "careerUrl": "https://careers.oracle.com"
           },
@@ -806,7 +806,7 @@
           {
             "title": "Leitender Golang-Entwickler (API-Plattformen)",
             "department": "Globale Systemintegrationen",
-            "salaryRange": "32.000 – 45.000 AED/Monat",
+            "salaryRange": "32.000 - 45.000 AED/Monat",
             "experience": "4+ Jahre",
             "careerUrl": "https://careers.bybit.com"
           },
@@ -820,14 +820,14 @@
           {
             "title": "UX Research Designer (Handels-UI)",
             "department": "UI/UX-Produkt",
-            "salaryRange": "22.000 – 30.000 AED/Monat",
+            "salaryRange": "22.000 - 30.000 AED/Monat",
             "experience": "3+ Jahre",
             "careerUrl": "https://careers.bybit.com"
           }
         ]
       },
       {
-        "name": "Property Finder Tech VAE",
+        "name": "Property Finder Tech UAE",
         "industry": "PropTech-Marktplatz",
         "description": "Die führende digitale Immobilienplattform im Nahen Osten, die branchenübliche Miet- und Kaufdatenbanken, automatisierte Marktpreis-APIs und Maklertools entwickelt.",
         "openPositions": [
@@ -876,7 +876,7 @@
           {
             "title": "Hauptentwickler bei Flutter",
             "department": "Hub für mobile Entwicklung",
-            "salaryRange": "32.000 – 45.000 AED/Monat",
+            "salaryRange": "32.000 - 45.000 AED/Monat",
             "experience": "6+ Jahre",
             "careerUrl": "https://dubizzle.bamboohr.com/careers"
           },
@@ -918,7 +918,7 @@
           {
             "title": "Leitender C++-Game-Engine-Entwickler",
             "department": "Interaktive Systeme",
-            "salaryRange": "35.000 - 52.000 AED/Monat",
+            "salaryRange": "35.000 – 52.000 AED/Monat",
             "experience": "6+ Jahre",
             "careerUrl": "https://www.yallatech.ae"
           },
@@ -953,7 +953,7 @@
         ]
       },
       {
-        "name": "Deliveroo VAE-Hauptquartier",
+        "name": "Deliveroo UAE HQ",
         "industry": "On-Demand-Lieferplattform",
         "description": "Pioniere ultraschneller, automatisierter Versandsysteme und Logistiknetzwerke für die Lebensmittelzustellung, die lokalen Händlern zum Erfolg verhelfen.",
         "openPositions": [
@@ -1534,7 +1534,7 @@
           {
             "title": "Technischer Account Manager – Sovereign AI",
             "department": "Kundenentwicklung",
-            "salaryRange": "35.000 - 48.000 AED/Monat",
+            "salaryRange": "35.000 – 48.000 AED/Monat",
             "experience": "4-7 Jahre",
             "careerUrl": "https://careers.google.com"
           }
@@ -1989,7 +1989,7 @@
           {
             "title": "Leitender Embedded C/C++-Entwickler",
             "department": "Supercar-Fahrzeug-Betriebssystem",
-            "salaryRange": "35.000 - 48.000 AED/Monat",
+            "salaryRange": "35.000 – 48.000 AED/Monat",
             "experience": "5+ Jahre",
             "careerUrl": "https://www.wmotors.ae"
           },
@@ -2038,7 +2038,7 @@
           {
             "title": "Senior React Developer – Smart City Panel",
             "department": "IoT-Frontend-Plattformen",
-            "salaryRange": "24.000 – 35.000 AED/Monat",
+            "salaryRange": "24.000 - 35.000 AED/Monat",
             "experience": "4+ Jahre",
             "careerUrl": "https://www.dtec.ae"
           },
@@ -2853,7 +2853,7 @@
     },
     "companies": [
       {
-        "name": "Einkaufszentrum der Emirate",
+        "name": "Mall of the Emirates",
         "industry": "Einzelhandel und Unterhaltung",
         "description": "Eines der größten Einkaufszentren in Dubai.",
         "openPositions": []
