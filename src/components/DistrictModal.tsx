@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { District, Company } from '../types';
+import { useEffect } from 'react';
 import {
   X,
   Briefcase,
@@ -41,7 +42,33 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
   if (!district) return null;
 
   const [activeTab, setActiveTab] = useState<TabType>('overview');
-  const [selectedCompany, setSelectedCompany] = useState<Company>(district.companies[0]);
+  const [dynamicCompanies, setDynamicCompanies] = useState<Company[]>(district.companies);
+  const [loadingCompanies, setLoadingCompanies] = useState(false);
+  const [selectedCompany, setSelectedCompany] = useState<Company | null>(district.companies[0] || null);
+
+  useEffect(() => {
+    if (district) {
+      setLoadingCompanies(true);
+      fetch(`/api/districts/${encodeURIComponent(district.id)}/companies?districtName=${encodeURIComponent(district.name)}`)
+        .then(res => res.json())
+        .then(data => {
+          if (Array.isArray(data) && data.length > 0) {
+            setDynamicCompanies(data);
+            setSelectedCompany(data[0]);
+          } else {
+             // fallback to static
+            setDynamicCompanies(district.companies);
+            setSelectedCompany(district.companies[0] || null);
+          }
+        })
+        .catch(err => {
+          console.error(err);
+        })
+        .finally(() => {
+          setLoadingCompanies(false);
+        });
+    }
+  }, [district]);
 
   // Conversion helper to USD
   const toUSD = (aedVal: number) => {
@@ -63,7 +90,7 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
     },
     {
       id: 'companies',
-      label: `${t('modal_corporate_hub', 'Corporate Hub')} (${district.companies.length})`,
+      label: `${t('modal_corporate_hub', 'Corporate Hub')} (${dynamicCompanies.length})`,
       icon: <Briefcase className="w-4 h-4" />,
     },
     {
@@ -354,7 +381,8 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                   className="space-y-4"
                 >
                   <div className="space-y-3">
-                    {district.companies.map((comp) => {
+                    {loadingCompanies && <div className="p-4 text-center text-[#8C8375] italic">{t('modal_loading_companies', 'Locating live company data...')}</div>}
+                    {!loadingCompanies && dynamicCompanies.map((comp) => {
                       const isSelected = selectedCompany?.name === comp.name;
                       return (
                         <div key={comp.name} className="border border-[#EAE3D8] rounded-xl overflow-hidden bg-[#FFFFFF] shadow-sm">

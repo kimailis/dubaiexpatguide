@@ -2,5 +2,7 @@
   "name": "Dubai District Explorer",
   "description": "An interactive exploratory guide to Dubai's major zones and districts, detailing tax situations, rents, corporate landscapes, laws, and regulations.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
