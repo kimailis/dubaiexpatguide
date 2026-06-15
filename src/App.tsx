@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { DUBAI_DISTRICTS } from './data';
 import { EXTENDED_DISTRICTS } from './extendedData';
 import { District } from './types';
@@ -20,7 +21,8 @@ import {
   Car,
   Home,
   Lightbulb,
-  ShoppingBag
+  ShoppingBag,
+  Globe2
 } from 'lucide-react';
 import { AnimatePresence } from 'motion/react';
 
@@ -37,14 +39,48 @@ const iconMap: Record<string, React.ReactNode> = {
 };
 
 export default function App() {
+  const { t, i18n } = useTranslation();
   const [hoveredDistrict, setHoveredDistrict] = useState<District | null>(null);
   const [selectedDistrict, setSelectedDistrict] = useState<District | null>(null);
   const [selectedGuide, setSelectedGuide] = useState<GuideArticle | null>(null);
   const [activeFooterModal, setActiveFooterModal] = useState<FooterModalType | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
+  const [isLangMenuOpen, setIsLangMenuOpen] = useState(false);
+
+  const translatedGuidesData = React.useMemo(() => {
+    const data = i18n.getResourceBundle(i18n.language, 'guide');
+    if (data && Array.isArray(data) && data.length > 0) return data;
+    return EXPAT_GUIDES;
+  }, [i18n.language, i18n.store.data]);
+
+  // Handle selectedGuide refresh if translations change
+  React.useEffect(() => {
+    if (selectedGuide) {
+      const updated = translatedGuidesData.find((g: GuideArticle) => g.id === selectedGuide.id);
+      if (updated) setSelectedGuide(updated);
+    }
+  }, [translatedGuidesData]);
+
+  // Click outside to close lang menu
+  React.useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (!(e.target as Element).closest('.lang-switcher')) {
+        setIsLangMenuOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  // Use translated data if not en
+  const translatedData = React.useMemo(() => {
+    const data = i18n.getResourceBundle(i18n.language, 'data');
+    if (data && Array.isArray(data) && data.length > 0) return data;
+    return ALL_DISTRICTS;
+  }, [i18n.language, i18n.store.data]);
 
   // Filtering districts based on search queried properties
-  const filteredDistricts = ALL_DISTRICTS.filter((d) => {
+  const filteredDistricts = translatedData.filter((d: District) => {
     const rawSearch = searchQuery.toLowerCase();
     return (
       d.name.toLowerCase().includes(rawSearch) ||
@@ -66,7 +102,7 @@ export default function App() {
       <div className="h-1 bg-gradient-to-r from-[#BFA57A] via-[#E3CBB3] to-[#BFA57A] w-full z-25 relative" />
 
       {/* --- PREMIUM REAL ESTATE TOP BAR --- */}
-      <header className="relative z-10 border-b border-[#EAE3D8] bg-[#FFFFFF] shadow-sm">
+      <header className="relative z-50 border-b border-[#EAE3D8] bg-[#FFFFFF] shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-l-0 border-r-0">
           
           {/* Logo / Curation Title Area */}
@@ -77,16 +113,16 @@ export default function App() {
             <div>
               <div className="flex flex-wrap items-center gap-2 mb-0.5">
                 <span className="text-[9px] sm:text-[10px] font-mono tracking-[0.2em] text-[#8A7043] uppercase font-bold">
-                  Curated Expat Resources
+                  {t('curated', 'Curated Expat Resources')}
                 </span>
                 <span className="text-[8px] sm:text-[9px] font-mono bg-[#FAF5EE] px-1.5 py-0.5 rounded border border-[#E5DDD0] text-[#86755F] font-bold">
-                  2026 INDEX
+                  {t('index2026', '2026 INDEX')}
                 </span>
               </div>
               <h1 className="font-serif text-xl sm:text-2xl font-extrabold text-[#2C2A29] tracking-tight flex items-center gap-1.5 sm:gap-2.5 flex-wrap">
                 <span className="text-2xl sm:text-3xl font-medium text-[#BFA57A] leading-none mb-1 mr-1">دبي</span>
                 <span>DUBAI</span>
-                <span className="text-[#8A7043] font-serif italic font-medium">EXPAT GUIDE</span>
+                <span className={`text-[#8A7043] font-serif italic ${i18n.language === 'ru' ? 'font-bold text-lg' : 'font-medium'}`}>{t('guide', 'EXPAT GUIDE')}</span>
               </h1>
             </div>
           </div>
@@ -95,11 +131,24 @@ export default function App() {
           <div className="flex flex-wrap items-center gap-2.5 sm:gap-3 text-xs text-[#6D675E] w-full md:w-auto">
             <div className="bg-[#FAF8F5] px-3.5 py-1.5 sm:py-2 rounded-full border border-[#EAE3D8] flex items-center gap-2 shadow-sm whitespace-nowrap">
               <Coins className="w-3.5 h-3.5 text-[#BFA57A]" />
-              <span>USD/AED: <strong className="text-[#2C2A29] font-mono">3.673</strong></span>
+              <span>{t('header.usd', 'USD/AED:')} <strong className="text-[#2C2A29] font-mono">3.673</strong></span>
             </div>
             <div className="bg-[#FAF8F5] px-3.5 py-1.5 sm:py-2 rounded-full border border-[#EAE3D8] flex items-center gap-2 shadow-sm whitespace-nowrap">
                <Scale className="w-3.5 h-3.5 text-[#BFA57A]" />
-               <span>VAT: <strong className="text-[#2C2A29] font-mono">5%</strong></span>
+               <span>{t('header.vat', 'VAT: 5%')}</span>
+            </div>
+            
+            <div className="bg-[#FAF8F5] px-3.5 py-1.5 sm:py-2 rounded-lg border border-[#EAE3D8] flex items-center gap-2 shadow-sm relative lang-switcher cursor-pointer hover:bg-[#F2EFE9] transition-colors" onClick={() => setIsLangMenuOpen(!isLangMenuOpen)}>
+              <Globe2 className="w-3.5 h-3.5 text-[#BFA57A]" />
+              <span className="uppercase font-bold tracking-wider">{i18n.language.toUpperCase()}</span>
+              
+              <div className={`absolute top-[calc(100%+4px)] right-0 w-36 bg-white border border-[#EAE3D8] rounded-lg shadow-xl transition-all z-[9999] overflow-hidden flex flex-col ${isLangMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
+                <button onClick={(e) => { e.stopPropagation(); i18n.changeLanguage('en'); setIsLangMenuOpen(false); }} className="w-full flex items-center justify-between px-4 py-2.5 hover:bg-[#FAF8F5] text-[#2C2A29] font-medium text-[11px] uppercase tracking-wider border-b border-[#EAE3D8] last:border-0"><span>English</span> <span className="text-lg leading-none">🇬🇧</span></button>
+                <button onClick={(e) => { e.stopPropagation(); i18n.changeLanguage('ru'); setIsLangMenuOpen(false); }} className="w-full flex items-center justify-between px-4 py-2.5 hover:bg-[#FAF8F5] text-[#2C2A29] font-medium text-[11px] uppercase tracking-wider border-b border-[#EAE3D8] last:border-0"><span>Русский</span> <span className="text-lg leading-none">🇷🇺</span></button>
+                <button onClick={(e) => { e.stopPropagation(); i18n.changeLanguage('de'); setIsLangMenuOpen(false); }} className="w-full flex items-center justify-between px-4 py-2.5 hover:bg-[#FAF8F5] text-[#2C2A29] font-medium text-[11px] uppercase tracking-wider border-b border-[#EAE3D8] last:border-0"><span>Deutsch</span> <span className="text-lg leading-none">🇩🇪</span></button>
+                <button onClick={(e) => { e.stopPropagation(); i18n.changeLanguage('fr'); setIsLangMenuOpen(false); }} className="w-full flex items-center justify-between px-4 py-2.5 hover:bg-[#FAF8F5] text-[#2C2A29] font-medium text-[11px] uppercase tracking-wider border-b border-[#EAE3D8] last:border-0"><span>Français</span> <span className="text-lg leading-none">🇫🇷</span></button>
+                <button onClick={(e) => { e.stopPropagation(); i18n.changeLanguage('es'); setIsLangMenuOpen(false); }} className="w-full flex items-center justify-between px-4 py-2.5 hover:bg-[#FAF8F5] text-[#2C2A29] font-medium text-[11px] uppercase tracking-wider"><span>Español</span> <span className="text-lg leading-none">🇪🇸</span></button>
+              </div>
             </div>
           </div>
 
@@ -119,7 +168,7 @@ export default function App() {
             </div>
             <input
               type="text"
-              placeholder="Search property registries by corporate entities, district name, average rent parameters..."
+              placeholder={t('search', 'Search property registries by corporate entities, district name, average rent parameters...')}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full bg-[#FFFFFF] hover:border-[#C5A880] focus:border-[#BFA57A] border border-[#EAE3D8] focus:ring-1 focus:ring-[#BFA57A]/30 rounded-xl py-3.5 pl-11 pr-4 text-xs font-medium text-[#2C2A29] placeholder-[#A69C8E] outline-none transition-all shadow-sm"
@@ -127,9 +176,9 @@ export default function App() {
           </div>
 
           {/* Map wrapper container in light plaster */}
-          <div className="flex-grow bg-[#FFFFFF] rounded-2xl shadow-sm border border-[#EAE3D8] overflow-hidden relative min-h-[450px] lg:h-[65vh]">
+          <div className="flex-grow bg-[#FFFFFF] rounded-2xl shadow-sm border border-[#EAE3D8] overflow-hidden relative min-h-[540px] lg:h-[78vh]">
             <DistrictMap
-              districts={ALL_DISTRICTS}
+              districts={translatedData}
               activeDistrict={hoveredDistrict}
               onHoverDistrict={setHoveredDistrict}
               onSelectDistrict={setSelectedDistrict}
@@ -142,14 +191,14 @@ export default function App() {
           
           {/* Sector Card Directories scrollbox */}
           <div className="bg-[#FFFFFF] border border-[#EAE3D8] rounded-2xl p-4 sm:p-5 flex flex-col shadow-sm lg:max-h-[1400px] lg:overflow-hidden">
-            <div className="flex items-center justify-between text-xs font-mono text-[#8C8375] px-1 font-bold mb-4 shrink-0">
+            <div className="flex items-center justify-between text-[13px] font-mono text-[#8C8375] px-1 font-bold mb-4 shrink-0">
               <span className="uppercase tracking-widest">
-                VERIFIED DISTRICT PORTFOLIOS ({filteredDistricts.length})
+                {t('verified', 'VERIFIED DISTRICT PORTFOLIOS ({{count}})', { count: filteredDistricts.length })}
               </span>
             </div>
 
             <div className="space-y-2 flex-grow lg:overflow-y-auto lg:pr-2 pb-2">
-              {filteredDistricts.map((dist) => {
+              {filteredDistricts.map((dist: District) => {
                 const isHovered = hoveredDistrict?.id === dist.id;
                 return (
                   <div
@@ -167,29 +216,29 @@ export default function App() {
                     <div>
                       <div className="flex items-center gap-1.5 mb-1">
                         <MapPin className="w-3.5 h-3.5 text-[#BFA57A]" />
-                        <span className="text-[10px] font-mono text-[#8C8375] uppercase tracking-wider font-bold">
-                          {dist.id === 'difc' || dist.id === 'jlt' || dist.id === 'internet-city' || dist.id === 'silicon-oasis' ? 'Free Zone Authority' : 'Mainland Department'}
+                        <span className="text-[11px] font-mono text-[#8C8375] uppercase tracking-wider font-bold">
+                          {dist.id === 'difc' || dist.id === 'jlt' || dist.id === 'internet-city' || dist.id === 'silicon-oasis' ? t('free_zone', 'Free Zone Authority') : t('mainland', 'Mainland Department')}
                         </span>
                       </div>
-                      <h4 className="font-serif text-[15.5px] font-bold text-[#2C2A29] flex items-center gap-2">
+                      <h4 className="font-serif text-[17px] font-bold text-[#2C2A29] flex items-center gap-2">
                         {dist.name}
-                        <span className="text-xs font-serif font-normal text-[#8D755F] italic">
+                        <span className="text-[13px] font-serif font-normal text-[#8D755F] italic">
                           ({dist.arabicName})
                         </span>
                       </h4>
-                      <p className="text-xs text-[#6D675E] mt-0.5 line-clamp-1 italic">
+                      <p className="text-[13px] text-[#6D675E] mt-0.5 line-clamp-1 italic">
                         {dist.tagline}
                       </p>
                     </div>
 
                     <div className="flex items-center gap-3 shrink-0">
-                      <div className="text-right text-[11px] font-mono hidden sm:block">
-                        <span className="text-[#8C8375] block uppercase font-mono text-[9px]">Avg 1-Bed Price</span>
+                      <div className="text-right text-[12px] font-mono hidden sm:block">
+                        <span className="text-[#8C8375] block uppercase font-mono text-[10px]">{t('price', 'Avg 1-Bed Price')}</span>
                         <span className="text-emerald-800 font-bold">
                           {dist.avgRent.bed1.toLocaleString()} AED
                         </span>
                       </div>
-                      <div className="w-7 h-7 rounded-full bg-[#FAF5EE] border border-[#E5DDD0] flex items-center justify-center text-[#8A7043] group-hover:bg-[#BFA57A] group-hover:text-[#FFFFFF] group-hover:border-[#BFA57A] transition-all shadow-sm">
+                      <div className="w-[30px] h-[30px] rounded-full bg-[#FAF5EE] border border-[#E5DDD0] flex items-center justify-center text-[#8A7043] group-hover:bg-[#BFA57A] group-hover:text-[#FFFFFF] group-hover:border-[#BFA57A] transition-all shadow-sm">
                         <ChevronRight className="w-4 h-4" />
                       </div>
                     </div>
@@ -198,8 +247,8 @@ export default function App() {
               })}
 
               {filteredDistricts.length === 0 && (
-                <div id="no-districts" className="p-6 text-center text-[13px] text-[#8C8375] border border-[#EAE3D8] rounded-xl font-mono italic bg-[#FFFFFF]">
-                  No properties matched "{searchQuery}". Sourcing terms such as "DIFC", "Microsoft", or "0%" is advised.
+                <div id="no-districts" className="p-6 text-center text-[14px] text-[#8C8375] border border-[#EAE3D8] rounded-xl font-mono italic bg-[#FFFFFF]">
+                  {t('no_properties', 'No properties matched. Sourcing terms such as "DIFC", "Microsoft", or "0%" is advised.')}
                 </div>
               )}
             </div>
@@ -212,11 +261,11 @@ export default function App() {
           <div className="bg-[#FFFFFF] border border-[#EAE3D8] rounded-2xl p-6 shadow-sm h-full flex flex-col">
             <div className="flex items-center gap-2 mb-6 shrink-0">
               <Compass className="w-5 h-5 text-[#BFA57A]" />
-              <h2 className="font-serif text-xl font-bold text-[#2C2A29] uppercase tracking-wide">Essential Expat Guides</h2>
+              <h2 className="font-serif text-xl font-bold text-[#2C2A29] uppercase tracking-wide">{t('app_essential_guides', 'Essential Expat Guides')}</h2>
             </div>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 auto-rows-max">
-              {EXPAT_GUIDES.map((guide) => (
+              {translatedGuidesData.map((guide: GuideArticle) => (
                 <button
                   key={guide.id}
                   onClick={() => setSelectedGuide(guide)}
@@ -242,19 +291,19 @@ export default function App() {
       <footer className="relative z-10 border-t border-[#EAE3D8] bg-[#FFFFFF] px-4 sm:px-6 py-6 text-center text-xs text-[#8C8375] shadow-inner">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-5">
           <div className="flex flex-col items-center md:items-start gap-1">
-            <p>© 2026 Dubai Expat Guide. All rights reserved.</p>
+            <p>{t('app_copyright', '© 2026 Dubai Expat Guide. All rights reserved.')}</p>
             <div className="flex gap-3 text-[10px] sm:text-xs">
-              <span onClick={() => setActiveFooterModal('accessibility')} className="hover:text-[#BFA57A] cursor-pointer transition-colors">Accessibility Policy</span>
+              <span onClick={() => setActiveFooterModal('accessibility')} className="hover:text-[#BFA57A] cursor-pointer transition-colors">{t('app_accessibility', 'Accessibility Policy')}</span>
               <span className="text-[#EAE3D8]">|</span>
-              <span onClick={() => setActiveFooterModal('privacy')} className="hover:text-[#BFA57A] cursor-pointer transition-colors">Legal & Privacy Policy</span>
+              <span onClick={() => setActiveFooterModal('privacy')} className="hover:text-[#BFA57A] cursor-pointer transition-colors">{t('app_privacy', 'Legal & Privacy Policy')}</span>
             </div>
           </div>
           
           <div className="flex flex-wrap justify-center gap-3 sm:gap-4 font-semibold text-[#8A7043]">
-            <span onClick={() => setActiveFooterModal('tax')} className="hover:text-[#BFA57A] cursor-pointer transition-colors">Official Tax Guidelines</span>
-            <span onClick={() => setActiveFooterModal('land')} className="hover:text-[#BFA57A] cursor-pointer transition-colors">Land Register Portal</span>
-            <span onClick={() => setActiveFooterModal('corporate')} className="hover:text-[#BFA57A] cursor-pointer transition-colors">Corporate Licensing</span>
-            <span onClick={() => setActiveFooterModal('contact')} className="hover:text-[#BFA57A] cursor-pointer transition-colors">Contact Us</span>
+            <span onClick={() => setActiveFooterModal('tax')} className="hover:text-[#BFA57A] cursor-pointer transition-colors">{t('app_tax_guidelines', 'Official Tax Guidelines')}</span>
+            <span onClick={() => setActiveFooterModal('land')} className="hover:text-[#BFA57A] cursor-pointer transition-colors">{t('app_land_register', 'Land Register Portal')}</span>
+            <span onClick={() => setActiveFooterModal('corporate')} className="hover:text-[#BFA57A] cursor-pointer transition-colors">{t('app_corp_licensing', 'Corporate Licensing')}</span>
+            <span onClick={() => setActiveFooterModal('contact')} className="hover:text-[#BFA57A] cursor-pointer transition-colors">{t('app_contact', 'Contact Us')}</span>
           </div>
         </div>
       </footer>

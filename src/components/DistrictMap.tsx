@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect, useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
 import { District } from '../types';
 import { MAP_POLYGONS } from '../mapPolygons';
 import { MapContainer, TileLayer, Marker, ZoomControl, useMapEvents } from 'react-leaflet';
@@ -30,6 +31,7 @@ export default function DistrictMap({
   onHoverDistrict,
   onSelectDistrict,
 }: Props) {
+  const { t } = useTranslation();
   const DUBAI_CENTER: [number, number] = [25.140, 55.240]; 
   const mapStyleUrl = 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png';
   
@@ -63,7 +65,7 @@ export default function DistrictMap({
               <span className="block text-xs font-serif italic text-[#86755F] font-normal mt-0.5">{d.arabicName}</span>
             </h4>
             <span className="text-[9px] sm:text-[10px] font-mono whitespace-nowrap bg-[#FAF5EE] border border-[#EAE3D8] text-[#8A7043] px-2 py-1 rounded-md font-bold uppercase tracking-widest shadow-sm">
-              {d.taxSituation.status.includes('Zone') ? 'Free Zone' : 'Mainland'}
+              {d.taxSituation.status.includes('Zone') ? t('modal_fz_jur', 'Free Zone') : t('modal_ml_jur', 'Mainland')}
             </span>
           </div>
           <p className="text-xs sm:text-sm text-[#6D675E] italic leading-snug">
@@ -79,11 +81,11 @@ export default function DistrictMap({
 
           <div className="flex justify-between items-center bg-[#FAFBF9] border border-[#EAE3D8] rounded-xl p-3 shadow-inner">
              <div>
-                <h5 className="text-[10px] uppercase font-bold text-[#8C8375] tracking-widest mb-1.5 flex items-center gap-1.5"><BedDouble className="w-3.5 h-3.5 text-[#BFA57A]"/> Avg 1-Bed</h5>
-                <span className="font-mono font-bold text-xs text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-100">{d.avgRent.bed1.toLocaleString()} AED/yr</span>
+                <h5 className="text-[10px] uppercase font-bold text-[#8C8375] tracking-widest mb-1.5 flex items-center gap-1.5"><BedDouble className="w-3.5 h-3.5 text-[#BFA57A]"/> {t('map_annual_rent', 'Avg 1-Bed')}</h5>
+                <span className="font-mono font-bold text-xs text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-100">{d.avgRent.bed1.toLocaleString()} {t('aed', 'AED')}/yr</span>
              </div>
              <div className="text-right">
-                <h5 className="text-[10px] uppercase font-bold text-[#8C8375] tracking-widest mb-1.5">Pet Friendly</h5>
+                <h5 className="text-[10px] uppercase font-bold text-[#8C8375] tracking-widest mb-1.5">{t('map_pet_friendly', 'Pet Friendly')}</h5>
                 <div className="flex gap-0.5 justify-end">
                    {Array.from({ length: 5 }).map((_, i) => (
                      <span key={i} className={`text-xs ${i < d.petSituation.friendlyRating ? 'text-[#C5A880]' : 'text-[#E6E1D8]'}`}>★</span>
@@ -93,12 +95,12 @@ export default function DistrictMap({
           </div>
 
           <div>
-             <h5 className="text-[10px] uppercase font-bold text-[#8C8375] tracking-widest mb-1.5 flex items-center gap-1.5"><Building className="w-3.5 h-3.5 text-[#BFA57A]"/> Tax & Registration</h5>
+             <h5 className="text-[10px] uppercase font-bold text-[#8C8375] tracking-widest mb-1.5 flex items-center gap-1.5"><Building className="w-3.5 h-3.5 text-[#BFA57A]"/> {t('map_tax_reg', 'Tax & Registration')}</h5>
              <p className="text-xs text-[#6D675E] leading-relaxed line-clamp-2">{d.taxSituation.corporateTax}</p>
           </div>
 
           <div>
-            <h5 className="text-[10px] uppercase font-bold text-[#8C8375] tracking-widest mb-2 flex items-center gap-1.5"><Briefcase className="w-3.5 h-3.5 text-[#BFA57A]"/> Key Entities</h5>
+            <h5 className="text-[10px] uppercase font-bold text-[#8C8375] tracking-widest mb-2 flex items-center gap-1.5"><Briefcase className="w-3.5 h-3.5 text-[#BFA57A]"/> {t('map_key_entities', 'Key Entities')}</h5>
             <div className="flex flex-wrap gap-1.5">
               {d.companies.slice(0, 3).map(c => (
                 <span key={c.name} className="text-[10px] bg-[#FAF8F5] text-[#5C564E] font-medium border border-[#EAE3D8] rounded-md px-2 py-1 truncate max-w-[120px] shadow-sm">{c.name}</span>
@@ -110,7 +112,7 @@ export default function DistrictMap({
         </div>
 
         <div className="mt-4 pt-3 text-[10px] text-[#A69C8E] font-bold tracking-wide uppercase border-t border-[#F0EAE1] flex justify-between items-center">
-            <span className="flex items-center gap-1.5"><Info className="w-3.5 h-3.5 text-[#BFA57A]"/> Click zone to open ledger</span>
+            <span className="flex items-center gap-1.5"><Info className="w-3.5 h-3.5 text-[#BFA57A]"/> {t('map_click_zone', 'Click zone to open ledger')}</span>
         </div>
       </div>
     );
@@ -307,7 +309,7 @@ export default function DistrictMap({
         <div className="flex items-center gap-2 text-[10px] text-[#8A7043] uppercase font-bold tracking-wider font-mono">
            <MapPin className="w-4 h-4 text-[#BFA57A]" /> 
            <div>
-              Sector Boundaries <br/> <span className="text-[#6D675E] font-medium tracking-normal text-[9px] capitalize">Laid precisely to Carto scale</span>
+              {t('map.sectorBoundaries', 'Sector Boundaries')} <br/> <span className="text-[#6D675E] font-medium tracking-normal text-[9px] capitalize">{t('map_laid', 'Laid precisely to Carto scale')}</span>
            </div>
         </div>
       </div>

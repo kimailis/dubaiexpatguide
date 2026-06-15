@@ -1,0 +1,1115 @@
+[
+  {
+    "id": "employment",
+    "title": "Emploi et visas",
+    "shortDescription": "Naviguez dans le système de visa des Émirats arabes unis, les lois du travail et le marché du travail.",
+    "icon": "Briefcase",
+    "tabs": [
+      {
+        "id": "visas",
+        "label": "Types de visas",
+        "icon": "FileText",
+        "sections": [
+          {
+            "heading": "Visas de résidence",
+            "content": "Pour vivre et travailler à Dubaï, un visa de résidence valide est crucial. Les Émirats arabes unis mettent continuellement à jour leur régime de visa pour attirer les talents et les investisseurs.",
+            "imageUrl": "https://images.unsplash.com/photo-1555848962-6e79363ec58f?auto=format&fit=crop&q=80",
+            "link": {
+              "text": "Informations officielles sur le visa des Émirats arabes unis",
+              "url": "https://u.ae/en/information-and-services/visa-and-emirates-id"
+            },
+            "listItems": [
+              {
+                "title": "Visa de travail",
+                "description": "Parrainé par votre employeur. Généralement valable 2 ans. Les frais sont à la charge de l'employeur conformément à la loi.",
+                "link": {
+                  "text": "Apprendre encore plus",
+                  "url": "https://u.ae/en/information-and-services/visa-and-emirates-id"
+                }
+              },
+              {
+                "title": "Visa doré",
+                "description": "Un visa de résidence de 5 ou 10 ans pour les investisseurs, les étudiants exceptionnels et les talents spécialisés. Aucun sponsor n'est nécessaire.",
+                "link": {
+                  "text": "Vérification d'éligibilité",
+                  "url": "https://gdrfad.gov.ae/en/services"
+                }
+              },
+              {
+                "title": "Visa vert",
+                "description": "Un visa de 5 ans pour les employés qualifiés (nécessite un baccalauréat et un seuil salarial spécifique) ou les indépendants.",
+                "link": {
+                  "text": "Exigences",
+                  "url": "https://u.ae/en/information-and-services/visa-and-emirates-id"
+                }
+              },
+              {
+                "title": "Travail indépendant et à distance",
+                "description": "Diverses zones franches proposent des visas spécialisés d'un ou de deux ans pour gérer votre propre micro-entreprise ou travailler à distance.",
+                "link": {
+                  "text": "GoFreelance",
+                  "url": "https://gofreelance.ae/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "emp_types",
+        "label": "Types d'emploi",
+        "icon": "Users",
+        "sections": [
+          {
+            "heading": "Continent contre zone franche",
+            "content": "Votre structure d'emploi dépend profondément de l'endroit où l'entreprise est enregistrée, ce qui affecte votre sponsor de visa et les lois du travail applicables.",
+            "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80",
+            "bullets": [
+              "Continent (MOHRE) : les entreprises enregistrées ici sont régies directement par le ministère des Ressources humaines et de l'Émiratisation.",
+              "Zones franches (par exemple, DIFC, DMCC) : disposent de leurs propres règles du travail et tribunaux distincts. Par exemple, les tribunaux du DIFC fonctionnent selon la common law plutôt que selon la loi fédérale des Émirats arabes unis.",
+              "Le travail à temps partiel est légal mais nécessite un permis de travail à temps partiel spécifique et un CNO (certificat de non-objection) de parrain principal.",
+              "Multinationales ou entreprises locales : les sociétés multinationales se conforment généralement aux pratiques mondiales en matière de ressources humaines (souvent en normalisant les avantages sociaux), tandis que les groupes locaux peuvent négocier des forfaits uniquement basés sur la nationalité, l'expérience et les tarifs du marché local."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "jobs",
+        "label": "Recherche d'emploi",
+        "icon": "Search",
+        "sections": [
+          {
+            "heading": "Où chercher",
+            "content": "Le marché du travail de Dubaï est robuste mais hyper-compétitif. Tirer parti de chasseurs de têtes spécialisés et d’une sensibilisation directe est bien plus efficace que de postuler occasionnellement.",
+            "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80",
+            "listItems": [
+              {
+                "title": "LinkedIn Moyen-Orient",
+                "description": "L'outil numéro un pour trouver des rôles et créer des réseaux dans le CCG.",
+                "link": {
+                  "text": "Aller sur LinkedIn",
+                  "url": "https://www.linkedin.com/jobs/jobs-in-dubai/"
+                }
+              },
+              {
+                "title": "GolfeTalent",
+                "description": "Grand site d'emploi régional proposant des candidatures directes dans tous les secteurs.",
+                "link": {
+                  "text": "Visitez GulfTalent",
+                  "url": "https://www.gulftalent.com/uae/jobs/dubai"
+                }
+              },
+              {
+                "title": "Bayt",
+                "description": "L'un des portails d'emploi les plus anciens et les plus grands du Moyen-Orient.",
+                "link": {
+                  "text": "Visitez Bayt",
+                  "url": "https://www.bayt.com/en/uae/"
+                }
+              },
+              {
+                "title": "Hays Moyen-Orient",
+                "description": "Agence de recrutement haut de gamme axée sur les postes de niveau intermédiaire à supérieur.",
+                "link": {
+                  "text": "Visitez Hays",
+                  "url": "https://www.hays.ae/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "laws",
+        "label": "Lois du travail",
+        "icon": "Scale",
+        "sections": [
+          {
+            "heading": "Droits et contrats des travailleurs",
+            "content": "Les Émirats arabes unis ont mis à jour leur loi fédérale du travail (décret-loi n° 33 de 2021) pour renforcer les protections, introduire de nouveaux modèles de travail et s'aligner sur les pratiques mondiales.",
+            "bullets": [
+              "Les périodes d'essai ne peuvent pas excéder 6 mois par la loi. Les délais de préavis pendant la probation doivent être de 14 jours minimum.",
+              "Indemnité de fin de service : une indemnité de départ calculée sur la base du salaire de base final (21 jours de salaire pendant les 5 premières années, 30 jours par la suite) en cas de départ après 1 an et plus.",
+              "Contrats limités : tous les contrats sont désormais à durée déterminée (max 3 ans, renouvelable) offrant des protections plus claires.",
+              "Congé annuel : Les salariés ont droit à 30 jours calendaires de congés payés par an.",
+              "Anti-discrimination et égalité de rémunération : les lois imposent strictement un salaire égal pour un travail égal et interdisent la discrimination.",
+              "Une clause de non-concurrence peut être appliquée si vous rejoignez un concurrent direct, à condition qu'elle soit limitée géographiquement et temporellement (max 2 ans)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tips",
+        "label": "Conseils pour les visas et l'emploi",
+        "icon": "Lightbulb",
+        "sections": [
+          {
+            "heading": "Survivre au marché",
+            "content": "Conseils clés pour naviguer dans le recrutement et s'installer en tant qu'employé à Dubaï.",
+            "bullets": [
+              "Ne payez PAS les recruteurs : il est strictement illégal, en vertu de la loi des Émirats arabes unis, que les agences de recrutement facturent des frais aux demandeurs d'emploi.",
+              "Négociations salariales : « Salaire de base » vs « Indemnités ». Votre gratification de fin de service est calculée uniquement sur le forfait de base, alors assurez-vous qu'elle représente un pourcentage sain (généralement 50 à 60 %) de votre forfait total.",
+              "Authentification des documents : assurez-vous que vos diplômes et actes de mariage sont attestés localement (ministère des Affaires étrangères) avant votre arrivée, car cela peut prendre des mois.",
+              "Formats de CV et approche du marché : les CV du Moyen-Orient incluent souvent (bien que cela ne soit pas strictement requis par la loi) une photo professionnelle, une divulgation claire de la nationalité, de l'état civil et du statut actuel du visa. Cela aide les RH à filtrer rapidement les candidats en fonction des quotas de visa et des plafonds d'indemnités.",
+              "Emirates ID : Il s'agit de votre carte la plus vitale : requise pour la location, les opérations bancaires, Internet et la conduite. Votre vie est mise en pause jusqu'à ce qu'elle soit imprimée."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "healthcare",
+    "title": "Santé et assurance",
+    "shortDescription": "Naviguez dans le système médical privé, la couverture maladie et les pharmacies à Dubaï.",
+    "icon": "HeartPulse",
+    "tabs": [
+      {
+        "id": "rules",
+        "label": "Règles de santé",
+        "icon": "Scale",
+        "sections": [
+          {
+            "heading": "Assurance maladie obligatoire",
+            "content": "À Dubaï, la Dubai Health Authority (DHA) exige que chaque résident ait une assurance maladie. Les résidents non assurés s'exposent à des amendes mensuelles.",
+            "bullets": [
+              "Responsabilité de l'employeur : les employeurs sont légalement tenus de fournir une norme minimale d'assurance maladie à leurs employés.",
+              "Personnes à charge : les employés sont généralement responsables d'assurer les personnes à leur charge (conjoint/enfants), bien que certains forfaits généreux incluent une couverture familiale.",
+              "EBP (Essential Benefits Plan) : Un niveau de base imposé par la loi, mais très restrictif avec de longs délais d'attente.",
+              "Pré-approbation : De nombreux traitements spécialisés, IRM ou chirurgies non urgentes nécessitent l'approbation préalable de la compagnie d'assurance avant que l'hôpital puisse procéder."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "insurance",
+        "label": "Compagnies d'assurance",
+        "icon": "ShieldPlus",
+        "sections": [
+          {
+            "heading": "Principaux fournisseurs",
+            "content": "Les assureurs opèrent selon plusieurs niveaux (de base, complet, premium). La sélection du bon niveau détermine les hôpitaux (« réseau ») auxquels vous pouvez accéder sans payer de votre poche.",
+            "listItems": [
+              {
+                "title": "Bupa Global / Oman Assurance",
+                "description": "Couverture mondiale premium. Très recherché pour les expatriés ayant besoin d'accéder aux meilleures installations absolues.",
+                "link": {
+                  "text": "Visitez Bupa",
+                  "url": "https://www.bupaglobal.com/en"
+                }
+              },
+              {
+                "title": "Cigna",
+                "description": "Couverture internationale de premier plan, réputée pour son service client et son inclusion en matière de santé mentale.",
+                "link": {
+                  "text": "Visitez Cigna",
+                  "url": "https://www.cigna-me.com/"
+                }
+              },
+              {
+                "title": "AXA / GIG",
+                "description": "Un choix complet très populaire pour les régimes d’employeurs de niveau intermédiaire à élevé.",
+                "link": {
+                  "text": "Visitez GIG",
+                  "url": "https://www.gulfinsurance.ae/"
+                }
+              },
+              {
+                "title": "Daman National",
+                "description": "Fournisseur local majeur offrant tout, des plans DHA de base aux niveaux premium complets.",
+                "link": {
+                  "text": "Visitez Daman",
+                  "url": "https://www.damanhealth.ae/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hospitals",
+        "label": "Hôpitaux et cliniques",
+        "icon": "Hospital",
+        "sections": [
+          {
+            "heading": "Centres médicaux privés",
+            "content": "Dubai Healthcare City est un centre médical dédié, mais des cliniques haut de gamme sont réparties partout. La qualité est exceptionnellement élevée dans les niveaux premium.",
+            "imageUrl": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80",
+            "listItems": [
+              {
+                "title": "Hôpital Médical de la Ville",
+                "description": "Situé dans la Cité de la Santé. Hôpital multidisciplinaire haut de gamme offrant des soins de maternité et de traumatologie exceptionnels.",
+                "link": {
+                  "text": "Prendre rendez-vous",
+                  "url": "https://www.mediclinic.ae/"
+                }
+              },
+              {
+                "title": "Hôpital saoudien allemand",
+                "description": "Immense hôpital hautement équipé à Al Barsha servant de centre majeur de soins tertiaires.",
+                "link": {
+                  "text": "Prendre rendez-vous",
+                  "url": "https://sghdubai.ae/"
+                }
+              },
+              {
+                "title": "Hôpital américain de Dubaï",
+                "description": "Hôpital privé pionnier connu pour ses chirurgies complexes et sa médecine robotique.",
+                "link": {
+                  "text": "Prendre rendez-vous",
+                  "url": "https://www.ahdubai.com/"
+                }
+              },
+              {
+                "title": "Hôpital du King's College",
+                "description": "Apporter les normes médicales britanniques à Dubai Hills avec des médecins formés au Royaume-Uni.",
+                "link": {
+                  "text": "Prendre rendez-vous",
+                  "url": "https://kingscollegehospitaldubai.com/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pharmacies",
+        "label": "Pharmacies et médicaments",
+        "icon": "HeartPulse",
+        "sections": [
+          {
+            "heading": "Règles pour les médicaments contrôlés",
+            "content": "Les Émirats arabes unis ont des classifications strictes pour ce qui est considéré comme un stupéfiant illégal, une drogue contrôlée et un médicament en vente libre.",
+            "bullets": [
+              "Médicaments interdits : Les produits contenant de la codéine, des graines de pavot ou du CBD sont strictement interdits et peuvent provoquer une arrestation immédiate à l'aéroport.",
+              "Médicaments contrôlés : les somnifères (par exemple Ambien), les médicaments contre l'anxiété (par exemple Xanax) et certains médicaments contre le TDAH sont hautement restreints. Vous DEVEZ obtenir l’approbation préalable du ministère de la Santé avant de voyager avec eux.",
+              "Les antibiotiques sont strictement délivrés sur ordonnance.",
+              "Les analgésiques standards (Paracétamol, Ibuprofène) sont disponibles en vente libre partout."
+            ]
+          },
+          {
+            "heading": "Pharmacies populaires",
+            "content": "Les pharmacies sont omniprésentes, on les trouve dans tous les centres commerciaux et centres de quartier.",
+            "listItems": [
+              {
+                "title": "Pharmacie de la vie",
+                "description": "La plus grande chaîne de Dubaï. De nombreuses succursales fonctionnent 24h/24 et 7j/7. Vaste gamme de suppléments.",
+                "link": {
+                  "text": "Pharmacie de la vie",
+                  "url": "https://www.lifepharmacy.com/"
+                }
+              },
+              {
+                "title": "Pharmacie Aster",
+                "description": "Réseau étendu dans tous les quartiers, souvent rattaché aux cliniques Aster.",
+                "link": {
+                  "text": "Aster en ligne",
+                  "url": "https://www.asterpharmacy.ae/"
+                }
+              },
+              {
+                "title": "Bottes",
+                "description": "Familier des expatriés britanniques, proposant des marques de santé et de beauté familières. Trouvé dans la plupart des centres commerciaux.",
+                "link": {
+                  "text": "Bottes MOI",
+                  "url": "https://me.boots.com/"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "education",
+    "title": "Éducation et écoles",
+    "shortDescription": "Comprendre les programmes internationaux, les classements KHDA et les universités.",
+    "icon": "GraduationCap",
+    "tabs": [
+      {
+        "id": "laws",
+        "label": "Lois sur l'éducation",
+        "icon": "Scale",
+        "sections": [
+          {
+            "heading": "KHDA et ministère de l'Éducation",
+            "content": "La Knowledge and Human Development Authority (KHDA) régit tous les établissements d’enseignement privé à Dubaï.",
+            "bullets": [
+              "Les écoles sont inspectées chaque année avec des notes : Exceptionnel, Très bon, Bon, Acceptable, Faible.",
+              "Les augmentations des frais de scolarité sont directement liées à ces notes par la loi (par exemple, une école exceptionnelle peut augmenter les frais d'un pourcentage plus élevé qu'une bonne école).",
+              "La langue arabe est obligatoire pour tous les élèves jusqu'à la 10e année/9e année.",
+              "Les études islamiques sont une matière obligatoire pour tous les étudiants musulmans."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "schools",
+        "label": "Écoles (K-12)",
+        "icon": "Book",
+        "sections": [
+          {
+            "heading": "Écoles internationales les mieux notées",
+            "content": "Dubaï abrite une immense variété d'écoles internationales destinées aux expatriés, principalement britanniques, américaines, indiennes et de l'IB. Les frais peuvent être exorbitants (50 000 à 120 000 AED par an).",
+            "listItems": [
+              {
+                "title": "Collège de Dubaï (DC)",
+                "description": "Constamment noté Exceptionnel. Cursus britannique très académique. Notoirement difficile d’accès.",
+                "link": {
+                  "text": "Collège de Dubaï",
+                  "url": "https://www.dubaicollege.org/"
+                }
+              },
+              {
+                "title": "GEMS Wellington International",
+                "description": "École britannique/IB massive et très bien notée située dans le quartier central d'Al Sufouh.",
+                "link": {
+                  "text": "Wellington Inter",
+                  "url": "https://www.wellingtoninternationalschool.com/"
+                }
+              },
+              {
+                "title": "École américaine de Dubaï (ASD)",
+                "description": "École américaine à but non lucratif. Immense campus, installations incroyables, privilégiées par les expatriés américains et canadiens.",
+                "link": {
+                  "text": "ASD Dubaï",
+                  "url": "https://www.asdubai.org/"
+                }
+              },
+              {
+                "title": "Académie internationale de Dubaï (DIA)",
+                "description": "Une école de premier plan du continuum de l'IB (Baccalauréat international) située à Emirates Hills.",
+                "link": {
+                  "text": "DIA Emirates Hills",
+                  "url": "https://www.diadubai.com/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kindergarten",
+        "label": "Jardins d'enfants et crèches",
+        "icon": "Baby",
+        "sections": [
+          {
+            "heading": "Éducation de la petite enfance",
+            "content": "Les crèches accueillent généralement des enfants âgés de 45 jours à 4 ans (FS1/Pre-K). La concurrence pour les places dans les meilleures crèches est féroce.",
+            "listItems": [
+              {
+                "title": "Pépinière de fleurs",
+                "description": "Pépinières EYFS respectueuses de l'environnement primées avec des succursales dans les ranchs Marina, Downtown et Arabian.",
+                "link": {
+                  "text": "Pépinière de fleurs",
+                  "url": "https://www.theblossomnursery.com/"
+                }
+              },
+              {
+                "title": "Pépinière du verger britannique",
+                "description": "Se concentre sur le développement de la petite enfance dans un environnement communautaire hautement stimulant.",
+                "link": {
+                  "text": "Verger britannique",
+                  "url": "https://www.britishorchardnursery.com/"
+                }
+              },
+              {
+                "title": "Pépinière étape par étape",
+                "description": "Hybride Reggio Emilia et EYFS de haute qualité situé à Dubailand et Mirdif.",
+                "link": {
+                  "text": "Pas à pas",
+                  "url": "https://stepbystepnursery.ae/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "universities",
+        "label": "Universités",
+        "icon": "GraduationCap",
+        "sections": [
+          {
+            "heading": "Pôles d’enseignement supérieur",
+            "content": "Dubaï abrite plusieurs campus universitaires internationaux, permettant aux étudiants d'obtenir des diplômes mondialement reconnus sans quitter les Émirats arabes unis.",
+            "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80",
+            "address": "Dubai Knowledge Park, Al Sufouh",
+            "listItems": [
+              {
+                "title": "Université de Birmingham Dubaï",
+                "description": "Une des meilleures universités britanniques du Russell Group offrant des diplômes identiques à ceux de son campus britannique.",
+                "link": {
+                  "text": "UoB Dubaï",
+                  "url": "https://www.birmingham.ac.uk/dubai"
+                }
+              },
+              {
+                "title": "Université Heriot-Watt",
+                "description": "Exceptionnel pour l'ingénierie et les affaires. Immense campus moderne dans Knowledge Park.",
+                "link": {
+                  "text": "Hériot-Watt",
+                  "url": "https://www.hw.ac.uk/dubai/"
+                }
+              },
+              {
+                "title": "Université américaine de Dubaï (AUD)",
+                "description": "Institution accréditée aux États-Unis à Media City, proposant de solides programmes en matière de médias, d'ingénierie et de commerce.",
+                "link": {
+                  "text": "EUR",
+                  "url": "https://www.aud.edu/"
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Inscription à distance et visas étudiants",
+            "content": "Dubaï encourage fortement les étudiants internationaux à étudier dans l'émirat.",
+            "bullets": [
+              "Inscription depuis l'extérieur : vous pouvez postuler en ligne sur presque tous les campus secondaires de votre pays d'origine. Une fois acceptée, l'université agit en tant que sponsor de votre visa.",
+              "Visa étudiant : Généralement valable 1 an, renouvelable. Vous entrez avec un permis d’entrée étudiant, puis effectuez le contrôle médical et le processus d’identification Emirates localement.",
+              "Golden Visa pour les étudiants : les diplômés universitaires exceptionnels (GPA 3.8+) ou les élèves les plus performants du secondaire peuvent être nommés directement par le ministère de l'Éducation pour un Golden Visa de 10 ans."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cars",
+    "title": "Voitures et circulation",
+    "shortDescription": "Acquisition d'un véhicule, code de la route, péages Salik et permis.",
+    "icon": "Car",
+    "tabs": [
+      {
+        "id": "traffic",
+        "label": "Code de la route",
+        "icon": "Scale",
+        "sections": [
+          {
+            "heading": "Application stricte",
+            "content": "Dubaï utilise un réseau incroyablement dense de radars, de radars IA et de patrouilles de police. Le code de la route est rigide et impitoyable.",
+            "bullets": [
+              "Tolérance zéro pour l'alcool : l'alcool au volant entraîne une peine de prison immédiate, la confiscation du véhicule, des amendes massives (jusqu'à 20 000 AED) et l'expulsion.",
+              "Excès de vitesse : les caméras clignotent à exactement 20 km/h au-dessus de la limite affichée (à Dubaï). Remarque : Abu Dhabi n’a AUCUN tampon.",
+              "Talonnage : les radars IA infligent désormais automatiquement des amendes aux conducteurs qui ne laissent pas une distance de sécurité suffisante à grande vitesse.",
+              "Points noirs : Les infractions génèrent des points noirs sur votre dossier. Accumulez 24 et votre permis est suspendu."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "license",
+        "label": "Acquisition de licence",
+        "icon": "FileText",
+        "sections": [
+          {
+            "heading": "Obtenir une licence aux Émirats arabes unis",
+            "content": "Le processus dépend entièrement du passeport que vous détenez et de l’endroit où votre permis de conduire actuel a été délivré.",
+            "bullets": [
+              "Échange direct : les citoyens du Royaume-Uni, des États-Unis, de la plupart des pays de l'UE, d'Australie et de quelques autres pays peuvent simplement échanger leur permis domestique contre un permis de Dubaï en 15 minutes dans un centre RTA.",
+              "Tests requis : la plupart des expatriés asiatiques, africains et sud-américains doivent ouvrir un dossier de circulation, suivre des cours de conduite obligatoires (10 à 20 heures) et réussir un examen routier RTA.",
+              "Coûts : Un échange direct coûte environ 800 AED. Les tests et cours complets peuvent coûter entre 4 000 et 8 000 AED."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "buyrent",
+        "label": "Entreprises et agences",
+        "icon": "Key",
+        "sections": [
+          {
+            "heading": "Où acheter ou louer",
+            "content": "Le leasing automobile est extrêmement populaire auprès des nouveaux expatriés. En cas d'achat, le marché de l'occasion est énorme en raison de la population itinérante.",
+            "listItems": [
+              {
+                "title": "Cars24 et Kavak",
+                "description": "Plateformes de voitures d'occasion proposant des véhicules entièrement inspectés en ligne, livraison à domicile et garanties.",
+                "link": {
+                  "text": "Visitez Cars24",
+                  "url": "https://www.cars24.com/ae/"
+                }
+              },
+              {
+                "title": "YallaMoteur",
+                "description": "Le plus grand portail automobile de la région, excellent pour la recherche de prix et la recherche d'offres neuves/d'occasion.",
+                "link": {
+                  "text": "YallaMoteur",
+                  "url": "https://www.yallamotor.com/"
+                }
+              },
+              {
+                "title": "SellAnyCar.com",
+                "description": "Opération massive pour liquider rapidement votre véhicule à la sortie du pays, même si les devis ont tendance à être grossiers.",
+                "link": {
+                  "text": "Vendre n'importe quelle voiture",
+                  "url": "https://sellanycar.com/"
+                }
+              },
+              {
+                "title": "OneClickDrive",
+                "description": "Un agrégateur massif de locations de voitures, allant des trajets quotidiens bon marché aux supercars de luxe.",
+                "link": {
+                  "text": "OneClickDrive",
+                  "url": "https://www.oneclickdrive.com/"
+                }
+              },
+              {
+                "title": "Ekar et Udrive",
+                "description": "Partage de voiture intelligent basé sur des applications. Déverrouillez les voitures garées dans la rue avec votre téléphone et payez à la minute.",
+                "link": {
+                  "text": "Ékar",
+                  "url": "https://ekar.me/"
+                }
+              },
+              {
+                "title": "Dubizzle (Annonces)",
+                "description": "Le marché P2P standard. Bonnes affaires mais nécessite une vigilance face aux arnaques ou dommages cachés.",
+                "link": {
+                  "text": "Dubizzle Autos",
+                  "url": "https://dubai.dubizzle.com/motors/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "public",
+        "label": "Transports publics",
+        "icon": "Bus",
+        "sections": [
+          {
+            "heading": "Métro et taxis",
+            "content": "Dubaï dispose d'un réseau de transports publics de classe mondiale, mais à portée limitée, nécessitant une carte Nol pour être utilisé.",
+            "bullets": [
+              "Carte Nol : La carte à puce utilisée pour payer les transports en commun Métro, Tram, Bus RTA et Taxis RTA.",
+              "Métro de Dubaï : entièrement automatisé. Comprend une classe Gold (tarif premium, moins de monde) et une cabine dédiée aux femmes et aux enfants.",
+              "Taxis : relativement abordables. Le tarif de départ est de 12 AED s'il est appelé depuis la rue, ou de 12 AED via l'application.",
+              "Careem/Hala : utilisez l'application Careem pour réserver des taxis RTA standard (Hala Taxi) ou des voitures Lexus premium."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "property",
+    "title": "Location de propriété",
+    "shortDescription": "Naviguer dans Ejari, les chèques, les frais de courtage et les droits des locataires.",
+    "icon": "Home",
+    "tabs": [
+      {
+        "id": "laws",
+        "label": "Lois sur la location et RERA",
+        "icon": "Scale",
+        "sections": [
+          {
+            "heading": "Droits des locataires",
+            "content": "L'Agence de Régulation de l'Immobilier (RERA) réglemente fortement la relation propriétaire-locataire pour garantir la stabilité.",
+            "bullets": [
+              "Avis d'expulsion : Un propriétaire NE PEUT PAS vous demander de partir sur un coup de tête. Ils doivent fournir un préavis écrit de 12 mois, délivré par notaire ou par courrier recommandé, et uniquement pour des raisons spécifiques (par exemple, vente, emménagement eux-mêmes).",
+              "Augmentations de loyer : déterminées strictement par le calculateur de loyer RERA. Si vous payez en dessous du taux du marché, ils ne peuvent augmenter que d'un pourcentage plafonné (5 à 20 % maximum).",
+              "Entretien : Par convention (et contrat), le propriétaire prend en charge les grosses réparations (au-dessus de 500 AED), tandis que le locataire assume les frais d'usure mineurs."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "process",
+        "label": "Le processus de location",
+        "icon": "FileText",
+        "sections": [
+          {
+            "heading": "Chèques et Ejari",
+            "content": "Le processus typique pour obtenir un appartement à Dubaï.",
+            "bullets": [
+              "Offre et dépôt : Vous versez un dépôt de garantie de 5 % pour retirer la propriété du marché.",
+              "Contrat de location et chèques : vous signez le contrat et remettez des chèques postdatés (généralement 1, 2, 4 ou parfois jusqu'à 12). Le chèque sans provision est une infraction grave.",
+              "Ejari : Vous apportez le contrat signé à un centre de dactylographie pour l'enregistrer dans le système gouvernemental Ejari (environ 220 AED). Ceci est nécessaire pour activer l’eau et l’électricité.",
+              "DEWA : Caution d'installation pour l'eau et l'électricité (2 000 AED pour les appartements, 4 000 AED pour les villas)."
+            ]
+          },
+          {
+            "heading": "La stratégie à court terme",
+            "content": "Fortement recommandé aux nouveaux arrivants avant de s'engager dans un Ejari d'un an.",
+            "bullets": [
+              "Louez Airbnb d'abord : louez une maison de vacances ou un appartement d'hôtel pendant vos 1 à 2 premiers mois. Cela coûte plus cher, mais garantit que vous pouvez explorer les quartiers et vos déplacements aux heures de pointe avant de signer un contrat contraignant.",
+              "Pas de soucis liés aux services publics : les locations à court terme incluent l'Internet haut débit, le DEWA et les frais de refroidissement, ce qui vous laisse le temps d'imprimer votre carte d'identité Emirates sans rester dans le noir.",
+              "Méfiez-vous des faux agents : les locations à court terme sont fortement ciblées par les escrocs. Vérifiez l'identifiant RERA de l'agent et la licence commerciale de l'entreprise avant de transférer tout dépôt."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "platforms",
+        "label": "Plateformes de recherche",
+        "icon": "Search",
+        "sections": [
+          {
+            "heading": "Où trouver une propriété",
+            "content": "Ne vous contentez pas d’entrer dans les bâtiments ; le marché est fortement axé sur les courtiers et numérisé via de grands portails.",
+            "listItems": [
+              {
+                "title": "Recherche de propriété",
+                "description": "Le portail immobilier le plus complet et le plus propre des Émirats arabes unis. Annonces vérifiées.",
+                "link": {
+                  "text": "Recherche de propriété",
+                  "url": "https://www.propertyfinder.ae/"
+                }
+              },
+              {
+                "title": "Bayout",
+                "description": "Concurrent majeur de Property Finder. Excellentes fonctionnalités de carte et de données communautaires.",
+                "link": {
+                  "text": "Bayout",
+                  "url": "https://www.bayut.com/"
+                }
+              },
+              {
+                "title": "Propriété Dubizzle",
+                "description": "Site de petites annonces. Idéal pour trouver des offres directes auprès du propriétaire afin d'éviter les frais d'agence de 5 %.",
+                "link": {
+                  "text": "Dubizzle",
+                  "url": "https://dubai.dubizzle.com/property-for-rent/"
+                }
+              },
+              {
+                "title": "Houza",
+                "description": "Créé par un réseau d'agences immobilières pour lutter contre les fausses annonces, garantissant que seules les véritables propriétés sont affichées.",
+                "link": {
+                  "text": "Houza",
+                  "url": "https://houza.com/"
+                }
+              },
+              {
+                "title": "Propriété Zoom",
+                "description": "Portail immobilier à croissance rapide, particulièrement performant dans le domaine du logement abordable et des nouveaux développements.",
+                "link": {
+                  "text": "Propriété Zoom",
+                  "url": "https://www.zoomproperty.com/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "brokers",
+        "label": "Courtiers immobiliers",
+        "icon": "Briefcase",
+        "sections": [
+          {
+            "heading": "Agences immobilières de premier plan",
+            "content": "Si vous achetez ou recherchez une assistance de location premium, ces agences dominent le marché.",
+            "listItems": [
+              {
+                "title": "Allsopp et Allsopp",
+                "description": "L'une des agences les plus importantes et les plus récompensées, particulièrement dominante dans les réseaux d'expatriés britanniques.",
+                "link": {
+                  "text": "Allsopp et Allsopp",
+                  "url": "https://www.allsoppandallsopp.com/"
+                }
+              },
+              {
+                "title": "De meilleures maisons",
+                "description": "La plus ancienne agence immobilière de Dubaï, un vaste portefeuille dans toutes les gammes de prix.",
+                "link": {
+                  "text": "De meilleures maisons",
+                  "url": "https://www.bhomes.com/"
+                }
+              },
+              {
+                "title": "Maison et Maison",
+                "description": "Spécialistes des zones haut de gamme telles que Dubai Hills, Arabian Ranches et Marina.",
+                "link": {
+                  "text": "Maison et Maison",
+                  "url": "https://www.hausandhaus.com/"
+                }
+              },
+              {
+                "title": "Propriétés familiales",
+                "description": "Immense agence basée sur les données, fortement impliquée dans les ventes sur plan (nouveaux développements).",
+                "link": {
+                  "text": "Propriétés familiales",
+                  "url": "https://famproperties.com/"
+                }
+              },
+              {
+                "title": "Propriétés D&B",
+                "description": "Entreprise primée étroitement liée à de grands développeurs comme Emaar et Nakheel.",
+                "link": {
+                  "text": "Propriétés D&B",
+                  "url": "https://dandbdubai.com/"
+                }
+              },
+              {
+                "title": "Immobilier de prévoyance",
+                "description": "Une agence immobilière à service complet de premier plan avec une portée massive et des sous-équipes spécialisées.",
+                "link": {
+                  "text": "Prévoyant",
+                  "url": "https://www.providentestate.com/"
+                }
+              },
+              {
+                "title": "Espace Immobilier",
+                "description": "Particulièrement fort dans les communautés de villas comme les îles Jumeirah, Meadows et Springs.",
+                "link": {
+                  "text": "Espace",
+                  "url": "https://www.espace.ae/"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rules",
+    "title": "Règles et lois comportementales",
+    "shortDescription": "Étiquettes culturelles essentielles, réglementations financières et comportement public.",
+    "icon": "Scale",
+    "tabs": [
+      {
+        "id": "culture",
+        "label": "Étiquette culturelle",
+        "icon": "Users",
+        "sections": [
+          {
+            "heading": "Respecter les traditions islamiques",
+            "content": "Dubaï est extrêmement tolérante et accueille plus de 200 nationalités, mais le décorum public est strictement respecté pour maintenir l'harmonie.",
+            "bullets": [
+              "Tenue vestimentaire modeste : Les centres commerciaux et les bâtiments gouvernementaux ont des codes vestimentaires. Les épaules et les genoux doivent généralement être couverts. Les maillots de bain sont réservés à la plage ou à la piscine.",
+              "PDA (Démonstrations publiques d'affection) : Se tenir la main pour les couples mariés est acceptable. S'embrasser ou s'embrasser passionnément en public est illégal et peut conduire à une arrestation.",
+              "Ramadan : pendant le mois sacré, manger, boire, mâcher de la gomme ou fumer en public pendant la journée est très restreint et offensant.",
+              "Photographie : Il est interdit de prendre des photos de bâtiments gouvernementaux, de sites militaires ou d'avions. Fondamentalement, prendre des photos de personnes sans leur consentement (en particulier des femmes locales) constitue un délit grave."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cyber",
+        "label": "Lois sur la cybersécurité",
+        "icon": "Monitor",
+        "sections": [
+          {
+            "heading": "Comportement en ligne et confidentialité",
+            "content": "Les Émirats arabes unis disposent de lois sur la cybercriminalité parmi les plus strictes au monde pour prévenir la diffamation et la fraude.",
+            "bullets": [
+              "Jurer ou insulter : Utiliser un langage grossier, insulter quelqu'un ou envoyer l'emoji « majeur » sur WhatsApp est un crime passible de lourdes amendes ou d'expulsion.",
+              "Diffamation : nommer et humilier une entreprise en ligne (par exemple, laisser un avis Google en colère et insultant) peut entraîner une action en justice contre vous.",
+              "Utilisation du VPN : L'utilisation d'un VPN est techniquement légale pour une utilisation en entreprise ou pour accéder aux médias domestiques, mais son utilisation pour commettre un crime, accéder à du contenu illégal bloqué ou contourner les lois sur les télécommunications pour les appels VOIP (comme l'audio/vidéo WhatsApp) entraîne des amendes de plusieurs millions de dirhams en cas de capture.",
+              "Rumeurs et actualités : la diffusion de fausses nouvelles ou de rumeurs non vérifiées sur les réseaux sociaux est lourdement pénalisée. Partagez uniquement les annonces officielles du gouvernement."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "alcohol",
+        "label": "Règles relatives à l'alcool",
+        "icon": "Wine",
+        "sections": [
+          {
+            "heading": "Licences et consommation",
+            "content": "Dubaï a récemment assoupli de nombreuses règles, mais des limites strictes demeurent en matière d'ivresse.",
+            "bullets": [
+              "Où boire : L'alcool ne peut être consommé que dans des lieux agréés (hôtels, clubs spécifiques, certains restaurants) ou à votre domicile privé. Se promener dans la rue avec une bière est strictement illégal.",
+              "Acheter pour la maison : les résidents non musulmans peuvent obtenir instantanément un permis d'alcool numérique gratuit en présentant leur carte d'identité Emirates dans un magasin MMI ou African + Eastern (les deux chaînes officielles de vente au détail d'alcool). Il n'y a plus de frais de permis ni de restriction de salaire à domicile.",
+              "Achats alternatifs : les expatriés achètent souvent leur alcool hors taxes à l'aéroport DXB à leur arrivée (avec des allocations généreuses) ou conduisent légalement 1 heure jusqu'au complexe \"Barracuda\" dans l'émirat d'Umm Al Quwain pour acheter en gros sans avoir besoin de permis.",
+              "Comportement en état d'ébriété : tolérance zéro pour l'ivresse publique, les bagarres ou les comportements offensants sous influence. Cela entraînera une arrestation immédiate.",
+              "DUI : L’alcool au volant a exactement une tolérance zéro. Limite de 0,0. Ne buvez pas une seule gorgée et conduisez."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tips",
+    "title": "Conseils et mises en garde",
+    "shortDescription": "Coûts cachés, applications utiles, finances et survie à l'été de Dubaï.",
+    "icon": "Lightbulb",
+    "tabs": [
+      {
+        "id": "finance",
+        "label": "Banques et factures",
+        "icon": "Landmark",
+        "sections": [
+          {
+            "heading": "Gestion financière",
+            "content": "Le système bancaire des Émirats arabes unis est très avancé, mais le crédit peut constituer un piège pour les nouveaux arrivants.",
+            "bullets": [
+              "Ouverture d'un compte : nécessite votre carte d'identité Emirates, votre passeport et un certificat de salaire de votre employeur. Emirates NBD, ADCB et Mashreq sont des banques locales dominantes.",
+              "Cartes de crédit : les banques les distribuent de manière agressive. Les paiements manquants entraînent des frais de retard massifs et des intérêts composés.",
+              "Structuration fiscale et offshore : pour les indépendants à revenus élevés et les travailleurs à distance souhaitant une sécurité bancaire maximale et un impôt sur les sociétés de 0 %, un manuel populaire consiste à créer une LLC américaine (par exemple, via Stripe Atlas ou Firstbase), à ​​ouvrir un compte bancaire professionnel à Singapour ou aux États-Unis (par exemple, Mercury, Wise), puis à \"s'embaucher\" légalement à Dubaï. Vous vivez à Dubaï en franchise d'impôt (0 % d'impôt sur le revenu des personnes physiques) avec un visa vert ou indépendant, tandis que votre entreprise étrangère protège ses actifs à l'international.",
+              "Les « Frais de logement » : Votre facture mensuelle DEWA (électricité/eau) comprend des frais de logement municipaux, qui sont automatiquement calculés à 5 % de votre loyer annuel, divisé par 12.",
+              "Frais de connaissance : presque toutes les transactions gouvernementales (visa, licences, amendes) comprennent des « frais de connaissance et d'innovation » standard de 20 AED."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apps",
+        "label": "Applications incontournables",
+        "icon": "Smartphone",
+        "sections": [
+          {
+            "heading": "Le style de vie numérique",
+            "content": "Dubaï fonctionne sur la livraison et les services sur smartphone. Vous avez rarement besoin d’argent liquide.",
+            "listItems": [
+              {
+                "title": "Careem",
+                "description": "L'application \"Tout\". Taxis, livraison de nourriture, location de vélos, nettoyage, tests PCR et portefeuille numérique.",
+                "link": {
+                  "text": "Télécharger Careem",
+                  "url": "https://www.careem.com/"
+                }
+              },
+              {
+                "title": "Application de la police de Dubaï",
+                "description": "Vital. Utilisé pour signaler instantanément des accidents de voiture mineurs, payer des amendes et accéder aux services d'urgence.",
+                "link": {
+                  "text": "Police de Dubaï",
+                  "url": "https://www.dubaipolice.gov.ae/"
+                }
+              },
+              {
+                "title": "Al-Hosn",
+                "description": "L'application du registre national de la santé. Utilisé pour les dossiers de vaccination et les résultats médicaux officiels.",
+                "link": {
+                  "text": "Al-Hosn",
+                  "url": "https://alhosnapp.ae/"
+                }
+              },
+              {
+                "title": "Dubizzle",
+                "description": "La Craigslist de Dubaï. Achetez, vendez, louez n'importe quoi, des voitures aux lits en passant par les appartements.",
+                "link": {
+                  "text": "Dubizzle",
+                  "url": "https://dubai.dubizzle.com/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "weather",
+        "label": "Survie météo",
+        "icon": "Sun",
+        "sections": [
+          {
+            "heading": "Survivre à l'été",
+            "content": "De juin à septembre, les températures oscillent autour de 40-48°C (104-118°F) avec une humidité intense.",
+            "bullets": [
+              "Vie intérieure : la ville s’y attend. Littéralement, tout est climatisé de manière agressive (même les arrêts de bus).",
+              "Sécurité automobile : Ne laissez jamais de bombes aérosols, de désinfectants pour les mains ou d’appareils électroniques dans votre voiture, car ils peuvent exploser sous la chaleur. Les volants en cuir peuvent provoquer de légères brûlures sans pare-soleil.",
+              "Vitamine D : Ironiquement, de nombreux expatriés souffrent d’une carence en vitamine D parce qu’ils passent l’été entièrement à l’intérieur. Prenez des suppléments.",
+              "L'hiver est parfait : d'octobre à avril, le temps est magnifique, ensoleillé et la température est de 20 à 30 °C. Tout le monde mange dehors et va à la plage."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "deals",
+        "label": "Offres et avantages",
+        "icon": "Coins",
+        "sections": [
+          {
+            "heading": "Coupons et réductions",
+            "content": "Dubaï peut être incroyablement cher, mais ceux qui sont au courant paient rarement le prix fort pour les dépenses liées au style de vie.",
+            "listItems": [
+              {
+                "title": "L'application Artiste",
+                "description": "La règle d'or de la restauration et du divertissement à Dubaï. Il coûte environ 400 AED par an mais donne droit à des bons illimités 2 pour 1 dans des milliers de restaurants haut de gamme et de parcs à thème.",
+                "link": {
+                  "text": "L'artiste",
+                  "url": "https://www.theentertainerme.com/"
+                }
+              },
+              {
+                "title": "Cobone & Groupon EAU",
+                "description": "Offres quotidiennes étendues pour les spas, les safaris dans le désert, les croisières en boutre et les services de teinture de voitures. Excellent pour les nouveaux arrivants essayant de faire des activités touristiques à moindre coût.",
+                "link": {
+                  "text": "Cobone",
+                  "url": "https://www.cobone.com/en/deals/dubai"
+                }
+              },
+              {
+                "title": "Fidélisation des supermarchés",
+                "description": "Carrefour utilise l'application SHARE pour les points. Spinneys et Waitrose ont leurs propres niveaux de fidélité. Ces points s’additionnent rapidement pour obtenir des épiceries gratuites.",
+                "link": {
+                  "text": "PARTAGER les récompenses",
+                  "url": "https://www.sharerewards.com/"
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Avantages majeurs pour les expatriés",
+            "content": "Au-delà du soleil et de la sécurité, être résident officiel offre des avantages systémiques importants.",
+            "bullets": [
+              "Certificat de domicile fiscal : Une fois que vous êtes résident depuis plus de 180 jours, vous pouvez demander un certificat de résidence fiscale auprès du ministère des Finances. Ceci est essentiel pour prouver à votre pays d’origine que vous ne devriez plus être imposé par celui-ci.",
+              "Remises de zone : de nombreuses zones franches (comme DIFC ou Media City) délivrent leurs propres cartes d'identité internes, qui offrent des réductions de base (10 à 20 %) dans tous les cafés et salles de sport situés dans cette zone géographique.",
+              "Portes électroniques de l'aéroport : votre identifiant Emirates vous permet d'éviter complètement les files d'attente à l'immigration à DXB. Il vous suffit de franchir les portes intelligentes en scannant votre visage en 10 secondes."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shopping",
+    "title": "Shopping et centres commerciaux",
+    "shortDescription": "Méga-centres commerciaux, épiceries de tous les jours, taxes et marchés locaux.",
+    "icon": "ShoppingBag",
+    "tabs": [
+      {
+        "id": "malls",
+        "label": "Méga centres commerciaux",
+        "icon": "ShoppingBag",
+        "sections": [
+          {
+            "heading": "Les palais du commerce de détail",
+            "content": "Les centres commerciaux de Dubaï sont essentiellement des villes intérieures à température contrôlée qui servent de centres sociaux, de quartiers de restauration et de centres de divertissement.",
+            "listItems": [
+              {
+                "title": "Centre commercial de Dubaï",
+                "description": "Le centre commercial le plus visité au monde. Comprend une patinoire olympique, un immense aquarium et l'entrée du Burj Khalifa.",
+                "link": {
+                  "text": "Le centre commercial de Dubaï",
+                  "url": "https://thedubaimall.com/"
+                }
+              },
+              {
+                "title": "Centre commercial des Émirats",
+                "description": "Centre commercial de luxe emblématique situé à Al Barsha abritant Ski Dubai, la célèbre piste de ski couverte.",
+                "link": {
+                  "text": "Centre commercial des Émirats",
+                  "url": "https://www.malloftheemirates.com/"
+                }
+              },
+              {
+                "title": "Centre commercial Dubai Hills",
+                "description": "Le plus récent méga-centre commercial. Très populaire parmi les résidents en raison d'un meilleur parking, d'un immense cinéma et de montagnes russes intérieures.",
+                "link": {
+                  "text": "Centre commercial Dubai Hills",
+                  "url": "https://www.dubaihillsmall.ae/"
+                }
+              },
+              {
+                "title": "Centre commercial Ibn Battuta",
+                "description": "Thème autour des voyages de l'explorateur Ibn Battuta. Architecture impressionnante et très pratique pour les expatriés du sud.",
+                "link": {
+                  "text": "Ibn Battouta",
+                  "url": "https://www.ibnbattutamall.com/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "groceries",
+        "label": "Supermarchés",
+        "icon": "ShoppingCart",
+        "sections": [
+          {
+            "heading": "Épicerie de tous les jours",
+            "content": "L'ampleur des produits importés signifie que vous pouvez trouver exactement la marque de beurre ou de céréales de votre pays d'origine, mais souvent à un prix plus élevé.",
+            "listItems": [
+              {
+                "title": "Waitrose et Spinneys",
+                "description": "Très haute qualité, prix premium. Indispensable pour les expatriés britanniques à la recherche de marques maison et de produits à base de viande de porc.",
+                "link": {
+                  "text": "Spinneys",
+                  "url": "https://www.spinneys.com/"
+                }
+              },
+              {
+                "title": "Carrefour Moyen-Orient",
+                "description": "Immense hypermarché français offrant un excellent rapport qualité-prix sur l'électronique, les vêtements et les produits d'épicerie standards.",
+                "link": {
+                  "text": "Carrefour",
+                  "url": "https://www.carrefouruae.com/"
+                }
+              },
+              {
+                "title": "Vive",
+                "description": "Un énorme succès récent. Un supermarché hard discount de style allemand (comme Aldi) proposant des importations en euros incroyablement bon marché.",
+                "link": {
+                  "text": "Vive",
+                  "url": "https://myviva.com/"
+                }
+              },
+              {
+                "title": "Kibsons (livraison d'applications)",
+                "description": "L'arme secrète des expatriés. Application incroyable pour des fruits, des légumes et de la viande en vrac bon marché et de haute qualité livrés le lendemain.",
+                "link": {
+                  "text": "Kibsons",
+                  "url": "https://www.kibsons.com/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "souks",
+        "label": "Souks traditionnels",
+        "icon": "Store",
+        "sections": [
+          {
+            "heading": "Marchés du vieux Dubaï",
+            "content": "Pour découvrir les racines commerciales de Dubaï, traversez la crique sur un Abra (bateau en bois) pour 1 AED et explorez les souks de Deira.",
+            "listItems": [
+              {
+                "title": "Souk de l'or de Dubaï",
+                "description": "Des centaines de détaillants vendent de grandes quantités d’or. Le prix de l'or est strict et réglementé par le gouvernement, mais vous négociez les « frais de fabrication ».",
+                "link": {
+                  "text": "Informations",
+                  "url": "#gold"
+                }
+              },
+              {
+                "title": "Souk aux épices",
+                "description": "A côté du Souk de l'Or, proposant de l'encens, du safran, des dattes et d'énormes sacs d'épices. Le marchandage est obligatoire.",
+                "link": {
+                  "text": "Informations",
+                  "url": "#spice"
+                }
+              },
+              {
+                "title": "Souk Madinat Jumeirah",
+                "description": "Une reconstruction moderne, haut de gamme et climatisée d'un souk destiné principalement aux touristes, offrant une vue imprenable sur le Burj Al Arab.",
+                "link": {
+                  "text": "Médine",
+                  "url": "https://www.jumeirah.com/en/article/experiences/dubai/souk-madinat-jumeirah"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vat",
+        "label": "TVA et remboursements",
+        "icon": "Receipt",
+        "sections": [
+          {
+            "heading": "Système fiscal",
+            "content": "Les Émirats arabes unis ont mis en place une taxe sur la valeur ajoutée pour diversifier leurs revenus.",
+            "bullets": [
+              "Une TVA standard de 5 % s'applique à la plupart des biens et services, y compris les factures de restaurant, les produits d'épicerie et les appareils électroniques.",
+              "Taux zéro/exonérations : les soins de santé de base, les frais de scolarité et les baux immobiliers résidentiels ne sont pas assujettis à la TVA.",
+              "Les touristes (non-résidents) peuvent demander le remboursement de la TVA sur les achats importants à l'aéroport au moment du départ via les kiosques hors taxes Planet. Assurez-vous de demander au magasin une « étiquette hors taxe »."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

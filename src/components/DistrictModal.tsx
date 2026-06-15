@@ -19,6 +19,7 @@ import {
   Users,
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import { useTranslation } from 'react-i18next';
 
 interface DistrictModalProps {
   district: District | null;
@@ -35,6 +36,8 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
     };
   }, []);
 
+  const { t } = useTranslation();
+
   if (!district) return null;
 
   const [activeTab, setActiveTab] = useState<TabType>('overview');
@@ -50,32 +53,32 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
   const tabs: { id: TabType; label: string; icon: React.ReactNode }[] = [
     {
       id: 'overview',
-      label: 'District Overview',
+      label: t('modal_district_overview', 'District Overview'),
       icon: <Info className="w-4 h-4" />,
     },
     {
       id: 'tax',
-      label: 'Tax & Legal Codes',
+      label: t('modal_tax_code', 'Tax & Legal Codes'),
       icon: <Scale className="w-4 h-4" />,
     },
     {
       id: 'companies',
-      label: `Corporate Hub (${district.companies.length})`,
+      label: `${t('modal_corporate_hub', 'Corporate Hub')} (${district.companies.length})`,
       icon: <Briefcase className="w-4 h-4" />,
     },
     {
       id: 'apartments',
-      label: 'Apartments & Rents',
+      label: t('modal_apt_rents', 'Apartments & Rents'),
       icon: <Home className="w-4 h-4" />,
     },
     {
       id: 'pets',
-      label: 'Pet Regulations',
+      label: t('modal_pet_reg', 'Pet Regulations'),
       icon: <Dog className="w-4 h-4" />,
     },
     {
       id: 'demographics',
-      label: 'Demographics',
+      label: t('modal_demographics', 'Demographics'),
       icon: <Users className="w-4 h-4" />,
     },
   ];
@@ -117,16 +120,16 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
               </div>
               <div>
                 <span className="text-[8px] md:text-[9px] font-mono tracking-widest text-[#8A7043] uppercase font-bold block">
-                  Municipal Archives
+                  {t('modal_muni_archive', 'Municipal Archives')}
                 </span>
                 <span className="text-xs md:text-sm font-serif font-bold text-[#2C2A29] line-clamp-1">
-                  Sector: {district.name}
+                  {t('modal_sector', 'Sector:')} {district.name}
                 </span>
               </div>
             </div>
 
             <span className="text-[9px] md:text-[10px] font-mono text-[#8C8375] uppercase tracking-widest block mb-2 mt-1 md:mt-0 font-bold px-1">
-              Primary Registers
+              {t('modal_prim_registers', 'Primary Registers')}
             </span>
 
             {/* Tab items list */}
@@ -156,7 +159,7 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
           <div className="mt-5 pt-4 border-t border-[#EAE3D8] hidden md:block">
             <div className="flex justify-between items-center bg-[#FAF5EE] p-3 rounded-lg border border-[#EAE3D8]">
               <div>
-                <span className="text-[8px] font-mono text-[#8A7043] uppercase block">Coordinate baseline</span>
+                <span className="text-[8px] font-mono text-[#8A7043] uppercase block">{t('modal_coord_baseline', 'Coordinate baseline')}</span>
                 <span className="text-[10px] font-semibold text-[#2C2A29] font-mono">
                   {district.id === 'silicon-oasis' ? '24.4539° N / E66' : '25.2048° N / E11'}
                 </span>
@@ -175,7 +178,7 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-[#F0EAE1] pb-5 mb-5">
               <div>
                 <div className="text-[10px] font-mono text-[#8A7043] uppercase tracking-widest font-bold mb-1">
-                  OFFICIAL MUNICIPAL REGISTRY
+                  {t('modal_official_muni', 'OFFICIAL MUNICIPAL REGISTRY')}
                 </div>
                 <h1 className="font-serif text-2xl sm:text-3.5xl font-extrabold text-[#2C2A29] tracking-tight leading-tight flex items-center gap-2">
                   {district.name}
@@ -191,8 +194,8 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
               <div className="p-3 bg-[#FAF8F5] rounded-xl border border-[#EAE3D8] flex items-center gap-2.5">
                 <div className="w-2 h-2 rounded-full bg-[#7A8973]"></div>
                 <div>
-                  <span className="text-[8px] font-mono text-[#8A7043] uppercase block">DLD Registry status</span>
-                  <span className="text-[10px] font-bold text-[#2C2A29]">Current Q2 2026 Archive</span>
+                  <span className="text-[8px] font-mono text-[#8A7043] uppercase block">{t('modal_dld_status', 'DLD Registry status')}</span>
+                  <span className="text-[10px] font-bold text-[#2C2A29]">{t('modal_q2_archive', 'Current Q2 2026 Archive')}</span>
                 </div>
               </div>
             </div>
@@ -211,7 +214,7 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                 >
                   <div className="bg-[#FAF8F5] p-5 rounded-xl border border-[#EAE3D8] leading-relaxed">
                     <h3 className="text-xs font-semibold uppercase tracking-wider text-[#8A7043] font-mono mb-2.5 flex items-center gap-2">
-                      <Layers className="w-4 h-4 text-[#BFA57A]" /> Sector Demographics & Living Curation
+                      <Layers className="w-4 h-4 text-[#BFA57A]" /> {t('modal_sector_demo', 'Sector Demographics & Living Curation')}
                     </h3>
                     <p className="text-sm text-[#2C2A29] leading-relaxed">
                       {district.description}
@@ -221,7 +224,7 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                   {/* Highlights */}
                   <div>
                     <h3 className="text-xs font-mono uppercase tracking-wider text-[#8A7043] font-bold mb-3">
-                      Sights & Signature Landmarks
+                      {t('modal_sights', 'Sights & Signature Landmarks')}
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       {district.majorAttractions.map((att, index) => (
@@ -237,7 +240,7 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                               {att}
                             </span>
                             <span className="text-[9px] text-[#8C8375] font-mono">
-                              Official DXB Spotlight Sight
+                              {t('modal_off_dxb', 'Official DXB Spotlight Sight')}
                             </span>
                           </div>
                         </div>
@@ -248,22 +251,22 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                   {/* Quick features board */}
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                     <div className="bg-[#FAF8F5] p-3.5 rounded-xl border border-[#EAE3D8] text-center">
-                      <span className="text-[9px] text-[#8C8375] block uppercase font-mono mb-1">Zoning Category</span>
+                      <span className="text-[9px] text-[#8C8375] block uppercase font-mono mb-1">{t('modal_zoning', 'Zoning Category')}</span>
                       <span className="text-xs font-bold text-[#8A7043] uppercase tracking-wider">
                         {district.id === 'difc' || district.id === 'jlt' || district.id === 'internet-city' || district.id === 'silicon-oasis'
-                          ? 'Free Zone jurisdiction'
-                          : 'Mainland jurisdiction'}
+                          ? t('modal_fz_jur', 'Free Zone jurisdiction')
+                          : t('modal_ml_jur', 'Mainland jurisdiction')}
                       </span>
                     </div>
                     <div className="bg-[#FAF8F5] p-3.5 rounded-xl border border-[#EAE3D8] text-center">
-                      <span className="text-[9px] text-[#8C8375] block uppercase font-mono mb-1">Scenic Setting</span>
+                      <span className="text-[9px] text-[#8C8375] block uppercase font-mono mb-1">{t('modal_scenic', 'Scenic Setting')}</span>
                       <span className="text-xs font-bold text-[#7B8E99]">
-                        {district.id === 'marina' || district.id === 'jlt' || district.id === 'internet-city' ? 'Lakeside / Coastal' : 'Metropolitan / Inland'}
+                        {district.id === 'marina' || district.id === 'jlt' || district.id === 'internet-city' ? t('modal_lakeside', 'Lakeside / Coastal') : t('modal_metro_inland', 'Metropolitan / Inland')}
                       </span>
                     </div>
                     <div className="bg-[#FAF8F5] p-3.5 rounded-xl border border-[#EAE3D8] text-center col-span-2 sm:col-span-1">
-                      <span className="text-[9px] text-[#8C8375] block uppercase font-mono mb-1">Transit Network</span>
-                      <span className="text-xs font-bold text-[#7A8973]">Dubai Metro Red Line</span>
+                      <span className="text-[9px] text-[#8C8375] block uppercase font-mono mb-1">{t('modal_transit', 'Transit Network')}</span>
+                      <span className="text-xs font-bold text-[#7A8973]">{t('modal_metro_red', 'Dubai Metro Red Line')}</span>
                     </div>
                   </div>
                 </motion.div>
@@ -283,25 +286,25 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                     {/* Tax specifications info packaging */}
                     <div className="space-y-3.5">
                       <h3 className="text-xs font-semibold uppercase tracking-wider text-[#8A7043] font-mono">
-                        Tax Profile Summary
+                        {t('modal_tax_profile', 'Tax Profile Summary')}
                       </h3>
                       <div className="bg-[#FAF8F5] p-5 rounded-xl border border-[#EAE3D8] space-y-3">
                         <div>
-                          <span className="text-[9px] font-mono text-[#8C8375] uppercase block">Corporate Levy</span>
+                          <span className="text-[9px] font-mono text-[#8C8375] uppercase block">{t('modal_corp_levy', 'Corporate Levy')}</span>
                           <p className="text-xs font-bold text-[#2C2A29] mt-0.5 leading-relaxed">
                             {district.taxSituation.corporateTax}
                           </p>
                         </div>
                         <hr className="border-[#FAF5EE]" />
                         <div>
-                          <span className="text-[9px] font-mono text-[#8C8375] uppercase block">Personal Base Wage Taxation</span>
+                          <span className="text-[9px] font-mono text-[#8C8375] uppercase block">{t('modal_wage_tax', 'Personal Base Wage Taxation')}</span>
                           <p className="text-xs font-bold text-[#2C2A29] mt-0.5 leading-relaxed">
                             {district.taxSituation.personalTax}
                           </p>
                         </div>
                         <hr className="border-[#FAF5EE]" />
                         <div>
-                          <span className="text-[9px] font-mono text-[#8C8375] uppercase block">Import Duties Tariff</span>
+                          <span className="text-[9px] font-mono text-[#8C8375] uppercase block">{t('modal_import_duty', 'Import Duties Tariff')}</span>
                           <p className="text-xs font-bold text-[#2C2A29] mt-0.5 leading-relaxed">
                             {district.taxSituation.customsDuty}
                           </p>
@@ -315,7 +318,7 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                     {/* Legal regulations */}
                     <div className="space-y-3">
                       <h3 className="text-xs font-semibold uppercase tracking-wider text-[#8A7043] font-mono">
-                        Primary Zoning Rules & Decrees
+                        {t('modal_prim_zoning', 'Primary Zoning Rules & Decrees')}
                       </h3>
                       <div className="space-y-2.5">
                         {district.laws.map((law, index) => (
@@ -324,7 +327,7 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                               <span className="px-1.5 py-0.5 bg-[#FAF5EE] border border-[#E5DDD0] text-[#86755F] text-[8px] font-mono rounded uppercase tracking-wider">
                                 {law.category}
                               </span>
-                              <span className="text-[9px] text-[#A69C8E] font-mono">Statute #0{index + 1}</span>
+                              <span className="text-[9px] text-[#A69C8E] font-mono">{t('modal_statute', 'Statute #0')}{index + 1}</span>
                             </div>
                             <span className="text-xs font-bold text-[#2C2A29]">
                               {law.title}
@@ -389,7 +392,7 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                                       <div className="flex items-center gap-1.5 mb-1">
                                         <Building className="w-3.5 h-3.5 text-[#BFA57A]" />
                                         <span className="text-[9px] font-mono text-[#8C8375] uppercase tracking-wider">
-                                          REGISTERED ZONE EMPLOYER
+                                          {t('modal_reg_zone', 'REGISTERED ZONE EMPLOYER')}
                                         </span>
                                       </div>
                                       <span className="text-[10px] text-[#8A7043] font-mono uppercase font-bold">
@@ -409,7 +412,7 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                                         className="bg-[#BFA57A] hover:bg-[#A2875A] text-[#FFFFFF] font-serif font-bold text-xs px-4 py-2 rounded-lg flex items-center gap-1.5 transition-colors cursor-pointer shrink-0 shadow-sm"
                                         referrerPolicy="no-referrer"
                                       >
-                                        <span>Enterprise Portal</span>
+                                        <span>{t('modal_ent_portal', 'Enterprise Portal')}</span>
                                         <ExternalLink className="w-3.5 h-3.5" />
                                       </a>
                                     )}
@@ -417,13 +420,13 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
 
                                   <div className="space-y-2">
                                     <div className="flex justify-between items-center text-[10px] font-mono text-[#8C8375] tracking-wider uppercase px-1">
-                                      <span>Primary Careers in DXB sector</span>
-                                      <span className="text-[#8A7043] font-bold">Tax-Free Salaries</span>
+                                      <span>{t('modal_prim_careers', 'Primary Careers in DXB sector')}</span>
+                                      <span className="text-[#8A7043] font-bold">{t('modal_tax_free', 'Tax-Free Salaries')}</span>
                                     </div>
 
                                     {(!comp.openPositions || comp.openPositions.length === 0) ? (
                                       <div className="bg-[#FAFBF9] border border-[#EAE3D8] p-4 rounded-xl text-center text-[11px] font-mono text-[#A69C8E] italic">
-                                        No public roles explicitly posted on DLD tracker for this entity currently.
+                                        {t('modal_no_roles', 'No public roles explicitly posted on DLD tracker for this entity currently.')}
                                       </div>
                                     ) : (
                                       comp.openPositions.map((post, idx) => (
@@ -439,14 +442,14 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                                               </h4>
                                             </div>
                                             <div className="flex gap-4 text-[9px] font-mono text-[#8C8375] mt-1 pl-3">
-                                              <span>Division: {post.department}</span>
-                                              <span>Experience required: {post.experience}</span>
+                                              <span>{t('modal_division', 'Division:')} {post.department}</span>
+                                              <span>{t('modal_exp_req', 'Experience required:')} {post.experience}</span>
                                             </div>
                                           </div>
             
                                           <div className="flex items-center justify-between sm:justify-end gap-3.5 pl-3 sm:pl-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-[#F2EFE8]">
                                             <div className="text-right">
-                                              <span className="text-[8px] text-[#8C8375] uppercase block font-mono">Annual Salary Yield</span>
+                                              <span className="text-[8px] text-[#8C8375] uppercase block font-mono">{t('modal_annual_yield', 'Annual Salary Yield')}</span>
                                               <span className="text-xs font-bold text-emerald-800 font-mono">
                                                 {post.salaryRange}
                                               </span>
@@ -490,15 +493,15 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                   {/* Rent comparative metrics meter */}
                   <div className="bg-[#FAF8F5] p-4.5 rounded-xl border border-[#EAE3D8]">
                     <h3 className="text-xs font-semibold uppercase tracking-wider text-[#8A7043] font-mono mb-3.5 flex items-center gap-2">
-                      <TrendingUp className="w-4 h-4 text-[#BFA57A]" /> Annual Average Rental Estimates Benchmark
+                      <TrendingUp className="w-4 h-4 text-[#BFA57A]" /> {t('modal_annual_avg', 'Annual Average Rental Estimates Benchmark')}
                     </h3>
                     <div className="space-y-3">
                       {[
-                        { k: 'studio', label: 'Studio Apartment', raw: district.avgRent.studio },
-                        { k: 'bed1', label: '1 Bedroom Suite', raw: district.avgRent.bed1 },
-                        { k: 'bed2', label: '2 Bedroom Suite', raw: district.avgRent.bed2 },
-                        { k: 'bed3', label: '3 Bedroom Suite', raw: district.avgRent.bed3 },
-                        { k: 'bed4', label: '4 Bedroom Suite', raw: district.avgRent.bed4 },
+                        { k: 'studio', label: t('modal_studio', 'Studio Apartment'), raw: district.avgRent.studio },
+                        { k: 'bed1', label: t('modal_bed1', '1 Bedroom Suite'), raw: district.avgRent.bed1 },
+                        { k: 'bed2', label: t('modal_bed2', '2 Bedroom Suite'), raw: district.avgRent.bed2 },
+                        { k: 'bed3', label: t('modal_bed3', '3 Bedroom Suite'), raw: district.avgRent.bed3 },
+                        { k: 'bed4', label: t('modal_bed4', '4 Bedroom Suite'), raw: district.avgRent.bed4 },
                       ].map((item) => {
                         const ratio = `${Math.min(100, (item.raw / 450000) * 100)}%`;
                         return (
@@ -506,7 +509,7 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                             <div className="flex justify-between items-center text-xs font-mono">
                               <span className="font-bold text-[#2C2A29]">{item.label}</span>
                               <span className="text-[#6D675E]">
-                                <strong className="text-[#2C2A29]">{item.raw.toLocaleString()} AED</strong> (~${toUSD(item.raw)}) / yr
+                                <strong className="text-[#2C2A29]">{item.raw.toLocaleString()} {t('aed', 'AED')}</strong> (~${toUSD(item.raw)}) {t('modal_yr', '/ yr')}
                               </span>
                             </div>
                             <div className="h-2 w-full bg-[#FAF5EE] border border-[#EAE3D8] rounded-full overflow-hidden">
@@ -524,7 +527,7 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                   {/* Specimen properties list */}
                   <div>
                     <h3 className="text-[10px] font-mono text-[#8C8375] tracking-wider uppercase mb-3">
-                      Curated Live Properties on Market
+                      {t('modal_curated_live', 'Curated Live Properties on Market')}
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5">
                       {district.apartments.map((apt) => (
@@ -553,16 +556,16 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                                 {apt.locationDetails}
                               </p>
                               <div className="flex gap-3 text-[9px] font-mono text-[#8C8375] mt-2">
-                                <span>Baths: {apt.bathrooms}</span>
-                                <span>Size: {apt.sizeSqFt} SqFt</span>
+                                <span>{t('modal_baths', 'Baths:')} {apt.bathrooms}</span>
+                                <span>{t('modal_size', 'Size:')} {apt.sizeSqFt} {t('modal_sqft', 'SqFt')}</span>
                               </div>
                             </div>
 
                             <div className="border-t border-[#F2EFE8] pt-2.5 flex items-center justify-between">
                               <div>
-                                <span className="text-[8px] text-[#8C8375] uppercase block font-mono">Annual Rent</span>
+                                <span className="text-[8px] text-[#8C8375] uppercase block font-mono">{t('modal_annual_rent', 'Annual Rent')}</span>
                                 <span className="text-xs font-mono font-bold text-[#2C2A29]">
-                                  {apt.priceAED.toLocaleString()} AED{' '}
+                                  {apt.priceAED.toLocaleString()} {t('aed', 'AED')} {' '}
                                   <span className="text-[#86755F] text-[9px] font-normal block font-sans">
                                     (~${toUSD(apt.priceAED)})
                                   </span>
@@ -576,7 +579,7 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                                 className="text-[#8A7043] hover:text-[#BFA57A] flex items-center gap-1 text-[10px] font-bold font-serif tracking-wide cursor-pointer"
                                 referrerPolicy="no-referrer"
                               >
-                                <span>Browse</span>
+                                <span>{t('modal_browse', 'Browse')}</span>
                                 <ExternalLink className="w-3.5 h-3.5" />
                               </a>
                             </div>
@@ -602,11 +605,11 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                     {/* General suitability score */}
                     <div className="space-y-4">
                       <h3 className="text-xs font-semibold uppercase tracking-wider text-[#8A7043] font-mono">
-                        Pet Friendliness Profile
+                        {t('modal_pet_friend', 'Pet Friendliness Profile')}
                       </h3>
                       <div className="bg-[#FAF8F5] p-5 rounded-xl border border-[#EAE3D8] space-y-3.5">
                         <div className="flex items-center justify-between">
-                          <span className="text-xs font-semibold text-[#2C2A29]">Suitability Rating:</span>
+                          <span className="text-xs font-semibold text-[#2C2A29]">{t('modal_suitability', 'Suitability Rating:')}</span>
                           <div className="flex gap-0.5 text-xs">
                             {Array.from({ length: 5 }).map((_, i) => (
                               <span
@@ -630,7 +633,7 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
 
                         <div>
                           <span className="text-[9px] text-[#8C8375] uppercase block font-mono mb-2">
-                            Curated Unleashed Dog Parks & Boardwalks
+                            {t('modal_unleashed', 'Curated Unleashed Dog Parks & Boardwalks')}
                           </span>
                           <div className="space-y-1.5 text-xs text-[#2C2A29]">
                             {district.petSituation.bestParks.map((park, i) => (
@@ -647,7 +650,7 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                     {/* Fines and specific rules lists */}
                     <div className="space-y-4">
                       <h3 className="text-xs font-semibold uppercase tracking-wider text-[#8A7043] font-mono">
-                        Official Municipality Decrees & Penalties
+                        {t('modal_official_decrees', 'Official Municipality Decrees & Penalties')}
                       </h3>
                       <div className="space-y-2">
                         {district.petSituation.rules.map((rule, idx) => (
@@ -683,14 +686,14 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                       <div className="bg-[#FAFBF9] border border-[#EAE3D8] rounded-xl p-5 relative overflow-hidden">
                         <div className="absolute top-0 left-0 w-1.5 h-full bg-[#BFA57A]"></div>
                         <h3 className="text-sm font-bold font-serif text-[#2C2A29] mb-2 flex items-center gap-2">
-                          <Users className="w-4 h-4 text-[#BFA57A]" /> Socio-Economic Demographics
+                          <Users className="w-4 h-4 text-[#BFA57A]" /> {t('modal_socio_eco', 'Socio-Economic Demographics')}
                         </h3>
                         <p className="text-xs text-[#6D675E] leading-relaxed italic mb-4">
                           "{district.demographics.description}"
                         </p>
                         
                         <div className="text-[10px] text-[#8C8375] uppercase tracking-widest font-mono font-bold mb-2">
-                          Dominant Social Classes / Nationalities
+                          {t('modal_dom_social', 'Dominant Social Classes / Nationalities')}
                         </div>
                         <div className="flex flex-wrap gap-2">
                           {district.demographics.dominantGroups.map((group, idx) => (
@@ -709,7 +712,7 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                     {/* Right Column: Key Statistics List */}
                     <div>
                       <h3 className="text-xs font-semibold uppercase tracking-wider text-[#8A7043] font-mono mb-4">
-                        Estimated Population Distribution
+                        {t('modal_est_pop', 'Estimated Population Distribution')}
                       </h3>
                       <div className="bg-[#FFFFFF] border border-[#EAE3D8] rounded-xl p-5 shadow-sm space-y-4">
                         {district.demographics.stats.map((stat, idx) => (
@@ -738,7 +741,7 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
 
           {/* Bottom disclaimer */}
           <div className="border-t border-[#F0EAE1] pt-3 mt-4 text-[9px] text-[#8C8375] text-center leading-relaxed font-mono uppercase tracking-wider">
-            Sourced via the Dubai Land Department (DLD) open portal archives. 2026 Sovereign Sector Analytics.
+            {t('modal_sourced', 'Sourced via the Dubai Land Department (DLD) open portal archives. 2026 Sovereign Sector Analytics.')}
           </div>
         </div>
 

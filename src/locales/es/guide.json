@@ -1,0 +1,1115 @@
+[
+  {
+    "id": "employment",
+    "title": "Empleo y Visas",
+    "shortDescription": "Navegue por el sistema de visas de los EAU, las leyes laborales y el mercado laboral.",
+    "icon": "Briefcase",
+    "tabs": [
+      {
+        "id": "visas",
+        "label": "Tipos de Visa",
+        "icon": "FileText",
+        "sections": [
+          {
+            "heading": "Visas de residencia",
+            "content": "Para vivir y trabajar en Dubai, una visa de residencia válida es fundamental. Los Emiratos Árabes Unidos han estado actualizando continuamente su régimen de visas para atraer talentos e inversores.",
+            "imageUrl": "https://images.unsplash.com/photo-1555848962-6e79363ec58f?auto=format&fit=crop&q=80",
+            "link": {
+              "text": "Información oficial de visa de los EAU",
+              "url": "https://u.ae/en/information-and-services/visa-and-emirates-id"
+            },
+            "listItems": [
+              {
+                "title": "Visa de Empleo",
+                "description": "Patrocinado por su empleador. Generalmente válido por 2 años. Los costos corren a cargo del empleador por ley.",
+                "link": {
+                  "text": "Más información",
+                  "url": "https://u.ae/en/information-and-services/visa-and-emirates-id"
+                }
+              },
+              {
+                "title": "Visa Dorada",
+                "description": "Una visa de residencia de 5 o 10 años para inversionistas, estudiantes destacados y talentos especializados. No se necesita patrocinador.",
+                "link": {
+                  "text": "Verificación de elegibilidad",
+                  "url": "https://gdrfad.gov.ae/en/services"
+                }
+              },
+              {
+                "title": "Visa Verde",
+                "description": "Una visa de 5 años para empleados calificados (requiere una licenciatura y un umbral salarial específico) o autónomos.",
+                "link": {
+                  "text": "Requisitos",
+                  "url": "https://u.ae/en/information-and-services/visa-and-emirates-id"
+                }
+              },
+              {
+                "title": "Trabajo independiente y remoto",
+                "description": "Varias zonas francas ofrecen visas especializadas de 1 o 2 años para administrar su propia microempresa o trabajar de forma remota.",
+                "link": {
+                  "text": "Ir Freelance",
+                  "url": "https://gofreelance.ae/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "emp_types",
+        "label": "Tipos de empleo",
+        "icon": "Users",
+        "sections": [
+          {
+            "heading": "Continente vs. Zona Franca",
+            "content": "Su estructura laboral depende profundamente de dónde esté registrada la empresa, lo que afecta el patrocinador de su visa y las leyes laborales aplicables.",
+            "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80",
+            "bullets": [
+              "Península (MOHRE): Las empresas registradas aquí se rigen directamente por el Ministerio de Recursos Humanos y Emiratización.",
+              "Zonas Francas (por ejemplo, DIFC, DMCC): Tienen sus propias reglas y tribunales laborales distintos. Por ejemplo, los tribunales del DIFC operan según el derecho consuetudinario en lugar de la ley federal de los EAU.",
+              "El trabajo a tiempo parcial es legal, pero requiere un permiso de trabajo a tiempo parcial específico y un patrocinador principal NOC (Certificado de no objeción).",
+              "Empresas multinacionales versus empresas locales: las corporaciones multinacionales generalmente se ajustan a las prácticas globales de recursos humanos (a menudo estandarizando los beneficios), mientras que los grupos locales pueden negociar paquetes basados ​​únicamente en la nacionalidad, la experiencia y las tarifas del mercado local."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "jobs",
+        "label": "Búsqueda de empleo",
+        "icon": "Search",
+        "sections": [
+          {
+            "heading": "Dónde buscar",
+            "content": "El mercado laboral de Dubai es sólido pero hipercompetitivo. Aprovechar los cazatalentos especializados y el alcance directo es mucho más efectivo que postularse casualmente.",
+            "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80",
+            "listItems": [
+              {
+                "title": "LinkedIn Medio Oriente",
+                "description": "La herramienta número uno para encontrar roles y establecer contactos en el CCG.",
+                "link": {
+                  "text": "Ir a LinkedIn",
+                  "url": "https://www.linkedin.com/jobs/jobs-in-dubai/"
+                }
+              },
+              {
+                "title": "GolfoTalent",
+                "description": "Importante bolsa de trabajo regional que ofrece solicitudes directas en todas las industrias.",
+                "link": {
+                  "text": "Visita GulfTalent",
+                  "url": "https://www.gulftalent.com/uae/jobs/dubai"
+                }
+              },
+              {
+                "title": "Bayt",
+                "description": "Uno de los portales de empleo más grandes y antiguos de Medio Oriente.",
+                "link": {
+                  "text": "Visita Bayt",
+                  "url": "https://www.bayt.com/en/uae/"
+                }
+              },
+              {
+                "title": "Hays Medio Oriente",
+                "description": "Agencia de contratación premium que se centra en puestos de nivel medio a superior.",
+                "link": {
+                  "text": "Visita Hays",
+                  "url": "https://www.hays.ae/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "laws",
+        "label": "Leyes laborales",
+        "icon": "Scale",
+        "sections": [
+          {
+            "heading": "Derechos y contratos de los trabajadores",
+            "content": "Los EAU actualizaron su Ley Federal del Trabajo (Decreto Ley N° 33 de 2021) para mejorar las protecciones, introducir nuevos modelos de trabajo y alinearse con las prácticas globales.",
+            "bullets": [
+              "Los períodos de prueba no pueden exceder los 6 meses por ley. Los períodos de notificación durante el período de prueba deben ser de 14 días como mínimo.",
+              "Gratuidad por fin de servicio: un pago de indemnización calculado en función del salario básico final (pago de 21 días durante los primeros 5 años, 30 días después) si renuncia después de 1 año o más.",
+              "Contratos limitados: todos los contratos ahora son de duración fija (máximo 3 años, renovables) y ofrecen protecciones más claras.",
+              "Vacaciones anuales: los empleados tienen derecho a 30 días naturales de vacaciones retribuidas al año.",
+              "Antidiscriminación e igualdad salarial: las leyes exigen estrictamente igual salario por igual trabajo y prohíben la discriminación.",
+              "Se podrá aplicar una cláusula de no competencia si te unes a un competidor directo, siempre que esté limitada geográfica y temporalmente (máximo 2 años)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tips",
+        "label": "Consejos para visas y empleo",
+        "icon": "Lightbulb",
+        "sections": [
+          {
+            "heading": "Sobrevivir al mercado",
+            "content": "Consejos clave para afrontar la contratación y establecerse como empleado en Dubái.",
+            "bullets": [
+              "NO pague a los reclutadores: es estrictamente ilegal según la ley de los Emiratos Árabes Unidos que las agencias de contratación cobren una tarifa a los solicitantes de empleo.",
+              "Negociaciones Salariales: “Salario Básico” vs “Asignaciones”. Su propina por fin de servicio se calcula solo sobre el nivel Básico, así que asegúrese de que represente un porcentaje saludable (generalmente entre el 50 y el 60 %) de su paquete total.",
+              "Autenticación de documentos: asegúrese de que sus títulos y certificados de matrimonio estén autenticados localmente (Ministerio de Relaciones Exteriores) antes de llegar, ya que esto puede llevar meses.",
+              "Formatos de CV y ​​enfoque de mercado: los CV de Oriente Medio a menudo (aunque no son estrictamente obligatorios por ley) incluyen una foto de rostro profesional, una declaración clara de la nacionalidad, el estado civil y el estado actual de la visa. Esto ayuda a RR.HH. a filtrar rápidamente a los candidatos según las cuotas de visas y los límites de asignaciones.",
+              "Identificación de Emirates: esta es su tarjeta más importante: necesaria para alquilar, realizar operaciones bancarias, acceder a Internet y conducir. Tu vida está en pausa hasta que se imprima."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "healthcare",
+    "title": "Atención sanitaria y seguros",
+    "shortDescription": "Navegue por el sistema médico privado, la cobertura de salud y las farmacias en Dubai.",
+    "icon": "HeartPulse",
+    "tabs": [
+      {
+        "id": "rules",
+        "label": "Reglas de atención médica",
+        "icon": "Scale",
+        "sections": [
+          {
+            "heading": "Seguro médico obligatorio",
+            "content": "En Dubai, la Autoridad Sanitaria de Dubai (DHA) exige que todos los residentes tengan un seguro médico. Los residentes sin seguro enfrentan multas mensuales.",
+            "bullets": [
+              "Responsabilidad del empleador: Los empleadores están obligados legalmente a proporcionar un estándar mínimo de seguro médico para los empleados.",
+              "Dependientes: los empleados suelen ser responsables de asegurar a sus dependientes (cónyuge/hijos), aunque algunos paquetes generosos incluyen cobertura familiar.",
+              "EBP (Plan de Beneficios Esenciales): Un nivel básico exigido por ley, pero altamente restrictivo con largos tiempos de espera.",
+              "Aprobación previa: muchos tratamientos especializados, resonancias magnéticas o cirugías que no son de emergencia requieren la aprobación previa de la compañía de seguros antes de que el hospital pueda continuar."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "insurance",
+        "label": "Compañías de seguros",
+        "icon": "ShieldPlus",
+        "sections": [
+          {
+            "heading": "Principales proveedores",
+            "content": "Las aseguradoras operan en niveles (Básico, Integral, Premium). Seleccionar el nivel correcto determina a qué hospitales (\"red\") puede acceder sin pagar de su bolsillo.",
+            "listItems": [
+              {
+                "title": "Seguros Bupa Global / Omán",
+                "description": "Cobertura premium a nivel mundial. Muy buscado para expatriados que necesitan acceso a las mejores instalaciones.",
+                "link": {
+                  "text": "Visita Bupa",
+                  "url": "https://www.bupaglobal.com/en"
+                }
+              },
+              {
+                "title": "Cigna",
+                "description": "Cobertura internacional de primer nivel, reconocida por el servicio al cliente y la inclusión de la salud mental.",
+                "link": {
+                  "text": "Visita Cigna",
+                  "url": "https://www.cigna-me.com/"
+                }
+              },
+              {
+                "title": "AXA/GIG",
+                "description": "Una opción integral muy popular para planes de empleadores de nivel medio a alto.",
+                "link": {
+                  "text": "Visitar concierto",
+                  "url": "https://www.gulfinsurance.ae/"
+                }
+              },
+              {
+                "title": "Nacional Damán",
+                "description": "Importante proveedor local que ofrece de todo, desde planes DHA básicos hasta niveles premium integrales.",
+                "link": {
+                  "text": "Visita Damán",
+                  "url": "https://www.damanhealth.ae/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hospitals",
+        "label": "Hospitales y clínicas",
+        "icon": "Hospital",
+        "sections": [
+          {
+            "heading": "Centros Médicos Privados",
+            "content": "Dubai Healthcare City es un centro médico exclusivo, pero hay clínicas premium distribuidas por todas partes. La calidad es excepcionalmente alta en los niveles premium.",
+            "imageUrl": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80",
+            "listItems": [
+              {
+                "title": "Hospital Médico de la Ciudad",
+                "description": "Ubicado en Ciudad de la Salud. Hospital multidisciplinario de alto nivel con atención excepcional de maternidad y traumatología.",
+                "link": {
+                  "text": "Reservar cita",
+                  "url": "https://www.mediclinic.ae/"
+                }
+              },
+              {
+                "title": "Hospital Saudí Alemán",
+                "description": "Hospital enorme y altamente equipado en Al Barsha que sirve como un importante centro de atención terciaria.",
+                "link": {
+                  "text": "Reservar cita",
+                  "url": "https://sghdubai.ae/"
+                }
+              },
+              {
+                "title": "Hospital Americano de Dubái",
+                "description": "Hospital privado pionero conocido por cirugías complejas y medicina robótica.",
+                "link": {
+                  "text": "Reservar cita",
+                  "url": "https://www.ahdubai.com/"
+                }
+              },
+              {
+                "title": "Hospital King's College",
+                "description": "Llevar los estándares médicos británicos a Dubai Hills con médicos capacitados en el Reino Unido.",
+                "link": {
+                  "text": "Reservar cita",
+                  "url": "https://kingscollegehospitaldubai.com/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pharmacies",
+        "label": "Farmacias y medicamentos",
+        "icon": "HeartPulse",
+        "sections": [
+          {
+            "heading": "Reglas para la medicación controlada",
+            "content": "Los Emiratos Árabes Unidos tienen clasificaciones estrictas para lo que se considera un narcótico ilegal, una droga controlada y un medicamento de venta libre.",
+            "bullets": [
+              "Medicamentos prohibidos: Los productos que contienen codeína, semillas de amapola o CBD están estrictamente prohibidos y pueden provocar una detención inmediata en el aeropuerto.",
+              "Medicamentos controlados: Las pastillas para dormir (por ejemplo, Ambien), los ansiolíticos (por ejemplo, Xanax) y algunos medicamentos para el TDAH están altamente restringidos. DEBE obtener la aprobación previa del Ministerio de Salud antes de viajar con ellos.",
+              "Los antibióticos se venden estrictamente con receta médica.",
+              "Los analgésicos estándar (paracetamol, ibuprofeno) están disponibles sin receta en todas partes."
+            ]
+          },
+          {
+            "heading": "Farmacias Populares",
+            "content": "Las farmacias son omnipresentes y se encuentran en todos los centros comerciales y centros vecinales.",
+            "listItems": [
+              {
+                "title": "Farmacia de vida",
+                "description": "La cadena más grande de Dubai. Muchas sucursales operan las 24 horas del día, los 7 días de la semana. Amplia gama de suplementos.",
+                "link": {
+                  "text": "Farmacia de vida",
+                  "url": "https://www.lifepharmacy.com/"
+                }
+              },
+              {
+                "title": "Farmacia Aster",
+                "description": "Red extendida en todos los barrios, a menudo adjunta a las clínicas Aster.",
+                "link": {
+                  "text": "Aster en línea",
+                  "url": "https://www.asterpharmacy.ae/"
+                }
+              },
+              {
+                "title": "Botas",
+                "description": "Familiar para los expatriados del Reino Unido, con marcas conocidas de salud y belleza. Se encuentra en la mayoría de los centros comerciales.",
+                "link": {
+                  "text": "Botas ME",
+                  "url": "https://me.boots.com/"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "education",
+    "title": "Educación y escuelas",
+    "shortDescription": "Comprender los planes de estudios internacionales, las calificaciones KHDA y las universidades.",
+    "icon": "GraduationCap",
+    "tabs": [
+      {
+        "id": "laws",
+        "label": "Leyes de educación",
+        "icon": "Scale",
+        "sections": [
+          {
+            "heading": "KHDA y Ministerio de Educación",
+            "content": "La Autoridad de Conocimiento y Desarrollo Humano (KHDA) gobierna toda la educación privada en Dubai.",
+            "bullets": [
+              "Las escuelas son inspeccionadas anualmente con calificaciones: Sobresaliente, Muy buena, Buena, Aceptable, Débil.",
+              "Los aumentos de las tasas de matrícula están directamente vinculados a estas calificaciones por ley (por ejemplo, una escuela sobresaliente puede aumentar las tarifas en un porcentaje mayor que una buena escuela).",
+              "El idioma árabe es obligatorio para todos los estudiantes hasta Year 10/Grado 9.",
+              "Los estudios islámicos son una materia obligatoria para todos los estudiantes musulmanes."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "schools",
+        "label": "Escuelas (K-12)",
+        "icon": "Book",
+        "sections": [
+          {
+            "heading": "Escuelas internacionales mejor valoradas",
+            "content": "Dubai alberga una inmensa variedad de colegios internacionales que atienden a expatriados, principalmente británicos, estadounidenses, indios y del IB. Las tarifas pueden ser exorbitantes (50.000 - 120.000 AED al año).",
+            "listItems": [
+              {
+                "title": "Universidad de Dubái (DC)",
+                "description": "Constantemente calificado como Sobresaliente. Plan de estudios británico altamente académico. Notoriamente difícil entrar.",
+                "link": {
+                  "text": "Universidad de Dubái",
+                  "url": "https://www.dubaicollege.org/"
+                }
+              },
+              {
+                "title": "GEMS Wellington Internacional",
+                "description": "Gran colegio británico/IB de gran prestigio situado en la zona central de Al Sufouh.",
+                "link": {
+                  "text": "Inter de Wellington",
+                  "url": "https://www.wellingtoninternationalschool.com/"
+                }
+              },
+              {
+                "title": "Escuela Americana de Dubai (ASD)",
+                "description": "Escuela con plan de estudios estadounidense sin fines de lucro. Campus enorme, instalaciones increíbles, favorecido por expatriados estadounidenses y canadienses.",
+                "link": {
+                  "text": "ASD Dubái",
+                  "url": "https://www.asdubai.org/"
+                }
+              },
+              {
+                "title": "Academia Internacional de Dubái (DIA)",
+                "description": "Una escuela continua líder del IB (Bachillerato Internacional) ubicada en Emirates Hills.",
+                "link": {
+                  "text": "DIA Colinas de los Emiratos",
+                  "url": "https://www.diadubai.com/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kindergarten",
+        "label": "Jardines de infancia y guarderías",
+        "icon": "Baby",
+        "sections": [
+          {
+            "heading": "Educación de la primera infancia",
+            "content": "Las guarderías suelen atender a niños desde los 45 días hasta los 4 años (FS1/Pre-K). La competencia por los puestos en las mejores guarderías es feroz.",
+            "listItems": [
+              {
+                "title": "Vivero de flores",
+                "description": "Viveros EYFS ecológicos galardonados con sucursales en Marina, Downtown y Arabian Ranches.",
+                "link": {
+                  "text": "Vivero de flores",
+                  "url": "https://www.theblossomnursery.com/"
+                }
+              },
+              {
+                "title": "Vivero de huertos británicos",
+                "description": "Se centra en el desarrollo de la primera infancia en un entorno comunitario altamente enriquecedor.",
+                "link": {
+                  "text": "Huerto británico",
+                  "url": "https://www.britishorchardnursery.com/"
+                }
+              },
+              {
+                "title": "Guardería paso a paso",
+                "description": "Híbrido Reggio Emilia y EYFS de alta calidad ubicado en Dubailand y Mirdif.",
+                "link": {
+                  "text": "Paso a paso",
+                  "url": "https://stepbystepnursery.ae/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "universities",
+        "label": "universidades",
+        "icon": "GraduationCap",
+        "sections": [
+          {
+            "heading": "Centros de educación superior",
+            "content": "Dubai alberga varios campus universitarios internacionales, lo que permite a los estudiantes obtener títulos reconocidos a nivel mundial sin salir de los EAU.",
+            "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80",
+            "address": "Dubai Knowledge Park, Al Sufouh",
+            "listItems": [
+              {
+                "title": "Universidad de Birmingham Dubái",
+                "description": "Una de las mejores universidades del Grupo Russell del Reino Unido que ofrece títulos idénticos a los de su campus del Reino Unido.",
+                "link": {
+                  "text": "Universidad de Dubái",
+                  "url": "https://www.birmingham.ac.uk/dubai"
+                }
+              },
+              {
+                "title": "Universidad Heriot-Watt",
+                "description": "Excepcional para ingeniería y negocios. Enorme campus moderno en Knowledge Park.",
+                "link": {
+                  "text": "Heriot-Watt",
+                  "url": "https://www.hw.ac.uk/dubai/"
+                }
+              },
+              {
+                "title": "Universidad Americana de Dubai (AUD)",
+                "description": "Institución acreditada en los EE. UU. en Media City que ofrece sólidos programas de medios, ingeniería y negocios.",
+                "link": {
+                  "text": "AUD",
+                  "url": "https://www.aud.edu/"
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Inscripción Remota y Visas de Estudiante",
+            "content": "Dubai incentiva fuertemente a los estudiantes internacionales a estudiar en el emirato.",
+            "bullets": [
+              "Inscripción desde el exterior: puede presentar su solicitud en línea en casi todos los campus filiales de su país de origen. Una vez aceptada, la universidad actúa como su patrocinador de visa.",
+              "Visa de estudiante: Generalmente válida por 1 año, renovable. Usted ingresa con un permiso de entrada de estudiante, luego completa el control médico y el proceso de identificación de Emirates localmente.",
+              "Visa Dorada para estudiantes: Los graduados universitarios destacados (GPA 3.8+) o los estudiantes con mejor desempeño en la escuela secundaria pueden ser nominados directamente por el Ministerio de Educación para una Visa Dorada de 10 años."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cars",
+    "title": "Coches y tráfico",
+    "shortDescription": "Adquisición de un vehículo, leyes de tránsito, peajes Salik y licencias.",
+    "icon": "Car",
+    "tabs": [
+      {
+        "id": "traffic",
+        "label": "Leyes de Tránsito",
+        "icon": "Scale",
+        "sections": [
+          {
+            "heading": "Aplicación estricta",
+            "content": "Dubái utiliza una red increíblemente densa de radares, radares de inteligencia artificial y patrullas policiales. Las leyes de tránsito son rígidas e implacables.",
+            "bullets": [
+              "Tolerancia cero con el alcohol: Conducir bajo los efectos del alcohol resulta en pena de cárcel inmediata, confiscación de vehículos, multas masivas (hasta 20.000 AED) y deportación.",
+              "Exceso de velocidad: Las cámaras parpadean exactamente a 20 km/h por encima del límite indicado (en Dubai). Nota: Abu Dhabi NO tiene zona de influencia.",
+              "Seguir muy cerca: Los radares de IA ahora multan automáticamente a los conductores por no dejar suficiente distancia segura a altas velocidades.",
+              "Puntos Negros: Las infracciones generan puntos negros en su expediente. Acumule 24 y se suspenderá su licencia."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "license",
+        "label": "Adquisición de Licencia",
+        "icon": "FileText",
+        "sections": [
+          {
+            "heading": "Obtener una licencia de los EAU",
+            "content": "El proceso depende completamente del pasaporte que tenga y del lugar donde se emitió su permiso de conducir actual.",
+            "bullets": [
+              "Intercambio directo: los ciudadanos del Reino Unido, EE. UU., la mayor parte de la UE, Australia y algunos otros pueden simplemente cambiar su licencia local por una de Dubai en 15 minutos en un centro RTA.",
+              "Pruebas requeridas: la mayoría de los expatriados asiáticos, africanos y sudamericanos deben abrir un expediente de tráfico, tomar clases de conducción obligatorias (de 10 a 20 horas) y aprobar un examen práctico de la RTA.",
+              "Costos: Un intercambio directo cuesta alrededor de 800 AED. Las pruebas completas y las clases pueden costar entre 4000 y 8000 AED."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "buyrent",
+        "label": "Empresas y Agencias",
+        "icon": "Key",
+        "sections": [
+          {
+            "heading": "Dónde comprar o alquilar",
+            "content": "El arrendamiento de automóviles es extremadamente popular entre los nuevos expatriados. Si se compra, el mercado de segunda mano es enorme debido a la población transitoria.",
+            "listItems": [
+              {
+                "title": "Cars24 y Kavak",
+                "description": "Plataformas de autos usados ​​que ofrecen vehículos completamente inspeccionados en línea, entrega a domicilio y garantías.",
+                "link": {
+                  "text": "Visita coches24",
+                  "url": "https://www.cars24.com/ae/"
+                }
+              },
+              {
+                "title": "YallaMotor",
+                "description": "El portal automotriz más grande de la región, excelente para investigar precios y encontrar ofertas nuevas/usadas.",
+                "link": {
+                  "text": "YallaMotor",
+                  "url": "https://www.yallamotor.com/"
+                }
+              },
+              {
+                "title": "SellAnyCar.com",
+                "description": "Operación masiva para liquidar rápidamente tu vehículo al salir del país, aunque las cotizaciones suelen ser al por mayor.",
+                "link": {
+                  "text": "VenderCualquierCoche",
+                  "url": "https://sellanycar.com/"
+                }
+              },
+              {
+                "title": "UnClickDrive",
+                "description": "Un agregador masivo de alquileres de autos, que van desde viajes diarios baratos hasta superdeportivos de lujo.",
+                "link": {
+                  "text": "UnClickDrive",
+                  "url": "https://www.oneclickdrive.com/"
+                }
+              },
+              {
+                "title": "Ekar y Udrive",
+                "description": "Compartir coche inteligente basado en aplicaciones. Desbloquea coches estacionados en la calle con tu teléfono y paga por minuto.",
+                "link": {
+                  "text": "ekar",
+                  "url": "https://ekar.me/"
+                }
+              },
+              {
+                "title": "Dubizzle (Clasificados)",
+                "description": "El mercado P2P estándar. Buenas ofertas pero requiere vigilancia contra estafas o daños ocultos.",
+                "link": {
+                  "text": "Dubizzle Autos",
+                  "url": "https://dubai.dubizzle.com/motors/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "public",
+        "label": "Transporte público",
+        "icon": "Bus",
+        "sections": [
+          {
+            "heading": "Metro y taxis",
+            "content": "Dubai tiene una red de transporte público de clase mundial, pero de alcance limitado, que requiere una tarjeta Nol para su uso.",
+            "bullets": [
+              "Tarjeta Nol: La tarjeta inteligente que se utiliza para pagar el Metro, el Tranvía, los Autobuses RTA y los Taxis RTA.",
+              "Metro de Dubái: Totalmente automatizado. Cuenta con una clase Gold (tarifa premium, menos concurrida) y una cabina exclusiva para mujeres y niños.",
+              "Taxis: relativamente asequibles. La tarifa inicial es de 12 AED si se recibe desde la calle o 12 AED a través de la aplicación.",
+              "Careem/Hala: utilice la aplicación Careem para reservar taxis RTA estándar (Hala Taxi) o automóviles Lexus premium."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "property",
+    "title": "Alquiler de propiedades",
+    "shortDescription": "Navegando por Ejari, cheques, comisiones de corretaje y derechos de los inquilinos.",
+    "icon": "Home",
+    "tabs": [
+      {
+        "id": "laws",
+        "label": "Leyes de alquiler y RERA",
+        "icon": "Scale",
+        "sections": [
+          {
+            "heading": "Derechos del inquilino",
+            "content": "La Agencia Reguladora de Bienes Raíces (RERA) regula en gran medida la relación entre propietario e inquilino para garantizar la estabilidad.",
+            "bullets": [
+              "Aviso de desalojo: Un propietario NO PUEDE pedirle que se vaya por capricho. Deben proporcionar un aviso por escrito con 12 meses de antelación, entregado a través de notario público o correo certificado, y solo por motivos específicos (por ejemplo, venta, mudanza).",
+              "Aumentos de alquiler: determinados estrictamente por la Calculadora de alquiler de RERA. Si paga por debajo de la tasa del mercado, solo pueden aumentar en un porcentaje limitado (5-20 % como máximo).",
+              "Mantenimiento: Por convención (y contrato), el propietario se encarga de las reparaciones importantes (más de 500 AED), mientras que el inquilino asume los costes menores de desgaste."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "process",
+        "label": "El proceso de arrendamiento",
+        "icon": "FileText",
+        "sections": [
+          {
+            "heading": "Cheques y Ejari",
+            "content": "El proceso típico para conseguir un apartamento en Dubai.",
+            "bullets": [
+              "Oferta y depósito: Usted realiza un depósito de seguridad del 5% para retirar la propiedad del mercado.",
+              "Contrato de arrendamiento y cheques: usted firma el contrato y entrega cheques posfechados (generalmente 1, 2, 4 o, a veces, hasta 12). El rebote de cheques es un delito grave.",
+              "Ejari: llevas el contrato firmado a un centro de mecanografía para registrarlo en el sistema gubernamental Ejari (aproximadamente 220 AED). Esto es necesario para activar el agua y la electricidad.",
+              "DEWA: Depósito de instalación para agua y electricidad (2000 AED para apartamentos, 4000 AED para villas)."
+            ]
+          },
+          {
+            "heading": "La estrategia a corto plazo",
+            "content": "Altamente recomendado para los recién llegados antes de comprometerse con un Ejari de 1 año.",
+            "bullets": [
+              "Alquile Airbnb primero: alquile una casa de vacaciones o un apartamento de hotel durante los primeros 1 o 2 meses. Cuesta una prima, pero garantiza que puedas explorar los vecindarios y viajar durante las horas pico antes de firmar un contrato vinculante.",
+              "Sin problemas de servicios públicos: los alquileres a corto plazo incluyen Internet de alta velocidad, DEWA y tarifas de refrigeración, lo que le brinda tiempo para imprimir su identificación de Emirates sin quedarse a oscuras.",
+              "Tenga cuidado con los agentes falsos: los alquileres a corto plazo son el objetivo principal de los estafadores. Verifique el RERA ID del agente y la licencia comercial de la empresa antes de realizar cualquier depósito."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "platforms",
+        "label": "Plataformas de búsqueda",
+        "icon": "Search",
+        "sections": [
+          {
+            "heading": "donde encontrar propiedad",
+            "content": "No se limite a entrar en los edificios; el mercado está fuertemente impulsado por corredores y digitalizado a través de los principales portales.",
+            "listItems": [
+              {
+                "title": "Buscador de propiedades",
+                "description": "El portal inmobiliario más completo y limpio de los Emiratos Árabes Unidos. Listados verificados.",
+                "link": {
+                  "text": "Buscador de propiedades",
+                  "url": "https://www.propertyfinder.ae/"
+                }
+              },
+              {
+                "title": "Bayut",
+                "description": "Principal competidor de Property Finder. Excelentes funciones de mapas y datos comunitarios.",
+                "link": {
+                  "text": "Bayut",
+                  "url": "https://www.bayut.com/"
+                }
+              },
+              {
+                "title": "Propiedad Dubizzle",
+                "description": "Sitio de clasificados. Excelente para encontrar ofertas directas del propietario y evitar la tarifa de agencia del 5%.",
+                "link": {
+                  "text": "duda",
+                  "url": "https://dubai.dubizzle.com/property-for-rent/"
+                }
+              },
+              {
+                "title": "Houza",
+                "description": "Creado por una red de agencias inmobiliarias para combatir anuncios falsos, garantizando que solo se muestren propiedades genuinas.",
+                "link": {
+                  "text": "Houza",
+                  "url": "https://houza.com/"
+                }
+              },
+              {
+                "title": "Propiedad de zoom",
+                "description": "Portal inmobiliario de rápido crecimiento, especialmente fuerte en viviendas asequibles y nuevos desarrollos.",
+                "link": {
+                  "text": "Propiedad de zoom",
+                  "url": "https://www.zoomproperty.com/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "brokers",
+        "label": "Corredores de propiedades",
+        "icon": "Briefcase",
+        "sections": [
+          {
+            "heading": "Agencias inmobiliarias líderes",
+            "content": "Si compra o busca asistencia de arrendamiento premium, estas agencias dominan el mercado.",
+            "listItems": [
+              {
+                "title": "Allsopp y Allsopp",
+                "description": "Una de las agencias más grandes y con mayores premios, especialmente dominante en las redes de expatriados británicos.",
+                "link": {
+                  "text": "Allsopp y Allsopp",
+                  "url": "https://www.allsoppandallsopp.com/"
+                }
+              },
+              {
+                "title": "Mejores casas",
+                "description": "La agencia inmobiliaria más antigua de Dubai, con una amplia cartera en todos los rangos de precios.",
+                "link": {
+                  "text": "Mejores casas",
+                  "url": "https://www.bhomes.com/"
+                }
+              },
+              {
+                "title": "Casa y casa",
+                "description": "Especialistas en áreas premium como Dubai Hills, Arabian Ranches y Marina.",
+                "link": {
+                  "text": "Casa y casa",
+                  "url": "https://www.hausandhaus.com/"
+                }
+              },
+              {
+                "title": "propiedades familiares",
+                "description": "Enorme agencia basada en datos, muy involucrada en ventas sobre plano (nuevos desarrollos).",
+                "link": {
+                  "text": "propiedades familiares",
+                  "url": "https://famproperties.com/"
+                }
+              },
+              {
+                "title": "Propiedades D&B",
+                "description": "Firma galardonada altamente conectada con importantes desarrolladores como Emaar y Nakheel.",
+                "link": {
+                  "text": "Propiedades D&B",
+                  "url": "https://dandbdubai.com/"
+                }
+              },
+              {
+                "title": "Providente Bienes Raíces",
+                "description": "Una agencia inmobiliaria líder de servicio completo con alcance masivo y subequipos especializados.",
+                "link": {
+                  "text": "Providente",
+                  "url": "https://www.providentestate.com/"
+                }
+              },
+              {
+                "title": "Espacio Inmobiliario",
+                "description": "Particularmente fuerte en comunidades de villas como Jumeirah Islands, Meadows y Springs.",
+                "link": {
+                  "text": "espacio",
+                  "url": "https://www.espace.ae/"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rules",
+    "title": "Reglas y leyes de comportamiento",
+    "shortDescription": "Etiquetas culturales esenciales, regulaciones financieras y comportamiento público.",
+    "icon": "Scale",
+    "tabs": [
+      {
+        "id": "culture",
+        "label": "Etiqueta cultural",
+        "icon": "Users",
+        "sections": [
+          {
+            "heading": "Respetar las tradiciones islámicas",
+            "content": "Dubai es extremadamente tolerante y alberga a más de 200 nacionalidades, pero el decoro público se aplica estrictamente para mantener la armonía.",
+            "bullets": [
+              "Vestimenta modesta: los centros comerciales y edificios gubernamentales tienen códigos de vestimenta. Por lo general, los hombros y las rodillas deben estar cubiertos. El traje de baño es sólo para la playa o la piscina.",
+              "PDA (Muestraciones Públicas de Afecto): Tomarse de la mano para las parejas casadas está bien. Besarse o abrazarse apasionadamente en público es ilegal y puede dar lugar a arresto.",
+              "Ramadán: Durante el mes sagrado, comer, beber, mascar chicle o fumar en público durante las horas del día está muy restringido y es ofensivo.",
+              "Fotografía: Está prohibido tomar fotografías de edificios gubernamentales, sitios militares o aviones. Fundamentalmente, tomar fotografías de personas sin su consentimiento (especialmente mujeres locales) es un delito grave."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cyber",
+        "label": "Leyes cibernéticas",
+        "icon": "Monitor",
+        "sections": [
+          {
+            "heading": "Comportamiento en línea y privacidad",
+            "content": "Los Emiratos Árabes Unidos tienen algunas de las leyes contra delitos cibernéticos más estrictas del mundo para prevenir la difamación y el fraude.",
+            "bullets": [
+              "Decir malas palabras o insultar: usar lenguaje soez, insultar a alguien o enviar el emoji del \"dedo medio\" en WhatsApp es un delito que conlleva fuertes multas o la deportación.",
+              "Difamación: nombrar y avergonzar a una empresa en línea (por ejemplo, dejar una reseña de Google insultante y enojada) puede resultar en un caso policial en su contra.",
+              "Uso de VPN: Usar una VPN es técnicamente legal para uso corporativo o para acceder a medios domésticos, pero usarla para cometer un delito, acceder a contenido ilegal bloqueado o eludir las leyes de telecomunicaciones para llamadas VOIP (como audio/vídeo de WhatsApp) conlleva multas multimillonarias si se detecta.",
+              "Rumores y noticias: la difusión de noticias falsas o rumores no verificados en las redes sociales está fuertemente penalizada. Comparta únicamente anuncios oficiales del gobierno."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "alcohol",
+        "label": "Reglas sobre el alcohol",
+        "icon": "Wine",
+        "sections": [
+          {
+            "heading": "Licencias y Consumo",
+            "content": "Dubai ha relajado muchas reglas recientemente, pero siguen existiendo límites estrictos en materia de intoxicación.",
+            "bullets": [
+              "Dónde beber: El alcohol sólo se puede consumir en lugares autorizados (hoteles, discotecas específicas, algunos restaurantes) o en su domicilio particular. Andar por la calle con una cerveza es estrictamente ilegal.",
+              "Compra para el hogar: los residentes no musulmanes pueden obtener instantáneamente una licencia de licor digital gratuita presentando su identificación de Emirates en una tienda MMI o African + Eastern (las dos cadenas minoristas de licores oficiales). Ya no hay una tarifa de licencia ni restricción de salario local.",
+              "Compra alternativa: los expatriados suelen comprar su alcohol libre de impuestos en el aeropuerto DXB a su llegada (con generosas asignaciones) o conducen legalmente 1 hora hasta el complejo \"Barracuda\" en el emirato de Umm Al Quwain para comprar al por mayor sin necesidad de una licencia.",
+              "Comportamiento de ebriedad: tolerancia cero ante la intoxicación pública, las peleas o el comportamiento ofensivo bajo la influencia. Resultará en arresto inmediato.",
+              "DUI: Conducir bajo los efectos del alcohol tiene exactamente tolerancia cero. Límite de 0,0. No tomes un solo sorbo y conduce."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tips",
+    "title": "Consejos y advertencias",
+    "shortDescription": "Costos ocultos, aplicaciones útiles, finanzas y cómo sobrevivir al verano de Dubai.",
+    "icon": "Lightbulb",
+    "tabs": [
+      {
+        "id": "finance",
+        "label": "Banca y facturas",
+        "icon": "Landmark",
+        "sections": [
+          {
+            "heading": "Gestión Financiera",
+            "content": "El sistema bancario de los EAU está muy avanzado, pero el crédito puede ser una trampa para los recién llegados.",
+            "bullets": [
+              "Abrir una cuenta: requiere su identificación de Emirates, pasaporte y un certificado de salario de su empleador. Emirates NBD, ADCB y Mashreq son los bancos locales dominantes.",
+              "Tarjetas de crédito: Los bancos las reparten agresivamente. Los pagos atrasados ​​generan enormes cargos por pagos atrasados ​​e intereses compuestos.",
+              "Estructuración fiscal y extraterritorial: para los trabajadores autónomos y trabajadores remotos con altos ingresos que desean máxima seguridad bancaria y 0% de impuesto corporativo, un manual popular es establecer una LLC en EE. UU. (por ejemplo, a través de Stripe Atlas o Firstbase), abrir una cuenta bancaria comercial en Singapur o EE. UU. (por ejemplo, Mercury, Wise) y luego \"contratarse a sí mismo\" legalmente en Dubai. Vive en Dubai libre de impuestos (0% de impuesto sobre la renta personal) con una Visa Verde o Freelance, mientras su empresa extranjera protege sus activos a nivel internacional.",
+              "La \"Tarifa de Vivienda\": Su factura mensual de DEWA (electricidad/agua) incluye una tarifa de vivienda municipal, que se calcula automáticamente como el 5% de su alquiler anual, dividido por 12.",
+              "Tarifa de conocimiento: casi todas las transacciones gubernamentales (visados, licencias, multas) incluyen una \"tarifa de conocimiento e innovación\" estándar de 20 AED."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apps",
+        "label": "Aplicaciones imprescindibles",
+        "icon": "Smartphone",
+        "sections": [
+          {
+            "heading": "El estilo de vida digital",
+            "content": "Dubai opera en entrega y servicios de teléfonos inteligentes. Rara vez necesitas efectivo.",
+            "listItems": [
+              {
+                "title": "careem",
+                "description": "La \"Aplicación Todo\". Taxishailing, entrega de comida, alquiler de bicicletas, limpieza, pruebas PCR y billetera digital.",
+                "link": {
+                  "text": "Descargar Careem",
+                  "url": "https://www.careem.com/"
+                }
+              },
+              {
+                "title": "Aplicación de la policía de Dubái",
+                "description": "Vital. Se utiliza para informar accidentes automovilísticos menores al instante, pagar multas y acceder a servicios de emergencia.",
+                "link": {
+                  "text": "Policía de Dubái",
+                  "url": "https://www.dubaipolice.gov.ae/"
+                }
+              },
+              {
+                "title": "Al-Hosn",
+                "description": "La aplicación del registro nacional de salud. Se utiliza para registros de vacunación y resultados médicos oficiales.",
+                "link": {
+                  "text": "Al-Hosn",
+                  "url": "https://alhosnapp.ae/"
+                }
+              },
+              {
+                "title": "duda",
+                "description": "El Craigslist de Dubái. Compre, venda y alquile cualquier cosa, desde automóviles hasta camas y apartamentos.",
+                "link": {
+                  "text": "duda",
+                  "url": "https://dubai.dubizzle.com/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "weather",
+        "label": "Supervivencia en el clima",
+        "icon": "Sun",
+        "sections": [
+          {
+            "heading": "Sobreviviendo al verano",
+            "content": "De junio a septiembre, las temperaturas rondan los 40-48°C (104-118°F) con una humedad intensa.",
+            "bullets": [
+              "Vida interior: la ciudad se anticipa a esto. Literalmente, todo tiene aire acondicionado (incluso las paradas de autobús).",
+              "Seguridad en el automóvil: nunca deje latas de aerosol, desinfectantes para manos o dispositivos electrónicos en su automóvil, ya que pueden explotar con el calor. Los volantes de cuero pueden provocar quemaduras leves sin parasol.",
+              "Vitamina D: Irónicamente, muchos expatriados tienen deficiencia de vitamina D porque pasan el verano completamente en interiores. Toma suplementos.",
+              "El invierno es perfecto: de octubre a abril es impresionante, soleado y con una temperatura de 20-30°C. Todo el mundo come al aire libre y va a la playa."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "deals",
+        "label": "Ofertas y ventajas",
+        "icon": "Coins",
+        "sections": [
+          {
+            "heading": "Cupones y descuentos",
+            "content": "Dubái puede ser increíblemente caro, pero quienes lo saben rara vez pagan el precio completo por los gastos de estilo de vida.",
+            "listItems": [
+              {
+                "title": "La aplicación de entretenimiento",
+                "description": "La regla de oro de la gastronomía y el entretenimiento en Dubái. Cuesta alrededor de 400 AED al año, pero ofrece vales ilimitados 2 por 1 en miles de restaurantes premium y parques temáticos.",
+                "link": {
+                  "text": "el animador",
+                  "url": "https://www.theentertainerme.com/"
+                }
+              },
+              {
+                "title": "Cobone y Groupon EAU",
+                "description": "Amplias ofertas diarias para spas, safaris por el desierto, cruceros en dhow y servicios de tintado de automóviles. Excelente para los recién llegados que intentan realizar actividades turísticas por poco dinero.",
+                "link": {
+                  "text": "Cobón",
+                  "url": "https://www.cobone.com/en/deals/dubai"
+                }
+              },
+              {
+                "title": "Fidelización de supermercados",
+                "description": "Carrefour utiliza la aplicación SHARE para obtener puntos. Spinneys y Waitrose tienen sus propios niveles de fidelidad. Estos puntos se suman rápidamente a las tiendas de comestibles gratuitas.",
+                "link": {
+                  "text": "COMPARTIR recompensas",
+                  "url": "https://www.sharerewards.com/"
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Principales ventajas para expatriados",
+            "content": "Más allá del sol y la seguridad, ser residente oficial ofrece importantes ventajas sistémicas.",
+            "bullets": [
+              "Certificado de Domicilio Fiscal: Una vez que haya sido residente durante más de 180 días, puede solicitar un Certificado de Residencia Fiscal del Ministerio de Finanzas. Esto es vital para demostrarle a su país de origen que ya no debería pagarle impuestos.",
+              "Descuentos de zona: muchas zonas libres (como DIFC o Media City) emiten sus propias tarjetas de identificación internas, que ofrecen descuentos básicos (10-20%) en todas las cafeterías y gimnasios ubicados dentro de esa zona geográfica.",
+              "Puertas electrónicas del aeropuerto: su identificación de Emirates le permite evitar por completo las colas de inmigración en DXB. Simplemente atraviesas las puertas inteligentes escaneando tu rostro en 10 segundos."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shopping",
+    "title": "Compras y centros comerciales",
+    "shortDescription": "Megacentros comerciales, comestibles cotidianos, impuestos y mercados locales.",
+    "icon": "ShoppingBag",
+    "tabs": [
+      {
+        "id": "malls",
+        "label": "Mega centros comerciales",
+        "icon": "ShoppingBag",
+        "sections": [
+          {
+            "heading": "Los palacios comerciales",
+            "content": "Los centros comerciales de Dubái son esencialmente ciudades interiores con clima controlado que sirven como centros sociales, distritos gastronómicos y centros de entretenimiento.",
+            "listItems": [
+              {
+                "title": "Centro comercial Dubái",
+                "description": "El centro comercial más visitado del mundo. Cuenta con una pista de hielo olímpica, un enorme acuario y la entrada al Burj Khalifa.",
+                "link": {
+                  "text": "El centro comercial de Dubái",
+                  "url": "https://thedubaimall.com/"
+                }
+              },
+              {
+                "title": "Centro comercial de los Emiratos",
+                "description": "Icónico centro comercial de lujo ubicado en Al Barsha que alberga Ski Dubai, la famosa pista de esquí cubierta.",
+                "link": {
+                  "text": "Centro comercial de los Emiratos",
+                  "url": "https://www.malloftheemirates.com/"
+                }
+              },
+              {
+                "title": "Centro comercial Dubái Hills",
+                "description": "El megacentro comercial más nuevo. Muy popular entre los residentes debido a un mejor estacionamiento, un cine enorme y una montaña rusa cubierta.",
+                "link": {
+                  "text": "Centro comercial Dubái Hills",
+                  "url": "https://www.dubaihillsmall.ae/"
+                }
+              },
+              {
+                "title": "Centro comercial Ibn Battuta",
+                "description": "Temática en torno a los viajes del explorador Ibn Battuta. Impresionante arquitectura y muy práctica para los expatriados del sur.",
+                "link": {
+                  "text": "Ibn Battuta",
+                  "url": "https://www.ibnbattutamall.com/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "groceries",
+        "label": "supermercados",
+        "icon": "ShoppingCart",
+        "sections": [
+          {
+            "heading": "Comestibles diarios",
+            "content": "La escala de productos importados significa que puedes encontrar la marca exacta de mantequilla o cereal de tu país de origen, pero a menudo con un precio superior.",
+            "listItems": [
+              {
+                "title": "Waitrose y Spinneys",
+                "description": "Muy alta calidad, precios premium. Esencial para los expatriados británicos que buscan marcas locales y productos porcinos.",
+                "link": {
+                  "text": "Spinneys",
+                  "url": "https://www.spinneys.com/"
+                }
+              },
+              {
+                "title": "Carrefour Oriente Medio",
+                "description": "Gran hipermercado francés que ofrece productos electrónicos, ropa y comestibles estándar a una excelente relación calidad-precio.",
+                "link": {
+                  "text": "Carrefour",
+                  "url": "https://www.carrefouruae.com/"
+                }
+              },
+              {
+                "title": "Viva",
+                "description": "Un gran éxito reciente. Un supermercado de estilo alemán con grandes descuentos (como Aldi) que ofrece importaciones en euros increíblemente baratas.",
+                "link": {
+                  "text": "Viva",
+                  "url": "https://myviva.com/"
+                }
+              },
+              {
+                "title": "Kibsons (entrega de aplicaciones)",
+                "description": "El arma secreta de los expatriados. Increíble aplicación para frutas, verduras y carne a granel, económicas y de alta calidad, entregadas al día siguiente.",
+                "link": {
+                  "text": "Kibsons",
+                  "url": "https://www.kibsons.com/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "souks",
+        "label": "Zocos Tradicionales",
+        "icon": "Store",
+        "sections": [
+          {
+            "heading": "Antiguos mercados de Dubai",
+            "content": "Para experimentar las raíces comerciales de Dubai, cruce el arroyo en un Abra (barco de madera) por 1 AED y explore los zocos de Deira.",
+            "listItems": [
+              {
+                "title": "Zoco del oro de Dubái",
+                "description": "Cientos de minoristas venden grandes cantidades de oro. El precio del oro es estricto y está regulado por el gobierno, pero usted negocia el \"cargo de fabricación\".",
+                "link": {
+                  "text": "Información",
+                  "url": "#gold"
+                }
+              },
+              {
+                "title": "Zoco de las especias",
+                "description": "Junto al Zoco del Oro, que ofrece incienso, azafrán, dátiles y enormes sacos de especias. El regateo es obligatorio.",
+                "link": {
+                  "text": "Información",
+                  "url": "#spice"
+                }
+              },
+              {
+                "title": "Zoco Madinat Jumeirah",
+                "description": "Una reconstrucción moderna, de alta gama y con aire acondicionado de un zoco destinada principalmente a turistas, que ofrece impresionantes vistas del Burj Al Arab.",
+                "link": {
+                  "text": "Madinat",
+                  "url": "https://www.jumeirah.com/en/article/experiences/dubai/souk-madinat-jumeirah"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vat",
+        "label": "IVA y reembolsos",
+        "icon": "Receipt",
+        "sections": [
+          {
+            "heading": "Sistema Tributario",
+            "content": "Los Emiratos Árabes Unidos implementaron el Impuesto al Valor Agregado para diversificar los ingresos.",
+            "bullets": [
+              "Se aplica un IVA estándar del 5% a la mayoría de los bienes y servicios, incluidas las facturas de restaurantes, los comestibles y los productos electrónicos.",
+              "Tasa cero/exenciones: la atención médica básica, la matrícula educativa y los arrendamientos de bienes raíces residenciales no tienen IVA.",
+              "Los turistas (no residentes) pueden solicitar reembolsos del IVA en compras importantes en el aeropuerto a la salida a través de los quioscos libres de impuestos Planet. Asegúrese de solicitar en la tienda una \"Etiqueta libre de impuestos\"."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

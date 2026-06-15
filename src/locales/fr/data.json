@@ -1,0 +1,3003 @@
+[
+  {
+    "id": "difc",
+    "name": "DIFC",
+    "arabicName": "مركز دبي المالي العالمي",
+    "tagline": "Centre financier international de Dubaï",
+    "iconPath": "landmark",
+    "colorTheme": "from-amber-600 via-yellow-600 to-amber-700",
+    "mapSvgPath": "M 140 180 Q 170 160 210 190 Q 230 220 200 240 Q 160 250 140 220 Z",
+    "description": "Le DIFC est la principale plateforme financière du Moyen-Orient, de l'Afrique et de l'Asie du Sud. Il s'agit d'une zone franche financière unique fonctionnant sous un système judiciaire indépendant de common law de langue anglaise (tribunaux DIFC), distinct du système juridique civil plus large des Émirats arabes unis.",
+    "taxSituation": {
+      "status": "Zone franche financière spéciale",
+      "corporateTax": "0 % garanti pendant 50 ans sur les transactions qualifiées (l'impôt sur les sociétés standard des Émirats arabes unis de 9 % ne s'applique pas aux entités DIFC qualifiées).",
+      "personalTax": "0% d'impôt sur le revenu des personnes physiques sur les salaires et les plus-values.",
+      "customsDuty": "0% de droits de douane dans la juridiction de la zone franche.",
+      "details": "Les entreprises bénéficient d’une participation étrangère à 100 %, d’un rapatriement intégral des capitaux et d’un accès à un vaste réseau de conventions de double imposition."
+    },
+    "petSituation": {
+      "friendlyRating": 2,
+      "allowed": true,
+      "rules": [
+        "La laisse doit être portée à tout moment dans les allées communes.",
+        "Les animaux de compagnie sont strictement interdits d'accès dans les principaux couloirs commerciaux à haute densité de la promenade intérieure de Gate Avenue, bien que les restaurants extérieurs le permettent.",
+        "Des amendes allant jusqu'à 500 AED s'appliquent si vous ne nettoyez pas les traces de votre animal."
+      ],
+      "details": "Principalement une zone financière commerciale et résidentielle haut de gamme. Certains bâtiments résidentiels comme Index Tower acceptent les animaux domestiques, mais les zones gazonnées publiques sont rares par rapport aux banlieues résidentielles.",
+      "bestParks": [
+        "DIFC Gate Avenue Terrasses extérieures",
+        "Parc Zabeel (zone adjacente, courte distance en voiture)"
+      ]
+    },
+    "avgRent": {
+      "studio": 85000,
+      "bed1": 130000,
+      "bed2": 195000,
+      "bed3": 290000,
+      "bed4": 420000
+    },
+    "demographics": {
+      "description": "Un pôle financier cosmopolite attirant des professionnels fortunés. Dominé par les expatriés européens et nord-américains, aux côtés de riches locaux et d’expatriés arabes et indiens aux revenus élevés.",
+      "dominantGroups": [
+        "Expatriés Européens",
+        "Indiens aux revenus élevés",
+        "Expatriés arabes",
+        "Émiratis"
+      ],
+      "stats": [
+        {
+          "groupName": "Européens/Occidentaux",
+          "percentage": 40
+        },
+        {
+          "groupName": "Expatriés arabes",
+          "percentage": 20
+        },
+        {
+          "groupName": "Indiens/Asiatiques du Sud",
+          "percentage": 15
+        },
+        {
+          "groupName": "Émiratis",
+          "percentage": 10
+        },
+        {
+          "groupName": "Autres",
+          "percentage": 15
+        }
+      ]
+    },
+    "companies": [
+      {
+        "name": "Goldman Sachs MEA",
+        "industry": "Banque d'investissement et gestion de patrimoine",
+        "description": "Fournir des services d'élite de conseil, de souscription, de négociation de titres et de gestion d'actifs aux investisseurs institutionnels et aux fonds souverains de la région.",
+        "openPositions": [
+          {
+            "title": "Associé - Développeur Finance Quantitative",
+            "department": "Technologie des valeurs mobilières",
+            "salaryRange": "35 000 - 48 000 AED/mois",
+            "experience": "3-5 ans",
+            "careerUrl": "https://www.goldmansachs.com/careers"
+          },
+          {
+            "title": "Ingénieur logiciel senior - Systèmes d'exécution",
+            "department": "Technologie des marchés mondiaux",
+            "salaryRange": "45 000 - 60 005 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.goldmansachs.com/careers"
+          },
+          {
+            "title": "Architecte de sécurité des infrastructures",
+            "department": "Cybersécurité",
+            "salaryRange": "40 000 - 55 000 AED/mois",
+            "experience": "7+ ans",
+            "careerUrl": "https://www.goldmansachs.com/careers"
+          },
+          {
+            "title": "Data Scientist - IA en gestion de patrimoine",
+            "department": "Intelligence des données",
+            "salaryRange": "38 000 - 50 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://www.goldmansachs.com/careers"
+          },
+          {
+            "title": "Ingénieur Full Stack - Portails Clients",
+            "department": "Ingénierie de la gestion d'actifs",
+            "salaryRange": "28 000 - 38 000 AED/mois",
+            "experience": "2-4 ans",
+            "careerUrl": "https://www.goldmansachs.com/careers"
+          }
+        ]
+      },
+      {
+        "name": "Binance FZE",
+        "industry": "Web3 & Fintech",
+        "description": "Binance ME opère sous la tutelle de la Virtual Assets Regulatory Authority (VARA) de Dubaï, favorisant l'adoption du marché des cryptomonnaies et la construction d'une infrastructure Web3 au Moyen-Orient.",
+        "openPositions": [
+          {
+            "title": "Développeur principal principal de la blockchain",
+            "department": "Noyau de la chaîne BNB",
+            "salaryRange": "40 000 - 58 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.binance.com/en/careers"
+          },
+          {
+            "title": "Chef de produit - Paiements MENA",
+            "department": "Opérations produit",
+            "salaryRange": "30 000 - 45 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://www.binance.com/en/careers"
+          },
+          {
+            "title": "Analyste principal des opérations de sécurité",
+            "department": "Opérations Sec",
+            "salaryRange": "32 000 - 42 000 AED/mois",
+            "experience": "4-6 ans",
+            "careerUrl": "https://www.binance.com/en/careers"
+          },
+          {
+            "title": "Ingénieur Rust - Moteur de trading haute fréquence",
+            "department": "Systèmes commerciaux",
+            "salaryRange": "45 000 - 65 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.binance.com/en/careers"
+          },
+          {
+            "title": "Responsable technique - Audit des contrats intelligents",
+            "department": "Garantie de sécurité",
+            "salaryRange": "50 000 - 70 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://www.binance.com/en/careers"
+          }
+        ]
+      },
+      {
+        "name": "Gestion du millénaire",
+        "industry": "Hedge Fund / Gestion d'actifs",
+        "description": "Une société mondiale de gestion d'investissements alternatifs utilisant des stratégies de négociation multi-gestionnaires sophistiquées pour générer des rendements constants ajustés au risque.",
+        "openPositions": [
+          {
+            "title": "Développeur quantitatif C++",
+            "department": "Trading systématique",
+            "salaryRange": "55 000 - 80 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.mlm.com/careers"
+          },
+          {
+            "title": "Ingénieur Plateforme Devops Sénior",
+            "department": "Ingénierie des infrastructures",
+            "salaryRange": "45 000 - 60 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://www.mlm.com/careers"
+          },
+          {
+            "title": "Ingénieur Big Data Python",
+            "department": "Analyse quantitative",
+            "salaryRange": "38 000 - 52 000 AED/mois",
+            "experience": "3-5 ans",
+            "careerUrl": "https://www.mlm.com/careers"
+          },
+          {
+            "title": "Ingénieur noyau Linux et faible latence",
+            "department": "Infrastructure commerciale",
+            "salaryRange": "60 000 - 90 000 AED/mois",
+            "experience": "8+ ans",
+            "careerUrl": "https://www.mlm.com/careers"
+          },
+          {
+            "title": "Spécialiste des systèmes de sécurité cloud",
+            "department": "Sécurité mondiale des informations",
+            "salaryRange": "40 000 - 55 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.mlm.com/careers"
+          }
+        ]
+      },
+      {
+        "name": "Technologie agréée standard",
+        "industry": "Technologie bancaire et financière",
+        "description": "Piloter des services logiciels internationaux de banque de détail, commerciale et d'investissement prenant en charge les transactions mondiales sur plus de 60 marchés.",
+        "openPositions": [
+          {
+            "title": "Architecte de solutions principal - Services bancaires numériques",
+            "department": "Services d'ingénierie",
+            "salaryRange": "42 000 - 55 000 AED/mois",
+            "experience": "8+ ans",
+            "careerUrl": "https://www.sc.com/en/careers"
+          },
+          {
+            "title": "Développeur React Native - Portefeuille mobile",
+            "department": "Applications mobiles mondiales",
+            "salaryRange": "25 000 - 35 000 AED/mois",
+            "experience": "3-5 ans",
+            "careerUrl": "https://www.sc.com/en/careers"
+          },
+          {
+            "title": "Ingénieur senior en intégration d'API",
+            "department": "API bancaire de base",
+            "salaryRange": "30 000 - 45 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.sc.com/en/careers"
+          },
+          {
+            "title": "Spécialiste de la réponse aux cybermenaces",
+            "department": "Centre de commandement de sécurité",
+            "salaryRange": "35 000 - 48 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.sc.com/en/careers"
+          },
+          {
+            "title": "Responsable de l'automatisation de l'assurance qualité (Selenium/Java)",
+            "department": "Plateforme de test mondiale",
+            "salaryRange": "24 000 - 33 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://www.sc.com/en/careers"
+          }
+        ]
+      },
+      {
+        "name": "Franklin Templeton Moyen-Orient",
+        "industry": "Investissement souverain et conseil",
+        "description": "Gérer d'énormes portefeuilles d'investissements publics, d'entreprise et privés avec des systèmes de recherche experts locaux et mondiaux spécialisés.",
+        "openPositions": [
+          {
+            "title": "Développeur Web Full Stack (Angular/Node)",
+            "department": "Innovations numériques",
+            "salaryRange": "26 000 - 35 000 AED/mois",
+            "experience": "4 ans",
+            "careerUrl": "https://www.franklintempleton.co.uk/careers"
+          },
+          {
+            "title": "Ingénieur base de données senior (Postgres/Oracle)",
+            "department": "Opérations sur les données",
+            "salaryRange": "28 000 - 40 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://www.franklintempleton.co.uk/careers"
+          },
+          {
+            "title": "Ingénieur en Machine Learning Financier",
+            "department": "Technologie d'analyse de recherche",
+            "salaryRange": "42 000 - 58 005 AED/mois",
+            "experience": "4-7 ans",
+            "careerUrl": "https://www.franklintempleton.co.uk/careers"
+          },
+          {
+            "title": "Responsable du support des systèmes informatiques",
+            "department": "Systèmes d'entreprise",
+            "salaryRange": "20 000 - 28 000 AED/mois",
+            "experience": "3+ ans",
+            "careerUrl": "https://www.franklintempleton.co.uk/careers"
+          },
+          {
+            "title": "Product Owner - Gestion des actifs numériques",
+            "department": "Gouvernance des produits",
+            "salaryRange": "34 000 - 46 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.franklintempleton.co.uk/careers"
+          }
+        ]
+      }
+    ],
+    "apartments": [
+      {
+        "id": "difc-apt-1",
+        "title": "Exquis 1 lit à Index Tower, DIFC",
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "sizeSqFt": 980,
+        "priceAED": 140000,
+        "locationDetails": "Étage élevé avec vue panoramique sur le Musée du Futur et le Palais Zabeel.",
+        "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Piscine olympique intérieure",
+          "Salle de sport ultramoderne",
+          "Sécurité 24h/24 et 7j/7",
+          "Connecté à DIFC Gate Avenue"
+        ],
+        "link": "https://www.propertyfinder.ae/en/search?c=2&f=1&l=81&ob=mr"
+      },
+      {
+        "id": "difc-apt-2",
+        "title": "Luxueux Duplex de 3 Chambres, Résidences Ritz-Carlton",
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "sizeSqFt": 2950,
+        "priceAED": 320000,
+        "locationDetails": "Ritz-Carlton Gated Zone, service de conciergerie haut de gamme et entrée par ascenseur privé.",
+        "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Conciergerie cinq étoiles",
+          "Service de voiturier",
+          "Cave à Vin Privée",
+          "Salles de spa et de massage"
+        ],
+        "link": "https://www.propertyfinder.ae/en/search?c=2&f=3&l=81&ob=mr"
+      },
+      {
+        "id": "difc-apt-3",
+        "title": "Studio confortable et moderne, maison en pierre calcaire",
+        "bedrooms": "Studio",
+        "bathrooms": 1,
+        "sizeSqFt": 580,
+        "priceAED": 90000,
+        "locationDetails": "Connexion directe d'une passerelle climatisée de haut niveau à la porte principale du DIFC.",
+        "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Accès direct à Gate Avenue",
+          "Bain à remous intérieur",
+          "Sauna",
+          "Options entièrement meublées"
+        ],
+        "link": "https://www.propertyfinder.ae/en/search?c=2&f=0&l=81&ob=mr"
+      }
+    ],
+    "laws": [
+      {
+        "category": "Juridique Général",
+        "title": "Pouvoir judiciaire indépendant",
+        "description": "Entièrement soumis au système des tribunaux DIFC basé sur la common law anglaise plutôt que sur le droit civil fédéral des Émirats arabes unis, idéal pour l'arbitrage commercial et les contrats."
+      },
+      {
+        "category": "Réglementation des entreprises",
+        "title": "Protection à 100 % de la propriété étrangère",
+        "description": "Garantit le contrôle total des capitaux propres aux ressortissants étrangers sans nécessiter de sponsor ou d’agent juridique émirati local."
+      },
+      {
+        "category": "Conduite civile",
+        "title": "Loi stricte sur la confidentialité financière",
+        "description": "Interdit la divulgation de paramètres structurels exclusifs au sein des organisations enregistrées, protégeant ainsi fortement les opérations des entreprises privées."
+      }
+    ],
+    "bottomNotes": "DIFC a un coût de la vie élevé mais un prestige d'entreprise inégalé. Le stationnement dans le quartier peut être coûteux, le stationnement public horaire pouvant aller jusqu'à 20 AED/heure.",
+    "majorAttractions": [
+      "Le bâtiment de la porte",
+      "Centre commercial Gate Avenue",
+      "Musée du Futur (Frontière Connectée)",
+      "SOCIÉTÉ GOURMANDE Restauration gastronomique"
+    ]
+  },
+  {
+    "id": "downtown",
+    "name": "Centre-ville de Dubaï",
+    "arabicName": "وسط مدينة دبي",
+    "tagline": "Le centre du moment présent",
+    "iconPath": "tower",
+    "colorTheme": "from-amber-500 via-rose-600 to-amber-600",
+    "mapSvgPath": "M 215 190 Q 250 170 290 200 Q 310 230 280 250 Q 240 260 215 230 Z",
+    "description": "Le centre-ville de Dubaï abrite des chefs-d'œuvre de renommée mondiale, notamment l'emblématique Burj Khalifa, la monumentale fontaine de Dubaï et le vaste centre commercial de Dubaï. Il sert à la fois de communauté cosmopolite d’élite et de centre d’affaires.",
+    "taxSituation": {
+      "status": "Zone premium continentale",
+      "corporateTax": "L'impôt standard sur les sociétés des Émirats arabes unis de 9 % s'applique strictement aux bénéfices nets des entreprises dépassant 375 000 AED (~ 102 000 USD).",
+      "personalTax": "0% d'impôt sur le revenu des personnes physiques sur les salaires des particuliers et les portefeuilles d'investissement.",
+      "customsDuty": "Des droits de douane généraux de 5 % s'appliquent aux marchandises physiques importées traversant les frontières physiques.",
+      "details": "Opérer sur le continent nécessite une licence standard du Département de l'économie et du tourisme des Émirats arabes unis (DET), vous permettant de commercer librement et directement dans n'importe quelle partie des Émirats arabes unis."
+    },
+    "petSituation": {
+      "friendlyRating": 3,
+      "allowed": true,
+      "rules": [
+        "Les chiens doivent rester tenus en laisse courte et solide dans toutes les rues publiques ouvertes.",
+        "Non autorisé directement dans le Dubai Mall ou sur l'herbe immédiate du Burj Park, sauf autorisation spéciale lors d'événements publics concernant les animaux de compagnie.",
+        "Les puces électroniques enregistrées et les vaccinations à jour sont légalement vérifiées dans les halls résidentiels."
+      ],
+      "details": "Les trottoirs résidentiels très peuplés et les sentiers du lac Burj rendent la promenade de votre animal de compagnie très belle, mais vous devez le tenir à l'écart des zones de pelouse publique du parc Emaar Burj.",
+      "bestParks": [
+        "Promenades sur la promenade du Burj Plaza",
+        "Sentiers acceptant les chiens de South Ridge"
+      ]
+    },
+    "avgRent": {
+      "studio": 75000,
+      "bed1": 115000,
+      "bed2": 180000,
+      "bed3": 270000,
+      "bed4": 450000
+    },
+    "demographics": {
+      "description": "Un centre multiculturel et luxueux attirant les expatriés aisés et les locaux qui préfèrent la vie métropolitaine à proximité de monuments emblématiques.",
+      "dominantGroups": [
+        "Européens riches",
+        "Indiens/Pakistanais aisés",
+        "Les riches Émiratis",
+        "Chinois"
+      ],
+      "stats": [
+        {
+          "groupName": "Européens",
+          "percentage": 35
+        },
+        {
+          "groupName": "Indiens",
+          "percentage": 25
+        },
+        {
+          "groupName": "Expatriés arabes",
+          "percentage": 15
+        },
+        {
+          "groupName": "Émiratis",
+          "percentage": 15
+        },
+        {
+          "groupName": "Autres",
+          "percentage": 10
+        }
+      ]
+    },
+    "companies": [
+      {
+        "name": "Emaar Properties PJSC",
+        "industry": "Promoteur immobilier",
+        "description": "Emaar est le constructeur haut de gamme de Master Communities soutenu par l'État, spécialisé dans l'hôtellerie de classe mondiale, les centres commerciaux et les développements vertigineux dans le monde entier.",
+        "openPositions": [
+          {
+            "title": "Architecte en chef de solutions cloud",
+            "department": "Informatique des systèmes d'entreprise",
+            "salaryRange": "45 000 - 62 000 AED/mois",
+            "experience": "10+ ans",
+            "careerUrl": "https://www.emaar.com/en/careers"
+          },
+          {
+            "title": "Spécialiste Web React senior",
+            "department": "Chaînes numériques",
+            "salaryRange": "28 000 - 38 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.emaar.com/en/careers"
+          },
+          {
+            "title": "Responsable de l'analyse de l'apprentissage automatique",
+            "department": "Division des villes intelligentes",
+            "salaryRange": "35 000 - 48 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://www.emaar.com/en/careers"
+          },
+          {
+            "title": "Architecte d'entrepôt de données",
+            "department": "Intelligence d'affaires",
+            "salaryRange": "30 000 - 44 000 AED/mois",
+            "experience": "5-8 ans",
+            "careerUrl": "https://www.emaar.com/en/careers"
+          },
+          {
+            "title": "Responsable DevSecOps mobile",
+            "department": "Applications grand public mondiales",
+            "salaryRange": "32 000 - 45 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://www.emaar.com/en/careers"
+          }
+        ]
+      },
+      {
+        "name": "Siège social de Noon.com",
+        "industry": "Commerce électronique et logistique",
+        "description": "Noon est le principal écosystème de marché numérique du Moyen-Orient, à l'origine de technologies financières, de logistique, d'applications de distribution alimentaire et de plateformes d'échange de produits hyperlocales de pointe.",
+        "openPositions": [
+          {
+            "title": "Ingénieur logiciel principal - IA de recherche et de recommandation",
+            "department": "Technologie de recherche",
+            "salaryRange": "50 000 - 75 000 AED/mois",
+            "experience": "8+ ans",
+            "careerUrl": "https://careers.noon.com/"
+          },
+          {
+            "title": "Développeur back-end (Golang/Kubernetes)",
+            "department": "Plateforme de paiement principale",
+            "salaryRange": "45 000 - 60 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://careers.noon.com/"
+          },
+          {
+            "title": "Développeur Android principal - Application Noon",
+            "department": "Ingénierie mobile",
+            "salaryRange": "35 000 - 48 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://careers.noon.com/"
+          },
+          {
+            "title": "Architecte de fiabilité du site",
+            "department": "Services d'infrastructures",
+            "salaryRange": "40 000 - 55 000 AED/mois",
+            "experience": "7+ ans",
+            "careerUrl": "https://careers.noon.com/"
+          },
+          {
+            "title": "Propriétaire de produit technique - Noon Pay",
+            "department": "Opérations Fintech",
+            "salaryRange": "28 000 - 40 000 AED/mois",
+            "experience": "4-6 ans",
+            "careerUrl": "https://careers.noon.com/"
+          }
+        ]
+      },
+      {
+        "name": "Careem Technologies",
+        "industry": "Ride-Hailing et Super App Tech",
+        "description": "Fier géant de la technologie local des Émirats arabes unis et filiale d'Uber, développant une plate-forme de super-applications à spectre complet offrant des déplacements de passagers, des paiements cryptographiques peer-to-peer, de la nourriture, des services d'épicerie et des réseaux de partenaires.",
+        "openPositions": [
+          {
+            "title": "Ingénieur logiciel principal (Java/Kotlin/Node)",
+            "department": "Ingénierie de la paie Careem",
+            "salaryRange": "48 000 - 65 000 AED/mois",
+            "experience": "7+ ans",
+            "careerUrl": "https://careers.careem.com/"
+          },
+          {
+            "title": "Développeur iOS senior",
+            "department": "Équipe mobile Super-App",
+            "salaryRange": "32 000 - 45 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://careers.careem.com/"
+          },
+          {
+            "title": "Ingénieur plateforme Big Data (Spark/Kafka)",
+            "department": "Prédiction de la demande en temps réel",
+            "salaryRange": "30 000 - 44 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://careers.careem.com/"
+          },
+          {
+            "title": "Chef de produit senior - Ride Experience",
+            "department": "Logistique de base",
+            "salaryRange": "35 000 - 50 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://careers.careem.com/"
+          },
+          {
+            "title": "Ingénieur Sécurité du Personnel - Sécurité des Applications",
+            "department": "Cybersécurité mondiale",
+            "salaryRange": "42 000 - 58 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://careers.careem.com/"
+          }
+        ]
+      },
+      {
+        "name": "McKinsey & Company Dubaï",
+        "industry": "Conseil stratégique d'entreprise",
+        "description": "Fournir des services de conseil d’élite aux gouvernements mondiaux, aux capitaines d’industrie, aux fonds souverains et aux acteurs technologiques multinationaux en transition.",
+        "openPositions": [
+          {
+            "title": "Coach Agile Senior / Responsable de la livraison technologique",
+            "department": "McKinsey Numérique",
+            "salaryRange": "40 000 - 55 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://www.mckinsey.com/careers"
+          },
+          {
+            "title": "Ingénieur Data Cloud - Transformation Client",
+            "department": "Laboratoires numériques",
+            "salaryRange": "32 000 - 45 000 AED/mois",
+            "experience": "4-6 ans",
+            "careerUrl": "https://www.mckinsey.com/careers"
+          },
+          {
+            "title": "Consultant Full Stack React/Node",
+            "department": "McKinsey Numérique",
+            "salaryRange": "30 000 - 42 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://www.mckinsey.com/careers"
+          },
+          {
+            "title": "Concepteur visuel (présentations numériques)",
+            "department": "Relations avec les médias",
+            "salaryRange": "18 300 - 24 000 AED/mois",
+            "experience": "2+ ans",
+            "careerUrl": "https://www.mckinsey.com/careers"
+          },
+          {
+            "title": "Partenaire associé - Stratégie de modernisation du cloud",
+            "department": "Stratégie d'entreprise",
+            "salaryRange": "70 000 - 95 000 AED/mois",
+            "experience": "10+ ans",
+            "careerUrl": "https://www.mckinsey.com/careers"
+          }
+        ]
+      },
+      {
+        "name": "Siège social d'Oracle au Moyen-Orient",
+        "industry": "Technologie d'entreprise de base de données et cloud",
+        "description": "Pionniers d’une infrastructure cloud robuste (OCI) et de packages ERP complexes alimentant les administrations centrales et les entreprises du Golfe.",
+        "openPositions": [
+          {
+            "title": "Ingénieur Commercial Cloud OCI",
+            "department": "Infrastructure cloud Oracle",
+            "salaryRange": "35 000 - 48 000 AED/mois",
+            "experience": "5-8 ans",
+            "careerUrl": "https://careers.oracle.com"
+          },
+          {
+            "title": "Développeur Java principal principal",
+            "department": "Équipe Fusion Middleware",
+            "salaryRange": "40 000 - 58 000 AED/mois",
+            "experience": "8+ ans",
+            "careerUrl": "https://careers.oracle.com"
+          },
+          {
+            "title": "Spécialiste de la sécurité des bases de données",
+            "department": "Laboratoires de sécurité Oracle",
+            "salaryRange": "36 000 - 50 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://careers.oracle.com"
+          },
+          {
+            "title": "Administrateur de plateforme Kubernetes",
+            "department": "Contrôle des systèmes cloud",
+            "salaryRange": "28 000 - 40 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://careers.oracle.com"
+          },
+          {
+            "title": "Ingénieur de solutions IA",
+            "department": "Produits cloud émergents",
+            "salaryRange": "42 000 - 54 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://careers.oracle.com"
+          }
+        ]
+      }
+    ],
+    "apartments": [
+      {
+        "id": "downtown-apt-1",
+        "title": "Appartement 2 lits sur mesure avec vue sur Burj Khalifa, Address Residences",
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "sizeSqFt": 1450,
+        "priceAED": 240000,
+        "locationDetails": "Voie de liaison intérieure directe directement vers le centre commercial de Dubaï ; appartement de luxe entièrement viabilisé.",
+        "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Service de chambre 24 heures sur 24",
+          "Piscine à débordement avec vue sur la fontaine",
+          "Service voiturier haut de gamme",
+          "Remise sur le spa sur place"
+        ],
+        "link": "https://www.propertyfinder.ae/en/search?c=2&f=2&l=1&ob=mr"
+      },
+      {
+        "id": "downtown-apt-2",
+        "title": "Penthouse de luxe moderne de grande hauteur (4 lits), quartier de l'Opéra",
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "sizeSqFt": 4300,
+        "priceAED": 550000,
+        "locationDetails": "À côté du majestueux Opéra de Dubaï. Belles boiseries murales vitrées du plafond au sol.",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Vaste balcon Skyline",
+          "Salon de billard personnel",
+          "Salle Sauna et Jacuzzi",
+          "Clé directe d'ascenseur privé"
+        ],
+        "link": "https://www.propertyfinder.ae/en/search?c=2&f=4&l=1&ob=mr"
+      },
+      {
+        "id": "downtown-apt-3",
+        "title": "Élégant studio confortable, Standpoint Towers",
+        "bedrooms": "Studio",
+        "bathrooms": 1,
+        "sizeSqFt": 540,
+        "priceAED": 80000,
+        "locationDetails": "Le long du élégant boulevard Mohammed Bin Rashid. Beaux cafés juste à la porte du hall du rez-de-chaussée.",
+        "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Salle de cardio-fitness",
+          "Piscine extérieure pour la nage en longueur",
+          "Parking souterrain sécurisé",
+          "Court de tennis de championnat"
+        ],
+        "link": "https://www.propertyfinder.ae/en/search?c=2&f=0&l=1&ob=mr"
+      }
+    ],
+    "laws": [
+      {
+        "category": "Droit Immobilier / Locataire",
+        "title": "Validation juridique Ejari",
+        "description": "Tous les contrats de location doivent être officiellement enregistrés sur le portail du réseau gouvernemental Ejari ; les contrats de location non enregistrés n’ont aucune valeur dans les litiges judiciaires locaux."
+      },
+      {
+        "category": "Moralité publique",
+        "title": "Code de décorum public",
+        "description": "Application stricte de la tenue vestimentaire modeste appropriée dans les centres commerciaux d'Emaar et dans les allées publiques, et réglementations strictes restreignant les démonstrations d'affection publiques passionnées."
+      },
+      {
+        "category": "Vie nocturne",
+        "title": "Consommation d'alcool autorisée",
+        "description": "La consommation d'alcool dans les zones publiques en dehors des hôtels, pubs ou locaux d'habitation certifiés avec une licence électronique personnalisée reste illégale."
+      }
+    ],
+    "bottomNotes": "Attendez-vous à un trafic élevé le long du boulevard central et aux ponts-ponts artériels pendant les périodes de pointe des vacances, les comptes à rebours du Nouvel An et les horaires des fontaines le week-end.",
+    "majorAttractions": [
+      "Burj Khalifa",
+      "Le centre commercial de Dubaï",
+      "La fontaine de Dubaï",
+      "Opéra de Dubaï",
+      "Parc du Burj"
+    ]
+  },
+  {
+    "id": "marina",
+    "name": "Marina de Dubaï et JBR",
+    "arabicName": "مرسى دبي",
+    "tagline": "Vie dynamique au bord de l’eau",
+    "iconPath": "waves",
+    "colorTheme": "from-cyan-600 via-blue-600 to-indigo-700",
+    "mapSvgPath": "M 10 100 Q 50 110 80 80 Q 110 110 70 140 Q 30 150 10 120 Z",
+    "description": "La marina de Dubaï est une œuvre architecturale composée de réseaux de canaux artificiels soutenant de très hauts gratte-ciel résidentiels et des parcours de vie dynamiques avec des centaines de restaurants en plein air, à côté de la célèbre plage de sable blanc de Jumeirah Beach Residence (JBR).",
+    "taxSituation": {
+      "status": "Continent avec poches de zone franche",
+      "corporateTax": "Un impôt sur les sociétés standard de 9 % s'applique aux ventes au détail et aux opérations enregistrées sur le continent. Les bureaux satellites de la zone franche (par exemple, la succursale DMCC) obtiennent 0 % sous réserve des conditions de zone.",
+      "personalTax": "0% d'impôt sur le revenu sur les salaires et les gains des indépendants.",
+      "customsDuty": "Des droits de douane standard de 5 % s’appliquent aux machines importées et aux stocks de détail.",
+      "details": "Très apprécié par les entrepreneurs internationaux axés sur le style de vie, les nomades numériques en bord de mer et les entreprises de services haut de gamme opérant dans le secteur hôtelier."
+    },
+    "petSituation": {
+      "friendlyRating": 4,
+      "allowed": true,
+      "rules": [
+        "Les chiens doivent rester tenus en laisse directe. La propreté est très surveillée avec de lourdes amendes pour les patrouilles locales.",
+        "Animaux interdits directement sur la plage de sable publique de JBR Beach (sauf clubs de plage privés désignés).",
+        "Les animaux de compagnie ne sont pas autorisés dans les espaces publics du Dubai Marina Mall, mais ils peuvent être promenés dans la boucle extérieure de la Marina Canal Promenade."
+      ],
+      "details": "Excellentes passerelles pour faire du jogging avec de gros chiens, mais trouvez un bâtiment qui autorise expressément la présence d'animaux de compagnie, car les tours Emaar et Select Group ont des clauses HOA internes spécifiques.",
+      "bestParks": [
+        "Boucle de promenade du canal de la marina de Dubaï (7 km)",
+        "Dog Park JLT (juste de l'autre côté du pont du métro)"
+      ]
+    },
+    "avgRent": {
+      "studio": 68000,
+      "bed1": 105000,
+      "bed2": 165000,
+      "bed3": 240000,
+      "bed4": 380000
+    },
+    "demographics": {
+      "description": "Un centre démographique fortement occidentalisé. Fréquenté par les expatriés britanniques, russes et européens qui privilégient la vie au bord de l'eau et dans un complexe hôtelier.",
+      "dominantGroups": [
+        "Expatriés européens (Royaume-Uni/UE)",
+        "Expatriés Russes",
+        "Nord-Américains"
+      ],
+      "stats": [
+        {
+          "groupName": "Européens et Russes",
+          "percentage": 55
+        },
+        {
+          "groupName": "Expatriés arabes",
+          "percentage": 15
+        },
+        {
+          "groupName": "Américains/Canadiens",
+          "percentage": 10
+        },
+        {
+          "groupName": "Indiens",
+          "percentage": 10
+        },
+        {
+          "groupName": "Autres",
+          "percentage": 10
+        }
+      ]
+    },
+    "companies": [
+      {
+        "name": "Services Fintech Bybit",
+        "industry": "Blockchain et actifs virtuels",
+        "description": "Bybit est l'une des bourses d'actifs numériques à la croissance la plus rapide au monde, spécialisée dans le trading de cryptomonnaies, les dérivés sur marge et la liquidité du marché au comptant institutionnel.",
+        "openPositions": [
+          {
+            "title": "Ingénieur des systèmes de base du moteur de trading",
+            "department": "Architecture commerciale",
+            "salaryRange": "45 000 - 62 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://careers.bybit.com"
+          },
+          {
+            "title": "Architecte de portefeuille crypto full stack",
+            "department": "Ingénierie du portefeuille Web3",
+            "salaryRange": "35 000 - 50 000 AED/mois",
+            "experience": "4-6 ans",
+            "careerUrl": "https://careers.bybit.com"
+          },
+          {
+            "title": "Développeur Golang senior (plateformes API)",
+            "department": "Intégrations de systèmes mondiaux",
+            "salaryRange": "32 000 - 45 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://careers.bybit.com"
+          },
+          {
+            "title": "Responsable du développement de la sécurité",
+            "department": "Infrastructure SecOps",
+            "salaryRange": "40 000 - 55 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://careers.bybit.com"
+          },
+          {
+            "title": "Concepteur de recherche UX (interface utilisateur de trading)",
+            "department": "Produit UI/UX",
+            "salaryRange": "22 000 - 30 000 AED/mois",
+            "experience": "3+ ans",
+            "careerUrl": "https://careers.bybit.com"
+          }
+        ]
+      },
+      {
+        "name": "Property Finder Tech EAU",
+        "industry": "Marché PropTech",
+        "description": "La plateforme immobilière numérique dominante au Moyen-Orient, concevant des bases de données de location et d'achat conformes aux normes de l'industrie, des API de tarification automatisées du marché et des outils de courtage.",
+        "openPositions": [
+          {
+            "title": "Lead Data Engineer - Algorithmes de Tarification",
+            "department": "Laboratoire d'intelligence des données",
+            "salaryRange": "35 000 - 48 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://www.propertyfinder.ae/en/careers"
+          },
+          {
+            "title": "Développeur React Senior - Portail Consommateur",
+            "department": "Technologie frontale",
+            "salaryRange": "25 000 - 35 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://www.propertyfinder.ae/en/careers"
+          },
+          {
+            "title": "Automatisation de l'assurance qualité senior (Node/Cypress)",
+            "department": "Assurance qualité des logiciels",
+            "salaryRange": "20 000 - 28 000 AED/mois",
+            "experience": "3-5 ans",
+            "careerUrl": "https://www.propertyfinder.ae/en/careers"
+          },
+          {
+            "title": "Ingénieur de plateforme d'infrastructure (AWS)",
+            "department": "DevOps et SRE",
+            "salaryRange": "28 000 - 38 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.propertyfinder.ae/en/careers"
+          },
+          {
+            "title": "Chef de produit senior - Outils d'agent",
+            "department": "Suite de produits",
+            "salaryRange": "32 000 - 44 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.propertyfinder.ae/en/careers"
+          }
+        ]
+      },
+      {
+        "name": "Laboratoires Dubizzle",
+        "industry": "Marchés classés et AdTech",
+        "description": "Renforcer le portail commercial Dubizzle, massif et préféré au niveau local, pour les produits physiques, les marchés de véhicules et l'électronique générale.",
+        "openPositions": [
+          {
+            "title": "Ingénieur logiciel principal Flutter",
+            "department": "Centre de développement mobile",
+            "salaryRange": "32 000 - 45 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://dubizzle.bamboohr.com/careers"
+          },
+          {
+            "title": "Ingénieur Python (Microservices)",
+            "department": "Services back-end",
+            "salaryRange": "28 000 - 40 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://dubizzle.bamboohr.com/careers"
+          },
+          {
+            "title": "Architecte de bases de données senior (NoSQL/Redis)",
+            "department": "Mise en cache et haute disponibilité",
+            "salaryRange": "30 000 - 43 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://dubizzle.bamboohr.com/careers"
+          },
+          {
+            "title": "Spécialiste SDK pour plateforme Android",
+            "department": "Systèmes d'applications de base",
+            "salaryRange": "24 000 - 32 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://dubizzle.bamboohr.com/careers"
+          },
+          {
+            "title": "Pertinence de la recherche Responsable technique",
+            "department": "Récupération d'informations",
+            "salaryRange": "38 000 - 52 000 AED/mois",
+            "experience": "5-8 ans",
+            "careerUrl": "https://dubizzle.bamboohr.com/careers"
+          }
+        ]
+      },
+      {
+        "name": "Groupe Yalla",
+        "industry": "Plateformes de médias sociaux et de jeux",
+        "description": "Premier fournisseur de technologie basé aux Émirats arabes unis à être coté à la Bourse de New York, créant des systèmes de chat vocal régionaux, des jeux de société multijoueurs personnalisés et des communautés.",
+        "openPositions": [
+          {
+            "title": "Développeur senior de moteur de jeu C++",
+            "department": "Systèmes interactifs",
+            "salaryRange": "35 000 - 52 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://www.yallatech.ae"
+          },
+          {
+            "title": "Spécialiste du streaming audio en temps réel",
+            "department": "Ingénierie DSP et protocole",
+            "salaryRange": "38 000 - 55 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.yallatech.ae"
+          },
+          {
+            "title": "Ingénieur Backend Senior (Java / Multi-Threading)",
+            "department": "Messagerie à haute concurrence",
+            "salaryRange": "30 000 - 45 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.yallatech.ae"
+          },
+          {
+            "title": "Développeur principal Flutter",
+            "department": "Applications multiplateformes",
+            "salaryRange": "26 000 - 38 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://www.yallatech.ae"
+          },
+          {
+            "title": "Gestionnaire de politique de sécurité du contenu",
+            "department": "Support technique de confiance et de sécurité",
+            "salaryRange": "18 000 - 25 000 AED/mois",
+            "experience": "3+ ans",
+            "careerUrl": "https://www.yallatech.ae"
+          }
+        ]
+      },
+      {
+        "name": "Siège social de Deliveroo EAU",
+        "industry": "Plateforme de livraison à la demande",
+        "description": "Pionniers des systèmes de répartition automatisés de livraison de nourriture ultra-rapides et des réseaux logistiques aidant les commerçants locaux à prospérer.",
+        "openPositions": [
+          {
+            "title": "Ingénieur Logiciel Personnel - Routage Logistique",
+            "department": "Algorithmes de répartition",
+            "salaryRange": "42 000 - 58 000 AED/mois",
+            "experience": "7+ ans",
+            "careerUrl": "https://careers.deliveroo.co.uk"
+          },
+          {
+            "title": "Analyste de données - Optimisation de la livraison",
+            "department": "Intelligence opérationnelle",
+            "salaryRange": "20 000 - 28 000 AED/mois",
+            "experience": "3+ ans",
+            "careerUrl": "https://careers.deliveroo.co.uk"
+          },
+          {
+            "title": "Ingénieur senior de plateforme Ruby on Rails",
+            "department": "Hub API principal",
+            "salaryRange": "28 000 - 40 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://careers.deliveroo.co.uk"
+          },
+          {
+            "title": "Ingénieur natif Front-End React",
+            "department": "Groupe de tableaux de bord marchand",
+            "salaryRange": "24 000 - 34 000 AED/mois",
+            "experience": "3-5 ans",
+            "careerUrl": "https://careers.deliveroo.co.uk"
+          },
+          {
+            "title": "Auditeur des risques liés à la sécurité de l'information",
+            "department": "Conformité aux risques de gouvernance",
+            "salaryRange": "22 000 - 30 000 AED/mois",
+            "experience": "4 ans",
+            "careerUrl": "https://careers.deliveroo.co.uk"
+          }
+        ]
+      }
+    ],
+    "apartments": [
+      {
+        "id": "marina-apt-1",
+        "title": "Bayside 1 lit à Marina Gate II",
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "sizeSqFt": 840,
+        "priceAED": 115000,
+        "locationDetails": "Sélectionnez la centrale de développement du groupe. Incroyable disposition du sol, façade entièrement vitrée donnant sur la marina des super-yachts.",
+        "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Piscine à débordement stellaire",
+          "Salle de sport entièrement équipée",
+          "Sauna et Hammam",
+          "Carrefour Express à l'intérieur du podium du bâtiment"
+        ],
+        "link": "https://www.propertyfinder.ae/en/search?c=2&f=1&l=85&ob=mr"
+      },
+      {
+        "id": "marina-apt-2",
+        "title": "Studio ultra-moderne en bord de mer, Rixos JBR",
+        "bedrooms": "Studio",
+        "bathrooms": 1,
+        "sizeSqFt": 620,
+        "priceAED": 95000,
+        "locationDetails": "Luxe privilégié en bord de mer. Accès direct à pied à JBR The Walk et aux clubs de plage populaires.",
+        "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Accès à la plage privée du complexe",
+          "Remise sur les points de vente d’hôtels 5 étoiles",
+          "Service de voiturier",
+          "Terrain de squash de luxe intérieur"
+        ],
+        "link": "https://www.propertyfinder.ae/en/search?c=2&f=0&l=11&ob=mr"
+      },
+      {
+        "id": "marina-apt-3",
+        "title": "Majestueux Penthouse Tour de 4 Chambres, Tour Princesse",
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "sizeSqFt": 3400,
+        "priceAED": 290000,
+        "locationDetails": "Niveau extrêmement élevé (au-dessus du 80ème étage) avec vue directe sur Palm Jumeirah et le port de plaisance.",
+        "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Terrasses de piscine extérieure et intérieure",
+          "Plateforme d'observation à très haute altitude",
+          "Aire de jeux pour enfants",
+          "Ascenseurs hyper rapides 24h/24 et 7j/7"
+        ],
+        "link": "https://www.propertyfinder.ae/en/search?c=2&f=4&l=85&ob=mr"
+      }
+    ],
+    "laws": [
+      {
+        "category": "Aéronautique/Opérations",
+        "title": "Code de l'espace aérien de navigation par drone",
+        "description": "Zones de voies de migration strictes interdisant le matériel de drones non autorisé dans un rayon de 3 km du littoral de la marina afin de protéger les réseaux aériens."
+      },
+      {
+        "category": "Voyage maritime",
+        "title": "Règles de location de yachts",
+        "description": "L'Autorité maritime de Dubaï autorise les départs et les opérations de yachts uniquement sous la direction de skippers certifiés et agréés, suivant les instructions de la Garde côtière."
+      },
+      {
+        "category": "Location",
+        "title": "Baux saisonniers à forte demande",
+        "description": "En raison de la densité touristique, les sous-locations de courte durée doivent être officiellement enregistrées sur la plateforme DTCM en tant que Maisons de Vacances ; les annonces Airbnb sans licence entraînent de sévères pénalités de plus de 5 000 AED."
+      }
+    ],
+    "bottomNotes": "Attendez-vous à des embouteillages importants pendant les heures de pointe du week-end près de JBR et à un niveau de bruit plus élevé aux étages inférieurs des bâtiments en raison des supercars hautes performances.",
+    "majorAttractions": [
+      "Promenade de la Marina",
+      "Plage ouverte JBR",
+      "Roue d'observation d'Ain Dubai (accès à l'île Bluewaters)",
+      "Centre commercial Marina de Dubaï"
+    ]
+  },
+  {
+    "id": "jlt",
+    "name": "JLT (tours des lacs Jumeirah)",
+    "arabicName": "أبراج بحيرات الجميرا",
+    "tagline": "Hub communautaire dynamique",
+    "iconPath": "building-2",
+    "colorTheme": "from-emerald-600 via-teal-600 to-blue-700",
+    "mapSvgPath": "M 10 160 Q 50 150 80 180 Q 90 220 50 220 Q 20 200 10 160 Z",
+    "description": "Jumeirah Lakes Towers (JLT) est un vaste développement à usage mixte organisé en 26 groupes autour de magnifiques lacs artificiels. Animé par la zone franche DMCC (Dubai Multi Commodities Centre), il accueille une population très active dans les domaines de la technologie, des matières premières et du résidentiel.",
+    "taxSituation": {
+      "status": "Autorité de la zone franche DMCC",
+      "corporateTax": "Impôt sur les sociétés de 0 % sur les entités commerciales qualifiées au sein de la zone franche. Des exonérations d'impôts étrangers de 100 % s'appliquent.",
+      "personalTax": "0% d'impôt sur le revenu pour tous les salariés.",
+      "customsDuty": "0% de droits de douane pour les produits importés directement dans les entrepôts de la zone franche.",
+      "details": "Cadre de configuration très efficace pour la blockchain, les matières premières physiques, les diamants, le commerce de l'or et les agences de services numériques."
+    },
+    "petSituation": {
+      "friendlyRating": 5,
+      "allowed": true,
+      "rules": [
+        "Les chiens sont acceptés dans presque tous les sentiers et espaces gazonnés au bord du lac (cluster M et zone du parc).",
+        "Les propriétaires d’animaux doivent nettoyer immédiatement leurs excréments sous peine d’amendes municipales.",
+        "De nombreux restaurants au bord du lac acceptent les chiens, ce qui permet aux animaux de compagnie de s'asseoir sur la terrasse extérieure."
+      ],
+      "details": "JLT est largement reconnu comme le quartier à haute densité le plus accueillant pour les animaux de compagnie de Dubaï. Le parc central principal et les zones vertes communautaires comportent des aires de jeux clôturées personnalisées pour un dressage déchaîné des animaux de compagnie.",
+      "bestParks": [
+        "Parc pour chiens clôturé central JLT",
+        "Boucle du Lakes Walkway (autour du lac nord)"
+      ]
+    },
+    "avgRent": {
+      "studio": 55000,
+      "bed1": 85000,
+      "bed2": 125000,
+      "bed3": 185000,
+      "bed4": 280000
+    },
+    "demographics": {
+      "description": "Zone franche très diversifiée avec une importante classe moyenne professionnelle sud-asiatique et européenne. Favorisé pour un luxe relativement abordable.",
+      "dominantGroups": [
+        "Professionnels indiens",
+        "Expatriés Européens",
+        "Professionnels pakistanais"
+      ],
+      "stats": [
+        {
+          "groupName": "Indiens",
+          "percentage": 35
+        },
+        {
+          "groupName": "Européens",
+          "percentage": 25
+        },
+        {
+          "groupName": "Pakistanais",
+          "percentage": 15
+        },
+        {
+          "groupName": "Expatriés arabes",
+          "percentage": 15
+        },
+        {
+          "groupName": "Autres",
+          "percentage": 10
+        }
+      ]
+    },
+    "companies": [
+      {
+        "name": "Commerce de matières premières DMCC",
+        "industry": "Infrastructure mondiale des produits de base",
+        "description": "L'autorité principale qui anime le Dubai Multi Commodities Centre, enregistrant des milliers de sociétés commerciales mondiales spécialisées dans l'or, le café, le thé et les diamants industriels.",
+        "openPositions": [
+          {
+            "title": "Ingénieur plateforme DevOps",
+            "department": "Services techniques DMCC",
+            "salaryRange": "28 000 - 38 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://www.dmcc.ae/careers"
+          },
+          {
+            "title": "Spécialiste de la cryptographie d'entreprise",
+            "department": "Plateforme de titres intelligente",
+            "salaryRange": "36 000 - 48 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.dmcc.ae/careers"
+          },
+          {
+            "title": "Analyste en sécurité de l'information",
+            "department": "Politique de données et risques",
+            "salaryRange": "22 000 - 30 000 AED/mois",
+            "experience": "3 ans",
+            "careerUrl": "https://www.dmcc.ae/careers"
+          },
+          {
+            "title": "Développeur principal de logiciels Full-Stack",
+            "department": "Portail Web Trade Flow",
+            "salaryRange": "32 000 - 45 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://www.dmcc.ae/careers"
+          },
+          {
+            "title": "Analyste d'intégration de données sur les matières premières",
+            "department": "Centre d'intelligence des données",
+            "salaryRange": "20 000 - 28 000 AED/mois",
+            "experience": "3+ ans",
+            "careerUrl": "https://www.dmcc.ae/careers"
+          }
+        ]
+      },
+      {
+        "name": "Instashop EAU",
+        "industry": "Commerce électronique hyper local",
+        "description": "Application de marché régionale primée offrant une livraison ultra-rapide de courses en 45 minutes, reliant les magasins de quartier et les supermarchés aux résidents.",
+        "openPositions": [
+          {
+            "title": "Développeur Android principal (Kotlin)",
+            "department": "Équipe des applications grand public",
+            "salaryRange": "28 000 - 40 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://instashop.com/careers"
+          },
+          {
+            "title": "Ingénieur back-end senior (Python/Django)",
+            "department": "Back-end logistique",
+            "salaryRange": "25 000 - 36 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://instashop.com/careers"
+          },
+          {
+            "title": "Data Scientist - Optimisation de la livraison",
+            "department": "Recherche d'algorithmes",
+            "salaryRange": "32 000 - 46 000 AED/mois",
+            "experience": "4-7 ans",
+            "careerUrl": "https://instashop.com/careers"
+          },
+          {
+            "title": "Ingénieur UI Front-End (React)",
+            "department": "Produits Web",
+            "salaryRange": "18 000 - 26 000 AED/mois",
+            "experience": "3 ans",
+            "careerUrl": "https://instashop.com/careers"
+          },
+          {
+            "title": "SRE / Architecte de systèmes cloud (Azure/AWS)",
+            "department": "Opérations de contrôle de plate-forme",
+            "salaryRange": "34 000 - 47 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://instashop.com/careers"
+          }
+        ]
+      },
+      {
+        "name": "Capital-risque Crypto Valley (CV VC)",
+        "industry": "Web3 VC et accélérateur",
+        "description": "Un investisseur de capital-risque Web3 d'origine suisse qui gère des accélérateurs localisés dans JLT pour incuber des applications décentralisées à fort potentiel en phase de démarrage.",
+        "openPositions": [
+          {
+            "title": "Auditeur de Smart Contracts (Solide/Rouille)",
+            "department": "Équipe d'incubation d'entreprises",
+            "salaryRange": "38 000 - 55 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://www.cvvc.com/careers"
+          },
+          {
+            "title": "Associé technique en investissement",
+            "department": "Évaluation du flux de transactions cryptographiques",
+            "salaryRange": "24 000 - 35 000 AED/mois",
+            "experience": "3+ ans",
+            "careerUrl": "https://www.cvvc.com/careers"
+          },
+          {
+            "title": "Responsable des relations développeurs",
+            "department": "Opérations de l'écosystème Web3",
+            "salaryRange": "20 000 - 30 000 AED/mois",
+            "experience": "3+ ans",
+            "careerUrl": "https://www.cvvc.com/careers"
+          },
+          {
+            "title": "Développeur Full Stack Web3 Sénior",
+            "department": "Services de soutien à l'incubation",
+            "salaryRange": "32 000 - 46 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.cvvc.com/careers"
+          },
+          {
+            "title": "Architecte de solutions de nœuds",
+            "department": "Laboratoires technologiques décentralisés",
+            "salaryRange": "35 000 - 48 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://www.cvvc.com/careers"
+          }
+        ]
+      },
+      {
+        "name": "Hikvision Moyen-Orient",
+        "industry": "IoT, ingénierie de sécurité et IA",
+        "description": "Fournir une surveillance optique automatisée avancée, une technologie de détection des menaces par l'IA et des solutions IoT pour les villes intelligentes municipales.",
+        "openPositions": [
+          {
+            "title": "Architecte IA en vision par ordinateur",
+            "department": "Laboratoire d'analyse de surveillance",
+            "salaryRange": "35 000 - 52 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://www.hikvision.com"
+          },
+          {
+            "title": "Ingénieur Logiciel Systèmes Embarqués",
+            "department": "Intégrations matérielles IoT",
+            "salaryRange": "25 000 - 35 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://www.hikvision.com"
+          },
+          {
+            "title": "Responsable des solutions techniques au Moyen-Orient",
+            "department": "Support technique pour les ventes aux entreprises",
+            "salaryRange": "28 000 - 40 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.hikvision.com"
+          },
+          {
+            "title": "Responsable de la sécurité de l'infrastructure réseau",
+            "department": "Sécurité du système",
+            "salaryRange": "26 000 - 38 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.hikvision.com"
+          },
+          {
+            "title": "Développeur C# / WPF pour panneaux de contrôle",
+            "department": "Centre d'applications client",
+            "salaryRange": "20 000 - 28 000 AED/mois",
+            "experience": "3-5 ans",
+            "careerUrl": "https://www.hikvision.com"
+          }
+        ]
+      },
+      {
+        "name": "À distance EAU",
+        "industry": "Technologie RH et plateforme mondiale de recrutement",
+        "description": "Pionnier des systèmes logiciels unifiés mondiaux de paie, de conformité juridique et de configuration du travail à distance pour les entreprises axées sur le numérique.",
+        "openPositions": [
+          {
+            "title": "Responsable backend de la plateforme SaaS (Node/Postgres)",
+            "department": "Ingénierie des abonnements de base",
+            "salaryRange": "30 000 - 42 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.remotely.works/careers"
+          },
+          {
+            "title": "Concepteur UI/UX senior",
+            "department": "Laboratoire de conception de produits",
+            "salaryRange": "18 500 - 26 000 AED/mois",
+            "experience": "4 ans",
+            "careerUrl": "https://www.remotely.works/careers"
+          },
+          {
+            "title": "Ingénieur d'applications Web React",
+            "department": "Portail client",
+            "salaryRange": "22 005 - 32 500 AED/mois",
+            "experience": "3-5 ans",
+            "careerUrl": "https://www.remotely.works/careers"
+          },
+          {
+            "title": "Ingénieur Intégration Paie",
+            "department": "Ponts Fintech",
+            "salaryRange": "26 000 - 38 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://www.remotely.works/careers"
+          },
+          {
+            "title": "Ingénieur QA (Manuel + Playwright Automation)",
+            "department": "Assurance qualité",
+            "salaryRange": "15 000 - 22 000 AED/mois",
+            "experience": "2+ ans",
+            "careerUrl": "https://www.remotely.works/careers"
+          }
+        ]
+      }
+    ],
+    "apartments": [
+      {
+        "id": "jlt-apt-1",
+        "title": "Spacieux 2 lits avec vue sur le lac, Windtower JLT",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "sizeSqFt": 1250,
+        "priceAED": 110000,
+        "locationDetails": "Fabuleux balcon double exposition en étage élevé donnant sur le lac Nord sous zone DMCC standard.",
+        "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Piscine sur le toit",
+          "Salle de sauna moderne",
+          "Parc à chiens clôturé au niveau du podium",
+          "À quelques pas du pont du métro DMCC"
+        ],
+        "link": "https://www.propertyfinder.ae/en/search?c=2&f=2&l=120&ob=mr"
+      },
+      {
+        "id": "jlt-apt-2",
+        "title": "Studio au bord de l'eau dans la tour Armada 3, cluster P",
+        "bedrooms": "Studio",
+        "bathrooms": 1,
+        "sizeSqFt": 510,
+        "priceAED": 60000,
+        "locationDetails": "Cluster P, complexe Armada. Une gamme incroyable de restaurants sains et de cafés pour animaux de compagnie juste en dessous.",
+        "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Club de remise en forme sur le toit",
+          "Centre de soins médicaux express ci-dessous",
+          "Supermarché dans le hall de la tour",
+          "Accès aux pistes de jogging"
+        ],
+        "link": "https://www.propertyfinder.ae/en/search?c=2&f=0&l=120&ob=mr"
+      },
+      {
+        "id": "jlt-apt-3",
+        "title": "Immense appartement de 3 chambres, tour Al Shera, Cluster U",
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "sizeSqFt": 2100,
+        "priceAED": 175000,
+        "locationDetails": "Cluster U. Très proche de la station de métro DMCC. Vastes espaces de cuisine et salon familial.",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Baignoire jacuzzi intérieure",
+          "Clé d'accès sécurisée entièrement automatisée",
+          "Parcs familiaux souterrains dédiés",
+          "Terrain de squash"
+        ],
+        "link": "https://www.propertyfinder.ae/en/search?c=2&f=3&l=120&ob=mr"
+      }
+    ],
+    "laws": [
+      {
+        "category": "Loi sur les licences DMCC",
+        "title": "Politique multi-produits de commerce unique",
+        "description": "Nécessite un registre commercial spécialisé et des paramètres d'autorisation pour le mouvement physique des marchandises supervisé directement par l'autorité DMCC."
+      },
+      {
+        "category": "Contrôle environnemental",
+        "title": "Décret sur la conservation de l'eau du lac",
+        "description": "Interdit tout détritus ou interaction directe avec l’eau dans les lacs artificiels organiques JLT ; les violations déclenchent des citations municipales immédiates de 1 000 AED."
+      },
+      {
+        "category": "Propriété générale",
+        "title": "Lignes directrices pour les associations de tours en cluster",
+        "description": "Les groupes de tours conservent des conseils HOA privés et peuvent voter indépendamment sur des restrictions supplémentaires concernant les animaux domestiques, les heures sonores ou les codes de barbecue en terrasse."
+      }
+    ],
+    "bottomNotes": "Très convivial pour les piétons par rapport au centre-ville, mais le stationnement en période de pointe à l'intérieur des tours pour les clients peut être complexe sans bons d'enregistrement des visiteurs.",
+    "majorAttractions": [
+      "JLT Central Park",
+      "Tour DMCC Almas",
+      "Le hub irlandais de McGettigan",
+      "Promenades pédestres au bord du lac"
+    ]
+  },
+  {
+    "id": "internet-city",
+    "name": "Cité Internet de Dubaï (DIC)",
+    "arabicName": "مدينة دبي للإنترنت",
+    "tagline": "Silicon Valley du Moyen-Orient",
+    "iconPath": "network",
+    "colorTheme": "from-blue-600 via-indigo-600 to-purple-700",
+    "mapSvgPath": "M 75 40 Q 110 50 130 20 Q 160 50 140 80 Q 100 80 75 40 Z",
+    "description": "Dubai Internet City (DIC) est le premier parc d'activités technologiques de Dubaï, servant de passerelle régionale stratégique pour les leaders technologiques du Fortune 500 et les acteurs SaaS en pleine croissance.",
+    "taxSituation": {
+      "status": "Groupe Zone Franche TECOM",
+      "corporateTax": "Impôt sur les sociétés garanti à 0 % sur les opérations de services numériques/technologiques qualifiées.",
+      "personalTax": "Lois sur l'impôt sur le revenu des particuliers ou sur les salaires à 0 %.",
+      "customsDuty": "0 % d’avantages en matière de droits de douane de réexportation.",
+      "details": "Les entreprises bénéficient des cadres structurels TECOM offrant des solutions rapides de visa pour nomades numériques, des réseaux de fibre de qualité mondiale et des zones de fournisseurs de cloud."
+    },
+    "petSituation": {
+      "friendlyRating": 3,
+      "allowed": true,
+      "rules": [
+        "Les animaux domestiques sont autorisés autour des lacs extérieurs et des pelouses vertes entre les tours de bureaux.",
+        "Les animaux de compagnie sont interdits dans les halls d'entrée, les cafés ou les salles de réunion centrales des entreprises.",
+        "Les chiens doivent rester strictement tenus en laisse."
+      ],
+      "details": "Excellent environnement verdoyant avec des fontaines pittoresques, parfait pour les professionnels du numérique travaillant à l'extérieur avec leurs chiens. Il n'y a pas de tours résidentielles *directement* dans DIC, mais des blocs résidentiels très populaires (TECOM Barsha Heights) sont juste à côté.",
+      "bestParks": [
+        "Lac Central d'Innovation DIC",
+        "Réseaux de parcs de quartier Tecom"
+      ]
+    },
+    "avgRent": {
+      "studio": 62000,
+      "bed1": 90000,
+      "bed2": 135000,
+      "bed3": 195000,
+      "bed4": 310000
+    },
+    "demographics": {
+      "description": "Dominé par les travailleurs technologiques mondiaux. Une main-d'œuvre très fortement internationale, issue d'Asie du Sud, d'Europe et du Levant.",
+      "dominantGroups": [
+        "Travailleurs technologiques indiens",
+        "Expatriés Européens",
+        "Expatriés arabes du Levant"
+      ],
+      "stats": [
+        {
+          "groupName": "Indiens",
+          "percentage": 40
+        },
+        {
+          "groupName": "Européens",
+          "percentage": 25
+        },
+        {
+          "groupName": "Expatriés arabes",
+          "percentage": 20
+        },
+        {
+          "groupName": "Pakistanais",
+          "percentage": 10
+        },
+        {
+          "groupName": "Autres",
+          "percentage": 5
+        }
+      ]
+    },
+    "companies": [
+      {
+        "name": "Google Golfe",
+        "industry": "Infrastructure mondiale de technologie et de recherche",
+        "description": "L'équipe de Google pour le Moyen-Orient soutient la croissance mondiale du cloud computing, les pipelines de ciblage AdWords et les modèles de recherche localisés en arabe.",
+        "openPositions": [
+          {
+            "title": "Google Cloud – Développeur de solutions senior",
+            "department": "Prise en charge du cloud d'entreprise",
+            "salaryRange": "48 000 - 65 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://careers.google.com"
+          },
+          {
+            "title": "Ingénieur Partenaire Machine Learning",
+            "department": "Partenaire de l'écosystème Android",
+            "salaryRange": "42 000 - 58 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://careers.google.com"
+          },
+          {
+            "title": "Architecte de sécurité - GCP Moyen-Orient",
+            "department": "Sécurité des infrastructures cloud",
+            "salaryRange": "45 000 - 62 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://careers.google.com"
+          },
+          {
+            "title": "Responsable technique front-end - Applications localisées",
+            "department": "Groupe Technologies Web",
+            "salaryRange": "32 000 - 46 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://careers.google.com"
+          },
+          {
+            "title": "Responsable de Compte Technique - Sovereign AI",
+            "department": "Ingénierie Client",
+            "salaryRange": "35 000 - 48 000 AED/mois",
+            "experience": "4-7 ans",
+            "careerUrl": "https://careers.google.com"
+          }
+        ]
+      },
+      {
+        "name": "Microsoft Gulf FZ LLC",
+        "industry": "Logiciels d'entreprise et IA cloud",
+        "description": "Hub régional majeur défendant les déploiements mondiaux de centres de données Azure, les intégrations Windows d'entreprise et les programmes de partenariat OpenAI.",
+        "openPositions": [
+          {
+            "title": "Ingénieur principal cloud Azure",
+            "department": "Responsable de la stratégie d'entreprise",
+            "salaryRange": "46 000 - 64 000 AED/mois",
+            "experience": "8+ ans",
+            "careerUrl": "https://careers.microsoft.com"
+          },
+          {
+            "title": "Ingénieur IA senior - Azure Cognitive Services",
+            "department": "Services de support d'IA générative",
+            "salaryRange": "40 000 - 55 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://careers.microsoft.com"
+          },
+          {
+            "title": "Spécialiste de la réponse à la cybersécurité",
+            "department": "Réponse mondiale aux incidents",
+            "salaryRange": "34 000 - 46 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://careers.microsoft.com"
+          },
+          {
+            "title": "Développeur Web React Full-Stack - Intégration Teams",
+            "department": "Division Plateforme Équipes",
+            "salaryRange": "26 000 - 38 000 AED/mois",
+            "experience": "4 ans",
+            "careerUrl": "https://careers.microsoft.com"
+          },
+          {
+            "title": "Architecte de solutions - Transformation gouvernementale",
+            "department": "Ventes cloud régionales",
+            "salaryRange": "42 000 - 58 005 AED/mois",
+            "experience": "7+ ans",
+            "careerUrl": "https://careers.microsoft.com"
+          }
+        ]
+      },
+      {
+        "name": "Oracle Systems ME",
+        "industry": "Logiciel ERP et bases de données d'entreprise",
+        "description": "Pilotage de pipelines d'intégration cloud Oracle complexes pour les institutions publiques et les nœuds de banques commerciales.",
+        "openPositions": [
+          {
+            "title": "Consultant Cloud Senior (Base de données Autonome)",
+            "department": "Groupe de services mondiaux",
+            "salaryRange": "35 000 - 48 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://careers.oracle.com"
+          },
+          {
+            "title": "Architecte d'automatisation Devops",
+            "department": "Ingénierie de la plateforme OCI",
+            "salaryRange": "32 000 - 45 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://careers.oracle.com"
+          },
+          {
+            "title": "Architecte logiciel principal Java",
+            "department": "Systèmes de suite d'intégration",
+            "salaryRange": "38 000 - 54 000 AED/mois",
+            "experience": "8+ ans",
+            "careerUrl": "https://careers.oracle.com"
+          },
+          {
+            "title": "Responsable des solutions de sécurité API",
+            "department": "Contrôle SecOps",
+            "salaryRange": "28 000 - 40 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://careers.oracle.com"
+          },
+          {
+            "title": "Chef de Produit - Calcul Haute Performance OCI",
+            "department": "Infrastructure cloud",
+            "salaryRange": "42 000 - 56 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://careers.oracle.com"
+          }
+        ]
+      },
+      {
+        "name": "AWS Moyen-Orient Zone franche",
+        "industry": "Services d'informatique en nuage",
+        "description": "Branche d'infrastructure puissante qui pilote les opérations régionales d'Amazon Web Services, les optimisations de système et les solutions cloud hyper-évolutives.",
+        "openPositions": [
+          {
+            "title": "Architecte senior de solutions AWS",
+            "department": "Architecture des services clients",
+            "salaryRange": "42 000 - 58 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://www.amazon.jobs"
+          },
+          {
+            "title": "Architecte de solutions Big Data (EKS/Redshift)",
+            "department": "Prise en charge des systèmes mondiaux",
+            "salaryRange": "35 000 - 48 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.amazon.jobs"
+          },
+          {
+            "title": "Architecte DevOps Sénior",
+            "department": "Ingénierie cloud CI/CD",
+            "salaryRange": "38 000 - 52 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.amazon.jobs"
+          },
+          {
+            "title": "Responsable du support spécialisé Kubernetes",
+            "department": "Centre de commande des conteneurs",
+            "salaryRange": "30 000 - 43 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://www.amazon.jobs"
+          },
+          {
+            "title": "TAM d'infrastructure cloud",
+            "department": "Gestion des comptes techniques",
+            "salaryRange": "34 000 - 46 000 AED/mois",
+            "experience": "4-6 ans",
+            "careerUrl": "https://www.amazon.jobs"
+          }
+        ]
+      },
+      {
+        "name": "Cisco Systems Golfe",
+        "industry": "Infrastructure réseau et sécurité matérielle",
+        "description": "Construire des réseaux de télémétrie à fibre optique modernes, des standards hyper-sécurisés et des plates-formes de réseau d'entreprise pour les opérations au Moyen-Orient.",
+        "openPositions": [
+          {
+            "title": "Développeur senior en télémétrie réseau",
+            "department": "Groupe Cisco Webex",
+            "salaryRange": "30 005 - 42 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://jobs.cisco.com"
+          },
+          {
+            "title": "Ingénieur technique principal - CCIE Professional",
+            "department": "Services d'assistance aux entreprises",
+            "salaryRange": "34 000 - 48 000 AED/mois",
+            "experience": "6+ ans",
+            "careerUrl": "https://jobs.cisco.com"
+          },
+          {
+            "title": "Architecte principal en cybersécurité",
+            "department": "Systèmes de pare-feu sécurisés",
+            "salaryRange": "40 000 - 56 000 AED/mois",
+            "experience": "7+ ans",
+            "careerUrl": "https://jobs.cisco.com"
+          },
+          {
+            "title": "Développeur Java Full Stack",
+            "department": "Logiciel d'orchestration cloud",
+            "salaryRange": "24 000 - 35 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://jobs.cisco.com"
+          },
+          {
+            "title": "Responsable du support technique (protocoles de routage)",
+            "department": "Assistance mondiale",
+            "salaryRange": "20 000 - 28 000 AED/mois",
+            "experience": "3-5 ans",
+            "careerUrl": "https://jobs.cisco.com"
+          }
+        ]
+      }
+    ],
+    "apartments": [
+      {
+        "id": "dic-apt-1",
+        "title": "Moderne 1 lit dans les hauteurs exécutives, adjacent à TECOM Barsha",
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "sizeSqFt": 880,
+        "priceAED": 88000,
+        "locationDetails": "District TECOM, à 5 minutes à pied du portail des limites de l'entreprise Dubai Internet City.",
+        "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Piscine intérieure",
+          "Pistes de course clôturées",
+          "Gymnase Podium",
+          "Concierge dans le hall 24h/24 et 7j/7"
+        ],
+        "link": "https://www.propertyfinder.ae/en/search?c=2&f=1&l=18&ob=mr"
+      },
+      {
+        "id": "dic-apt-2",
+        "title": "Résidence lumineuse de 2 chambres, Madison Residency",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "sizeSqFt": 1180,
+        "priceAED": 118000,
+        "locationDetails": "Madison Residency, à 100 mètres à pied du pont de sortie du métro TECOM.",
+        "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Vaste terrasse de piscine sur le toit",
+          "Sauna spa à vapeur",
+          "Parking privé dédié",
+          "Terrain de squash recouvert de moquette"
+        ],
+        "link": "https://www.propertyfinder.ae/en/search?c=2&f=2&l=18&ob=mr"
+      },
+      {
+        "id": "dic-apt-3",
+        "title": "Studio haute fidélité, tour Smart Heights",
+        "bedrooms": "Studio",
+        "bathrooms": 1,
+        "sizeSqFt": 490,
+        "priceAED": 62000,
+        "locationDetails": "Tour de luxe Smart Heights, dotée de systèmes d'automatisation intégrés.",
+        "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Accès par carte à puce",
+          "Parcours santé sur le toit",
+          "Dépanneur direct dans le hall",
+          "Piscine jacuzzi"
+        ],
+        "link": "https://www.propertyfinder.ae/en/search?c=2&f=0&l=18&ob=mr"
+      }
+    ],
+    "laws": [
+      {
+        "category": "Confidentialité des données",
+        "title": "Charte de la propriété intellectuelle de la FZ",
+        "description": "Les entités technologiques au sein de la zone franche TECOM bénéficient de lois spécifiques sur la protection des actifs intellectuels, protégeant les algorithmes propriétaires autres que les demandes de sécurité souveraines."
+      },
+      {
+        "category": "Réglementation du lieu de travail",
+        "title": "Exclusivité de licence technique spéciale",
+        "description": "Les locaux de bureaux au sein du DIC doivent fonctionner strictement dans le cadre des paramètres du service numérique. Les magasins de vente au détail standard ne peuvent pas obtenir de zonage de bureaux."
+      },
+      {
+        "category": "Opérations",
+        "title": "Parrainage de visa de travail à distance",
+        "description": "Les pigistes peuvent traiter les catégories de visas pour espaces de travail à distance pour nomades numériques directement via les services du portail TECOM AXS."
+      }
+    ],
+    "bottomNotes": "DIC n'a pas de zonage résidentiel directement sur place ; tous les appartements résidentiels sont situés dans les zones adjacentes TECOM (Barsha Heights) ou Al Sufouh, divisées par Sheikh Zayed Road.",
+    "majorAttractions": [
+      "Oasis du pôle d'innovation DIC",
+      "Promenade du lac central TECOM",
+      "Hub de l'incubateur technologique In5",
+      "Événements en plein air en amphithéâtre"
+    ]
+  },
+  {
+    "id": "silicon-oasis",
+    "name": "Oasis de silicium de Dubaï (DSO)",
+    "arabicName": "واحة دبي للسيلكون",
+    "tagline": "Sous-ville technologique intelligente",
+    "iconPath": "cpu",
+    "colorTheme": "from-purple-600 via-fuchsia-600 to-rose-700",
+    "mapSvgPath": "M 350 150 Q 380 120 410 160 Q 430 200 390 220 Q 340 210 350 150 Z",
+    "description": "Dubai Silicon Oasis (DSO) est un parc technologique et une communauté intégrée mondialement reconnus. Opérant dans le cadre d’un pôle d’État unifié pour les semi-conducteurs et l’électronique, il héberge des startups, des opérations de R&D massives et des centres universitaires.",
+    "taxSituation": {
+      "status": "Zone franche de haute technologie",
+      "corporateTax": "Impôt sur les sociétés qualifié de 0 % sur les services d'électronique, de logiciels, de développement et de recherche avancée.",
+      "personalTax": "0% d'impôt sur le revenu des personnes physiques ou d'impôt sur la fortune.",
+      "customsDuty": "Tarif personnalisé de 0 % dans les zones matérielles Silicon Oasis.",
+      "details": "Très dynamique pour les startups en démarrage, les laboratoires de matériel informatique, les modules de recherche en IA et les étudiants techniques internationaux."
+    },
+    "petSituation": {
+      "friendlyRating": 4,
+      "allowed": true,
+      "rules": [
+        "Les chiens doivent porter des étiquettes indiquant l'enregistrement de la municipalité de Dubaï et des bandes de laisse.",
+        "Bienvenue sur la magnifique promenade pédestre du lac Silicon Oasis.",
+        "Des règles bâtiment par bâtiment s'appliquent ; Silicon Gates et Cedre Villas disposent d'espaces pour animaux de compagnie très favorables."
+      ],
+      "details": "Doté de vastes paysages de banlieue abordables, de pelouses communautaires et de boucles de promenade dédiées, il est largement préféré aux familles possédant de gros chiens.",
+      "bestParks": [
+        "Promenade du lac Silicon Oasis",
+        "Cedre Villa Communauté Central Parks"
+      ]
+    },
+    "avgRent": {
+      "studio": 38000,
+      "bed1": 52000,
+      "bed2": 78000,
+      "bed3": 110000,
+      "bed4": 170000
+    },
+    "demographics": {
+      "description": "Un pôle technologique de banlieue centré sur la famille, populaire auprès des professionnels à revenus moyens, présentant une très forte concentration de familles d'expatriés sud-asiatiques et arabes.",
+      "dominantGroups": [
+        "Familles indiennes",
+        "Expatriés arabes",
+        "Communautés pakistanaises"
+      ],
+      "stats": [
+        {
+          "groupName": "Indiens",
+          "percentage": 40
+        },
+        {
+          "groupName": "Expatriés arabes",
+          "percentage": 25
+        },
+        {
+          "groupName": "Pakistanais",
+          "percentage": 20
+        },
+        {
+          "groupName": "Émiratis",
+          "percentage": 5
+        },
+        {
+          "groupName": "Autres",
+          "percentage": 10
+        }
+      ]
+    },
+    "companies": [
+      {
+        "name": "Incubateur DSO Tech Hub",
+        "industry": "Incubation, Capital Risque & IoT",
+        "description": "Le principal incubateur statetech de DSO, prenant en charge des centaines de candidats technologiques en phase de démarrage avec des ressources techniques partagées, un support juridique et des serveurs d'IA.",
+        "openPositions": [
+          {
+            "title": "Analyste Tech Venture - Évaluateur de startups",
+            "department": "Division Capital-risque",
+            "salaryRange": "18 000 - 26 000 AED/mois",
+            "experience": "2-4 ans",
+            "careerUrl": "https://www.dtec.ae"
+          },
+          {
+            "title": "Spécialiste du support Incubateur Node.js",
+            "department": "Support des plateformes techniques",
+            "salaryRange": "20 000 - 28 000 AED/mois",
+            "experience": "3+ ans",
+            "careerUrl": "https://www.dtec.ae"
+          },
+          {
+            "title": "Gestionnaire du programme de technologie communautaire",
+            "department": "Opérations et partenariats",
+            "salaryRange": "16 000 - 24 000 AED/mois",
+            "experience": "3 ans",
+            "careerUrl": "https://www.dtec.ae"
+          },
+          {
+            "title": "Spécialiste Senior Full Stack Tech (MERN)",
+            "department": "Services aux entrepreneurs",
+            "salaryRange": "25 000 - 35 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.dtec.ae"
+          },
+          {
+            "title": "Architecte de support cloud AWS",
+            "department": "Partenariats avec des incubateurs d'entreprises",
+            "salaryRange": "28 000 - 38 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://www.dtec.ae"
+          }
+        ]
+      },
+      {
+        "name": "Cartlow Moyen-Orient",
+        "industry": "API de recommerce et de logistique",
+        "description": "Première plateforme dynamique de logistique inverse au Moyen-Orient et moteur de catalogue de recommerce numérique traitant des millions d'appareils reconditionnés.",
+        "openPositions": [
+          {
+            "title": "Développeur Python Backend Sénior",
+            "department": "Logiciel de base logistique",
+            "salaryRange": "24 000 - 34 000 AED/mois",
+            "experience": "4-7 ans",
+            "careerUrl": "https://cartlow.com"
+          },
+          {
+            "title": "Ingénieur principal DevOps / Sécurité",
+            "department": "Services d'infrastructures",
+            "salaryRange": "26 000 - 38 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://cartlow.com"
+          },
+          {
+            "title": "Ingénieur UI Front-End React",
+            "department": "Applications Web de commerce électronique",
+            "salaryRange": "18 000 - 25 000 AED/mois",
+            "experience": "3 ans",
+            "careerUrl": "https://cartlow.com"
+          },
+          {
+            "title": "Spécialiste QA en rénovation mondiale",
+            "department": "Laboratoires de diagnostic des appareils",
+            "salaryRange": "14 000 - 20 000 AED/mois",
+            "experience": "2+ ans",
+            "careerUrl": "https://cartlow.com"
+          },
+          {
+            "title": "Chef de produit mobile",
+            "department": "Expérience utilisateur mobile",
+            "salaryRange": "22 000 - 32 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://cartlow.com"
+          }
+        ]
+      },
+      {
+        "name": "Académie Jaguar Land Rover",
+        "industry": "Télémétrie pour la technologie automobile et la CAO",
+        "description": "Fournir une formation localisée d'élite, une ingénierie de télémétrie automobile et des tests d'intégration logicielle dynamiques.",
+        "openPositions": [
+          {
+            "title": "Ingénieur logiciel de CAO automobile",
+            "department": "Unité de formation technique",
+            "salaryRange": "30 000 - 45 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.jaguarlandrovercareers.com"
+          },
+          {
+            "title": "Analyste en télémétrie de bus CAN",
+            "department": "Laboratoire de recherche sur la mobilité électrique",
+            "salaryRange": "28 000 - 40 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://www.jaguarlandrovercareers.com"
+          },
+          {
+            "title": "Responsable de l'enseignement technique - Python/C++",
+            "department": "Opérations de l'Académie",
+            "salaryRange": "24 000 - 35 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://www.jaguarlandrovercareers.com"
+          },
+          {
+            "title": "Administrateur de plateforme cloud automobile",
+            "department": "Division du contrôle des systèmes",
+            "salaryRange": "22 000 - 32 000 AED/mois",
+            "experience": "3-5 ans",
+            "careerUrl": "https://www.jaguarlandrovercareers.com"
+          },
+          {
+            "title": "Spécialiste des tests de systèmes embarqués",
+            "department": "Ingénierie du diagnostic",
+            "salaryRange": "18 500 - 26 000 AED/mois",
+            "experience": "3+ ans",
+            "careerUrl": "https://www.jaguarlandrovercareers.com"
+          }
+        ]
+      },
+      {
+        "name": "Technologie des moteurs W",
+        "industry": "Electronique pour supercars et télématique de flotte",
+        "description": "Concepteurs d'élite du Fenyr SuperSport, mettant en œuvre une mécanique sophistiquée en carbone, une électronique de véhicule en temps réel et des interfaces télémétriques.",
+        "openPositions": [
+          {
+            "title": "Développeur senior C/C++ embarqué",
+            "department": "Système d'exploitation de véhicule supercar",
+            "salaryRange": "35 000 - 48 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.wmotors.ae"
+          },
+          {
+            "title": "Développeur Web de tableau de bord d'interface utilisateur",
+            "department": "Écrans de divertissement embarqués",
+            "salaryRange": "24 000 - 34 000 AED/mois",
+            "experience": "3-5 ans",
+            "careerUrl": "https://www.wmotors.ae"
+          },
+          {
+            "title": "Ingénieur Diagnostic Bus CAN / Véhicule",
+            "department": "Intégration matérielle Contrôle",
+            "salaryRange": "28 000 - 38 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://www.wmotors.ae"
+          },
+          {
+            "title": "Auditeur de sécurité électronique embarquée",
+            "department": "Opérations de protection du micrologiciel",
+            "salaryRange": "32 000 - 46 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.wmotors.ae"
+          },
+          {
+            "title": "Spécialiste de la science des données de télémétrie",
+            "department": "Télémétrie d'analyse et de course",
+            "salaryRange": "30 000 - 44 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://www.wmotors.ae"
+          }
+        ]
+      },
+      {
+        "name": "Fondateurs de Silicon Oasis",
+        "industry": "Tech Venture Studio et laboratoires d'IA",
+        "description": "Division R&D interne de l'État développant des solutions d'IA prédictive, des réseaux municipaux de villes intelligentes et des cadres SaaS à un stade précoce.",
+        "openPositions": [
+          {
+            "title": "Ingénieur de recherche en IA générative",
+            "department": "Laboratoires d'apprentissage profond",
+            "salaryRange": "36 005 - 50 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://www.dtec.ae"
+          },
+          {
+            "title": "Développeur React Senior - Panel Smart City",
+            "department": "Plateformes IoT frontales",
+            "salaryRange": "24 000 - 35 000 AED/mois",
+            "experience": "4+ ans",
+            "careerUrl": "https://www.dtec.ae"
+          },
+          {
+            "title": "Spécialiste de l'API REST du nœud (TypeScript)",
+            "department": "Centre d'intégrations mondiales",
+            "salaryRange": "20 000 - 30 000 AED/mois",
+            "experience": "3+ ans",
+            "careerUrl": "https://www.dtec.ae"
+          },
+          {
+            "title": "Architecte Postgres - Analyse SIG",
+            "department": "Contrôle de base de données spatiale",
+            "salaryRange": "28 000 - 40 000 AED/mois",
+            "experience": "5+ ans",
+            "careerUrl": "https://www.dtec.ae"
+          },
+          {
+            "title": "Ingénieur Devops - Kubernetes/Docker",
+            "department": "Services d'architecture de conteneurs",
+            "salaryRange": "25 000 - 36 000 AED/mois",
+            "experience": "3-5 ans",
+            "careerUrl": "https://www.dtec.ae"
+          }
+        ]
+      }
+    ],
+    "apartments": [
+      {
+        "id": "dso-apt-1",
+        "title": "Appartement spacieux de 2 lits, Silicon Gates 1",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "sizeSqFt": 1120,
+        "priceAED": 70000,
+        "locationDetails": "Complexe Silicon Gates. Mode de vie familial et transport facile vers les écoles secondaires DSO locales.",
+        "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Piscine familiale généreuse",
+          "Salle de sport standard entièrement équipée",
+          "Place de parking dédiée en sous-sol",
+          "Supermarché, centre médical sur la place"
+        ],
+        "link": "https://www.propertyfinder.ae/en/search?c=2&f=2&l=92&ob=mr"
+      },
+      {
+        "id": "dso-apt-2",
+        "title": "Moderne et lumineux 1 lit, Binghatti Point",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "sizeSqFt": 790,
+        "priceAED": 49000,
+        "locationDetails": "Repère architectural de Binghatti. Balcon en hauteur donnant sur le parc technologique Silicon Oasis.",
+        "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Appareils de cuisine modernes équipés",
+          "Piste de course sur le toit",
+          "Gymnase",
+          "Assistance 24h/24 et 7j/7"
+        ],
+        "link": "https://www.propertyfinder.ae/en/search?c=2&f=1&l=92&ob=mr"
+      },
+      {
+        "id": "dso-apt-3",
+        "title": "Studio confortable et intelligent, résidences Axis 2",
+        "bedrooms": "Studio",
+        "bathrooms": 1,
+        "sizeSqFt": 460,
+        "priceAED": 36000,
+        "locationDetails": "Axis Residences, bloc populaire pour les startups indépendantes et les étudiants en technologie des universités locales.",
+        "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Cartes d'accès sécurisées",
+          "Piscine extérieure",
+          "Salon communautaire partagé",
+          "Machines à laver équipées"
+        ],
+        "link": "https://www.propertyfinder.ae/en/search?c=2&f=0&l=92&ob=mr"
+      }
+    ],
+    "laws": [
+      {
+        "category": "Général Corporatif",
+        "title": "Incitatifs de soutien aux startups",
+        "description": "Les entreprises de logiciels et d'électronique en phase de démarrage sont exonérées de frais administratifs massifs pendant les deux premières années d'activité."
+      },
+      {
+        "category": "Code de zonage",
+        "title": "Division résidentielle/corporative à usage mixte",
+        "description": "Séparation stricte au sein du DSO entre les blocs de laboratoires numériques spécialisés et les complexes résidentiels familiaux comme Cedre Villas."
+      },
+      {
+        "category": "Opérations académiques",
+        "title": "Décret sur l'innovation technologique universitaire",
+        "description": "Les universités Silicon Oasis fonctionnent avec des politiques spécifiques de protection des brevets au sein des accélérateurs de startups soutenant les jeunes étudiants fondateurs."
+      }
+    ],
+    "bottomNotes": "DSO offre un prix abordable et une qualité de vie élevée aux familles, bien qu'il soit situé plus à l'intérieur des terres (à environ 20 minutes du centre-ville et 30 minutes de la marina de Dubaï en voiture).",
+    "majorAttractions": [
+      "Promenade du lac Silicon Oasis",
+      "Centre de coworking de startup Dtec",
+      "Centre commercial central de silicium",
+      "Campus de l'Institut de technologie de Rochester (RIT)"
+    ]
+  },
+  {
+    "id": "business-bay",
+    "name": "Baie des Affaires",
+    "arabicName": "الخليج التجاري",
+    "tagline": "Le cœur commercial",
+    "iconPath": "building",
+    "colorTheme": "from-blue-600 via-indigo-600 to-purple-700",
+    "mapSvgPath": "",
+    "description": "Un quartier commercial et résidentiel central situé le long du canal d'eau de Dubaï. Connu pour son architecture ambitieuse, sa vie d'entreprise trépidante et sa vue imprenable sur les toits du centre-ville.",
+    "taxSituation": {
+      "status": "Zone premium continentale",
+      "corporateTax": "Impôt standard sur les sociétés des Émirats arabes unis de 9 % sur les ventes au détail et les opérations enregistrées sur le continent.",
+      "personalTax": "0% d'impôt sur le revenu des personnes physiques.",
+      "customsDuty": "Droits de douane standard de 5%.",
+      "details": "Business Bay est avant tout une zone continentale permettant aux entreprises de commercer librement à travers Dubaï, bien que certains bâtiments offrent des licences de zone franche via des autorités spécifiques."
+    },
+    "petSituation": {
+      "friendlyRating": 3,
+      "allowed": true,
+      "rules": [
+        "Les chiens doivent être tenus en laisse sur la promenade du Canal.",
+        "Toutes les tours commerciales n'autorisent pas les animaux de compagnie dans les halls."
+      ],
+      "details": "La promenade du canal d'eau de Dubaï offre une belle et longue allée pour les animaux de compagnie, mais trouver des bâtiments résidentiels acceptant les animaux de compagnie peut être aléatoire selon le propriétaire.",
+      "bestParks": [
+        "Promenade du canal d'eau de Dubaï",
+        "Parc Burj (à proximité)"
+      ]
+    },
+    "demographics": {
+      "description": "Hub d'entreprise en évolution rapide peuplé de jeunes professionnels dans divers domaines. Populaire parmi les expatriés célibataires et les jeunes couples.",
+      "dominantGroups": [
+        "Professionnels d'entreprise indiens",
+        "Expatriés Européens",
+        "Expatriés arabes"
+      ],
+      "stats": [
+        {
+          "groupName": "Indiens",
+          "percentage": 30
+        },
+        {
+          "groupName": "Européens",
+          "percentage": 25
+        },
+        {
+          "groupName": "Expatriés arabes",
+          "percentage": 20
+        },
+        {
+          "groupName": "Pakistanais",
+          "percentage": 10
+        },
+        {
+          "groupName": "Autres",
+          "percentage": 15
+        }
+      ]
+    },
+    "companies": [
+      {
+        "name": "Bayout",
+        "industry": "Marché PropTech",
+        "description": "Moteur de recherche immobilier leader reliant les acheteurs, les investisseurs et les propriétaires à travers les Émirats arabes unis.",
+        "openPositions": [
+          {
+            "title": "Ingénieur Backend Sénior",
+            "department": "Intelligence des données",
+            "salaryRange": "30 000 à 40 000 AED",
+            "experience": "5+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      }
+    ],
+    "apartments": [
+      {
+        "id": "bb-1",
+        "title": "Chambre 1 lit avec vue sur le canal, tours exécutives",
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "sizeSqFt": 950,
+        "priceAED": 95000,
+        "locationDetails": "Coeur de Business Bay avec accès rapide à SZR.",
+        "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Piscine",
+          "Salle de sport"
+        ],
+        "link": "#"
+      }
+    ],
+    "avgRent": {
+      "studio": 65000,
+      "bed1": 90000,
+      "bed2": 140000,
+      "bed3": 190000,
+      "bed4": 250000
+    },
+    "laws": [
+      {
+        "category": "Droit commercial",
+        "title": "Enregistrement sur le continent",
+        "description": "Nécessite une licence DED standard."
+      }
+    ],
+    "bottomNotes": "Attendez-vous à un trafic intense pendant les heures de trajet au bureau. Un espace fantastique pour les jeunes professionnels.",
+    "majorAttractions": [
+      "Canal d'eau de Dubaï",
+      "Promenade des tours exécutives"
+    ]
+  },
+  {
+    "id": "palm-jumeirah",
+    "name": "Palm Jumeirah",
+    "arabicName": "نخلة الجميرا",
+    "tagline": "Huitième merveille du monde",
+    "iconPath": "palmtree",
+    "colorTheme": "from-amber-400 via-orange-500 to-rose-500",
+    "mapSvgPath": "",
+    "description": "Archipel artificiel emblématique en forme de palmier, proposant des villas résidentielles haut de gamme en bord de mer, des complexes hôteliers ultra-luxueux et des restaurants de classe mondiale.",
+    "taxSituation": {
+      "status": "Zone premium continentale",
+      "corporateTax": "Norme 9%.",
+      "personalTax": "0%",
+      "customsDuty": "5%",
+      "details": "Principalement pôle résidentiel et hôtelier, la réglementation commerciale suit les règles du continent."
+    },
+    "petSituation": {
+      "friendlyRating": 5,
+      "allowed": true,
+      "rules": [
+        "Les animaux de compagnie sont les bienvenus sur la promenade de la Pointe.",
+        "De nombreuses plages privées sont réservées aux animaux de compagnie."
+      ],
+      "details": "Considéré comme l'un des quartiers les plus acceptant les animaux de compagnie à Dubaï, en particulier pour les propriétaires de villas avec accès à une plage privée.",
+      "bestParks": [
+        "Parc Al Ittihad",
+        "Plage de Palm West"
+      ]
+    },
+    "demographics": {
+      "description": "Un paradis de richesse mondial. Dominé par des locaux et des élites très fortunés venus d’Europe, de Russie et d’Inde.",
+      "dominantGroups": [
+        "Européens/Russes riches",
+        "Émiratis ultra-riches",
+        "Indiens riches"
+      ],
+      "stats": [
+        {
+          "groupName": "Européens/Russes",
+          "percentage": 45
+        },
+        {
+          "groupName": "Émiratis",
+          "percentage": 20
+        },
+        {
+          "groupName": "Indiens",
+          "percentage": 15
+        },
+        {
+          "groupName": "Expatriés arabes",
+          "percentage": 10
+        },
+        {
+          "groupName": "Autres",
+          "percentage": 10
+        }
+      ]
+    },
+    "companies": [
+      {
+        "name": "Atlantide La Palme",
+        "industry": "Hôtellerie et divertissement",
+        "description": "Station balnéaire de renommée mondiale sur le thème de l'océan.",
+        "openPositions": [
+          {
+            "title": "Directeur de l'expérience client",
+            "department": "Hospitalité",
+            "salaryRange": "40 000 à 50 000 AED",
+            "experience": "8+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      }
+    ],
+    "apartments": [
+      {
+        "id": "palm-1",
+        "title": "Accès à la plage Shoreline 2 lits",
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "sizeSqFt": 1550,
+        "priceAED": 180000,
+        "locationDetails": "Appartements Shoreline, tronc du Palmier.",
+        "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Plage privée",
+          "Salle de sport"
+        ],
+        "link": "#"
+      }
+    ],
+    "avgRent": {
+      "studio": 95000,
+      "bed1": 140000,
+      "bed2": 210000,
+      "bed3": 350000,
+      "bed4": 600000
+    },
+    "laws": [
+      {
+        "category": "Immobilier",
+        "title": "Priorité en pleine propriété",
+        "description": "L'une des premières zones en pleine propriété dédiée aux acheteurs internationaux."
+      }
+    ],
+    "bottomNotes": "L'entrée et la sortie de l'île peuvent être encombrées le week-end. Le monorail offre un excellent transit interne.",
+    "majorAttractions": [
+      "Atlantide La Palme",
+      "La vue au Palm",
+      "Plage de Palm West"
+    ]
+  },
+  {
+    "id": "jvc",
+    "name": "Cercle du village de Jumeirah",
+    "arabicName": "دائرة قرية جميرا",
+    "tagline": "Vie communautaire et familiale",
+    "iconPath": "home",
+    "colorTheme": "from-amber-400 via-orange-500 to-rose-500",
+    "mapSvgPath": "",
+    "description": "Un développement résidentiel familial alliant vie communautaire et commodité urbaine. Connu pour ses loyers abordables et ses multiples parcs.",
+    "taxSituation": {
+      "status": "Zone premium continentale",
+      "corporateTax": "Norme 9%.",
+      "personalTax": "0%",
+      "customsDuty": "5%",
+      "details": "Strictement résidentiel et commercial selon la réglementation du continent."
+    },
+    "petSituation": {
+      "friendlyRating": 5,
+      "allowed": true,
+      "rules": [
+        "Excellent pour les propriétaires de chiens possédant de nombreux parcs.",
+        "Nettoyez toujours après les animaux."
+      ],
+      "details": "L'une des communautés les plus acceptant les animaux de compagnie pour les appartements et les maisons de ville.",
+      "bestParks": [
+        "Parc du cercle JVC",
+        "Jardins communautaires"
+      ]
+    },
+    "demographics": {
+      "description": "Une communauté de taille moyenne très diversifiée regroupant des familles du monde entier, en particulier d'Asie du Sud, des Philippines et d'Europe.",
+      "dominantGroups": [
+        "Expatriés indiens",
+        "Expatriés Pakistanais",
+        "Expatriés Européens",
+        "Philippins"
+      ],
+      "stats": [
+        {
+          "groupName": "Indiens",
+          "percentage": 30
+        },
+        {
+          "groupName": "Pakistanais",
+          "percentage": 20
+        },
+        {
+          "groupName": "Européens",
+          "percentage": 20
+        },
+        {
+          "groupName": "Philippins",
+          "percentage": 15
+        },
+        {
+          "groupName": "Expatriés arabes",
+          "percentage": 15
+        }
+      ]
+    },
+    "companies": [
+      {
+        "name": "CINQ Village de Jumeirah",
+        "industry": "Hospitalité",
+        "description": "Hôtel et résidences de luxe réputées pour leur architecture et leur art de vivre.",
+        "openPositions": [
+          {
+            "title": "Responsable des opérations",
+            "department": "Gestion",
+            "salaryRange": "15 000 à 25 000 AED",
+            "experience": "5+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      }
+    ],
+    "apartments": [
+      {
+        "id": "jvc-1",
+        "title": "Moderne 1 lit en JVC",
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "sizeSqFt": 850,
+        "priceAED": 65000,
+        "locationDetails": "Coeur de JVC avec accès facile à la rue Hessa.",
+        "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Piscine",
+          "Salle de sport",
+          "Balcon"
+        ],
+        "link": "#"
+      }
+    ],
+    "avgRent": {
+      "studio": 45000,
+      "bed1": 65000,
+      "bed2": 95000,
+      "bed3": 130000,
+      "bed4": 160000
+    },
+    "laws": [
+      {
+        "category": "Immobilier",
+        "title": "Lignes directrices de la communauté",
+        "description": "Les règles de la communauté Nakheel s'appliquent."
+      }
+    ],
+    "bottomNotes": "Le rapport qualité/prix est ici exceptionnel, très apprécié des expatriés en famille.",
+    "majorAttractions": [
+      "CINQ Village de Jumeirah",
+      "Centre commercial Cercle"
+    ]
+  },
+  {
+    "id": "al-quoz",
+    "name": "Al Quoz (Alserkal)",
+    "arabicName": "القوز",
+    "tagline": "Le pôle créatif et industriel",
+    "iconPath": "brush",
+    "colorTheme": "from-amber-400 via-orange-500 to-rose-500",
+    "mapSvgPath": "",
+    "description": "Un mélange d'une zone industrielle et du centre artistique et culturel le plus cool de Dubaï, Alserkal Avenue. Comprend des entrepôts transformés en galeries, cafés et espaces créatifs.",
+    "taxSituation": {
+      "status": "Zone premium continentale",
+      "corporateTax": "Norme 9%.",
+      "personalTax": "0%",
+      "customsDuty": "5%",
+      "details": "Licences industrielles et commerciales disponibles."
+    },
+    "petSituation": {
+      "friendlyRating": 4,
+      "allowed": true,
+      "rules": [
+        "De nombreux entrepôts et cafés d’Alserkal acceptent les chiens."
+      ],
+      "details": "Cafés très acceptant les chiens et aires de jeux intérieures disponibles.",
+      "bestParks": [
+        "Ma deuxième maison (parc intérieur pour chiens)"
+      ]
+    },
+    "demographics": {
+      "description": "Divisé entre un pôle artistique florissant fréquenté par les Européens et des secteurs industriels massifs abritant des cols bleus sud-asiatiques. Il contient également des maisons émiraties locales.",
+      "dominantGroups": [
+        "Cols bleus sud-asiatiques",
+        "Émiratis",
+        "Créatifs européens"
+      ],
+      "stats": [
+        {
+          "groupName": "Indiens/Pakistanais",
+          "percentage": 50
+        },
+        {
+          "groupName": "Émiratis",
+          "percentage": 20
+        },
+        {
+          "groupName": "Européens",
+          "percentage": 15
+        },
+        {
+          "groupName": "Autres",
+          "percentage": 15
+        }
+      ]
+    },
+    "companies": [
+      {
+        "name": "Avenue Alserkal",
+        "industry": "Arts et culture",
+        "description": "Premier pôle artistique de la région.",
+        "openPositions": [
+          {
+            "title": "Conservateur",
+            "department": "Arts",
+            "salaryRange": "20 000 à 30 000 AED",
+            "experience": "4+ ans",
+            "careerUrl": "#"
+          }
+        ]
+      }
+    ],
+    "apartments": [
+      {
+        "id": "aq-1",
+        "title": "Loft industriel",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "sizeSqFt": 1100,
+        "priceAED": 90000,
+        "locationDetails": "Espace d'entrepôt aménagé.",
+        "image": "https://images.unsplash.com/photo-1542385151-ef0e12bd0816?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Hauts plafonds",
+          "Plan ouvert"
+        ],
+        "link": "#"
+      }
+    ],
+    "avgRent": {
+      "studio": 50000,
+      "bed1": 70000,
+      "bed2": 100000,
+      "bed3": 140000,
+      "bed4": 0
+    },
+    "laws": [
+      {
+        "category": "Commercial",
+        "title": "Zonage industriel",
+        "description": "Certaines zones réservées à un usage industriel uniquement."
+      }
+    ],
+    "bottomNotes": "Idéal pour les créatifs et ceux qui préfèrent une expérience non traditionnelle à Dubaï.",
+    "majorAttractions": [
+      "Avenue Alserkal",
+      "Cour"
+    ]
+  },
+  {
+    "id": "dubai-hills",
+    "name": "Domaine des collines de Dubaï",
+    "arabicName": "دبي هيلز استيت",
+    "tagline": "Le cœur vert de Dubaï",
+    "iconPath": "leaf",
+    "colorTheme": "from-emerald-600 via-green-600 to-teal-700",
+    "mapSvgPath": "",
+    "description": "Une communauté de style de vie haut de gamme construite autour d'un parcours de golf de championnat de 18 trous. Il propose un mélange de villas de luxe, de maisons de ville et d'appartements avec de vastes espaces verts.",
+    "taxSituation": {
+      "status": "Zone premium continentale",
+      "corporateTax": "Norme 9%.",
+      "personalTax": "0%",
+      "customsDuty": "5%",
+      "details": "Une communauté massive planifiée par Emaar, régie par les lois du continent."
+    },
+    "petSituation": {
+      "friendlyRating": 5,
+      "allowed": true,
+      "rules": [
+        "Les chiens doivent être tenus en laisse dans les parcs publics.",
+        "Communauté de maîtres extrêmement respectueuse des animaux de compagnie."
+      ],
+      "details": "L'une des meilleures communautés pour les propriétaires de chiens en raison de l'abondance de parcs et de sentiers pédestres.",
+      "bestParks": [
+        "Dubai Hills Park (dispose d'un parc pour chiens dédié)"
+      ]
+    },
+    "demographics": {
+      "description": "Un quartier haut de gamme à vocation familiale, très apprécié des familles émiraties aisées et des expatriés européens et indiens prospères.",
+      "dominantGroups": [
+        "Familles européennes",
+        "Familles émiraties",
+        "Indiens riches"
+      ],
+      "stats": [
+        {
+          "groupName": "Européens",
+          "percentage": 40
+        },
+        {
+          "groupName": "Émiratis",
+          "percentage": 25
+        },
+        {
+          "groupName": "Indiens",
+          "percentage": 20
+        },
+        {
+          "groupName": "Expatriés arabes",
+          "percentage": 15
+        }
+      ]
+    },
+    "companies": [
+      {
+        "name": "EMAAR",
+        "industry": "Promoteur immobilier",
+        "description": "Le maître développeur derrière Dubai Hills Estate.",
+        "openPositions": []
+      }
+    ],
+    "apartments": [
+      {
+        "id": "dh-1",
+        "title": "Park Heights, 2 lits",
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "sizeSqFt": 1050,
+        "priceAED": 160000,
+        "locationDetails": "Face au parc Dubai Hills.",
+        "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Vue sur le parc",
+          "Piscine",
+          "Salle de sport"
+        ],
+        "link": "#"
+      }
+    ],
+    "avgRent": {
+      "studio": 65000,
+      "bed1": 95000,
+      "bed2": 155000,
+      "bed3": 250000,
+      "bed4": 350000
+    },
+    "laws": [
+      {
+        "category": "Communauté",
+        "title": "Directives Emaar",
+        "description": "Des règles communautaires strictes régissent les modifications et l’aménagement paysager."
+      }
+    ],
+    "bottomNotes": "Idéal pour une vie familiale haut de gamme avec un centre commercial haut de gamme attenant.",
+    "majorAttractions": [
+      "Centre commercial Dubai Hills",
+      "Club de golf des collines de Dubaï",
+      "Parc des collines de Dubaï"
+    ]
+  },
+  {
+    "id": "discovery-gardens",
+    "name": "Jardins de découverte et Ibn Battuta",
+    "arabicName": "ديسكفري جاردنز",
+    "tagline": "Vie de jardin abordable",
+    "iconPath": "tree-pine",
+    "colorTheme": "from-orange-400 via-yellow-500 to-lime-600",
+    "mapSvgPath": "",
+    "description": "Une vaste communauté résidentielle inspirée par la vie dans les jardins, située juste à côté du centre commercial Ibn Battuta. Connu pour ses appartements spacieux et économiques.",
+    "taxSituation": {
+      "status": "Zone premium continentale",
+      "corporateTax": "Norme 9%.",
+      "personalTax": "0%",
+      "customsDuty": "5%",
+      "details": "Développé par Nakheel, fonctionne sous les lois sur la propriété du continent."
+    },
+    "petSituation": {
+      "friendlyRating": 4,
+      "allowed": true,
+      "rules": [
+        "Animaux acceptés dans la plupart des bâtiments.",
+        "Grands espaces extérieurs pour se promener."
+      ],
+      "details": "La communauté dispose de nombreux sentiers pédestres et zones gazonnées idéales pour les animaux de compagnie.",
+      "bestParks": [
+        "Sentiers pédestres des jardins communautaires"
+      ]
+    },
+    "demographics": {
+      "description": "Une zone axée sur les valeurs, majoritairement peuplée d'expatriés de classe moyenne et de travailleurs d'Asie du Sud et d'Asie du Sud-Est.",
+      "dominantGroups": [
+        "Classe ouvrière/moyenne indienne",
+        "Pakistanais",
+        "Philippins"
+      ],
+      "stats": [
+        {
+          "groupName": "Indiens",
+          "percentage": 45
+        },
+        {
+          "groupName": "Pakistanais",
+          "percentage": 25
+        },
+        {
+          "groupName": "Philippins",
+          "percentage": 15
+        },
+        {
+          "groupName": "Expatriés arabes",
+          "percentage": 10
+        },
+        {
+          "groupName": "Autres",
+          "percentage": 5
+        }
+      ]
+    },
+    "companies": [
+      {
+        "name": "Centre commercial Ibn Battuta",
+        "industry": "Vente au détail",
+        "description": "Centre commercial thématique situé à côté de la communauté.",
+        "openPositions": []
+      }
+    ],
+    "apartments": [
+      {
+        "id": "dg-1",
+        "title": "Spacieux 1 lit près du métro",
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "sizeSqFt": 950,
+        "priceAED": 55000,
+        "locationDetails": "Jardins de découverte, à distance de marche du métro.",
+        "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Piscine partagée",
+          "Près du métro"
+        ],
+        "link": "#"
+      }
+    ],
+    "avgRent": {
+      "studio": 42000,
+      "bed1": 55000,
+      "bed2": 75000,
+      "bed3": 0,
+      "bed4": 0
+    },
+    "laws": [
+      {
+        "category": "Communauté",
+        "title": "Directives Nakheel",
+        "description": "Zonage résidentiel sans tours de grande hauteur."
+      }
+    ],
+    "bottomNotes": "Valeur exceptionnelle et accessibilité au métro, bien que bâtiments plus anciens.",
+    "majorAttractions": [
+      "Centre commercial Ibn Battuta",
+      "Connexion métro"
+    ]
+  },
+  {
+    "id": "al-barsha",
+    "name": "Al-Barsha",
+    "arabicName": "البرشاء",
+    "tagline": "Dynamique et connecté",
+    "iconPath": "shopping-bag",
+    "colorTheme": "from-blue-400 via-cyan-500 to-indigo-500",
+    "mapSvgPath": "",
+    "description": "Quartier résidentiel et commercial clé connu pour le centre commercial Mall of the Emirates et un mélange de villas, d'appartements et de divers restaurants.",
+    "taxSituation": {
+      "status": "Zone premium continentale",
+      "corporateTax": "Norme 9%.",
+      "personalTax": "0%",
+      "customsDuty": "5%",
+      "details": "Un mélange de zones franches et non franches."
+    },
+    "petSituation": {
+      "friendlyRating": 3,
+      "allowed": true,
+      "rules": [
+        "Al Barsha Pond Park n'autorise PAS les chiens.",
+        "Les politiques relatives aux animaux de compagnie dépendent strictement du propriétaire des immeubles à appartements."
+      ],
+      "details": "Bon pour les propriétaires de villas, mais les locataires d’appartements doivent vérifier attentivement les politiques de construction.",
+      "bestParks": [
+        "Quelques sentiers de randonnée mais le parc principal est interdit aux animaux"
+      ]
+    },
+    "demographics": {
+      "description": "Un mélange de Dubaï traditionnel et de vie d'expatrié moderne, avec de grandes communautés de villas émiraties locales et des zones d'appartements multiethniques.",
+      "dominantGroups": [
+        "Expatriés arabes",
+        "Émiratis",
+        "Professionnels indiens"
+      ],
+      "stats": [
+        {
+          "groupName": "Expatriés arabes",
+          "percentage": 30
+        },
+        {
+          "groupName": "Émiratis",
+          "percentage": 25
+        },
+        {
+          "groupName": "Indiens",
+          "percentage": 25
+        },
+        {
+          "groupName": "Européens",
+          "percentage": 10
+        },
+        {
+          "groupName": "Autres",
+          "percentage": 10
+        }
+      ]
+    },
+    "companies": [
+      {
+        "name": "Centre commercial des Émirats",
+        "industry": "Vente au détail et divertissement",
+        "description": "L'un des plus grands centres commerciaux de Dubaï.",
+        "openPositions": []
+      }
+    ],
+    "apartments": [
+      {
+        "id": "ab-1",
+        "title": "Al Barsha 1 moderne avec 2 lits",
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "sizeSqFt": 1200,
+        "priceAED": 90000,
+        "locationDetails": "Près du MOE et du métro.",
+        "image": "https://images.unsplash.com/photo-1502672260266-1c1e52408437?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Salle de sport",
+          "Piscine sur le toit"
+        ],
+        "link": "#"
+      }
+    ],
+    "avgRent": {
+      "studio": 55000,
+      "bed1": 70000,
+      "bed2": 95000,
+      "bed3": 130000,
+      "bed4": 200000
+    },
+    "laws": [
+      {
+        "category": "Propriété",
+        "title": "Bail",
+        "description": "De nombreuses pièces sont en location strictement réservées aux ressortissants des Émirats arabes unis."
+      }
+    ],
+    "bottomNotes": "Très central avec d'excellentes liaisons de transports en commun.",
+    "majorAttractions": [
+      "Centre commercial des Émirats",
+      "Ski Dubaï",
+      "Parc de l'étang d'Al Barsha"
+    ]
+  },
+  {
+    "id": "deira",
+    "name": "Deira",
+    "arabicName": "ديرة",
+    "tagline": "La ligne de cœur historique",
+    "iconPath": "ship",
+    "colorTheme": "from-yellow-600 via-amber-600 to-orange-700",
+    "mapSvgPath": "",
+    "description": "Le centre commercial historique de Dubaï, bordé par la crique de Dubaï. Célèbre pour ses souks traditionnels, son commerce animé et ses expériences culturelles authentiques.",
+    "taxSituation": {
+      "status": "Zone commerciale continentale",
+      "corporateTax": "Norme 9%.",
+      "personalTax": "0%",
+      "customsDuty": "5%",
+      "details": "Le centre commercial historique, fonctionnant principalement selon les règles du DED sur le continent."
+    },
+    "petSituation": {
+      "friendlyRating": 2,
+      "allowed": true,
+      "rules": [
+        "Les rues bondées rendent difficile la promenade des chiens.",
+        "Les bâtiments plus anciens ne disposent souvent pas de politiques relatives aux animaux domestiques."
+      ],
+      "details": "Pas très accueillant pour les animaux en raison de la foule dense et du manque d'espaces verts.",
+      "bestParks": [
+        "Aucun à proximité pour les animaux"
+      ]
+    },
+    "demographics": {
+      "description": "Le cœur historique de Dubaï. Le centre commercial traditionnel est densément peuplé d’immigrants venus d’Asie du Sud (Inde, Pakistan, Bangladesh) et de familles commerçantes historiques émiraties.",
+      "dominantGroups": [
+        "Immigrants sud-asiatiques",
+        "Émiratis historiques"
+      ],
+      "stats": [
+        {
+          "groupName": "Indiens",
+          "percentage": 45
+        },
+        {
+          "groupName": "Pakistanais",
+          "percentage": 25
+        },
+        {
+          "groupName": "Bangladais",
+          "percentage": 15
+        },
+        {
+          "groupName": "Émiratis",
+          "percentage": 5
+        },
+        {
+          "groupName": "Autres",
+          "percentage": 10
+        }
+      ]
+    },
+    "companies": [
+      {
+        "name": "Commerçants du souk de l'or",
+        "industry": "Vente au détail et commerce",
+        "description": "Des milliers de commerçants indépendants de bijoux, d’épices et de textiles.",
+        "openPositions": []
+      }
+    ],
+    "apartments": [
+      {
+        "id": "deira-1",
+        "title": "Vieille ville 2 lits, Al Rigga",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "sizeSqFt": 1100,
+        "priceAED": 65000,
+        "locationDetails": "Al Rigga Road, quartier animé.",
+        "image": "https://images.unsplash.com/photo-1582653211939-2e0f40d04db9?q=80&w=600&auto=format&fit=crop",
+        "amenities": [
+          "Près du métro",
+          "Balcon"
+        ],
+        "link": "#"
+      }
+    ],
+    "avgRent": {
+      "studio": 35000,
+      "bed1": 50000,
+      "bed2": 70000,
+      "bed3": 95000,
+      "bed4": 0
+    },
+    "laws": [
+      {
+        "category": "Droit commercial",
+        "title": "DED continentale",
+        "description": "Centre des sociétés commerciales traditionnelles du DED sur le continent."
+      }
+    ],
+    "bottomNotes": "La circulation peut être difficile, mais elle offre la cuisine de rue la plus authentique de Dubaï.",
+    "majorAttractions": [
+      "Crique de Dubaï",
+      "Souk de l'or",
+      "Souk aux épices"
+    ]
+  }
+]
