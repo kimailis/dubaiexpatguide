@@ -6,6 +6,7 @@ import DistrictMap from './components/DistrictMap';
 import DistrictModal from './components/DistrictModal';
 import { EXPAT_GUIDES, GuideArticle } from './guideData';
 import GuideModal from './components/GuideModal';
+import FooterModal, { FooterModalType } from './components/FooterModal';
 import {
   Compass,
   MapPin,
@@ -39,6 +40,7 @@ export default function App() {
   const [hoveredDistrict, setHoveredDistrict] = useState<District | null>(null);
   const [selectedDistrict, setSelectedDistrict] = useState<District | null>(null);
   const [selectedGuide, setSelectedGuide] = useState<GuideArticle | null>(null);
+  const [activeFooterModal, setActiveFooterModal] = useState<FooterModalType | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
 
   // Filtering districts based on search queried properties
@@ -139,14 +141,14 @@ export default function App() {
         <section className="lg:col-span-4 lg:row-span-2 flex flex-col gap-5 order-2 lg:order-2" aria-label="Broker Portfolio and Directories">
           
           {/* Sector Card Directories scrollbox */}
-          <div className="bg-[#FFFFFF] border border-[#EAE3D8] rounded-2xl p-5 flex flex-col shadow-sm max-h-[1400px] overflow-hidden">
-            <div className="flex items-center justify-between text-[11px] font-mono text-[#8C8375] px-1 font-bold mb-4 shrink-0">
+          <div className="bg-[#FFFFFF] border border-[#EAE3D8] rounded-2xl p-4 sm:p-5 flex flex-col shadow-sm lg:max-h-[1400px] lg:overflow-hidden">
+            <div className="flex items-center justify-between text-xs font-mono text-[#8C8375] px-1 font-bold mb-4 shrink-0">
               <span className="uppercase tracking-widest">
                 VERIFIED DISTRICT PORTFOLIOS ({filteredDistricts.length})
               </span>
             </div>
 
-            <div className="space-y-2 flex-grow overflow-y-auto custom-scrollbar pr-2 pb-2">
+            <div className="space-y-2 flex-grow lg:overflow-y-auto lg:pr-2 pb-2">
               {filteredDistricts.map((dist) => {
                 const isHovered = hoveredDistrict?.id === dist.id;
                 return (
@@ -165,24 +167,24 @@ export default function App() {
                     <div>
                       <div className="flex items-center gap-1.5 mb-1">
                         <MapPin className="w-3.5 h-3.5 text-[#BFA57A]" />
-                        <span className="text-[9px] font-mono text-[#8C8375] uppercase tracking-wider font-bold">
+                        <span className="text-[10px] font-mono text-[#8C8375] uppercase tracking-wider font-bold">
                           {dist.id === 'difc' || dist.id === 'jlt' || dist.id === 'internet-city' || dist.id === 'silicon-oasis' ? 'Free Zone Authority' : 'Mainland Department'}
                         </span>
                       </div>
-                      <h4 className="font-serif text-sm font-bold text-[#2C2A29] flex items-center gap-2">
+                      <h4 className="font-serif text-[15.5px] font-bold text-[#2C2A29] flex items-center gap-2">
                         {dist.name}
-                        <span className="text-[11px] font-serif font-normal text-[#8D755F] italic">
+                        <span className="text-xs font-serif font-normal text-[#8D755F] italic">
                           ({dist.arabicName})
                         </span>
                       </h4>
-                      <p className="text-[11px] text-[#6D675E] mt-0.5 line-clamp-1 italic">
+                      <p className="text-xs text-[#6D675E] mt-0.5 line-clamp-1 italic">
                         {dist.tagline}
                       </p>
                     </div>
 
                     <div className="flex items-center gap-3 shrink-0">
-                      <div className="text-right text-[10px] font-mono hidden sm:block">
-                        <span className="text-[#8C8375] block uppercase font-mono text-[8px]">Avg 1-Bed Price</span>
+                      <div className="text-right text-[11px] font-mono hidden sm:block">
+                        <span className="text-[#8C8375] block uppercase font-mono text-[9px]">Avg 1-Bed Price</span>
                         <span className="text-emerald-800 font-bold">
                           {dist.avgRent.bed1.toLocaleString()} AED
                         </span>
@@ -196,7 +198,7 @@ export default function App() {
               })}
 
               {filteredDistricts.length === 0 && (
-                <div id="no-districts" className="p-6 text-center text-xs text-[#8C8375] border border-[#EAE3D8] rounded-xl font-mono italic bg-[#FFFFFF]">
+                <div id="no-districts" className="p-6 text-center text-[13px] text-[#8C8375] border border-[#EAE3D8] rounded-xl font-mono italic bg-[#FFFFFF]">
                   No properties matched "{searchQuery}". Sourcing terms such as "DIFC", "Microsoft", or "0%" is advised.
                 </div>
               )}
@@ -237,13 +239,22 @@ export default function App() {
       </main>
 
       {/* --- PLATFORM FOOTER SYSTEM --- */}
-      <footer className="relative z-10 border-t border-[#EAE3D8] bg-[#FFFFFF] px-6 py-4.5 text-center text-xs text-[#8C8375] shadow-inner">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p>© 2026 Dubai District Examiner. Sovereign land indices audited via Dubai Land Department (DLD).</p>
-          <div className="flex gap-4 font-semibold text-[#8A7043]">
-            <span className="hover:text-[#BFA57A] cursor-pointer">Official Tax Guidelines</span>
-            <span className="hover:text-[#BFA57A] cursor-pointer">Land Register Portal</span>
-            <span className="hover:text-[#BFA57A] cursor-pointer">Corporate Licensing</span>
+      <footer className="relative z-10 border-t border-[#EAE3D8] bg-[#FFFFFF] px-4 sm:px-6 py-6 text-center text-xs text-[#8C8375] shadow-inner">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-5">
+          <div className="flex flex-col items-center md:items-start gap-1">
+            <p>© 2026 Dubai Expat Guide. All rights reserved.</p>
+            <div className="flex gap-3 text-[10px] sm:text-xs">
+              <span onClick={() => setActiveFooterModal('accessibility')} className="hover:text-[#BFA57A] cursor-pointer transition-colors">Accessibility Policy</span>
+              <span className="text-[#EAE3D8]">|</span>
+              <span onClick={() => setActiveFooterModal('privacy')} className="hover:text-[#BFA57A] cursor-pointer transition-colors">Legal & Privacy Policy</span>
+            </div>
+          </div>
+          
+          <div className="flex flex-wrap justify-center gap-3 sm:gap-4 font-semibold text-[#8A7043]">
+            <span onClick={() => setActiveFooterModal('tax')} className="hover:text-[#BFA57A] cursor-pointer transition-colors">Official Tax Guidelines</span>
+            <span onClick={() => setActiveFooterModal('land')} className="hover:text-[#BFA57A] cursor-pointer transition-colors">Land Register Portal</span>
+            <span onClick={() => setActiveFooterModal('corporate')} className="hover:text-[#BFA57A] cursor-pointer transition-colors">Corporate Licensing</span>
+            <span onClick={() => setActiveFooterModal('contact')} className="hover:text-[#BFA57A] cursor-pointer transition-colors">Contact Us</span>
           </div>
         </div>
       </footer>
@@ -260,6 +271,12 @@ export default function App() {
           <GuideModal
             guide={selectedGuide}
             onClose={() => setSelectedGuide(null)}
+          />
+        )}
+        {activeFooterModal && (
+          <FooterModal
+            type={activeFooterModal}
+            onClose={() => setActiveFooterModal(null)}
           />
         )}
       </AnimatePresence>

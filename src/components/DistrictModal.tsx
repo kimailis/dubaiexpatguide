@@ -13,6 +13,8 @@ import {
   Info,
   Layers,
   ChevronRight,
+  ChevronDown,
+  ChevronUp,
   TrendingUp,
   Users,
 } from 'lucide-react';
@@ -348,127 +350,130 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                   transition={{ duration: 0.15 }}
                   className="space-y-4"
                 >
-                  {/* List header tabs */}
-                  <div className="flex gap-1.5 overflow-x-auto pb-2 border-b border-[#FAF5EE] [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+                  <div className="space-y-3">
                     {district.companies.map((comp) => {
-                      const isSelected = selectedCompany.name === comp.name;
+                      const isSelected = selectedCompany?.name === comp.name;
                       return (
-                        <button
-                          key={comp.name}
-                          id={`comp-tab-${comp.name.replace(/\s+/g, '-')}`}
-                          onClick={() => setSelectedCompany(comp)}
-                          className={`px-3.5 py-2 rounded-lg text-xs font-semibold tracking-wide border transition-all whitespace-nowrap cursor-pointer ${
-                            isSelected
-                              ? 'bg-[#FAF5EE] text-[#8A7043] border-[#BFA57A]/40 font-bold'
-                              : 'bg-[#FAF8F5] text-[#6D675E] border-[#EAE3D8] hover:text-[#2C2A29]'
-                          }`}
-                        >
-                          {comp.name}
-                        </button>
+                        <div key={comp.name} className="border border-[#EAE3D8] rounded-xl overflow-hidden bg-[#FFFFFF] shadow-sm">
+                          <button
+                            id={`comp-tab-${comp.name.replace(/\s+/g, '-')}`}
+                            onClick={() => setSelectedCompany(isSelected ? null : comp)}
+                            className={`w-full px-4 py-3.5 flex justify-between items-center text-left transition-colors cursor-pointer ${
+                              isSelected
+                                ? 'bg-[#FAF5EE] border-b border-[#EAE3D8]'
+                                : 'hover:bg-[#FAF8F5]'
+                            }`}
+                          >
+                            <span className={`font-semibold text-sm ${isSelected ? 'text-[#8A7043]' : 'text-[#2C2A29]'}`}>
+                              {comp.name}
+                            </span>
+                            {isSelected ? (
+                              <ChevronUp className="w-4 h-4 text-[#8A7043]" />
+                            ) : (
+                              <ChevronDown className="w-4 h-4 text-[#8C8375]" />
+                            )}
+                          </button>
+
+                          <AnimatePresence>
+                            {isSelected && (
+                              <motion.div
+                                initial={{ height: 0, opacity: 0 }}
+                                animate={{ height: 'auto', opacity: 1 }}
+                                exit={{ height: 0, opacity: 0 }}
+                                transition={{ duration: 0.2 }}
+                                className="overflow-hidden bg-[#FFFFFF]"
+                              >
+                                <div className="p-4 space-y-4 border-t border-[#FAF5EE]">
+                                  <div className="bg-[#FAF8F5] p-4.5 rounded-xl border border-[#EAE3D8] flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                                    <div>
+                                      <div className="flex items-center gap-1.5 mb-1">
+                                        <Building className="w-3.5 h-3.5 text-[#BFA57A]" />
+                                        <span className="text-[9px] font-mono text-[#8C8375] uppercase tracking-wider">
+                                          REGISTERED ZONE EMPLOYER
+                                        </span>
+                                      </div>
+                                      <span className="text-[10px] text-[#8A7043] font-mono uppercase font-bold">
+                                        {comp.industry}
+                                      </span>
+                                      <p className="text-xs text-[#6D675E] mt-2 leading-relaxed">
+                                        {comp.description}
+                                      </p>
+                                    </div>
+
+                                    {comp.openPositions && comp.openPositions.length > 0 && (
+                                      <a
+                                        href={comp.openPositions[0].careerUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        id={`career-btn-${comp.name.replace(/\s+/g, '-')}`}
+                                        className="bg-[#BFA57A] hover:bg-[#A2875A] text-[#FFFFFF] font-serif font-bold text-xs px-4 py-2 rounded-lg flex items-center gap-1.5 transition-colors cursor-pointer shrink-0 shadow-sm"
+                                        referrerPolicy="no-referrer"
+                                      >
+                                        <span>Enterprise Portal</span>
+                                        <ExternalLink className="w-3.5 h-3.5" />
+                                      </a>
+                                    )}
+                                  </div>
+
+                                  <div className="space-y-2">
+                                    <div className="flex justify-between items-center text-[10px] font-mono text-[#8C8375] tracking-wider uppercase px-1">
+                                      <span>Primary Careers in DXB sector</span>
+                                      <span className="text-[#8A7043] font-bold">Tax-Free Salaries</span>
+                                    </div>
+
+                                    {(!comp.openPositions || comp.openPositions.length === 0) ? (
+                                      <div className="bg-[#FAFBF9] border border-[#EAE3D8] p-4 rounded-xl text-center text-[11px] font-mono text-[#A69C8E] italic">
+                                        No public roles explicitly posted on DLD tracker for this entity currently.
+                                      </div>
+                                    ) : (
+                                      comp.openPositions.map((post, idx) => (
+                                        <div
+                                          key={idx}
+                                          className="bg-[#FAFBF9] hover:bg-[#FAF5EE] border border-[#EAE3D8] p-3.5 rounded-xl flex flex-col sm:flex-row justify-between sm:items-center gap-3 transition-colors"
+                                        >
+                                          <div>
+                                            <div className="flex items-center gap-1.5">
+                                              <span className="w-1.5 h-1.5 rounded-full bg-[#BFA57A]"></span>
+                                              <h4 className="text-xs font-bold text-[#2C2A29]">
+                                                {post.title}
+                                              </h4>
+                                            </div>
+                                            <div className="flex gap-4 text-[9px] font-mono text-[#8C8375] mt-1 pl-3">
+                                              <span>Division: {post.department}</span>
+                                              <span>Experience required: {post.experience}</span>
+                                            </div>
+                                          </div>
+            
+                                          <div className="flex items-center justify-between sm:justify-end gap-3.5 pl-3 sm:pl-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-[#F2EFE8]">
+                                            <div className="text-right">
+                                              <span className="text-[8px] text-[#8C8375] uppercase block font-mono">Annual Salary Yield</span>
+                                              <span className="text-xs font-bold text-emerald-800 font-mono">
+                                                {post.salaryRange}
+                                              </span>
+                                            </div>
+                                            <a
+                                              href={post.careerUrl}
+                                              target="_blank"
+                                              rel="noopener noreferrer"
+                                              id={`apply-btn-comp-${idx}`}
+                                              className="p-1.5 rounded bg-[#FFFFFF] border border-[#EAE3D8] hover:border-[#C5A880] text-[#6D675E] hover:text-[#2C2A29] transition-colors cursor-pointer"
+                                              referrerPolicy="no-referrer"
+                                            >
+                                              <ExternalLink className="w-3.5 h-3.5" />
+                                            </a>
+                                          </div>
+                                        </div>
+                                      ))
+                                    )}
+                                  </div>
+                                </div>
+                              </motion.div>
+                            )}
+                          </AnimatePresence>
+                        </div>
                       );
                     })}
                   </div>
-
-                  {/* Selected Company details plate */}
-                  <AnimatePresence mode="wait">
-                    {selectedCompany && (
-                      <motion.div
-                        key={selectedCompany.name}
-                        initial={{ opacity: 0, x: 5 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        exit={{ opacity: 0, x: -5 }}
-                        transition={{ duration: 0.12 }}
-                        className="space-y-4"
-                      >
-                        <div className="bg-[#FAF8F5] p-4.5 rounded-xl border border-[#EAE3D8] flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-                          <div>
-                            <div className="flex items-center gap-1.5 mb-1">
-                              <Building className="w-3.5 h-3.5 text-[#BFA57A]" />
-                              <span className="text-[9px] font-mono text-[#8C8375] uppercase tracking-wider">
-                                REGISTERED ZONE EMPLOYER
-                              </span>
-                            </div>
-                            <h3 className="font-serif text-lg font-bold text-[#2C2A29]">
-                              {selectedCompany.name}
-                            </h3>
-                            <span className="text-[10px] text-[#8A7043] font-mono uppercase font-bold">
-                              {selectedCompany.industry}
-                            </span>
-                            <p className="text-xs text-[#6D675E] mt-2 leading-relaxed">
-                              {selectedCompany.description}
-                            </p>
-                          </div>
-
-                          {selectedCompany.openPositions && selectedCompany.openPositions.length > 0 && (
-                            <a
-                              href={selectedCompany.openPositions[0].careerUrl}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              id={`career-btn-${selectedCompany.name.replace(/\s+/g, '-')}`}
-                              className="bg-[#BFA57A] hover:bg-[#A2875A] text-[#FFFFFF] font-serif font-bold text-xs px-4 py-2 rounded-lg flex items-center gap-1.5 transition-colors cursor-pointer shrink-0 shadow-sm"
-                              referrerPolicy="no-referrer"
-                            >
-                              <span>Enterprise Portal</span>
-                              <ExternalLink className="w-3.5 h-3.5" />
-                            </a>
-                          )}
-                        </div>
-
-                        {/* Open job listings list */}
-                        <div className="space-y-2">
-                          <div className="flex justify-between items-center text-[10px] font-mono text-[#8C8375] tracking-wider uppercase px-1">
-                            <span>Primary Careers in DXB sector</span>
-                            <span className="text-[#8A7043] font-bold">Tax-Free Salaries</span>
-                          </div>
-
-                          {(!selectedCompany.openPositions || selectedCompany.openPositions.length === 0) ? (
-                            <div className="bg-[#FAFBF9] border border-[#EAE3D8] p-4 rounded-xl text-center text-[11px] font-mono text-[#A69C8E] italic">
-                              No public roles explicitly posted on DLD tracker for this entity currently.
-                            </div>
-                          ) : (
-                            selectedCompany.openPositions.map((post, idx) => (
-                              <div
-                                key={idx}
-                                className="bg-[#FAFBF9] hover:bg-[#FAF5EE] border border-[#EAE3D8] p-3.5 rounded-xl flex flex-col sm:flex-row justify-between sm:items-center gap-3 transition-colors"
-                              >
-                                <div>
-                                  <div className="flex items-center gap-1.5">
-                                    <span className="w-1.5 h-1.5 rounded-full bg-[#BFA57A]"></span>
-                                    <h4 className="text-xs font-bold text-[#2C2A29]">
-                                      {post.title}
-                                    </h4>
-                                  </div>
-                                  <div className="flex gap-4 text-[9px] font-mono text-[#8C8375] mt-1 pl-3">
-                                    <span>Division: {post.department}</span>
-                                    <span>Experience required: {post.experience}</span>
-                                  </div>
-                                </div>
-  
-                                <div className="flex items-center justify-between sm:justify-end gap-3.5 pl-3 sm:pl-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-[#F2EFE8]">
-                                  <div className="text-right">
-                                    <span className="text-[8px] text-[#8C8375] uppercase block font-mono">Annual Salary Yield</span>
-                                    <span className="text-xs font-bold text-emerald-800 font-mono">
-                                      {post.salaryRange}
-                                    </span>
-                                  </div>
-                                  <a
-                                    href={post.careerUrl}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    id={`apply-btn-${idx}`}
-                                    className="p-1.5 rounded bg-[#FFFFFF] border border-[#EAE3D8] hover:border-[#C5A880] text-[#6D675E] hover:text-[#2C2A29] transition-colors cursor-pointer"
-                                    referrerPolicy="no-referrer"
-                                  >
-                                    <ExternalLink className="w-3.5 h-3.5" />
-                                  </a>
-                                </div>
-                              </div>
-                            ))
-                          )}
-                        </div>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
                 </motion.div>
               )}
 

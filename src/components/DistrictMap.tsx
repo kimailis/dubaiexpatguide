@@ -1,7 +1,8 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useMemo } from 'react';
 import { District } from '../types';
 import { MAP_POLYGONS } from '../mapPolygons';
-import { MapContainer, TileLayer, Polygon, ZoomControl, useMapEvents } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, ZoomControl, useMapEvents } from 'react-leaflet';
+import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Briefcase, Building, BedDouble, Info, MapPin } from 'lucide-react';
 import { AnimatePresence, motion } from 'motion/react';
@@ -153,8 +154,90 @@ export default function DistrictMap({
     };
   }
 
+  // Memoize custom icons so Leaflet doesn't destroy the DOM node on hover
+  const CUSTOM_ICONS = useMemo(() => {
+    const icons: Record<string, L.DivIcon> = {};
+    districts.forEach((dist) => {
+      const SHORT_NAMES: Record<string, string> = {
+        'marina': 'Marina',
+        'jlt': 'JLT',
+        'internet-city': 'Internet City',
+        'downtown': 'Downtown',
+        'difc': 'DIFC',
+        'silicon-oasis': 'Silicon Oasis',
+        'business-bay': 'Business Bay',
+        'palm-jumeirah': 'Palm Jumeirah',
+        'jvc': 'JVC',
+        'al-quoz': 'Al Quoz',
+        'dubai-hills': 'Dubai Hills',
+        'discovery-gardens': 'Disc. Gardens',
+        'al-barsha': 'Al Barsha',
+        'deira': 'Deira'
+      };
+      
+      const posMap = {
+        left: 'right-1/2 mr-[8px] top-1/2 -translate-y-1/2',
+        right: 'left-1/2 ml-[8px] top-1/2 -translate-y-1/2',
+        top: 'bottom-1/2 mb-[8px] left-1/2 -translate-x-1/2',
+        bottom: 'top-1/2 mt-[8px] left-1/2 -translate-x-1/2',
+        topLeft: 'right-1/2 mr-[5px] bottom-1/2 mb-[5px]',
+        topRight: 'left-1/2 ml-[5px] bottom-1/2 mb-[5px]',
+        bottomLeft: 'right-1/2 mr-[5px] top-1/2 mt-[5px]',
+        bottomRight: 'left-1/2 ml-[5px] top-1/2 mt-[5px]',
+      };
+      
+      const LABEL_POSITIONS: Record<string, string> = {
+        'marina': posMap.left,
+        'jlt': posMap.bottomRight,
+        'internet-city': posMap.bottom,
+        'downtown': posMap.top,
+        'business-bay': posMap.bottomRight,
+        'difc': posMap.topRight,
+        'silicon-oasis': posMap.right,
+        'palm-jumeirah': posMap.top,
+        'jvc': posMap.bottom,
+        'al-quoz': posMap.topRight,
+        'dubai-hills': posMap.bottomRight,
+        'discovery-gardens': posMap.bottom,
+        'al-barsha': posMap.topRight,
+        'deira': posMap.top
+      };
+      
+      const shortName = SHORT_NAMES[dist.id] || dist.name;
+      const posClass = LABEL_POSITIONS[dist.id] || posMap.right;
+
+      icons[dist.id] = L.divIcon({
+        className: `custom-district-marker district-marker-${dist.id}`,
+        html: `
+          <div class="w-full h-full relative flex items-center justify-center">
+            <div class="marker-dot w-[13px] h-[13px] rounded-full bg-[#BFA57A] shadow-md border-[1.5px] border-white transition-all duration-75"></div>
+            <div class="absolute ${posClass} px-[4px] py-[2px] rounded text-[7px] leading-none font-bold tracking-widest uppercase whitespace-nowrap bg-white/95 backdrop-blur-sm border border-[#EAE3D8] text-[#2C2A29] shadow-sm pointer-events-none md:hidden transition-opacity">
+              ${shortName}
+            </div>
+          </div>
+        `,
+        iconSize: [20, 20], 
+        iconAnchor: [10, 10]
+      });
+    });
+    return icons;
+  }, [districts]);
+
   return (
     <div ref={containerRef} className="w-full h-full relative isolate z-10 group rounded-2xl overflow-hidden [&_.leaflet-container]:font-sans text-[#2C2A29] bg-[#EAF2F5]">
+      
+      <style>{`
+        ${activeDistrict ? `
+          .district-marker-${activeDistrict.id} .marker-dot {
+            transform: scale(1.6);
+            box-shadow: 0 0 0 3px rgba(191, 165, 122, 0.4);
+            background-color: #A2875A;
+          }
+          .district-marker-${activeDistrict.id} {
+            z-index: 1000 !important;
+          }
+        ` : ''}
+      `}</style>
        
       {/* Decorative Header overlaid on map for aesthetic */}
       <div className="absolute top-0 left-0 right-0 z-[1000] p-4 pointer-events-none bg-gradient-to-b from-white/90 to-transparent">
@@ -185,19 +268,11 @@ export default function DistrictMap({
           const mapData = MAP_POLYGONS[dist.id];
           if (!mapData) return null;
 
-          const isHovered = activeDistrict?.id === dist.id;
-
           return (
-            <Polygon
+            <Marker
               key={dist.id}
-              positions={mapData.polygon}
-              pathOptions={{
-                color: '#BFA57A',
-                weight: isHovered ? 4 : 2,
-                fillColor: '#BFA57A',
-                fillOpacity: isHovered ? 0.6 : 0.25,
-                dashArray: isHovered ? undefined : '4 6'
-              }}
+              position={mapData.center}
+              icon={CUSTOM_ICONS[dist.id]}
               eventHandlers={{
                 mouseover: () => onHoverDistrict(dist),
                 mouseout: () => onHoverDistrict(null),
@@ -211,7 +286,7 @@ export default function DistrictMap({
       {/* Floating Smart Tooltip custom rendered out of leaflet logic to avoid clipping/edge bugs */}
       {activeDistrict && mousePos && (
          <div 
-           className="absolute top-0 left-0 z-[2000] pointer-events-none transition-transform duration-100 ease-out" 
+           className="absolute top-0 left-0 z-[2000] pointer-events-none transition-transform duration-100 ease-out hidden md:block" 
            style={tooltipStyle}
          >
            <AnimatePresence>
