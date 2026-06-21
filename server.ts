@@ -1,8 +1,8 @@
 import express from 'express';
 import path from 'path';
+import os from 'os';
 import fsPromises from 'fs/promises';
 import cron from 'node-cron';
-import { createServer as createViteServer } from 'vite';
 import { GoogleGenAI, Type } from '@google/genai';
 import dotenv from 'dotenv';
 import { DUBAI_DISTRICTS } from './src/data.ts';
@@ -15,7 +15,12 @@ import {
 dotenv.config();
 
 const app = express();
-const PORT = 3000;
+// Production is the default; the Vite dev server is only used when explicitly
+// in development. This keeps containerised/hosted runs (Cloud Run, etc.) on the
+// static-serving path even when NODE_ENV is not set.
+const isDev = process.env.NODE_ENV === 'development';
+// Hosting platforms (Cloud Run, Heroku, ...) inject the listen port via PORT.
+const PORT = Number(process.env.PORT) || 3000;
 
 // Initialize Google Gen AI
 const ai = new GoogleGenAI({
@@ -27,7 +32,9 @@ const ai = new GoogleGenAI({
   },
 });
 
-const DB_FILE = './database.json';
+// In hosted/production environments the app directory is typically read-only,
+// so the cache DB lives in a writable temp dir. Override with DB_FILE if needed.
+const DB_FILE = process.env.DB_FILE || (isDev ? './database.json' : path.join(os.tmpdir(), 'dxb-database.json'));
 const ONE_DAY = 24 * 60 * 60 * 1000;
 const hasApiKey = () => !!process.env.GEMINI_API_KEY && process.env.GEMINI_API_KEY !== 'dummy_string';
 
@@ -320,7 +327,9 @@ cron.schedule('0 3 * * *', () => {
 });
 
 async function startServer() {
-  if (process.env.NODE_ENV !== 'production') {
+  if (isDev) {
+    // Dynamic import so vite is never loaded on the production path.
+    const { createServer: createViteServer } = await import('vite');
     const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: 'spa',
@@ -335,7 +344,7 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log('Server running on http://localhost:3000');
+    console.log(`Server running on port ${PORT} (${isDev ? 'development' : 'production'})`);
   });
 }
 
