@@ -26,12 +26,12 @@ async function run() {
     console.log('Translating to', lang);
     try {
       const dataRes1 = await ai.models.generateContent({
-        model: 'gemini-3.5-flash',
+        model: 'gemini-2.5-flash',
         contents: `Translate this JSON array into ${lang}. MUST Return JSON ONLY. KEEP ALL KEYS IN ENGLISH. Translate values. JSON: \n${enDataChunk1}`,
         config: { responseMimeType: 'application/json' }
       });
       const dataRes2 = await ai.models.generateContent({
-        model: 'gemini-3.5-flash',
+        model: 'gemini-2.5-flash',
         contents: `Translate this JSON array into ${lang}. MUST Return JSON ONLY. KEEP ALL KEYS IN ENGLISH. Translate values. JSON: \n${enDataChunk2}`,
         config: { responseMimeType: 'application/json' }
       });
@@ -40,7 +40,7 @@ async function run() {
       console.log('Done data for', lang);
 
       const guideRes = await ai.models.generateContent({
-        model: 'gemini-3.5-flash',
+        model: 'gemini-2.5-flash',
         contents: `Translate this JSON array into ${lang}. MUST Return JSON ONLY. KEEP ALL KEYS IN ENGLISH. Translate values. JSON: \n${enGuide}`,
         config: { responseMimeType: 'application/json' }
       });

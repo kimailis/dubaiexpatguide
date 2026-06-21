@@ -18,6 +18,7 @@ import {
   ChevronUp,
   TrendingUp,
   Users,
+  Car as CarIcon,
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { useTranslation } from 'react-i18next';
@@ -57,8 +58,10 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
           if (data && data.companies && Array.isArray(data.companies) && data.companies.length > 0) {
             setDynamicCompanies(data.companies);
             setSelectedCompany(data.companies[0]);
-            if (data.apartments) setDynamicApartments(data.apartments);
-            if (data.cars) setDynamicCars(data.cars);
+            // Only replace a section when the API actually returned entries,
+            // otherwise keep the reliable static data already in state.
+            if (Array.isArray(data.apartments) && data.apartments.length > 0) setDynamicApartments(data.apartments);
+            if (Array.isArray(data.cars) && data.cars.length > 0) setDynamicCars(data.cars);
           } else if (Array.isArray(data) && data.length > 0) {
             // Legacy handling
             setDynamicCompanies(data);
@@ -85,6 +88,15 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
     });
   };
 
+  // Final safety net: if a listing image fails to load, swap in a stable
+  // placeholder so the card never renders a broken image.
+  const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>, seed: string) => {
+    const img = e.currentTarget;
+    if (img.dataset.fallbackApplied) return;
+    img.dataset.fallbackApplied = '1';
+    img.src = `https://picsum.photos/seed/${encodeURIComponent(seed)}/600/400`;
+  };
+
   const tabs: { id: TabType; label: string; icon: React.ReactNode }[] = [
     {
       id: 'overview',
@@ -109,7 +121,7 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
     {
       id: 'cars',
       label: t('modal_cars', 'Car Listings'),
-      icon: <Car className="w-4 h-4" />,
+      icon: <CarIcon className="w-4 h-4" />,
     },
     {
       id: 'pets',
@@ -582,6 +594,8 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                               alt={apt.title}
                               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                               referrerPolicy="no-referrer"
+                              loading="lazy"
+                              onError={(e) => handleImageError(e, apt.id)}
                             />
                             <div className="absolute top-2 left-2 bg-[#FAFBF9]/90 border border-[#DCD5CB] px-2 py-0.5 rounded text-[9px] font-mono font-bold text-[#2C2A29]">
                               {apt.bedrooms === 'Studio' ? 'STUDIO' : `${apt.bedrooms} BED`}
@@ -657,6 +671,8 @@ export default function DistrictModal({ district, onClose }: DistrictModalProps)
                             alt={car.title}
                             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                             referrerPolicy="no-referrer"
+                            loading="lazy"
+                            onError={(e) => handleImageError(e, car.id)}
                           />
                           <div className="absolute top-2 left-2 bg-[#FAFBF9]/90 border border-[#DCD5CB] px-2 py-0.5 rounded text-[9px] font-mono font-bold text-[#2C2A29]">
                             {car.year}

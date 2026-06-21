@@ -28,14 +28,14 @@ async function run() {
     try {
       const p1 = 'Translate this JSON array to ' + lang + '. Output JSON only. KEEP KEYS ENGLISH.\n' + enDataChunk1;
       const dataRes1 = await ai.models.generateContent({
-        model: 'gemini-3.5-flash',
+        model: 'gemini-2.5-flash',
         contents: p1,
         config: { responseMimeType: 'application/json' }
       });
 
       const p2 = 'Translate this JSON array to ' + lang + '. Output JSON only. KEEP KEYS ENGLISH.\n' + enDataChunk2;
       const dataRes2 = await ai.models.generateContent({
-        model: 'gemini-3.5-flash',
+        model: 'gemini-2.5-flash',
         contents: p2,
         config: { responseMimeType: 'application/json' }
       });
@@ -45,7 +45,7 @@ async function run() {
 
       const p3 = 'Translate this JSON array to ' + lang + '. Output JSON only. KEEP KEYS ENGLISH.\n' + enGuide;
       const guideRes = await ai.models.generateContent({
-        model: 'gemini-3.5-flash',
+        model: 'gemini-2.5-flash',
         contents: p3,
         config: { responseMimeType: 'application/json' }
       });
